@@ -11,13 +11,17 @@ recheck lvl1 earth elemental, noted sths probably better there
 lvl2 golem -> as well
 
 
-
 VERSION 5.19.0
 -Elementals
 *Ice Crab & Ice Shell +1 ranged damage/hit
 *Air Elemental cost 12 -> 11
 *Wind Spirit MP 8 -> 6
 *Razorbird & Thunderbird MP 9 -> 6
+*Raorbird HP 32 -> 31, cost 18 -> 17
+*Thunderbird beak 14-1 -> 13-1 blade shower 9-3 -> 8-3, thunderbolt 16-2 -> 15-2
+*Wind Spirit HP 28 -> 32
+*Zephyr HP 40 -> 44, cost 36 -> 37, exp 100 -> 60
+*Djinn HP 52 -> 54, melee 9-3 -> 8-3, 
 *Fire Elemental HP 37 -> 36, melee 6-3 -> 12-2
 *Living Furnace HP 52 -> 55, cost 28 -> 26, melee 9-3 -> 11-3
 *Lava Beast cost 38 -> 44, melee 13-3 -> 16-3
