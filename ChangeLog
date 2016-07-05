@@ -3,6 +3,12 @@
 		          changelog
 
 VERSION 5.19.0
+-Elementals
+*Ice Crab & Ice Shell +1 ranged damage/hit
+*Air Elemental cost 12 -> 11
+*Wind Spirit MP 8 -> 6
+*Razorbird & Thunderbird MP 9 -> 6
+
 -Windsong
 *Pathfinder (lvl2) backstab melee 5-3 -> 6-3 (like the mainline Rouge)
 *Skyrunner (lvl2, other path) melee 6-3 -> 7-3
