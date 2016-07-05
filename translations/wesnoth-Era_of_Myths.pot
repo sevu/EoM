@@ -1,0 +1,2576 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
+"POT-Creation-Date: 2016-07-05 20:22+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. [era]: id=era_EOM_{ERA_OF_MYTHS_VERSION}
+#: ./EOM_eras.cfg:102
+msgid "Era of Myths"
+msgstr ""
+
+#. [era]: id=era_EOM_{ERA_OF_MYTHS_VERSION}
+#: ./EOM_eras.cfg:104
+msgid ""
+"The standard Era of Myths.\n"
+"Pickable factions are:\n"
+"\n"
+"Celestials\n"
+"Devlings\n"
+"Vampires\n"
+"Therians (Shifters)\n"
+"Elementals\n"
+"The Warg\n"
+"Windsongs"
+msgstr ""
+
+#. [era]: id=era_EOM_balanced_{ERA_OF_MYTHS_VERSION}
+#: ./EOM_eras.cfg:131
+msgid "Era of Myths (balanced)"
+msgstr ""
+
+#. [era]: id=era_EOM_balanced_{ERA_OF_MYTHS_VERSION}
+#: ./EOM_eras.cfg:133
+msgid ""
+"A selection of factions considered balanced. As there would be:\n"
+"\n"
+"Celestials\n"
+"Elementals\n"
+"Vampires\n"
+"Windsongs"
+msgstr ""
+
+#. [era]: id=era_EOM_power_{ERA_OF_MYTHS_VERSION}
+#: ./EOM_eras.cfg:153
+msgid "Era of Myths Lvl. 2"
+msgstr ""
+
+#. [era]: id=era_EOM_power_{ERA_OF_MYTHS_VERSION}
+#: ./EOM_eras.cfg:155
+msgid "Same factions like in the standard Era of Myths, but you can recruit level 2 units."
+msgstr ""
+
+#. [era]: id=era_default_and_EOM_{ERA_OF_MYTHS_VERSION}
+#: ./EOM_eras.cfg:173
+msgid "Default + Myths"
+msgstr ""
+
+#. [era]: id=era_default_and_EOM_{ERA_OF_MYTHS_VERSION}
+#: ./EOM_eras.cfg:175
+msgid "The factions from the standard era and the Era of Myths are available."
+msgstr ""
+
+#. [era]: id=era_EOM_power_aoh_{ERA_OF_MYTHS_VERSION}
+#: ./EOM_eras.cfg:200
+msgid "Default + Myths Lvl. 2"
+msgstr ""
+
+#. [era]: id=era_EOM_power_aoh_{ERA_OF_MYTHS_VERSION}
+#: ./EOM_eras.cfg:202
+msgid "The standard era and the Era of Myths. You can recruit level 2 units."
+msgstr ""
+
+#. [era]: id=era_EOM_recruit_{ERA_OF_MYTHS_VERSION}
+#: ./EOM_eras.cfg:227
+msgid "Myths RPG"
+msgstr ""
+
+#. [era]: id=era_EOM_recruit_{ERA_OF_MYTHS_VERSION}
+#: ./EOM_eras.cfg:229
+msgid "An Era for RPG Playing. You cannot recruit units."
+msgstr ""
+
+#. [multiplayer_side]: id=EOM_celestials, type=EOM_Claimant
+#. [multiplayer_side]: id=POWER_celestials, type=EOM_Herald
+#. [multiplayer_side]: id=RECRUIT_celestials, type=EOM_Crusader
+#: ./factions/celestials-EOM.cfg:5 ./factions/celestials-POWER.cfg:5 ./factions/celestials-RECRUIT.cfg:5
+msgid "Celestials"
+msgstr ""
+
+#. [multiplayer_side]: id=EOM_devlings, type=EOM_Blasphemists
+#. [multiplayer_side]: id=POWER_devlings, type=EOM_Offenders
+#. [multiplayer_side]: id=RECRUIT_devlings, type=EOM_Nailers
+#: ./factions/devlings-EOM.cfg:5 ./factions/devlings-POWER.cfg:5 ./factions/devlings-RECRUIT.cfg:5
+msgid "Devlings"
+msgstr ""
+
+#. [multiplayer_side]: id=EOM_elementals, type=random
+#. [multiplayer_side]: id=POWER_elementals, type=random
+#. [multiplayer_side]: id=RECRUIT_elementals, type=EOM_Water
+#: ./factions/elementals-EOM.cfg:5 ./factions/elementals-POWER.cfg:5 ./factions/elementals-RECRUIT.cfg:5
+msgid "Elementals"
+msgstr ""
+
+#. [multiplayer_side]: id=EOM_therians, type=EOM_Aura_Monk
+#. [multiplayer_side]: id=POWER_therians, type=random
+#. [multiplayer_side]: id=RECRUIT_therians, type=random
+#: ./factions/therians-EOM.cfg:5 ./factions/therians-POWER.cfg:5 ./factions/therians-RECRUIT.cfg:5
+msgid "Therians"
+msgstr ""
+
+#. [multiplayer_side]: id=EOM_vampires, type=EOM_Noble
+#. [multiplayer_side]: id=POWER_vampires, type=EOM_Sire
+#. [multiplayer_side]: id=RECRUIT_vampires, type=random
+#: ./factions/vampires-EOM.cfg:5 ./factions/vampires-POWER.cfg:5 ./factions/vampires-RECRUIT.cfg:5
+msgid "Vampires"
+msgstr ""
+
+#. [multiplayer_side]: id=EOM_wargs, type=EOM_Warrior_Warg
+#. [multiplayer_side]: id=POWER_wargs, type=EOM_Moon_Blade
+#. [multiplayer_side]: id=RECRUIT_wargs, type=EOM_Warrior_Wolf
+#: ./factions/wargs-EOM.cfg:5 ./factions/wargs-POWER.cfg:5 ./factions/wargs-RECRUIT.cfg:5
+msgid "The Warg"
+msgstr ""
+
+#. [multiplayer_side]: id=EOM_windsong, type=EOM_Prophetess
+#. [multiplayer_side]: id=POWER_windsong, type=EOM_Ascendant
+#. [multiplayer_side]: id=RECRUIT_windsong, type=random
+#: ./factions/windsong-EOM.cfg:5 ./factions/windsong-POWER.cfg:5 ./factions/windsong-RECRUIT.cfg:5
+msgid "Windsong"
+msgstr ""
+
+#. [resistance]: id=dauntless
+#: ./macros/abilities.cfg:8
+msgid "dauntless"
+msgstr ""
+
+#. [resistance]: id=dauntless
+#: ./macros/abilities.cfg:9
+msgid "While attacking, this unit's resistances are doubled, up to a maximum of 50. Weaknesses are not affected."
+msgstr ""
+
+#. [heals]: id=healing
+#: ./macros/abilities.cfg:25
+msgid "heals +3"
+msgstr ""
+
+#. [heals]: id=healing
+#: ./macros/abilities.cfg:26
+msgid ""
+"Allows the unit to heal adjacent allied units at the beginning of our turn.\n"
+"\n"
+"A unit cared for by this healer may heal up to 4 HP per turn, or stop poison from taking effect for that turn.\n"
+"A poisoned unit cannot be cured of its poison by a healer, and must seek the care of a village or a unit that can cure."
+msgstr ""
+
+#. [regenerate]: id=healing
+#: ./macros/abilities.cfg:50
+msgid "foresthome"
+msgstr ""
+
+#. [regenerate]: id=healing
+#: ./macros/abilities.cfg:51
+msgid "This unit will regenerate 4 HP when in forest."
+msgstr ""
+
+#. [regenerate]: id=healing
+#: ./macros/abilities.cfg:68
+msgid "waterhome"
+msgstr ""
+
+#. [regenerate]: id=healing
+#: ./macros/abilities.cfg:69
+msgid "This unit will regenerate 4 HP when in deep or shallow water and swamps."
+msgstr ""
+
+#. [regenerate]: id=healing
+#: ./macros/abilities.cfg:83
+msgid "deserthome"
+msgstr ""
+
+#. [regenerate]: id=healing
+#: ./macros/abilities.cfg:84
+msgid ""
+"This unit will regenerate 4 HP when in desert or sand.\n"
+"If this unit can fly over lava, it will regenerate there as well."
+msgstr ""
+
+#. [regenerate]: id=healing
+#: ./macros/abilities.cfg:99
+msgid "mountainhome"
+msgstr ""
+
+#. [regenerate]: id=healing
+#: ./macros/abilities.cfg:100
+msgid "This unit will regenerate 4 HP when on mountains."
+msgstr ""
+
+#. [leadership]: id=leadership
+#: ./macros/abilities.cfg:111
+msgid "inspire"
+msgstr ""
+
+#. [leadership]: id=leadership
+#: ./macros/abilities.cfg:112
+msgid ""
+"This unit can inspire friendly units that are next to it, making them fight better.\n"
+"\n"
+"Adjacent friendly level 1 units will do 10% more damage in battle. This ability does not work on Celestial Messengers."
+msgstr ""
+
+#. [advancement]: id=monster
+#: ./macros/amla.cfg:9
+msgid "Max HP bonus +5, +1 damage to all attacks, Max XP +20%"
+msgstr ""
+
+#: ./macros/names.cfg:4
+msgid "Abel,Aleron,Aldon,Altair,Alumit,Amaia,Amarande,Ambrose,Amdis,Andros,Ashling,Athan,Bakarne,Bela,Beval,Bian,Blaine,Braeden,Brandeis,Brendan,Brone,Bronwen,Carden,Cian,Corbin,Damalis,Damian,Danton,Daray,Delano,Donn,Dunkan,Eamen,Gustaff,Heath,Heathcliff,Ingrum,Jareth,Kaevan,Karayan,Kern,Kieran,Lucine,Marlin,Nelo,Parris,Raven,Rune,Savan,Sumnor,Tainn,Tariq,Tristram,Vega,Wynn,Lestat,Louis,Armand,Amadeo,Santiago,Marius,Magnus,David,Enkil,Mael,Santino,Vittorio,Thorne,Avicus,Felix,Laurent,Daniel,Khayman,Tarquin,Quinn,Vladimir,Vlad,Ansel,Anwar,Arden,Ashe,Ashford,Ashlin,Bairde,Barnabas,Bentley,Brishen,Connor,Crevan,Dante,Flynne,Gavin,Hewitt,Holt,Jacy,Jolon,Kasch,Lucyan,Morgyn,Pembroke,Quillan,Quinn,Riordin,Rowan,Severin,Sylvain,Taban,Teague,Wendell"
+msgstr ""
+
+#: ./macros/names.cfg:5
+msgid "Aislinn,Alana,Alaura,Aleta,Alethea,Alma,Amaris,Amaryllis,Amaya,Ambrosine,Araxie,Ariana,Autumn,Badria,Blythe,Brenna,Busana,Cascata,Celine,Ceridwen,Chandra,Damarys,Denisha,Devin,Erela,Fala,Fanya,Hazelle,Isadora,Iva,Javan,Jenessa,Jora,Jordyn,Jovana,Kamalia,Kalyca,Kavindra,Kestrel,Kynthia,Laqueta,Layla,Leandra,Leigh,Livana,Naida,Neesha,Nevada,Oleta,Parkyr,Philomina,Pyralis,Rayne,Risa,Rosalia,Salena,Seda,Shahar,Shea,Silva,Silvana,Tabitha,Tacita,Tara,Tatiana,Tayce,Vala,Valonia,Vesta,Vidonia,Waneta,Wyntir,Yepa,Yolanda,Yoninah,Zyta,Adara,Adena,Adrianne,Alarice,Alvita,Amara,Ambika,Antonia,Araceli,Balandria,Basha,Beryl,Bryn,Callia,Caryssa,Cassandra,Casondrah,Chatha,Ciara,Cynara,Cytheria,Dabria,Darcei,Deandra,Deirdre,Delores,Desdomna,Devi,Drucilla,Duvessa,Fantine,Fuscienne,Gabi,Gallia,Hanna,Hedda,Jerica,Jetta,Joby,Kacila,Kala,Kallie,Keelia,Killian,Kory,Lilith,Lucretia,Lysha,Mercedes,Mia,Maura,Perdita,Quella,Riona,Safiya,Salina,Severin,Sidonia,Sirena,Solita,Tempest,Thea,Treva,Trista,Vala,Winta"
+msgstr ""
+
+#: ./macros/names.cfg:9
+msgid "Ana,Arala,Ala,Asare,Ashara,Athesa,Ama,Averana,Atharuna,Amoshe,Ahurena,Alera,Ave,Arila,Ai,Atha,Ashe,Aru,Amasela,Aoshe,Amelara,Alura,Eva,Elena,Esure,Ena,Ethe,Eme,Eira,Ela,Efara,Evina,Eshe,Ethara,Esaora,Eumane,Ehuva,Ere,Emi,Eshi,Enemura,Sela,Sara,Sula,Salura,Sana,Semisha,Soshire,Suvana,Sife,Saletha,Sitheri,Surei,Somile,Sahama,Salarema,Sea,Severa,Suthe,Sithame,Ola,Omana,Osheura,Olena,Onethe,Ovenatha,Fira,Fesha,Fena,Felai,Foma,Furava,Fusatha,Fala,Famia,Fesea,Fenoma,Fihama,Fama,Fia,Famori,Irena,Ima,Ishama,Iolara,Imaha,Inithe,Imana,Isora,Ilameshe,Ila,Ishe,Ithoe,Ivie,Imia,Iralura,Isanare,Ihama,Iri,Ithania,Isavora,Ila,Mana,Mia,Mara,Mura,Masohe,Mushena,Malesa,Minaru,Minare,Monia,Mesere,Mulasha,Mathe,Minashema,Mesa,Mirana,Mifa,Mivareshana,Une,Uara,Ushala,Uhima,Uthe,Unaluthe,Thesa,Thema,Thirala,Thoshe,Thofara,Thami,Thise,Therama,Thila,Thama,Therasa,Thurana,Thalia,Therana,Thomena,Thosa,Thene,Thime,Thamele,Theshia,Nai,Nama,Norale,Nethala,Nisha,Nemene,Nefe,Navaru,Nula,Nusina,Naria,Nosua,Naomi,Nahasa,Nila,Nuralena,Nema,Lisa,Lara,Loe,Lasama,Lemeshe,Lathia,Leshara,Laisa,Line,Lenesa,Loma,Lura,Lesamia,Lehara,Lana,Lashe,Larena,Lotha,Limia,Lania,Larie,Lafana,Lerava,Love,Rama,Runa,Rashe,Ria,Rovena,Riva,Rufa,Rithia,Raina,Rava,Rashama,Rei,Rosha,Vena,Via,Velara,Veruna,Visha,Vana,Vele,Veshere,Vanesa,Vithia,Hana,Haru,Heshia,Hia,Holaria,Hasha,Hena,Shara,Shena,Shira,Shefia,Shune,Shai,Shena,Shalia,Shasi,Shava,Shura"
+msgstr ""
+
+#: ./macros/special-notes.cfg:5
+msgid " The ranged attacks of this unit deal massive damage, but always have a low chance of hitting an opponent."
+msgstr ""
+
+#: ./macros/special-notes.cfg:10
+msgid " This unit will heal allies by 3 HP at the beginning of its turns. In addition, this ability will inhibit the effects of poison."
+msgstr ""
+
+#: ./macros/special-notes.cfg:14
+msgid " The ability of this unit to inspire its allies enables adjacent units of the same side to deal more damage in combat, though this does not apply to other Messengers or units of higher level."
+msgstr ""
+
+#: ./macros/special-notes.cfg:18
+msgid " Whenever this unit is in a forested area, it will regenerate 4 HP per turn."
+msgstr ""
+
+#: ./macros/special-notes.cfg:22
+msgid " Whenever this unit is in a mountainous area, it will regenerate 4 HP per turn."
+msgstr ""
+
+#: ./macros/special-notes.cfg:26
+msgid " Whenever this unit is in desert-like area, it will regenerate 4 HP per turn."
+msgstr ""
+
+#: ./macros/special-notes.cfg:30
+msgid " Whenever this unit is in an aquatic area, it will regenerate 4 HP per turn."
+msgstr ""
+
+#: ./macros/special-notes.cfg:34
+msgid " Whenever this unit attacks with its counter attack defensively, it will always have at least 60% chance to hit."
+msgstr ""
+
+#: ./macros/special-notes.cfg:38
+msgid " The steadiness of this unit reduces damage from some attacks, but only while attacking."
+msgstr ""
+
+#: ./macros/special-notes.cfg:43
+msgid " Vampires are immune to drain and plague but are still susceptible to poison."
+msgstr ""
+
+#. [chance_to_hit]: id=counter
+#: ./macros/specials.cfg:8
+msgid "counter"
+msgstr ""
+
+#. [chance_to_hit]: id=counter
+#: ./macros/specials.cfg:9
+msgid "When used defensively, this attack always has at least a 60% chance to hit."
+msgstr ""
+
+#. [chance_to_hit]: id=massivestrike
+#: ./macros/specials.cfg:21
+msgid "massive strike"
+msgstr ""
+
+#. [chance_to_hit]: id=massivestrike
+#: ./macros/specials.cfg:22
+msgid "This attack always has a 20% chance to hit."
+msgstr ""
+
+#. [damage]: id=udbane
+#: ./macros/specials.cfg:31
+msgid "unholybane"
+msgstr ""
+
+#. [damage]: id=udbane
+#: ./macros/specials.cfg:32
+msgid ""
+"This attack cuts at the tie between an abomination and its corrupted source of animation. This attack deals additional damage to the target:\n"
+"\n"
+"aberration = 150%\n"
+"undead = 140%\n"
+"vampire = 120%"
+msgstr ""
+
+#. [trait]: id=ruby
+#: ./macros/traits.cfg:8
+msgid "ruby"
+msgstr ""
+
+#. [trait]: id=ruby
+#: ./macros/traits.cfg:9
+msgid "female^ruby"
+msgstr ""
+
+#. [trait]: id=emerald
+#: ./macros/traits.cfg:26
+msgid "emerald"
+msgstr ""
+
+#. [trait]: id=emerald
+#: ./macros/traits.cfg:27
+msgid "female^emerald"
+msgstr ""
+
+#. [trait]: id=sapphire
+#: ./macros/traits.cfg:43
+msgid "sapphire"
+msgstr ""
+
+#. [trait]: id=sapphire
+#: ./macros/traits.cfg:44
+msgid "female^sapphire"
+msgstr ""
+
+#. [trait]: id=diamond
+#: ./macros/traits.cfg:56
+msgid "diamond"
+msgstr ""
+
+#. [trait]: id=diamond
+#: ./macros/traits.cfg:57
+msgid "female^diamond"
+msgstr ""
+
+#. [trait]: id=amethyst
+#: ./macros/traits.cfg:74
+msgid "amethyst"
+msgstr ""
+
+#. [trait]: id=amethyst
+#: ./macros/traits.cfg:75
+msgid "female^amethyst"
+msgstr ""
+
+#. [trait]: id=incorporeal, description={STR_NONLIVING_DESCRIPTION}
+#: ./macros/traits.cfg:92
+msgid "incorporeal"
+msgstr ""
+
+#. [trait]: id=incorporeal, description={STR_NONLIVING_DESCRIPTION}
+#: ./macros/traits.cfg:93
+msgid "female^incorporeal"
+msgstr ""
+
+#. [trait]: id=beefy
+#: ./macros/traits.cfg:115
+msgid "beefy"
+msgstr ""
+
+#. [trait]: id=beefy
+#: ./macros/traits.cfg:116
+msgid "female^beefy"
+msgstr ""
+
+#. [trait]: id=beefy
+#: ./macros/traits.cfg:117
+msgid "These Devlings are bigger than other Devlings and can withstand more punishment."
+msgstr ""
+
+#. [trait]: id=brainy
+#: ./macros/traits.cfg:134
+msgid "brainy"
+msgstr ""
+
+#. [trait]: id=brainy
+#: ./macros/traits.cfg:135
+msgid "female^brainy"
+msgstr ""
+
+#. [trait]: id=brainy
+#: ./macros/traits.cfg:136
+msgid "Brainy Devlings level faster than their brethren."
+msgstr ""
+
+#. [trait]: id=brawny
+#: ./macros/traits.cfg:152
+msgid "brawny"
+msgstr ""
+
+#. [trait]: id=brawny
+#: ./macros/traits.cfg:153
+msgid "female^brawny"
+msgstr ""
+
+#. [trait]: id=brawny
+#: ./macros/traits.cfg:154
+msgid "Brawny Devlings hit harder, but are dumber than other Devlings."
+msgstr ""
+
+#. [trait]: id=obedient, description={STR_ZERO_UPKEEP}
+#: ./macros/traits.cfg:170 ./macros/traits.cfg:191
+msgid "obedient"
+msgstr ""
+
+#. [trait]: id=obedient, description={STR_ZERO_UPKEEP}
+#: ./macros/traits.cfg:171 ./macros/traits.cfg:192
+msgid "female^obedient"
+msgstr ""
+
+#. [trait]: id=attuned
+#: ./macros/traits.cfg:216
+msgid "attuned"
+msgstr ""
+
+#. [trait]: id=attuned
+#: ./macros/traits.cfg:217
+msgid "female^attuned"
+msgstr ""
+
+#. [trait]: id=attuned
+#: ./macros/traits.cfg:218
+msgid "Shifters who are attuned to their auras gain a +2 bonus to their aura attacks."
+msgstr ""
+
+#. [race]: id=celestial
+#: ./units/celestials.cfg:7
+msgid "race^Celestial"
+msgstr ""
+
+#. [race]: id=celestial
+#: ./units/celestials.cfg:8
+msgid "race+female^Celestial"
+msgstr ""
+
+#. [race]: id=celestial
+#: ./units/celestials.cfg:9
+msgid "race^Celestials"
+msgstr ""
+
+#. [race]: id=celestial
+#: ./units/celestials.cfg:13
+msgid "The Celestials have vestigial wings that for most of them do not mature. Celestials believe that light and darkness each have power, and they choose as a culture to fight for the light, and to spread it through-out the world. They are a militaristic society with great law and order that gives them strength and unity which caries over into their style of fighting. The order and unified purpose of celestial society tends to make them form larger nations than the other factions giving the Celestials great military strength."
+msgstr ""
+
+#. [unit_type]: id=EOM_Crusader, race=celestial
+#: ./units/celestials/a1_Crusader.cfg:5
+msgid "Crusader"
+msgstr ""
+
+#. [unit_type]: id=EOM_Crusader, race=celestial
+#: ./units/celestials/a1_Crusader.cfg:18
+msgid "Crusaders undergo rigorous martial training as well as rudimentary medicinal training to help their injured allies on the field of battle. Crusaders' swords are infused with the arcane energy of the Light Spirits - a tradition that started during the Great Crusade against the vampires."
+msgstr ""
+
+#. [attack]: type=arcane
+#: ./units/celestials/a1_Crusader.cfg:32 ./units/celestials/a2_Divine_Knight.cfg:31 ./units/celestials/a2_Quester.cfg:41 ./units/celestials/a3_Divine_Champion.cfg:32
+msgid "blessed sword"
+msgstr ""
+
+#. [unit_type]: id=EOM_Divine_Knight, race=celestial
+#: ./units/celestials/a2_Divine_Knight.cfg:5
+msgid "Divine Knight"
+msgstr ""
+
+#. [unit_type]: id=EOM_Divine_Knight, race=celestial
+#: ./units/celestials/a2_Divine_Knight.cfg:18
+msgid "A crusader who survives many fierce battles is granted the honor of knighthood. At this time the knight receives a ceremonial mace he must carry at all times."
+msgstr ""
+
+#. [unit_type]: id=EOM_Protector, race=celestial
+#: ./units/celestials/a2_Protector.cfg:5
+msgid "Protector"
+msgstr ""
+
+#. [unit_type]: id=EOM_Protector, race=celestial
+#: ./units/celestials/a2_Protector.cfg:18
+msgid "Protector's swords have been magically enchanted with the power of Fire by Celestial Wizards. Protectors also carry a large shield which they use to bash and Slow their opponents."
+msgstr ""
+
+#. [unit_type]: id=EOM_Quester, race=celestial
+#: ./units/celestials/a2_Quester.cfg:5
+msgid "Quester"
+msgstr ""
+
+#. [unit_type]: id=EOM_Quester, race=celestial
+#: ./units/celestials/a2_Quester.cfg:19
+msgid "Most Celestials don't ride horses, or wander alone, but some crusaders feel the call to work abroad on their own. These celestials follow the 'quest' to bring light to the world individually through works of valor. Knowing they must travel great distances, they learn to ride horses, and adapt a lance for devastating charge attacks. Although the quest is supposed to be an individual thing, Questers have no problems grouping up with other people if it helps them accomplish their task."
+msgstr ""
+
+#. [unit_type]: id=EOM_Divine_Champion, race=celestial
+#: ./units/celestials/a3_Divine_Champion.cfg:5
+msgid "Divine Champion"
+msgstr ""
+
+#. [unit_type]: id=EOM_Divine_Champion, race=celestial
+#: ./units/celestials/a3_Divine_Champion.cfg:19
+msgid "For a Knight to be recognized as a Champion he must first commit at least two Great Deeds and have shown his form to be exceptional to other Knights on the battle field. Champions are reguarded as highly as Messengers, if not perhaps even higher."
+msgstr ""
+
+#. [unit_type]: id=EOM_Holy_Sentinel, race=celestial
+#: ./units/celestials/a3_Holy_Sentinel.cfg:5
+msgid "Holy Sentinel"
+msgstr ""
+
+#. [unit_type]: id=EOM_Holy_Sentinel, race=celestial
+#: ./units/celestials/a3_Holy_Sentinel.cfg:19
+msgid "These crusaders hold the line with flaming sword, and great sheild. They are famous for their ability to bash their way forward and then hold the ground they just earned."
+msgstr ""
+
+#. [unit_type]: id=EOM_Legionnaire, race=celestial
+#: ./units/celestials/b1_Legionnaire.cfg:5
+msgid "Legionnaire"
+msgstr ""
+
+#. [unit_type]: id=EOM_Legionnaire, race=celestial
+#: ./units/celestials/b1_Legionnaire.cfg:19
+msgid "Legionnaires are staunch defenders of the Celestial homelands. With extensive studies in the arts of defensive combat, Legionnaires have good physical resistancies."
+msgstr ""
+
+#. [unit_type]: id=EOM_Keeper, race=celestial
+#: ./units/celestials/b2_Keeper.cfg:5
+msgid "Keeper"
+msgstr ""
+
+#. [unit_type]: id=EOM_Keeper, race=celestial
+#: ./units/celestials/b2_Keeper.cfg:18
+msgid "Keepers are staunch defenders of the Celestial homelands. With stout hearts, and hardened skin they will hold till death or relief comes."
+msgstr ""
+
+#. [unit_type]: id=EOM_Sentinel, race=celestial
+#: ./units/celestials/b3_Sentinel.cfg:5
+msgid "Sentinel"
+msgstr ""
+
+#. [unit_type]: id=EOM_Sentinel, race=celestial
+#: ./units/celestials/b3_Sentinel.cfg:19
+msgid "The great guardians of important celestials are called Sentinels, for their silent, but imposing presence, and their complete immunity to boredom."
+msgstr ""
+
+#. [unit_type]: id=EOM_Light_Spirit, race=celestial
+#: ./units/celestials/c1_Light_Spirit.cfg:5
+msgid "Light Spirit"
+msgstr ""
+
+#. [unit_type]: id=EOM_Light_Spirit, race=celestial
+#: ./units/celestials/c1_Light_Spirit.cfg:25
+msgid "Light Spirits are a breed of faeries who possess an aura of arcane energy that infuses their entire body with a radiant light. They share their energy with the Celestials in return for protection, and to some extent worship."
+msgstr ""
+
+#. [attack]: type=arcane
+#: ./units/celestials/c1_Light_Spirit.cfg:47 ./units/celestials/c2_Lantern_Archon.cfg:46 ./units/celestials/c3_Master_of_Light.cfg:47
+msgid "shock of light"
+msgstr ""
+
+#. [unit_type]: id=EOM_Lantern_Archon, race=celestial
+#: ./units/celestials/c2_Lantern_Archon.cfg:5
+msgid "Lantern Archon"
+msgstr ""
+
+#. [unit_type]: id=EOM_Lantern_Archon, race=celestial
+#: ./units/celestials/c2_Lantern_Archon.cfg:24
+msgid "Lantern Archons are a breed of faeries who possess an aura of arcane energy that infuses their entire body with a radiant light. Lantern Archons defend themselves with powerful shocks of arcane energy at a distance; up close they are quite defenseless."
+msgstr ""
+
+#. [unit_type]: id=EOM_Master_of_Light, race=celestial
+#: ./units/celestials/c3_Master_of_Light.cfg:5
+msgid "Master of Light"
+msgstr ""
+
+#. [unit_type]: id=EOM_Master_of_Light, race=celestial
+#: ./units/celestials/c3_Master_of_Light.cfg:25
+msgid "A faerie who exercises her output of arcane energy may master using it as a weapon to such a degree that they are named Masters of Light."
+msgstr ""
+
+#. [unit_type]: id=EOM_Messenger, race=celestial
+#: ./units/celestials/d1_Messenger.cfg:5
+msgid "Messenger"
+msgstr ""
+
+#. [unit_type]: id=EOM_Messenger, race=celestial
+#: ./units/celestials/d1_Messenger.cfg:19
+msgid "Messengers are chosen as Celestial leaders for the simple and traditional reason that their wings grow in adolescence rather than fall off or remain vestigial. Unlike other Celestials, Messengers can fly over the battlefield and give orders, granting a bonus to surrounding troops."
+msgstr ""
+
+#. [female]
+#: ./units/celestials/d1_Messenger.cfg:83
+msgid "female^Messenger"
+msgstr ""
+
+#. [unit_type]: id=EOM_Claimant, race=celestial
+#: ./units/celestials/d2_Claimant.cfg:5
+msgid "Claimant"
+msgstr ""
+
+#. [unit_type]: id=EOM_Claimant, race=celestial
+#: ./units/celestials/d2_Claimant.cfg:19
+msgid "All winged Celestials were once named Claimants. They were called this by their bretheren in the beginning days of Celestial society as they claimed to be the natural leaders of the Celestial people. Claimants now exclusively write Celestial law, which Messengers then spread to the people."
+msgstr ""
+
+#. [female]
+#: ./units/celestials/d2_Claimant.cfg:83
+msgid "female^Claimant"
+msgstr ""
+
+#. [unit_type]: id=EOM_Herald, race=celestial
+#: ./units/celestials/d3_Herald.cfg:5
+msgid "Herald"
+msgstr ""
+
+#. [unit_type]: id=EOM_Herald, race=celestial
+#: ./units/celestials/d3_Herald.cfg:19
+msgid "Heralds are the highest ranking officers, skilled with sword, and words they inspire their troops to victory. They proclaim a message of hope to their fellows, and a message of death to their foes."
+msgstr ""
+
+#. [female]
+#. [unit_type]: id=EOM_Windsong_Herald, race=windsong
+#: ./units/celestials/d3_Herald.cfg:51 ./units/windsong/c3_Herald.cfg:5
+msgid "female^Herald"
+msgstr ""
+
+#. [unit_type]: id=EOM_Seraph, race=celestial
+#: ./units/celestials/d4_Seraphin.cfg:5
+msgid "Seraph"
+msgstr ""
+
+#. [unit_type]: id=EOM_Seraph, race=celestial
+#: ./units/celestials/d4_Seraphin.cfg:20
+msgid "Exalted is the title given to the mightiest of winged celestials. They are honored to the point where they are no longer considered officers in the army, but rather the manifestation of glory. Few exist that fight with greater strength, or with greater ability to inspire and lead."
+msgstr ""
+
+#. [female]
+#: ./units/celestials/d4_Seraphin.cfg:52
+msgid "female^Seraph"
+msgstr ""
+
+#. [unit_type]: id=EOM_Wizard, race=celestial
+#: ./units/celestials/e1_Wizard.cfg:5
+msgid "Acolyte"
+msgstr ""
+
+#. [unit_type]: id=EOM_Wizard, race=celestial
+#: ./units/celestials/e1_Wizard.cfg:18
+msgid "Celestials who lose their vestigial wings in adolescence are not allowed to fight in the military. As a result, they must undertake other endeavors. The practice of magic is one of such endeavors. Originally used to create the everglowing lights in Celestial towns using Holy energy, some Wizards have harnessed magical powers for more militaristic purposes in order to join their bretheren in battle. The Celestial Heralds have allowed them this honor."
+msgstr ""
+
+#. [attack]: type=fire
+#: ./units/celestials/e1_Wizard.cfg:37
+msgid "flare"
+msgstr ""
+
+#. [unit_type]: id=EOM_Great_Wizard, race=celestial
+#: ./units/celestials/e2_Great_Wizard.cfg:5
+msgid "Great Wizard"
+msgstr ""
+
+#. [unit_type]: id=EOM_Great_Wizard, race=celestial
+#: ./units/celestials/e2_Great_Wizard.cfg:18
+msgid "The wizards of the celestials have always harnessed the suns power for their magic. Those who fight with the military for a while become adept at pulling the suns power into rapid magical blasts."
+msgstr ""
+
+#. [unit_type]: id=EOM_Mystic, race=celestial
+#: ./units/celestials/e2_Mystic.cfg:5
+msgid "Mystic"
+msgstr ""
+
+#. [unit_type]: id=EOM_Mystic, race=celestial
+#: ./units/celestials/e2_Mystic.cfg:18
+msgid "Many celestial wizards focus on the study of spirits rather than raw sun magic. These are known as mystics. Their skills in this area allow them to aid the army in new ways."
+msgstr ""
+
+#. [unit_type]: id=EOM_Prophet, race=celestial
+#: ./units/celestials/e3_Prophet.cfg:5
+msgid "Prophet"
+msgstr ""
+
+#. [unit_type]: id=EOM_Prophet, race=celestial
+#: ./units/celestials/e3_Prophet.cfg:19
+msgid "Mystics who become skilled enough in their arts develop the strange ability to foretell events. No one is certain how they do this or when any of the things they say will happen, records have shown prophecies thousands of years old coming true. These wizards are also deadly warriors in combat."
+msgstr ""
+
+#. [unit_type]: id=EOM_Sage, race=celestial
+#: ./units/celestials/e3_Sage.cfg:5
+msgid "Sage"
+msgstr ""
+
+#. [unit_type]: id=EOM_Sage, race=celestial
+#: ./units/celestials/e3_Sage.cfg:19
+msgid "The celestials believe the power of a wizard is not measured by his skill with magic, but by his wisdom of it's use. A wizard who has achieved both power and wisdom is known as a sage."
+msgstr ""
+
+#. [unit_type]: id=EOM_Zealot, race=celestial
+#: ./units/celestials/f1_Zealot.cfg:5
+msgid "Zealot"
+msgstr ""
+
+#. [unit_type]: id=EOM_Zealot, race=celestial
+#: ./units/celestials/f1_Zealot.cfg:18
+msgid "The celestial society tends to breed people who would fearlessly battle with no regard for their own life or family. More in fact than they can support in their standing army. However if the armies go marching off, a crowd of zealots will almost always follow, and the armies although not accepting these into their ranks, do not deny them the chance to fight."
+msgstr ""
+
+#. [attack]: type=blade
+#: ./units/celestials/f1_Zealot.cfg:28 ./units/celestials/f2_Militant.cfg:28 ./units/celestials/f3_Sicarius.cfg:31
+msgid "chakram slice"
+msgstr ""
+
+#. [attack]: type=blade
+#: ./units/celestials/f1_Zealot.cfg:37 ./units/celestials/f2_Militant.cfg:37 ./units/celestials/f3_Sicarius.cfg:40
+msgid "chakram throw"
+msgstr ""
+
+#. [unit_type]: id=EOM_Militant, race=celestial
+#: ./units/celestials/f2_Militant.cfg:5
+msgid "Militant"
+msgstr ""
+
+#. [unit_type]: id=EOM_Militant, race=celestial
+#: ./units/celestials/f2_Militant.cfg:18
+msgid "The celestials have always had a very militant, and totalitarian mindset. They believe that the battle with evil should be fought until it is over. As a result there is no shortage of civilians who are willing to join and fight for the army at a minutes notice. Some of them even practice in case such a chance comes up."
+msgstr ""
+
+#. [unit_type]: id=EOM_Sicarius, race=celestial
+#: ./units/celestials/f3_Sicarius.cfg:7
+msgid "Sicarius"
+msgstr ""
+
+#. [unit_type]: id=EOM_Sicarius, race=celestial
+#: ./units/celestials/f3_Sicarius.cfg:21
+msgid "Civilian warriors who have proven their worth time and time again, are granted an honorary rank known as Sicarius. It is quite an honor in Celestial society."
+msgstr ""
+
+#. [race]: id=devling
+#: ./units/devlings.cfg:7
+msgid "race^Devling"
+msgstr ""
+
+#. [race]: id=devling
+#: ./units/devlings.cfg:8
+msgid "race+female^Devling"
+msgstr ""
+
+#. [race]: id=devling
+#: ./units/devlings.cfg:9
+msgid "race^Devlings"
+msgstr ""
+
+#. [race]: id=devling
+#: ./units/devlings.cfg:19
+msgid "Devlings are small red creatures that live for nothing more than to torment others. They always live and travel in rather large extended families, and due to their very frequent breeding will almost always appear in overwhelming numbers. They are masters of chaos, and despite not being strong or tough, have demonstrated their ability to cause massive damage. However their chaotic ways tend to stop them from forming a large enough host to be a serious threat to any well defended territory."
+msgstr ""
+
+#. [unit_type]: id=EOM_Flappers, race=devling
+#: ./units/devlings/a1_Flappers.cfg:5
+msgid "Flappers"
+msgstr ""
+
+#. [unit_type]: id=EOM_Flappers, race=devling
+#: ./units/devlings/a1_Flappers.cfg:17
+msgid "Some devlings are of a slightly different breed, and grow wings, and can spit fire."
+msgstr ""
+
+#. [attack]: type=blade
+#: ./units/devlings/a1_Flappers.cfg:23
+msgid "mini-glaive"
+msgstr ""
+
+#. [attack]: type=fire
+#: ./units/devlings/a1_Flappers.cfg:32 ./units/devlings/a2_Flyers.cfg:32 ./units/devlings/a3_Attackers.cfg:33
+msgid "breath"
+msgstr ""
+
+#. [unit_type]: id=EOM_Flyers, race=devling
+#: ./units/devlings/a2_Flyers.cfg:5
+msgid "Flyers"
+msgstr ""
+
+#. [unit_type]: id=EOM_Flyers, race=devling
+#: ./units/devlings/a2_Flyers.cfg:17
+msgid "Devlings are dangerous without wings, and even more dangerous with."
+msgstr ""
+
+#. [unit_type]: id=EOM_Attackers, race=devling
+#: ./units/devlings/a3_Attackers.cfg:5
+msgid "Attackers"
+msgstr ""
+
+#. [unit_type]: id=EOM_Attackers, race=devling
+#: ./units/devlings/a3_Attackers.cfg:18
+msgid "With uncanny speed, heated breath, and sharp weapons, even the smallest of enemies is a threat."
+msgstr ""
+
+#. [unit_type]: id=EOM_Nailers, race=devling
+#: ./units/devlings/b1_Nailers.cfg:5
+msgid "Nailers"
+msgstr ""
+
+#. [unit_type]: id=EOM_Nailers, race=devling
+#: ./units/devlings/b1_Nailers.cfg:19
+msgid "All craftsmen know that if they leave their tools lying about they will get lost, though few know why. Though small devlings have a knack for doing lots of damage with simple tools."
+msgstr ""
+
+#. [attack]: type=pierce
+#: ./units/devlings/b1_Nailers.cfg:32
+msgid "nail 'em"
+msgstr ""
+
+#. [attack]: type=impact
+#: ./units/devlings/b1_Nailers.cfg:41 ./units/devlings/b2_Spikers.cfg:41 ./units/devlings/b3_Staplers.cfg:42
+msgid "club 'em"
+msgstr ""
+
+#. [unit_type]: id=EOM_Spikers, race=devling
+#: ./units/devlings/b2_Spikers.cfg:5
+msgid "Spikers"
+msgstr ""
+
+#. [unit_type]: id=EOM_Spikers, race=devling
+#: ./units/devlings/b2_Spikers.cfg:19
+msgid "Devlings are small knaves. They often use tricks to distract their enemies before taking a swing. They may be small but certainly not harmless carrying around a large club or hammer."
+msgstr ""
+
+#. [attack]: type=pierce
+#: ./units/devlings/b2_Spikers.cfg:32
+msgid "spiker 'em"
+msgstr ""
+
+#. [unit_type]: id=EOM_Staplers, race=devling
+#: ./units/devlings/b3_Staplers.cfg:5
+msgid "Staplers"
+msgstr ""
+
+#. [unit_type]: id=EOM_Staplers, race=devling
+#: ./units/devlings/b3_Staplers.cfg:20
+msgid "There are few happier things, than a small sadistic creature, with a great big hammer."
+msgstr ""
+
+#. [attack]: type=pierce
+#: ./units/devlings/b3_Staplers.cfg:33
+msgid "staple 'em"
+msgstr ""
+
+#. [unit_type]: id=EOM_Overgrown_Devling, race=devling
+#: ./units/devlings/c1_Overgrown.cfg:5
+msgid "Overgrown Devling"
+msgstr ""
+
+#. [unit_type]: id=EOM_Overgrown_Devling, race=devling
+#: ./units/devlings/c1_Overgrown.cfg:20
+msgid "Some devlings grow to be almost as tall as a dwarf. These devlings are solid fighters, and provide a bit of toughness to the devling arsenal."
+msgstr ""
+
+#. [unit_type]: id=EOM_Devling_Soldier, race=devling
+#: ./units/devlings/c2_Soldier.cfg:5
+msgid "Soldier"
+msgstr ""
+
+#. [unit_type]: id=EOM_Devling_Soldier, race=devling
+#: ./units/devlings/c2_Soldier.cfg:19
+msgid "Much of devling philosophy is quite simple. Life is about hurting other people as much as possible. Overgrown devlings may not be as bright as their smaller kin, but after awhile they figure out they can hurt others more if they pick up a pointy stick. Though, they might never figure out that they are supposed to be stabbing with it rather than slicing..."
+msgstr ""
+
+#. [unit_type]: id=EOM_Devling_Warrior, race=devling
+#: ./units/devlings/c2_Warrior.cfg:5
+msgid "Warrior"
+msgstr ""
+
+#. [unit_type]: id=EOM_Devling_Warrior, race=devling
+#: ./units/devlings/c2_Warrior.cfg:19
+msgid "Much of devling philosophy is quite simple. Life is about hurting other people as much as possible. Overgrown devlings may not be as bright as their smaller kin, but after awhile they figure out they can hurt others more if they pick up a club."
+msgstr ""
+
+#. [attack]: type=impact
+#: ./units/devlings/c2_Warrior.cfg:25 ./units/devlings/c3_Hero.cfg:25 ./units/devlings/c4_Grand_Hero.cfg:29
+msgid "bash"
+msgstr ""
+
+#. [unit_type]: id=EOM_Devling_Chief, race=devling
+#: ./units/devlings/c3_Chief.cfg:5
+msgid "Chief"
+msgstr ""
+
+#. [unit_type]: id=EOM_Devling_Chief, race=devling
+#: ./units/devlings/c3_Chief.cfg:19
+msgid "The Devlings Chiefs may look burly compared to their lesser kin but are fierce warriors. Upon their bodies are hung trophies from their latest battles. However they still have not figured out that spears are supposed to be stabbing weapons, but more than make up for that with brute muscle."
+msgstr ""
+
+#. [unit_type]: id=EOM_Devling_Hero, race=devling
+#: ./units/devlings/c3_Hero.cfg:5
+msgid "Hero"
+msgstr ""
+
+#. [unit_type]: id=EOM_Devling_Hero, race=devling
+#: ./units/devlings/c3_Hero.cfg:19
+msgid "Eventually a deviling can become proficient enough to be revered by his kindred as a hero. Unfortunately devlings tend to forget any hero who dies, so he won't have a legacy, but while he lives he'll have a sort of ironic glory."
+msgstr ""
+
+#. [unit_type]: id=EOM_Grand_Devling_Chief, race=devling
+#: ./units/devlings/c4_Grand_Chief.cfg:5
+msgid "Grand Chief"
+msgstr ""
+
+#. [unit_type]: id=EOM_Assassin #? #or magican?, race=devling
+#. [unit_type]: id=EOM_Grand_Devling_Chief, race=devling
+#. [unit_type]: id=EOM_Grand_Devling_Hero, race=devling
+#. [unit_type]: id=EOM_Librarian, race=windsong
+#: ./units/devlings/c4_Grand_Chief.cfg:20 ./units/devlings/c4_Grand_Hero.cfg:20 ./units/devlings/d3_Ninja.cfg:18 ./units/windsong/f4_Librarian.cfg:30
+msgid "..."
+msgstr ""
+
+#. [unit_type]: id=EOM_Grand_Devling_Hero, race=devling
+#: ./units/devlings/c4_Grand_Hero.cfg:5
+msgid "Grand Hero"
+msgstr ""
+
+#. [unit_type]: id=EOM_Sneak, race=devling
+#: ./units/devlings/d0_Sneak.cfg:5
+msgid "Sneak"
+msgstr ""
+
+#. [unit_type]: id=EOM_Sneak, race=devling
+#: ./units/devlings/d0_Sneak.cfg:17
+msgid "Devilings small size allows them to swiftly slip around enemies, and stick sharp objects into vulnerable places."
+msgstr ""
+
+#. [unit_type]: id=EOM_Lurker, race=devling
+#: ./units/devlings/d1_Lurker.cfg:5
+msgid "Lurker"
+msgstr ""
+
+#. [unit_type]: id=EOM_Lurker, race=devling
+#: ./units/devlings/d1_Lurker.cfg:17
+msgid "Devilings who practice sticking knives into peoples backs long enough get even better at it."
+msgstr ""
+
+#. [unit_type]: id=EOM_Ninja, race=devling
+#: ./units/devlings/d2_Ninja.cfg:5
+msgid "Little Ninja"
+msgstr ""
+
+#. [unit_type]: id=EOM_Ninja, race=devling
+#: ./units/devlings/d2_Ninja.cfg:17
+msgid "Some devlings which didn't let others kill them, gain weight so that they do more powerful damage."
+msgstr ""
+
+#. [unit_type]: id=EOM_Assassin #? #or magican?, race=devling
+#: ./units/devlings/d3_Ninja.cfg:5
+msgid "Ninja"
+msgstr ""
+
+#. [unit_type]: id=EOM_Cursers, race=devling
+#: ./units/devlings/e1_Cursers.cfg:5
+msgid "Cursers"
+msgstr ""
+
+#. [unit_type]: id=EOM_Cursers, race=devling
+#: ./units/devlings/e1_Cursers.cfg:18
+msgid "Devlings may be small creatures, but they have big mouths. Filthy ones too. The verbal component to deviling magic tends to be quite profane."
+msgstr ""
+
+#. [attack]: type=impact
+#: ./units/devlings/e1_Cursers.cfg:24 ./units/devlings/e2_Blasphemists.cfg:24 ./units/devlings/e3_Offenders.cfg:24 ./units/devlings/e4_Abusers.cfg:25
+msgid "kick"
+msgstr ""
+
+#. [unit_type]: id=EOM_Blasphemists, race=devling
+#: ./units/devlings/e2_Blasphemists.cfg:5
+msgid "Blasphemists"
+msgstr ""
+
+#. [unit_type]: id=EOM_Blasphemists, race=devling
+#: ./units/devlings/e2_Blasphemists.cfg:18
+msgid "Devilings have a way of saying taunting peoples beliefs to undermine their internal security. Devilings also have magic that grips the heart like a claw. Devilings like to combine the two."
+msgstr ""
+
+#. [unit_type]: id=EOM_Offenders, race=devling
+#: ./units/devlings/e3_Offenders.cfg:5
+msgid "Offenders"
+msgstr ""
+
+#. [unit_type]: id=EOM_Offenders, race=devling
+#: ./units/devlings/e3_Offenders.cfg:18
+msgid "If you have any pride in your heart, then devilings will find a way to offend it. In theory, if you have absolutely no pride they can't hurt you that way. Unfortunately that won't save you from their magics."
+msgstr ""
+
+#. [unit_type]: id=EOM_Abusers, race=devling
+#: ./units/devlings/e4_Abusers.cfg:5
+msgid "Abusers"
+msgstr ""
+
+#. [unit_type]: id=EOM_Abusers, race=devling
+#: ./units/devlings/e4_Abusers.cfg:19
+msgid "Words can harm a person, and devilings have a knack for finding the right words to harm someone with. Enough of this harm can abuse a person in a way you could not with any physical weapon."
+msgstr ""
+
+#. [race]: id=elemental
+#: ./units/elementals.cfg:7
+msgid "race^Elemental"
+msgstr ""
+
+#. [race]: id=elemental
+#: ./units/elementals.cfg:8
+msgid "race+female^Elemental"
+msgstr ""
+
+#. [race]: id=elemental
+#: ./units/elementals.cfg:9
+msgid "race^Elementals"
+msgstr ""
+
+#. [race]: id=elemental
+#: ./units/elementals.cfg:14
+msgid "The Elementals are the guardians of the World, spirits of the elements that incarnate themselves to fight. They are reclusive, but can be quite fierce and brutal, for as it is said, there is nothing more ruthless than nature."
+msgstr ""
+
+#. [unit_type]: id=EOM_Fire, race=elemental
+#: ./units/elementals/a1_Fire_Elemental.cfg:5
+msgid "Fire Elemental"
+msgstr ""
+
+#. [unit_type]: id=EOM_Fire, race=elemental
+#: ./units/elementals/a1_Fire_Elemental.cfg:24
+msgid "Fire spirits tend to inhabit rocks to give them form to fight in. This form gives them decent power, and toughness."
+msgstr ""
+
+#. [unit_type]: id=EOM_Fire_Wisp, race=elemental
+#: ./units/elementals/a2_Fire_Wisp.cfg:5
+msgid "Fire Wisp"
+msgstr ""
+
+#. [unit_type]: id=EOM_Fire_Wisp, race=elemental
+#: ./units/elementals/a2_Fire_Wisp.cfg:24
+msgid "Fire Wisps are spirits of smoke and flame. When not being ordered around they like to frolic in pools of lava and take great delight in burning anything they can reach."
+msgstr ""
+
+#. [attack]: type=fire
+#: ./units/elementals/a2_Fire_Wisp.cfg:42
+msgid "fire bash"
+msgstr ""
+
+#. [unit_type]: id=EOM_Living_Furnace, race=elemental
+#: ./units/elementals/a2_Living_Furnace.cfg:5
+msgid "Living Furnace"
+msgstr ""
+
+#. [unit_type]: id=EOM_Living_Furnace, race=elemental
+#: ./units/elementals/a2_Living_Furnace.cfg:23
+msgid "In the course of time, Fire Elementals grow into a larger and stronger form. Their strength has also increased."
+msgstr ""
+
+#. [unit_type]: id=EOM_Fire_Ghost, race=elemental
+#: ./units/elementals/a3_Fire_Ghost.cfg:5
+msgid "Fire Ghost"
+msgstr ""
+
+#. [unit_type]: id=EOM_Fire_Ghost, race=elemental
+#: ./units/elementals/a3_Fire_Ghost.cfg:25
+msgid "Fire Wisps take the form of a ghost when they have enough power. These ghosts are composed of the fire element and breathe out fire."
+msgstr ""
+
+#. [unit_type]: id=EOM_Lava_Beast, race=elemental
+#: ./units/elementals/a3_Lava_Beast.cfg:5
+msgid "Lava Beast"
+msgstr ""
+
+#. [unit_type]: id=EOM_Lava_Beast, race=elemental
+#: ./units/elementals/a3_Lava_Beast.cfg:24
+msgid "Eventually these spirits will grow to monstrous Lava Beast. Beware of them, they'll burn you!"
+msgstr ""
+
+#. [unit_type]: id=EOM_Air, race=elemental
+#: ./units/elementals/b0_Air_Elemental.cfg:5
+msgid "Air Elemental"
+msgstr ""
+
+#. [unit_type]: id=EOM_Air, race=elemental
+#: ./units/elementals/b0_Air_Elemental.cfg:23
+msgid "Air Elementals take the form of a purple cloud. It fights with the ice winds of the north that can draw the living heat from your skin, and gales of wind that slice through armor. However the magical form of the elemental is fragile, and has no defense at close range."
+msgstr ""
+
+#. [attack]: type=impact
+#: ./units/elementals/b0_Air_Elemental.cfg:29
+msgid "Galeforce"
+msgstr ""
+
+#. [unit_type]: id=EOM_Razorbird, race=elemental
+#: ./units/elementals/b1_Razorbird.cfg:5
+msgid "Razorbird"
+msgstr ""
+
+#. [unit_type]: id=EOM_Razorbird, race=elemental
+#: ./units/elementals/b1_Razorbird.cfg:22
+msgid "Lightning is not an element, however some wind spirits can take a form where they can control it. The body they need to develop from a younger form, known as the Razorbird. These birds have razor feathers which can slice anything but they need more energy to generate a lightning bolt."
+msgstr ""
+
+#. [attack]: type=blade
+#: ./units/elementals/b1_Razorbird.cfg:44 ./units/elementals/b2_Thunderbird.cfg:45
+msgid "blade shower"
+msgstr ""
+
+#. [unit_type]: id=EOM_Wind_Spirit, race=elemental
+#: ./units/elementals/b1_Wind_Spirit.cfg:5
+msgid "Wind Spirit"
+msgstr ""
+
+#. [unit_type]: id=EOM_Wind_Spirit, race=elemental
+#: ./units/elementals/b1_Wind_Spirit.cfg:22
+msgid "As Air Elementals stay in their physical form, they grow stronger, as does their power over winds. The advanced ability to control or herd winds allows the elemental to attack with more force. In addition they are now strong enough to hold a dagger."
+msgstr ""
+
+#. [attack]: type=impact
+#: ./units/elementals/b1_Wind_Spirit.cfg:38
+msgid "galeforce"
+msgstr ""
+
+#. [unit_type]: id=EOM_Thunderbird, race=elemental
+#: ./units/elementals/b2_Thunderbird.cfg:5
+msgid "Thunderbird"
+msgstr ""
+
+#. [unit_type]: id=EOM_Thunderbird, race=elemental
+#: ./units/elementals/b2_Thunderbird.cfg:24
+msgid "Using its metal feathers the Thunderbird is able to create powerfull sparks that can be thrown at long range."
+msgstr ""
+
+#. [attack]: type=fire
+#: ./units/elementals/b2_Thunderbird.cfg:54
+msgid "thunderbolt"
+msgstr ""
+
+#. [unit_type]: id=EOM_Zephyr, race=elemental
+#: ./units/elementals/b2_Zephyr.cfg:5
+msgid "Zephyr"
+msgstr ""
+
+#. [unit_type]: id=EOM_Zephyr, race=elemental
+#: ./units/elementals/b2_Zephyr.cfg:23
+msgid "A wind spirit who stays in form long enough gains great mastery over winds. This grants him strength to his attacks, and toughness to his form."
+msgstr ""
+
+#. [attack]: type=impact
+#: ./units/elementals/b2_Zephyr.cfg:39 ./units/elementals/b3_Djinn.cfg:43
+msgid "tornado"
+msgstr ""
+
+#. [unit_type]: id=EOM_Djinn, race=elemental
+#: ./units/elementals/b3_Djinn.cfg:7
+msgid "Djinn"
+msgstr ""
+
+#. [unit_type]: id=EOM_Djinn, race=elemental
+#: ./units/elementals/b3_Djinn.cfg:25
+msgid ""
+"For centuries, there have been tales about mighty wind spirits known as djinns that are oft summonable with magical metallic objects of ethereal origin. In many stories, these objects are oil lamps. Most of the tales mention that if a djinn is summoned by these types of objects, the djinn is obliged to carry out the wishes of the summoner. Due to this fact, the abilities of djinns are often highly exaggerated, to the point of granting any wish of the summoner. In reality, these spirits are only capable of accomplishing feats within the limits of the power of the wind and swordsmanship.\n"
+"\n"
+"Despite the reality of these creatures' abilities, many believe that djinns are virtually omnipotent beings, thus they speculate what force or god created the djinn and for what reason. Some even believe that a race of divine beings created the djinn in order to serve them. Although these theories could be true, djinns are often spawned by violent storms being exposed to incredibly powerful magic or created by immensely powerful wind mages."
+msgstr ""
+
+#. [unit_type]: id=EOM_Earth, race=elemental
+#: ./units/elementals/c1_Earth_Elemental.cfg:5
+msgid "Earth Elemental"
+msgstr ""
+
+#. [unit_type]: id=EOM_Earth, race=elemental
+#: ./units/elementals/c1_Earth_Elemental.cfg:23
+msgid "Earth spirts take the form of moving rocks. In combat the contribute great durability, and mediocre attacks."
+msgstr ""
+
+#. [unit_type]: id=EOM_Rock_Golem, race=elemental
+#: ./units/elementals/c2_Rock_Golem.cfg:5
+msgid "Rock Golem"
+msgstr ""
+
+#. [unit_type]: id=EOM_Rock_Golem, race=elemental
+#: ./units/elementals/c2_Rock_Golem.cfg:23
+msgid "Rock Golems are the bodies of Earth spirits that have grown strong enough to animate their hulking bodies. These creatures are incredibly tough, but weak for their size."
+msgstr ""
+
+#. [unit_type]: id=EOM_Stone_Titan, race=elemental
+#: ./units/elementals/c3_Stone_Titan.cfg:5
+msgid "Stone Titan"
+msgstr ""
+
+#. [unit_type]: id=EOM_Stone_Titan, race=elemental
+#: ./units/elementals/c3_Stone_Titan.cfg:27
+msgid "Earth Spirits of immense power can animate immense bodies. Although not fast, the shear mass of the monster can cause quite a bit of damage."
+msgstr ""
+
+#. [unit_type]: id=EOM_Water, race=elemental
+#: ./units/elementals/d1_Water_Elemental.cfg:5
+msgid "Water Elemental"
+msgstr ""
+
+#. [unit_type]: id=EOM_Water, race=elemental
+#: ./units/elementals/d1_Water_Elemental.cfg:24
+msgid "Water elementals bodies are merely a mass of water. In water it is hard to distinguish them from the water. This and their ability to restore their form from the water makes them powerful when in water. However on land it takes all the spirits power just to keep itself moving, and flowing, without worrying about defending itself."
+msgstr ""
+
+#. [attack]: type=impact
+#: ./units/elementals/d1_Water_Elemental.cfg:34 ./units/elementals/d2_Undine.cfg:34 ./units/elementals/d3_Tempest_Spirit.cfg:35
+msgid "water punch"
+msgstr ""
+
+#. [unit_type]: id=EOM_Ice_Crab, race=elemental
+#: ./units/elementals/d2_Ice_Crab.cfg:5
+msgid "Ice Crab"
+msgstr ""
+
+#. [unit_type]: id=EOM_Ice_Crab, race=elemental
+#: ./units/elementals/d2_Ice_Crab.cfg:22
+msgid "Some water elementals decide to generate an aura of cold, to freeze their form, and give them a solid body. Crabs are the favored for, because their form is practical for both land, and sea travel, and can fight with spearlike icicles."
+msgstr ""
+
+#. [attack]: type=pierce
+#: ./units/elementals/d2_Ice_Crab.cfg:46 ./units/elementals/d3_Ice_Shell.cfg:47
+msgid "icicle"
+msgstr ""
+
+#. [attack]: type=cold
+#: ./units/elementals/d2_Ice_Crab.cfg:55 ./units/elementals/d3_Ice_Shell.cfg:56
+msgid "gelid aura"
+msgstr ""
+
+#. [unit_type]: id=EOM_Undine, race=elemental
+#: ./units/elementals/d2_Undine.cfg:5
+msgid "Undine"
+msgstr ""
+
+#. [unit_type]: id=EOM_Undine, race=elemental
+#: ./units/elementals/d2_Undine.cfg:24
+msgid "In conserving more power, little water elementals become the more violent and magnificent Undines. Not only have the Undines gained more power but they seemed to have, for some unknown reason, taken the shape of a woman."
+msgstr ""
+
+#. [unit_type]: id=EOM_Ice_Shell, race=elemental
+#: ./units/elementals/d3_Ice_Shell.cfg:5
+msgid "Ice Shell"
+msgstr ""
+
+#. [unit_type]: id=EOM_Ice_Shell, race=elemental
+#: ./units/elementals/d3_Ice_Shell.cfg:23
+msgid "Once ice crabs gather enough elemental power from the cold, they evolve into a more stronger and taller sort of creature. Having icicle spikes for hands, they prefer to thrive in the coldest regions of the world."
+msgstr ""
+
+#. [unit_type]: id=EOM_Tempest_Spirit, race=elemental
+#: ./units/elementals/d3_Tempest_Spirit.cfg:5
+msgid "Tempest Spirit"
+msgstr ""
+
+#. [unit_type]: id=EOM_Tempest_Spirit, race=elemental
+#: ./units/elementals/d3_Tempest_Spirit.cfg:26
+msgid "Tempest Spirits are manifestations of water that is influenced by the likes of a deadly storm, due to this these spirits weld very dangerous power and are often subject to being angered easily. Due to this it is best to avoid these spirits, unless you are certain you either have a way of reasoning with them or can counter their awesome power."
+msgstr ""
+
+#. [unit_type]: id=EOM_Unicorn, race=elemental
+#: ./units/elementals/e1_Unicorn.cfg:5
+msgid "Unicorn"
+msgstr ""
+
+#. [unit_type]: id=EOM_Unicorn, race=elemental
+#: ./units/elementals/e1_Unicorn.cfg:25
+msgid "These small, white, horse-like creatures proudly bear a horn in the middle of their foreheads. Composed by light and life forces, they are so full of them that its mere presence heals allied units around them."
+msgstr ""
+
+#. [attack]: type=pierce
+#: ./units/elementals/e1_Unicorn.cfg:42 ./units/elementals/e2_Silver_Unicorn.cfg:43
+msgid "horn"
+msgstr ""
+
+#. [unit_type]: id=EOM_Silver_Unicorn, race=elemental
+#: ./units/elementals/e2_Silver_Unicorn.cfg:5
+msgid "Silver Unicorn"
+msgstr ""
+
+#. [unit_type]: id=EOM_Silver_Unicorn, race=elemental
+#: ./units/elementals/e2_Silver_Unicorn.cfg:26
+msgid "Gleaming with light, these exotic creatures bear a magical silvery horn in the middle of their foreheads which can shoot rays of pure light. Composed by light and life forces, they are so full of them that its mere presence heals allied units around them."
+msgstr ""
+
+#. [unit_type]: id=EOM_Vine_Beast, race=elemental
+#: ./units/elementals/f1_Vine_Beast.cfg:5
+msgid "Vine Beast"
+msgstr ""
+
+#. [unit_type]: id=EOM_Vine_Beast, race=elemental
+#: ./units/elementals/f1_Vine_Beast.cfg:21
+msgid "The vine beasts are diffrent from most elementals. They are not an incarnation of an elemental spirit, but rather a beast formed from wood, and given life by magic."
+msgstr ""
+
+#. [unit_type]: id=EOM_Vine_Tiger, race=elemental
+#: ./units/elementals/f2_Vine_Tiger.cfg:5
+msgid "Vine Tiger"
+msgstr ""
+
+#. [unit_type]: id=EOM_Vine_Tiger, race=elemental
+#: ./units/elementals/f2_Vine_Tiger.cfg:22
+msgid "The vine beasts grow in size as they live, and the larger forms are called tigers after a beast that they resemble."
+msgstr ""
+
+#. [race]: id=therian
+#: ./units/therians.cfg:7
+msgid "race^Therian Human"
+msgstr ""
+
+#. [race]: id=therian
+#: ./units/therians.cfg:8
+msgid "race+female^Therian Human"
+msgstr ""
+
+#. [race]: id=therian
+#: ./units/therians.cfg:9
+msgid "race^Therian Humans"
+msgstr ""
+
+#. [race]: id=therian
+#: ./units/therians.cfg:13
+msgid "The Therians are a spiritual people, who are generally not very aggressive, but believe in self-sufficiency, and self-defense. They pride themselves in their development of many arts, most particularly that of shapeshifting, but also of the spiritual arts, and the magics of their jungle homes. Therians are one of the few human factions strong enough to resist the other races. They are commonly peaceful with the Celestials and share a strange friendship with the warg."
+msgstr ""
+
+#. [unit_type]: id=EOM_Falcon, race=therian
+#: ./units/therians/a1_Falcon.cfg:5
+msgid "Falcon Therian"
+msgstr ""
+
+#. [unit_type]: id=EOM_Falcon, race=therian
+#. [unit_type]: id=EOM_Gyrfalcon, race=therian
+#. [unit_type]: id=EOM_Peregrine_Falcon, race=therian
+#. [unit_type]: id=EOM_Prairie_Falcon, race=therian
+#: ./units/therians/a1_Falcon.cfg:20 ./units/therians/a2_Prairie_Falcon.cfg:20 ./units/therians/a3_Gyrfalcon.cfg:21 ./units/therians/a3_Peregrine_Falcon.cfg:21
+msgid ""
+"The people of Theria are known for their pursuit of spirituality. The Therian have also learned to greatly respect nature from their neighbors the Warg. Many Therian attune their spirits to animals which they revere. These Therian are capable of harnessing their inner spiritual power to shift into the animal to which they are attuned.\n"
+"\n"
+"Therian who value grace, swiftness, and majesty attune to the falcon.  Falcon Therian can travel great distances when in their shifted form, though are not the strongest in combat."
+msgstr ""
+
+#. [attack]: type=impact
+#: ./units/therians/a1_Falcon.cfg:37 ./units/therians/a2_Prairie_Falcon.cfg:37 ./units/therians/a3_Gyrfalcon.cfg:38 ./units/therians/a3_Peregrine_Falcon.cfg:39 ./units/therians/b1_Cat.cfg:42 ./units/therians/b2_Wildcat.cfg:51 ./units/therians/b3_Panther.cfg:54 ./units/therians/b3_Tiger.cfg:55 ./units/therians/c1_Serpent.cfg:39 ./units/therians/c2_Cobra.cfg:53 ./units/therians/c2_Sandskipper.cfg:58 ./units/therians/c2_Sea_Snake.cfg:40 ./units/therians/c3_King_Cobra.cfg:55 ./units/therians/c3_Spitting_Cobra.cfg:66 ./units/wargs/a1_Shapeshifter.cfg:42 ./units/wargs/a2_Changeling.cfg:42 ./units/wargs/a3_Wolfling.cfg:45
+msgid "aura wave"
+msgstr ""
+
+#. [unit_type]: id=EOM_Prairie_Falcon, race=therian
+#: ./units/therians/a2_Prairie_Falcon.cfg:5
+msgid "Falcon"
+msgstr ""
+
+#. [unit_type]: id=EOM_Gyrfalcon, race=therian
+#: ./units/therians/a3_Gyrfalcon.cfg:5
+msgid "Gyrfalcon"
+msgstr ""
+
+#. [unit_type]: id=EOM_Peregrine_Falcon, race=therian
+#: ./units/therians/a3_Peregrine_Falcon.cfg:5
+msgid "Peregrine Falcon"
+msgstr ""
+
+#. [unit_type]: id=EOM_Cat, race=therian
+#: ./units/therians/b1_Cat.cfg:5
+msgid "Cat Therian"
+msgstr ""
+
+#. [unit_type]: id=EOM_Cat, race=therian
+#. [unit_type]: id=EOM_Panther, race=therian
+#. [unit_type]: id=EOM_Tiger, race=therian
+#. [unit_type]: id=EOM_Wildcat, race=therian
+#: ./units/therians/b1_Cat.cfg:19 ./units/therians/b2_Wildcat.cfg:19 ./units/therians/b3_Panther.cfg:19 ./units/therians/b3_Tiger.cfg:20
+msgid ""
+"The people of Theria are known for their pursuit of spirituality. The Therian have also learned to greatly respect nature from their neighbors the Warg. Many Therian attune their spirits to animals which they revere. These Therian are capable of harnessing their inner spiritual power to shift into the animal to which they are attuned.\n"
+"\n"
+"Therian who value strength, power, and intensity attune to the wild cats.  These Therian are brutal in combat when in their attuned form, using their claws, or sometimes even jaws, to shred their enemies and protect their people."
+msgstr ""
+
+#. [unit_type]: id=EOM_Wildcat, race=therian
+#: ./units/therians/b2_Wildcat.cfg:5
+msgid "Wildcat Therian"
+msgstr ""
+
+#. [unit_type]: id=EOM_Panther, race=therian
+#: ./units/therians/b3_Panther.cfg:5
+msgid "Therian Black Cat"
+msgstr ""
+
+#. [unit_type]: id=EOM_Tiger, race=therian
+#: ./units/therians/b3_Tiger.cfg:5
+msgid "Leopard Therian"
+msgstr ""
+
+#. [unit_type]: id=EOM_Serpent, race=therian
+#: ./units/therians/c1_Serpent.cfg:5
+msgid "Serpent Therian"
+msgstr ""
+
+#. [unit_type]: id=EOM_Cobra, race=therian
+#. [unit_type]: id=EOM_King_Cobra, race=therian
+#. [unit_type]: id=EOM_Sandskipper, race=therian
+#. [unit_type]: id=EOM_Sea_Snake, race=therian
+#. [unit_type]: id=EOM_Serpent, race=therian
+#. [unit_type]: id=EOM_Spitting_Cobra, race=therian
+#: ./units/therians/c1_Serpent.cfg:19 ./units/therians/c2_Cobra.cfg:19 ./units/therians/c2_Sandskipper.cfg:20 ./units/therians/c2_Sea_Snake.cfg:20 ./units/therians/c3_King_Cobra.cfg:20 ./units/therians/c3_Spitting_Cobra.cfg:20
+msgid ""
+"The people of Theria are known for their pursuit of spirituality. The Therian have also learned to greatly respect nature from their neighbors the Warg. Many Therian attune their spirits to animals which they revere. These Therian are capable of harnessing their inner spiritual power to shift into the animal to which they are attuned.\n"
+"\n"
+"Therian who value fluidity, subtelty, and the ability to change attune to the serpent.  These Therian have the capability to create a powerful venom when in their attuned form."
+msgstr ""
+
+#. [unit_type]: id=EOM_Cobra, race=therian
+#: ./units/therians/c2_Cobra.cfg:5
+msgid "Cobra"
+msgstr ""
+
+#. [unit_type]: id=EOM_Sandskipper, race=therian
+#: ./units/therians/c2_Sandskipper.cfg:5
+msgid "Sandskipper"
+msgstr ""
+
+#. [unit_type]: id=EOM_Sea_Snake, race=therian
+#: ./units/therians/c2_Sea_Snake.cfg:5
+msgid "Sea Snake"
+msgstr ""
+
+#. [unit_type]: id=EOM_King_Cobra, race=therian
+#: ./units/therians/c3_King_Cobra.cfg:5
+msgid "King Cobra"
+msgstr ""
+
+#. [unit_type]: id=EOM_Spitting_Cobra, race=therian
+#: ./units/therians/c3_Spitting_Cobra.cfg:5
+msgid "Spitting Cobra"
+msgstr ""
+
+#. [attack]: type=pierce
+#: ./units/therians/c3_Spitting_Cobra.cfg:54
+msgid "spit"
+msgstr ""
+
+#. [unit_type]: id=EOM_Therian_Hunter, race=therian
+#: ./units/therians/d1_Hunter.cfg:5
+msgid "Hunter"
+msgstr ""
+
+#. [unit_type]: id=EOM_Therian_Hunter, race=therian
+#: ./units/therians/d1_Hunter.cfg:20
+msgid "The hunters of Theria travel with minimal armor, carrying only their bow, arrows, and a skinning knife at all times. While they are trained for capturing and killing wild animals for food, they are not specifically trained for armed combat. While their skills may be somewhat lacking, the hunters of Theria have learned to overcome all fear."
+msgstr ""
+
+#. [attack]: type=blade
+#: ./units/therians/d1_Hunter.cfg:26 ./units/therians/d2_Tracker.cfg:26 ./units/therians/d3_Ranger.cfg:27
+msgid "skinning knife"
+msgstr ""
+
+#. [unit_type]: id=EOM_Therian_Tracker, race=therian
+#: ./units/therians/d2_Tracker.cfg:5
+msgid "Tracker"
+msgstr ""
+
+#. [unit_type]: id=EOM_Therian_Tracker, race=therian
+#: ./units/therians/d2_Tracker.cfg:20
+msgid "The hunters of Theria travel with minimal armor, carrying only their bow, arrows, and a skinning knife at all times. While they are trained for capturing and killing wild animals for food, they are not specifically trained for armed combat. While their skills may be somewhat lacking, the hunters of Theria have learned to overcome all fear. Trackers are even more adept at hunting their prey."
+msgstr ""
+
+#. [unit_type]: id=EOM_Therian_Ranger, race=therian
+#: ./units/therians/d3_Ranger.cfg:5
+msgid "Ranger"
+msgstr ""
+
+#. [unit_type]: id=EOM_Therian_Ranger, race=therian
+#: ./units/therians/d3_Ranger.cfg:21
+msgid "Therian Rangers have trained to hunt with only a knife in case of an emergency. In addition, they have also honed their senses and reflexes to a point where they cannot be caught off guard."
+msgstr ""
+
+#. [unit_type]: id=EOM_Therian_Guard, race=therian
+#: ./units/therians/e1_Guard.cfg:5
+msgid "Therian Guard"
+msgstr ""
+
+#. [unit_type]: id=EOM_Therian_Defender, race=therian
+#. [unit_type]: id=EOM_Therian_Guard, race=therian
+#: ./units/therians/e1_Guard.cfg:18 ./units/therians/e2_Defender.cfg:19
+msgid "Therian are peaceful and spiritual by nature, but must protect themselves nonetheless. With little ore at their disposal, the Therian make due with what resources they have, furnishing spears which need only a sharp metal tip. With wood being plentiful, Therian guards have plenty of spears and are not afraid to throw them in battle like a javelin. Each guard carries extra spears on his back for this purpose."
+msgstr ""
+
+#. [unit_type]: id=EOM_Therian_Defender, race=therian
+#: ./units/therians/e2_Defender.cfg:5
+msgid "Therian Defender"
+msgstr ""
+
+#. [unit_type]: id=EOM_Therian_Monk, race=therian
+#: ./units/therians/f1_Monk.cfg:5
+msgid "Monk"
+msgstr ""
+
+#. [unit_type]: id=EOM_Aura_Master, race=therian
+#. [unit_type]: id=EOM_Aura_Monk, race=therian
+#. [unit_type]: id=EOM_Therian_Monk, race=therian
+#: ./units/therians/f1_Monk.cfg:19 ./units/therians/f2_Aura_Monk.cfg:19 ./units/therians/f3_Aura_Master.cfg:20
+msgid "The Therian are peaceful and spiritual by nature, but must protect themselves nonetheless. Therian monks would prefer to avoid bloodshed if necessary, but will fight to the bitter death to defend their people. Monks have attuned their spirits inward, granting them an incredible spiritual power. Monks can harness their aura in a particularly powerful and effective fashion capable of use in battle."
+msgstr ""
+
+#. [attack]: type=arcane
+#: ./units/therians/f1_Monk.cfg:38 ./units/therians/f2_Aura_Monk.cfg:38 ./units/therians/f3_Aura_Master.cfg:39
+msgid "spiritual aura"
+msgstr ""
+
+#. [unit_type]: id=EOM_Aura_Monk, race=therian
+#: ./units/therians/f2_Aura_Monk.cfg:5
+msgid "Aura Monk"
+msgstr ""
+
+#. [unit_type]: id=EOM_Aura_Master, race=therian
+#: ./units/therians/f3_Aura_Master.cfg:5
+msgid "Aura Master"
+msgstr ""
+
+#. [unit_type]: id=EOM_Therian_Apprentice, race=therian
+#: ./units/therians/x1_Apprentice.cfg:5
+msgid "Apprentice"
+msgstr ""
+
+#. [unit_type]: id=EOM_Therian_Apprentice, race=therian
+#: ./units/therians/x1_Apprentice.cfg:18
+msgid "Therians are a peaceable people who enjoy quite study and contemplation. As such there are many with magical talent about them. Their more varied studies allow them to master both fire and ice, but not as well as people who learn one or the other."
+msgstr ""
+
+#. [attack]: type=fire
+#: ./units/therians/x1_Apprentice.cfg:38 ./units/therians/x2_Mage.cfg:38 ./units/therians/x2_Shaman.cfg:41 ./units/therians/x3_Master.cfg:39 ./units/therians/x3_Priest.cfg:42
+msgid "burn"
+msgstr ""
+
+#. [attack]: type=cold
+#: ./units/therians/x1_Apprentice.cfg:50 ./units/therians/x2_Mage.cfg:50 ./units/therians/x2_Shaman.cfg:53 ./units/therians/x3_Master.cfg:51 ./units/therians/x3_Priest.cfg:54
+msgid "freeze"
+msgstr ""
+
+#. [unit_type]: id=EOM_Therian_Mage, race=therian
+#: ./units/therians/x2_Mage.cfg:5
+msgid "Mage"
+msgstr ""
+
+#. [unit_type]: id=EOM_Therian_Mage, race=therian
+#: ./units/therians/x2_Mage.cfg:18
+msgid "Therians who decide to do battle magics tend to have a pretty even match of mastery between methods."
+msgstr ""
+
+#. [unit_type]: id=EOM_Therian_Shaman, race=therian
+#: ./units/therians/x2_Shaman.cfg:5
+msgid "Shaman"
+msgstr ""
+
+#. [unit_type]: id=EOM_Therian_Shaman, race=therian
+#: ./units/therians/x2_Shaman.cfg:18
+msgid "The more spirital apprentices become shamans and spend much time learning how to heal. Their training with offensive magics lags behind, and advances in different ways."
+msgstr ""
+
+#. [unit_type]: id=EOM_Therian_Master, race=therian
+#: ./units/therians/x3_Master.cfg:5
+msgid "Master"
+msgstr ""
+
+#. [unit_type]: id=EOM_Therian_Master, race=therian
+#: ./units/therians/x3_Master.cfg:19
+msgid "A master magician is a force to be reckoned with."
+msgstr ""
+
+#. [unit_type]: id=EOM_Therian_Priest, race=therian
+#: ./units/therians/x3_Priest.cfg:5
+msgid "Priest"
+msgstr ""
+
+#. [unit_type]: id=EOM_Therian_Priest, race=therian
+#: ./units/therians/x3_Priest.cfg:19
+msgid "Therian Priests are shamans who have become very skilled in the many skills they have learned."
+msgstr ""
+
+#. [race]: id=gargoyle
+#: ./units/vampires.cfg:5
+msgid "race^Gargoyle"
+msgstr ""
+
+#. [race]: id=gargoyle
+#: ./units/vampires.cfg:6
+msgid "race+female^Gargoyle"
+msgstr ""
+
+#. [race]: id=gargoyle
+#: ./units/vampires.cfg:7
+msgid "race^Gargoyles"
+msgstr ""
+
+#. [race]: id=gargoyle
+#: ./units/vampires.cfg:11
+msgid "Vampires can animate stones with blood magics, the result are gargoyles."
+msgstr ""
+
+#. [race]: id=vampire
+#: ./units/vampires.cfg:18
+msgid "race^Vampire"
+msgstr ""
+
+#. [race]: id=vampire
+#: ./units/vampires.cfg:19
+msgid "race+female^Vampire"
+msgstr ""
+
+#. [race]: id=vampire
+#: ./units/vampires.cfg:20
+msgid "race^Vampires"
+msgstr ""
+
+#. [race]: id=vampire
+#: ./units/vampires.cfg:28
+msgid "Vampires means 'tainted blood' in the therian language, and indeed vampires are not in and of themselves a race, but rather what happens when blood is tainted. Vampires usually appear much like what they were made out of except with pale skin, white hair, red eyes, and fangs. Vampires have a certain power over people that people can't quite understand. They naturally rise to lordship over humans, whom they treat as serfs. Vampires require blood to live, and thus harvest their serfs of it whenever they feel like. Among themselves, vampires tend to have a feudal system, with the humans as the serfs, and the vampires as the aristocrats. Most of these vampires have not allot of personal strength or charisma, so they rely on the vampire lord to subject the humans they manipulate while trying to earn favor with the vampire lord so that they can get more blood. Vampires are obsessed with blood, it is their currency, and most of their magics involve it."
+msgstr ""
+
+#. [unit_type]: id=EOM_Blood_Apprentice, race=vampire
+#: ./units/vampires/a1_Blood_Apprentice.cfg:5
+msgid "Blood Apprentice"
+msgstr ""
+
+#. [unit_type]: id=EOM_Blood_Apprentice, race=vampire
+#: ./units/vampires/a1_Blood_Apprentice.cfg:18
+msgid "Vampires have always had an obsession with blood and control. As such their magic has always revolved around blood and souls. These vampires attack their enemies by causing their blood to boil or by using their aura to disrupt the auras of their enemies, thus being able to strike their souls. If the vampire is attacking a non-living creature it can use its blood boiling magic as a field of fiery aura to damage it."
+msgstr ""
+
+#. [attack]: type=fire
+#: ./units/vampires/a1_Blood_Apprentice.cfg:39 ./units/vampires/a2_Blood_Manipulator.cfg:39 ./units/vampires/a2_Flesh_Artisan.cfg:51 ./units/vampires/a3_Sangel.cfg:40
+msgid "blood boil"
+msgstr ""
+
+#. [unit_type]: id=EOM_Blood_Manipulator, race=vampire
+#: ./units/vampires/a2_Blood_Manipulator.cfg:5
+msgid "Blood Manipulator"
+msgstr ""
+
+#. [unit_type]: id=EOM_Blood_Manipulator, race=vampire
+#: ./units/vampires/a2_Blood_Manipulator.cfg:18
+msgid "It is horrifying what an skilled manipulator of blood can do to you. He can cause your every vein to burn. He can strip you of food, or cause you to vomit, or burn through your brain. Horrifying as as that is what he can do to your spirit is worse."
+msgstr ""
+
+#. [unit_type]: id=EOM_Flesh_Artisan, race=vampire
+#: ./units/vampires/a2_Flesh_Artisan.cfg:5
+msgid "Flesh Artisan"
+msgstr ""
+
+#. [unit_type]: id=EOM_Flesh_Artisan, race=vampire
+#: ./units/vampires/a2_Flesh_Artisan.cfg:21
+msgid "Some vampires who take up blood magic prefer to work on themeseleves rather than their enemies. They turn themselves into monsters, and can fight well both in melee and at a distance."
+msgstr ""
+
+#. [unit_type]: id=EOM_Sangel, race=vampire
+#: ./units/vampires/a3_Sangel.cfg:5
+msgid "Sangel"
+msgstr ""
+
+#. [unit_type]: id=EOM_Sangel, race=vampire
+#: ./units/vampires/a3_Sangel.cfg:19
+msgid "Any vampier who has earned the title Sangel can do things with your blood and soul too horrible to contemplate."
+msgstr ""
+
+#. [attack]: type=arcane
+#: ./units/vampires/a3_Sangel.cfg:52
+msgid "wipe"
+msgstr ""
+
+#. [unit_type]: id=EOM_Bloodborn, race=vampire
+#: ./units/vampires/b0_Bloodborn.cfg:7
+msgid "Bloodborn"
+msgstr ""
+
+#. [unit_type]: id=EOM_Bloodborn, race=vampire
+#: ./units/vampires/b0_Bloodborn.cfg:28
+msgid "Vampires do not bear many natural children. Most vampires are spawned by a bite from another vampire. The curses and strengths of vampires are spread as the vampire sucks the blood from his prey, and replaces it with magic. People new to the blood are made weak by it, and have not enough mastery over their mind to resist an order of the one who bit them. Eventually, they will grow used to it, and learn how to use the strength it provides them, but until then they are much as oversized children."
+msgstr ""
+
+#. [female]
+#: ./units/vampires/b0_Bloodborn.cfg:57
+msgid "female^Bloodborn"
+msgstr ""
+
+#. [unit_type]: id=EOM_Malborn, race=vampire
+#: ./units/vampires/b1_Malborn.cfg:5
+msgid "Malborn"
+msgstr ""
+
+#. [unit_type]: id=EOM_Malborn, race=vampire
+#: ./units/vampires/b1_Malborn.cfg:22
+msgid "Some people are simply to weak to handle the blood, and it leaves them a mindless mess. This gives the vampire lord complete control over what is left of them. Because of this control, the vampire lord is quite willing to arm these creatures with poisoned daggers. Unlike his other servents, these ones cannot rebel."
+msgstr ""
+
+#. [female]
+#: ./units/vampires/b1_Malborn.cfg:55
+msgid "female^Malborn"
+msgstr ""
+
+#. [unit_type]: id=EOM_Fledgeling, race=vampire
+#: ./units/vampires/c1_Fledgeling.cfg:5
+msgid "Fledgeling"
+msgstr ""
+
+#. [unit_type]: id=EOM_Fledgeling, race=vampire
+#: ./units/vampires/c1_Fledgeling.cfg:21
+msgid "Most vampires are weak ones in service of the lords and more powerful ones, hoping and waiting that they will rise into a position of power for themselves. Until then they serve him in exchange for blood. When there are no more humans or bloodborn, these vampires are the next most expendable thing a vampire lord has."
+msgstr ""
+
+#. [female]
+#: ./units/vampires/c1_Fledgeling.cfg:77
+msgid "female^Fledgeling"
+msgstr ""
+
+#. [unit_type]: id=EOM_Duelist, race=vampire
+#: ./units/vampires/c2_Duelist.cfg:5
+msgid "Duelist"
+msgstr ""
+
+#. [unit_type]: id=EOM_Duelist, race=vampire
+#: ./units/vampires/c2_Duelist.cfg:21
+msgid "Vampires have always had a somewhat upper-class manner. This transfers over to their style of fighting too. The vampires without the family or leadership to become lords make themselves useful to a lord that can ensure they always have a fresh supply of blood. Those who do this are known as duelists. Their masters use them as guards and assassins. They wear not armor, but focus on rapid pinpoint fencing which they carry out with inhuman accuracy."
+msgstr ""
+
+#. [female]
+#: ./units/vampires/c2_Duelist.cfg:78
+msgid "female^Duelist"
+msgstr ""
+
+#. [unit_type]: id=EOM_Noble, race=vampire
+#: ./units/vampires/c2_Noble.cfg:5
+msgid "Noble"
+msgstr ""
+
+#. [unit_type]: id=EOM_Noble, race=vampire
+#: ./units/vampires/c2_Noble.cfg:21
+msgid "The vampires with family or leadership make themselves lord over whatever land they can hold. They use charm, terror, and ruthlessness to uphold their reign. They will surround themselves with their loyal vampires, whom they keep in check with the promise of continual blood, and subject any lesser creature to be the surfs of their society, and to provide blood or cannon-fodder in an emergency. They do not feed on them directly in most circumstances, because that tends to lead to rebellion, but rather force the surfs to provide animals for their weekly blood."
+msgstr ""
+
+#. [female]
+#: ./units/vampires/c2_Noble.cfg:79
+msgid "female^Noble"
+msgstr ""
+
+#. [unit_type]: id=EOM_Succubus, race=vampire
+#. [unit_type]: id=EOM_Succubus_variation, race=vampire
+#. [variation]: race=vampire
+#: ./units/vampires/c2_Noble.cfg:119 ./units/vampires/x2_Succubus.cfg:10 ./units/vampires/y1_Succubus.cfg:7
+msgid "female^Succubus"
+msgstr ""
+
+#. [unit_type]: id=EOM_Succubus, race=vampire
+#. [variation]: race=vampire
+#: ./units/vampires/c2_Noble.cfg:136 ./units/vampires/y1_Succubus.cfg:23
+msgid "A Vampire Succubus ..."
+msgstr ""
+
+#. [attack]: type=pierce
+#: ./units/vampires/c2_Noble.cfg:169 ./units/vampires/c3_Sire.cfg:211 ./units/vampires/c4_Methusalem.cfg:212 ./units/vampires/x3_Duchess.cfg:76 ./units/vampires/y1_Succubus.cfg:72 ./units/vampires/y2_Mistress.cfg:75
+msgid "screech"
+msgstr ""
+
+#. [unit_type]: id=EOM_Sire, race=vampire
+#: ./units/vampires/c3_Sire.cfg:5
+msgid "Sire"
+msgstr ""
+
+#. [unit_type]: id=EOM_Sire, race=vampire
+#: ./units/vampires/c3_Sire.cfg:21
+msgid "Some vampires grow strong enough to subject other vampire lords to themselves. In exchange for protection (from whom is not always mentioned), the other lords provide a tithe of their tax to the Sire."
+msgstr ""
+
+#. [attack]: type=arcane
+#: ./units/vampires/c3_Sire.cfg:56 ./units/vampires/c4_Methusalem.cfg:57
+msgid "dementia gaze"
+msgstr ""
+
+#. [female]
+#. [unit_type]: id=EOM_Mistress, race=vampire
+#. [unit_type]: id=EOM_Mistress_variation, race=vampire
+#. [variation]: race=vampire
+#: ./units/vampires/c3_Sire.cfg:105 ./units/vampires/c3_Sire.cfg:161 ./units/vampires/x3_Mistress.cfg:10 ./units/vampires/y2_Mistress.cfg:7
+msgid "female^Mistress"
+msgstr ""
+
+#. [unit_type]: id=EOM_Mistress, race=vampire
+#. [unit_type]: id=EOM_Mistress_variation, race=vampire
+#. [variation]: race=vampire
+#: ./units/vampires/c3_Sire.cfg:177 ./units/vampires/x3_Mistress.cfg:25 ./units/vampires/y2_Mistress.cfg:25
+msgid "Some of the beautiful vampiresses who are as powerful as a Sire and are capable of winning the love of one are given the title of 'Mistress'. These vampiresses are capable of unleashing a world of pain and suffering upon their enemies with their twin daggers and their dementing gaze. The minions and mercenaries which serve her fight significantly better whenever they around her, sometimes it is unknown whether she is leading them or the mercenaries and minions are protecting her in order to protect themselves from the wrath of the Mistress husband."
+msgstr ""
+
+#. [unit_type]: id=EOM_Sword_Dancer, race=vampire
+#: ./units/vampires/c3_Sword_Dancer.cfg:5
+msgid "Sword Dancer"
+msgstr ""
+
+#. [unit_type]: id=EOM_Sword_Dancer, race=vampire
+#: ./units/vampires/c3_Sword_Dancer.cfg:22
+msgid "Vampires live a long time, and have time to develop many social graces, including dance. Duelists who have spent extended amounts of time fighting, and dancing see similarities between the two, and combine them into a devastating and accurate form of fighting that cuts through defenses."
+msgstr ""
+
+#. [female]
+#: ./units/vampires/c3_Sword_Dancer.cfg:83
+msgid "female^Sword Dancer"
+msgstr ""
+
+#. [unit_type]: id=EOM_Methusalem, race=vampire
+#: ./units/vampires/c4_Methusalem.cfg:5
+msgid "Methusalem"
+msgstr ""
+
+#. [unit_type]: id=EOM_Methusalem, race=vampire
+#: ./units/vampires/c4_Methusalem.cfg:22
+msgid "You may only see one such vampire every thousand years, but when you do you know war is coming. These vampires have grown so old, and so powerful, that they believe it is time to fill the vampire manifest destiny, and subject every other race. With their terrible power, charisma, and the promise of an eternity of free blood, they can gather the support of most vampire lords and lieges. Those who won't join them they destroy ruthlessly."
+msgstr ""
+
+#. [female]
+#. [unit_type]: id=EOM_Duchess, race=vampire
+#. [variation]: race=vampire
+#: ./units/vampires/c4_Methusalem.cfg:106 ./units/vampires/c4_Methusalem.cfg:162 ./units/vampires/x3_Duchess.cfg:7
+msgid "female^Duchess"
+msgstr ""
+
+#. [unit_type]: id=EOM_Duchess, race=vampire
+#. [variation]: race=vampire
+#: ./units/vampires/c4_Methusalem.cfg:179 ./units/vampires/x3_Duchess.cfg:26
+msgid "A Duchess is a powerful, yet elegant vampiress who is often the wife of a Methusalem. Even though a Duchess is feared for all the minions she controlls, she is capable of ravaging her enemies with her graceful swordsmanship and her dementing gaze; in addition she has a powerful bite. It is wise not to get in her way due to her dreadful power and the vast number of minions she controls."
+msgstr ""
+
+#. [unit_type]: id=EOM_Thin_Blood, race=vampire
+#: ./units/vampires/d1_Thin_Blood.cfg:5
+msgid "Thin Blood"
+msgstr ""
+
+#. [unit_type]: id=EOM_Thin_Blood, race=vampire
+#: ./units/vampires/d1_Thin_Blood.cfg:19
+msgid "Not all bloodborn grow towards their vampire side. Some lean on the human side, and can stand the daylight, and use a bow, which most vampires disdain as a peasant weapon. However they still have the vampires curse of blood thirst on them, giving them a reason to continue to serve their lord. These qualities make them a valuable support for a vampires army."
+msgstr ""
+
+#. [female]
+#: ./units/vampires/d1_Thin_Blood.cfg:82
+msgid "female^Thin Blood"
+msgstr ""
+
+#. [unit_type]: id=EOM_Half_Blood, race=vampire
+#: ./units/vampires/d2_Half_Blood.cfg:5
+msgid "Half Blood"
+msgstr ""
+
+#. [unit_type]: id=EOM_Half_Blood, race=vampire
+#: ./units/vampires/d2_Half_Blood.cfg:19
+msgid "Thin Blood vampires blood grows stronger as they kill. When they are balanced roughly evenly between both bloods, they are known as half bloods."
+msgstr ""
+
+#. [female]
+#: ./units/vampires/d2_Half_Blood.cfg:82
+msgid "female^Half Blood"
+msgstr ""
+
+#. [unit_type]: id=EOM_Day_Hunter, race=vampire
+#: ./units/vampires/d3_Day_Hunter.cfg:5
+msgid "Day Hunter"
+msgstr ""
+
+#. [unit_type]: id=EOM_Day_Hunter, race=vampire
+#: ./units/vampires/d3_Day_Hunter.cfg:20
+msgid "After heading to the halfway point, a halfblood can choose to go back. They still have the strength given them by their vampire blood, but they have chosen light, and no longer desire blood. Many of them will still serve vampire lords, out of loyalty, and habit, and vampire lords rarely regret having them in their service."
+msgstr ""
+
+#. [female]
+#: ./units/vampires/d3_Day_Hunter.cfg:86
+msgid "female^Day Hunter"
+msgstr ""
+
+#. [unit_type]: id=EOM_Twilight_Walker, race=vampire
+#: ./units/vampires/d3_Twilight_Walker.cfg:5
+msgid "Twilight Walker"
+msgstr ""
+
+#. [unit_type]: id=EOM_Twilight_Walker, race=vampire
+#: ./units/vampires/d3_Twilight_Walker.cfg:20
+msgid "After reaching the halfway point, a halfblood can choose to go back, but many prefer not too. Those who don't are known as twilight walkers, and are among a lords most trusted servants, because they could have chosen day, but did not. As such they are often entrusted with poisons, and assassinations. For a vampire lord will always have enemies some of which are better slain with poison in the twilight, than with an army at night."
+msgstr ""
+
+#. [attack]: type=blade
+#: ./units/vampires/d3_Twilight_Walker.cfg:36
+msgid "poisoned dagger"
+msgstr ""
+
+#. [female]
+#: ./units/vampires/d3_Twilight_Walker.cfg:107
+msgid "female^Twilight Walker"
+msgstr ""
+
+#. [unit_type]: id=EOM_Gargoyle, race=gargoyle
+#: ./units/vampires/f1_Gargoyle.cfg:5
+msgid "Gargoyle"
+msgstr ""
+
+#. [unit_type]: id=EOM_Gargoyle, race=gargoyle
+#: ./units/vampires/f1_Gargoyle.cfg:18
+msgid "Vampires can animate stone with blood. These stone creatures use the magic of blood to fly. Vampires use these creatures to guard their castles, and to provide air support and surveillance to their forces. They cannot see, and thus fight equally well in all lights."
+msgstr ""
+
+#. [attack]: type=impact
+#: ./units/vampires/f1_Gargoyle.cfg:27 ./units/vampires/f2_Marlgoyle.cfg:28
+msgid "slam"
+msgstr ""
+
+#. [unit_type]: id=EOM_Marlgoyle, race=gargoyle
+#: ./units/vampires/f2_Marlgoyle.cfg:5
+msgid "Marlgoyle"
+msgstr ""
+
+#. [unit_type]: id=EOM_Marlgoyle, race=gargoyle
+#: ./units/vampires/f2_Marlgoyle.cfg:19
+msgid "The blood magic of the gargoyle is strengthened when it kills enough. As it keeps killing it will get stronger, and the stone form will continue to gain strength."
+msgstr ""
+
+#. [unit_type]: id=EOM_Blood_Hulk, race=vampire
+#: ./units/vampires/g2_Blood_Hulk.cfg:5
+msgid "Blood Hulk"
+msgstr ""
+
+#. [unit_type]: id=EOM_Blood_Hulk, race=vampire
+#: ./units/vampires/g2_Blood_Hulk.cfg:27
+msgid "These monstrous vampires gorge themselves on the blood of their victims instead of turning them. Their appetite for blood is never sated, and with each victim they grow in strength and size. Only talented blood mages can create such monstrosities."
+msgstr ""
+
+#. [race]: id=dryad, description=
+#: ./units/warg.cfg:5
+msgid "race^Dryad"
+msgstr ""
+
+#. [race]: id=dryad, description=
+#: ./units/warg.cfg:6
+msgid "race^Dryads"
+msgstr ""
+
+#. [race]: id=warg
+#: ./units/warg.cfg:18
+msgid "race^Warg"
+msgstr ""
+
+#. [race]: id=warg
+#: ./units/warg.cfg:19
+msgid "race+female^Warg"
+msgstr ""
+
+#. [race]: id=warg
+#: ./units/warg.cfg:20
+msgid "race^Wargs"
+msgstr ""
+
+#. [race]: id=warg
+#: ./units/warg.cfg:25
+msgid "Warg are also known as wolfmen. They live in the wilds and woods in almost any climate, some favor the lush jungle, others the arctic woods, others alpine mountains. The warg tend to live in packs or clans, and establish their hunting grounds where they tend not to like intruders. Although hunters, they are for the most part peaceful, however they have a primal blood-lust, that can be inspired by various things, especially if vampires are involved."
+msgstr ""
+
+#. [unit_type]: id=EOM_Shapeshifter, race=therian
+#: ./units/wargs/a1_Shapeshifter.cfg:5
+msgid "Shapeshifter"
+msgstr ""
+
+#. [unit_type]: id=EOM_Shapeshifter, race=therian
+#: ./units/wargs/a1_Shapeshifter.cfg:18
+msgid "The Therian and Warg are good neighbors; a mutual respect binds the two cultures together. Some Therian find the Warg society so appealing that they embrace it as their own. These Therian use their shifting powers to resemble more closely those with whom they live. The Warg refer to them simply as 'Shapeshifters'."
+msgstr ""
+
+#. [attack]: type=blade
+#: ./units/wargs/a1_Shapeshifter.cfg:33
+msgid "sickle"
+msgstr ""
+
+#. [unit_type]: id=EOM_Changeling, race=therian
+#: ./units/wargs/a2_Changeling.cfg:5
+msgid "Changeling"
+msgstr ""
+
+#. [unit_type]: id=EOM_Changeling, race=therian
+#: ./units/wargs/a2_Changeling.cfg:18
+msgid "Shapeshifters who have spent extended periods of time enveloped within the Warg culture grow to even more strongly resemble their companions."
+msgstr ""
+
+#. [attack]: type=blade
+#: ./units/wargs/a2_Changeling.cfg:33 ./units/wargs/a3_Wolfling.cfg:36 ./units/windsong/f3_Arbiter.cfg:35 ./units/windsong/f4_Librarian.cfg:36
+msgid "scythe"
+msgstr ""
+
+#. [unit_type]: id=EOM_Wolfling, race=therian
+#: ./units/wargs/a3_Wolfling.cfg:7
+msgid "Wolfling"
+msgstr ""
+
+#. [unit_type]: id=EOM_Wolfling, race=therian
+#: ./units/wargs/a3_Wolfling.cfg:21
+msgid "Once a Shapeshifter has become fully integrated into Warg society they are known as Wolflings. They are no longer seen as a human presence within their society, but as essential companions."
+msgstr ""
+
+#. [unit_type]: id=EOM_Stalker, race=warg
+#: ./units/wargs/b1_Stalker.cfg:5
+msgid "Stalker"
+msgstr ""
+
+#. [unit_type]: id=EOM_Stalker, race=warg
+#: ./units/wargs/b1_Stalker.cfg:18
+msgid "Stalkers are the smaller of the Warg bretheren and are known for their darker fur. Because of their smaller size these Warg wield a spear in combat instead of their claws. Stalkers use their heightened agility to great use in combat to surround their foes."
+msgstr ""
+
+#. [attack]: type=impact
+#: ./units/wargs/b1_Stalker.cfg:37 ./units/wargs/b2_Shadow_Pelt.cfg:36 ./units/wargs/b3_Night_Eye.cfg:38 ./units/wargs/c2_Rabid_Wolf.cfg:42
+msgid "tackle"
+msgstr ""
+
+#. [unit_type]: id=EOM_Shadow_Pelt, race=warg
+#: ./units/wargs/b2_Shadow_Pelt.cfg:5
+msgid "Shadow Pelt"
+msgstr ""
+
+#. [unit_type]: id=EOM_Shadow_Pelt, race=warg
+#: ./units/wargs/b2_Shadow_Pelt.cfg:17
+msgid "Many stalkers who have grown more experianced, will smear certain kinds of dirt and dust on their fur to make themselves harder to see. This has lead to the term shadow pelt, as it gives the impression of a permanent shadow resting on them."
+msgstr ""
+
+#. [unit_type]: id=EOM_Night_Eye, race=warg
+#: ./units/wargs/b3_Night_Eye.cfg:5
+msgid "Night Eye"
+msgstr ""
+
+#. [unit_type]: id=EOM_Night_Eye, race=warg
+#: ./units/wargs/b3_Night_Eye.cfg:18
+msgid "After a time as a shadow pelt something about the dirt bleeds into the fur. This gives a very dark shade of black that hides very well in the darkest of nights."
+msgstr ""
+
+#. [unit_type]: id=EOM_Warrior_Wolf, race=warg
+#: ./units/wargs/c1_Warrior_Wolf.cfg:5
+msgid "Warrior Wolf"
+msgstr ""
+
+#. [unit_type]: id=EOM_Warrior_Wolf, race=warg
+#: ./units/wargs/c1_Warrior_Wolf.cfg:17
+msgid "The low ranking warriors of the clan are know as wolves, only after proving themselves are they allowed to call themselves warg."
+msgstr ""
+
+#. [unit_type]: id=EOM_Rabid_Wolf, race=warg
+#: ./units/wargs/c2_Rabid_Wolf.cfg:5
+msgid "Rabid Wolf"
+msgstr ""
+
+#. [unit_type]: id=EOM_Rabid_Wolf, race=warg
+#: ./units/wargs/c2_Rabid_Wolf.cfg:18
+msgid "Some warrior wolves prefer to become more like wolves rather than choose to take the name of warg. They never learn how to use weapons, but instead adapt a style using their whole body, and move on all fours."
+msgstr ""
+
+#. [unit_type]: id=EOM_Warrior_Warg, race=warg
+#: ./units/wargs/c2_Warrior_Warg.cfg:5
+msgid "Warrior Warg"
+msgstr ""
+
+#. [unit_type]: id=EOM_Warrior_Warg, race=warg
+#: ./units/wargs/c2_Warrior_Warg.cfg:17
+msgid "The Warg who have proven themselves worthy of the name are a force to be reckoned with when defending their homeland."
+msgstr ""
+
+#. [unit_type]: id=EOM_Fenrir, race=warg
+#: ./units/wargs/c3_Fenrir.cfg:7
+msgid "Fenrir"
+msgstr ""
+
+#. [unit_type]: id=EOM_Fenrir, race=warg
+#: ./units/wargs/c3_Fenrir.cfg:20
+msgid "Warg can fight quite well without weapons, as such many of their warriors never become skilled with them. However the ones who do, are given the title Fenrir, and are warriors to be feared."
+msgstr ""
+
+#. [unit_type]: id=EOM_Moon_Blade, race=warg
+#: ./units/wargs/c3_Moon_Blade.cfg:5
+msgid "Moon Blade"
+msgstr ""
+
+#. [unit_type]: id=EOM_Moon_Blade, race=warg
+#: ./units/wargs/c3_Moon_Blade.cfg:18
+msgid "The warg revere the moon, and sometimes the moon blesses devout warriors with strange powers. These warg are marked with white fur, and wield swords like slivers of the moon."
+msgstr ""
+
+#. [attack]: type=arcane
+#: ./units/wargs/c3_Moon_Blade.cfg:24
+msgid "Moon Sword"
+msgstr ""
+
+#. [unit_type]: id=EOM_Pack_Leader, race=warg
+#: ./units/wargs/c3_Pack_Leader.cfg:5
+msgid "Pack Leader"
+msgstr ""
+
+#. [unit_type]: id=EOM_Pack_Leader, race=warg
+#: ./units/wargs/c3_Pack_Leader.cfg:17
+msgid "The individual packs, and clans each have a leader chosen from their warriors, for his wisdom and prowess."
+msgstr ""
+
+#. [unit_type]: id=EOM_Garou, race=warg
+#: ./units/wargs/c4_Garou.cfg:5
+msgid "Garou"
+msgstr ""
+
+#. [unit_type]: id=EOM_Garou, race=warg
+#: ./units/wargs/c4_Garou.cfg:18
+msgid "Most warg don't live to be very old. However the leaders that live to be very old are revered by freinds, and feared by foes."
+msgstr ""
+
+#. [unit_type]: id=EOM_Wolf_Cub, race=warg
+#: ./units/wargs/d0_Wolf_Cub.cfg:5
+msgid "Wolf Cub"
+msgstr ""
+
+#. [unit_type]: id=EOM_Wolf_Cub, race=warg
+#: ./units/wargs/d0_Wolf_Cub.cfg:19
+msgid "The warg can catch and train real wolves to aid them in war. They do it by capturing wolf cubs, and starting the training while they are very young. Wolves make good scouts as they can move even faster than the warg can."
+msgstr ""
+
+#. [unit_type]: id=EOM_Wolf, race=warg
+#: ./units/wargs/d1_Wolf.cfg:5
+msgid "Wolf"
+msgstr ""
+
+#. [unit_type]: id=EOM_Wolf, race=warg
+#: ./units/wargs/d1_Wolf.cfg:19
+msgid "Full grown wolves are rather swift, and accurate with their jaws."
+msgstr ""
+
+#. [unit_type]: id=EOM_Dire_Wolf, race=warg
+#: ./units/wargs/d2_Dire_Wolf.cfg:5
+msgid "Dire Wolf"
+msgstr ""
+
+#. [unit_type]: id=EOM_Dire_Wolf, race=warg
+#: ./units/wargs/d2_Dire_Wolf.cfg:20
+msgid "Something about the warg bleeds into the wolves they tame, causing them to grow larger, and stronger. These wolves, known as dire wolves provide swift sure firepower to the wargs arsenal."
+msgstr ""
+
+#. [unit_type]: id=EOM_Fire_Sprite, race=dryad
+#: ./units/wargs/e1_Fire_Sprite.cfg:5
+msgid "Fire Sprite"
+msgstr ""
+
+#. [unit_type]: id=EOM_Fire_Sprite, race=dryad
+#. [unit_type]: id=EOM_Flame_Spirit, race=dryad
+#. [unit_type]: id=EOM_Flame_Sprite, race=dryad
+#: ./units/wargs/e1_Fire_Sprite.cfg:19 ./units/wargs/e2_Flame_Sprite.cfg:19 ./units/wargs/e3_Flame_Spirit.cfg:20
+msgid "Fire Sprites are tiny faerie creatures who get their name from being able to somewhat control the element of fire. Living in the forest, these creatures use their powers primarily to prevent their homes from burning down. Sharing a respect for the woods, they have become great allies with the Warg."
+msgstr ""
+
+#. [attack]: type=impact
+#: ./units/wargs/e1_Fire_Sprite.cfg:25 ./units/wargs/e2_Flame_Sprite.cfg:25 ./units/wargs/e3_Flame_Spirit.cfg:26
+msgid "sprite punch"
+msgstr ""
+
+#. [attack]: type=fire
+#: ./units/wargs/e1_Fire_Sprite.cfg:34 ./units/wargs/e2_Flame_Sprite.cfg:34
+msgid "sapphire flame"
+msgstr ""
+
+#. [unit_type]: id=EOM_Flame_Sprite, race=dryad
+#: ./units/wargs/e2_Flame_Sprite.cfg:5
+msgid "Flame Sprite"
+msgstr ""
+
+#. [unit_type]: id=EOM_Flame_Spirit, race=dryad
+#: ./units/wargs/e3_Flame_Spirit.cfg:5
+msgid "Flame Spirit"
+msgstr ""
+
+#. [attack]: type=fire
+#: ./units/wargs/e3_Flame_Spirit.cfg:35
+msgid "spirit fire"
+msgstr ""
+
+#. [unit_type]: id=EOM_Blackfur, race=warg
+#: ./units/wargs/f1_Blackfur.cfg:5
+msgid "Blackfur"
+msgstr ""
+
+#. [unit_type]: id=EOM_Blackfur, race=warg
+#: ./units/wargs/f1_Blackfur.cfg:18
+msgid "There is a rare breed of warg with black fur and a slight build. Although not as physicaly strong as the normal kind, foes have learned to fear the sudden death that could await in any dark shadow."
+msgstr ""
+
+#. [unit_type]: id=EOM_Black_Hunter, race=warg
+#: ./units/wargs/f2_Black_Hunter.cfg:5
+msgid "Black Hunter"
+msgstr ""
+
+#. [unit_type]: id=EOM_Black_Hunter, race=warg
+#: ./units/wargs/f2_Black_Hunter.cfg:19
+msgid "The blackfur hunt at night for the concealment it gives, and are quite adept at hunting any kind of quarry."
+msgstr ""
+
+#. [unit_type]: id=EOM_Water_Dryad, race=dryad
+#: ./units/wargs/g1_Water_Dryad.cfg:5
+msgid "Water Dryad"
+msgstr ""
+
+#. [unit_type]: id=EOM_Water_Dryad, race=dryad
+#. [unit_type]: id=EOM_Water_Nymph, race=dryad
+#. [unit_type]: id=EOM_Water_Shyde, race=dryad
+#: ./units/wargs/g1_Water_Dryad.cfg:19 ./units/wargs/g2_Water_Nymph.cfg:19 ./units/wargs/g3_Water_Shyde.cfg:22
+msgid "In any wetland area you may find a Dryad calling the place her home. Dryads are not combatitive in nature and instead will control surrounding plant life to ensnare her enemies and slow them down until help arrives."
+msgstr ""
+
+#. [unit_type]: id=EOM_Water_Nymph, race=dryad
+#: ./units/wargs/g2_Water_Nymph.cfg:5
+msgid "Water Nymph"
+msgstr ""
+
+#. [unit_type]: id=EOM_Water_Shyde, race=dryad
+#: ./units/wargs/g3_Water_Shyde.cfg:5
+msgid "Water Shyde"
+msgstr ""
+
+#. [race]: id=abstraction, description=
+#: ./units/windsong.cfg:9
+msgid "race^Abstraction"
+msgstr ""
+
+#. [race]: id=abstraction, description=
+#: ./units/windsong.cfg:10
+msgid "race+female^Abstraction"
+msgstr ""
+
+#. [race]: id=abstraction, description=
+#: ./units/windsong.cfg:11
+msgid "race^Abstractions"
+msgstr ""
+
+#. [race]: id=windsong
+#: ./units/windsong.cfg:21
+msgid "race^Windsong Human"
+msgstr ""
+
+#. [race]: id=windsong
+#: ./units/windsong.cfg:22
+msgid "race^Windsong Humans"
+msgstr ""
+
+#. [race]: id=windsong
+#: ./units/windsong.cfg:27
+msgid "The Windsong are a mysterious people, consisting completely of abducted female humans. Their numbers are few, and their goals and motives obscure. However they have demonstrated in the past that they are not to be trifled with. They have strange powers, and massive libraries and towers full of books of ancient lore. Their armies though few in number have defeated all of the many who've attacked them, or whom they've decided to attack. Humans hate them because they steal the most fit of their daughters right from under their noses. Most other races distrust them."
+msgstr ""
+
+#. [unit_type]: id=EOM_Courier, race=windsong
+#: ./units/windsong/a1_Courier.cfg:5
+msgid "female^Courier"
+msgstr ""
+
+#. [unit_type]: id=EOM_Courier, race=windsong
+#: ./units/windsong/a1_Courier.cfg:19
+msgid "Unlike most other peoples, the Windsong possess neither domesticated beasts of burden or mechanical transports. The former due to the icy conditions of their homeland, and the latter due to their distaste for machines. Instead, some girls devote themselves to learning the levitation ciphers. There are many benefits to this, rough terrain poses little impediment, as does ice and water, and delicate loads can be carried quickly. Their devotion to levitation denies them access to the more directly dangerous ciphers, so they carry a bow and hit their opponents with small rocks if they come too close. Their skill at manipulating gravity makes their arrows uncannily accurate."
+msgstr ""
+
+#. [unit_type]: id=EOM_Emissary, race=windsong
+#: ./units/windsong/a2_Emissary.cfg:5
+msgid "female^Emissary"
+msgstr ""
+
+#. [unit_type]: id=EOM_Emissary, race=windsong
+#: ./units/windsong/a2_Emissary.cfg:20
+msgid "Those Couriers who show themselves to be intelligent and reliable are elevated to the position of Emissary. They are entrusted with transporting documents, precious artefacts and sometimes even Windsong council members. Freed from the physical and mental burden of maintaining large loads, an Emissary is much more agile. This allows her to wield a sword which she uses to slash at enemies in a flurry of charges. Such tactics are dangerous, so Emissaries prefer to use their original weapons if possible."
+msgstr ""
+
+#. [unit_type]: id=EOM_Reaver, race=windsong
+#: ./units/windsong/a2_Reaver.cfg:5
+msgid "female^Reaver"
+msgstr ""
+
+#. [unit_type]: id=EOM_Reaver, race=windsong
+#: ./units/windsong/a2_Reaver.cfg:19
+msgid "While Couriers in peacetime are rarely of a martial bent, war brings out hidden abilities in everyone, and some have recently chosen to bring back a covenant long lost: the order of the Reavers. Used for the heaviest assaults and sieges in ancient wars, they exchange their lightweight stones for great iron blades, crushing any who stand in the path of the Windsong."
+msgstr ""
+
+#. [unit_type]: id=EOM_Dreadnought, race=windsong
+#: ./units/windsong/a3_Dreadnought.cfg:5
+msgid "female^Dreadnought"
+msgstr ""
+
+#. [unit_type]: id=EOM_Dreadnought, race=windsong
+#: ./units/windsong/a3_Dreadnought.cfg:25
+msgid "The records concerning the master Reavers for whom the title of Dreadnought was created tell not only of their heroic deeds in battle, of the courage with which they hurled themselves against hordes of foes, but also of their darker deeds, of cities razed to the ground and armies laid waste before their unstoppable advance. These legends have long since been forgotten by all but the Windsong themselves, but with the revival of their order, it is certain that new ones will soon be written."
+msgstr ""
+
+#. [unit_type]: id=EOM_Sky_Shard, race=abstraction
+#: ./units/windsong/b0_Sky_Shard.cfg:5
+msgid "Sky Shard"
+msgstr ""
+
+#. [unit_type]: id=EOM_Sky_Shard, race=abstraction
+#: ./units/windsong/b0_Sky_Shard.cfg:32
+msgid ""
+"In an age long forgotten by the rest of the world, when the Windsong first took up their watch, they realized that it would be impractical to carry out their duty of balancing without becoming dangerously numerous themselves. The Windsong needed servants who could become numerous in times of balancing and quickly decrease in times of hiding. Servants who could be trusted utterly, could travel quickly and were able to perform a variety of tasks. The cipher, the only power used by the Windsong, was capable of carving such servants from The Raw and binding them into reality. But this required the full attention of an Ascendant to maintain even a handful of these Shards. And so the Windsong gathered the most powerful Cryptographers (those who use ciphers) to the Foundation, and had them construct an artifact of unimaginable, though very defined, power to do it for them. It took centuries to create, but with it the Windsong were finally complete.\n"
+"\n"
+"Shards are bound to the will of whoever controls 'The Mandate'. As they are barely present in reality, they can teleport between areas of high cipher activity (friendly towns). Also a consequence of this is their immunity to Drain, Poison and Plague. Shards are crystalline in nature and so have unusual resistances. Shards are never destroyed, they are merely 'pushed out' of reality."
+msgstr ""
+
+#. [attack]: type=cold
+#: ./units/windsong/b0_Sky_Shard.cfg:43 ./units/windsong/b1_Sky_Crystal.cfg:44 ./units/windsong/c1_Weaver.cfg:37 ./units/windsong/c2_Envoy.cfg:33 ./units/windsong/c3_Herald.cfg:34
+msgid "purge"
+msgstr ""
+
+#. [unit_type]: id=EOM_Sky_Crystal, race=abstraction
+#: ./units/windsong/b1_Sky_Crystal.cfg:5
+msgid "Sky Crystal"
+msgstr ""
+
+#. [unit_type]: id=EOM_Sky_Crystal, race=abstraction
+#: ./units/windsong/b1_Sky_Crystal.cfg:33
+msgid ""
+"A Sky Crystal is a Shard that has emerged further into reality and so has a firmer physical presence.\n"
+"\n"
+"Crystals are bound to the will of whoever controls 'The Mandate'. As they are barely present in reality, they can teleport between areas of high cipher activity (friendly towns). Also a consequence of this is their immunity to Drain, Poison and Plague. Crystals are crystalline in nature and so have unusual resistances. Crystals are never destroyed, they are merely 'pushed out' of reality."
+msgstr ""
+
+#. [unit_type]: id=EOM_Weaver, race=windsong
+#: ./units/windsong/c1_Weaver.cfg:5
+msgid "female^Weaver"
+msgstr ""
+
+#. [unit_type]: id=EOM_Weaver, race=windsong
+#: ./units/windsong/c1_Weaver.cfg:24
+msgid ""
+"While most Windsong are able to devote themselves to only one or two aspects of the cipher, there are those who are able to access many. When such a child is born, a spirit from The Raw appears and binds to them. To best make use of their gifts, these 'Weavers' (for they can intertwine their ciphers) are given the best education and training that the Council can provide.\n"
+"\n"
+"Once they reach adulthood, Weavers fill a number of different roles in Windsong society: they are the healers, the planners, the diviners, and the military leaders. They pursue the art of archery, viewing it as a form of meditation, and are aided in both everyday life and battle by their accompanying spirit.\n"
+"\n"
+"The first lessons a Weaver-born learns are the arts of healing, though she cannot yet cure poison."
+msgstr ""
+
+#. [unit_type]: id=EOM_Envoy, race=windsong
+#: ./units/windsong/c2_Envoy.cfg:5
+msgid "female^Envoy"
+msgstr ""
+
+#. [unit_type]: id=EOM_Envoy, race=windsong
+#: ./units/windsong/c2_Envoy.cfg:22
+msgid ""
+"The Windsong know how dangerous unadvised action can be. Their limited resources means that even one mistake could threaten the Eternal Watch. To guard against this, some Weavers focus their attention on the Sky Shards, learning to emulate the Shard's detachment from reality. Once submersed in The Raw, they can move long distances just as the Shards can. The Council relies on these Envoys to asses operations or be the field advisers in an emergency. This amazing power comes at the cost of their studies in other areas like healing and battle, so while they can advise and coordinate field agents, they cannot lead them in battle or heal them afterwards. Furthermore, to remain in The Raw for more than an instant is dangerous, so Envoys cannot use it to protect themselves in the same was as the Shards.\n"
+"\n"
+"Envoys can move instantly between areas of high cipher activity (friendly towns). Envoys cannot heal anymore."
+msgstr ""
+
+#. [unit_type]: id=EOM_Prophetess, race=windsong
+#: ./units/windsong/c2_Prophet.cfg:5
+msgid "female^Prophetess"
+msgstr ""
+
+#. [unit_type]: id=EOM_Prophetess, race=windsong
+#: ./units/windsong/c2_Prophet.cfg:22
+msgid ""
+"There are many among the Windsong who could successfully lead an army, or plan a battle, as the council has all children trained to the best of their ability. So, for the Windsong, knowing when to act is more important. The Raw is affected by all events, both past and future, and is fluidic as these possibilities change. Through her accompanying spirit, some Weavers learn to interpret flows in The Raw as predictions for future events. With time and experience, her predictions become more accurate and dependable. Eventually, if she is of quality, she will be invited to join the ranks of the Prophets. Unlike the farseers of other peoples, the Windsong Prophets do not 'witness' events so much as apply an expanded form of cause and effect. Knowing all flows are open to interpretation, Prophets are discouraged from making predictions without the council of her peers.\n"
+"\n"
+"Unlike Envoys, Prophets have much time to study the arts of leadership and healing, and she has now learned to cure poison. Such is the respect of the Windsongs for the Prophets, that any direction given by them will be obeyed immediately and without question."
+msgstr ""
+
+#. [unit_type]: id=EOM_Ascendant, race=windsong
+#: ./units/windsong/c3_Ascendant.cfg:5
+msgid "female^Ascendant"
+msgstr ""
+
+#. [unit_type]: id=EOM_Ascendant, race=windsong
+#: ./units/windsong/c3_Ascendant.cfg:23
+msgid ""
+"Few Weavers and Prophets reach the rank of Ascendant. Not just because of the difficult in reaching this goal, but also because of the danger and sacrifice necessary. The path to becoming an Ascendant begins when a Weaver-born binds themselves to their accompanying spirit in the same manner that the spirit bound itself to her on her birth. A successful binding will slowly, over the course of two years, pull her body into The Raw. If the Ascending fails, she faces a slow death. As the Spirit cares for her wellbeing above all else, it will reject the binding unless she can convince it that she is powerful enough to Ascend. If successful, her physical form will slowly be converted into The Raw itself, granting her immortality and great, though not infallible, insight into the nature of events, both current and of those to come.\n"
+"\n"
+"Any who reach this pinnacle of the Weaver-born automatically becomes a full member of the Council. Though most Ascendants were Prophets, it is technically possible for Envoys and Heralds to Ascend. However, Envoys have experienced the dangers of passing through The Raw and the idea of entering unprotected shakes even the bravest woman's confidence.\n"
+"\n"
+"Because an Ascendant's body is being transformed into The Raw, most damage they take simply speeds the process (They heal as if in a village every turn). They know powerful healing ciphers and those around them revere them, obeying them with fervor."
+msgstr ""
+
+#. [unit_type]: id=EOM_Windsong_Herald, race=windsong
+#: ./units/windsong/c3_Herald.cfg:23
+msgid ""
+"As children, Weavers learn to communicate with their accompanying spirit via a special type of cipher. The spirit will only ever respond to the girl it bound itself to, and has a very basic mind. As an Envoy, dealing with unexpected and often dangerous situations, she has learned how useful this spirit can be. Those who dedicate long hours to the understanding and training of their accompanying spirit gain a powerful ally who will guide their bow and empower their purges. Those who achieve this link join the elite ranks of the Heralds, responsible directly to the Council.\n"
+"\n"
+"Heralds can move instantly between areas of high cipher activity (friendly towns)."
+msgstr ""
+
+#. [unit_type]: id=EOM_Seeker, race=windsong
+#: ./units/windsong/d1_Seeker.cfg:5
+msgid "female^Seeker"
+msgstr ""
+
+#. [unit_type]: id=EOM_Seeker, race=windsong
+#: ./units/windsong/d1_Seeker.cfg:19
+msgid ""
+"The name given to the Seekers comes from their role in the legend of the Windsong's first appearance: they were tasked with searching the world over for a suitable place to build the first Foundation.\n"
+"\n"
+"This tradition of exploration continues unabated, and the Seekers' great speed and agility are easily put to use in times of war."
+msgstr ""
+
+#. [attack]: type=blade
+#. [attack]: type=pierce
+#: ./units/windsong/d1_Seeker.cfg:30 ./units/windsong/d2_Pathfinder.cfg:28 ./units/windsong/d2_Pathfinder.cfg:40 ./units/windsong/d2_Skyrunner.cfg:36 ./units/windsong/d3_Farstrider.cfg:29 ./units/windsong/d3_Farstrider.cfg:41 ./units/windsong/d3_Stormbringer.cfg:37
+msgid "polearm"
+msgstr ""
+
+#. [unit_type]: id=EOM_Pathfinder, race=windsong
+#: ./units/windsong/d2_Pathfinder.cfg:5
+msgid "female^Pathfinder"
+msgstr ""
+
+#. [unit_type]: id=EOM_Pathfinder, race=windsong
+#: ./units/windsong/d2_Pathfinder.cfg:19
+msgid "Capable of racing through the toughest terrain with uncanny speed, those known as Pathfinders serve as the vanguards of the Windsong armies. They have devoted themselves to developing their own agility, and long practice has granted them an almost inhuman speed. And, when they deem it necessary, their fluid grace and skill with their polearms allows them to strike like the thunder they wield, catching distracted foes unawares."
+msgstr ""
+
+#. [unit_type]: id=EOM_Skyrunner, race=windsong
+#: ./units/windsong/d2_Skyrunner.cfg:5
+msgid "female^Skyrunner"
+msgstr ""
+
+#. [unit_type]: id=EOM_Skyrunner, race=windsong
+#: ./units/windsong/d2_Skyrunner.cfg:27
+msgid "One of the few warrior groups to survive the Age of Patience, the Skyrunners, choose to sacrifice the immense speed of the Pathfinders in favor of equipping themselves with more substantial armor - though this is still exceptionally light by most standards. In times of peace, their relative strength and skill with the lightning cipher won them a place as the honor guard to the members of the Council, but now they take up once again the old mantle of war."
+msgstr ""
+
+#. [unit_type]: id=EOM_Farstrider, race=windsong
+#: ./units/windsong/d3_Farstrider.cfg:5
+msgid "female^Farstrider"
+msgstr ""
+
+#. [unit_type]: id=EOM_Farstrider, race=windsong
+#: ./units/windsong/d3_Farstrider.cfg:20
+msgid "One of the oldest tales that have come down from the wars of the ancients tells of a great battle between the Windsong and their old nemeses, the elves. Each side sent their fastest runner to call for reinforcements, and though the elves felt assured of their agile messenger's victory over his frail human opponent, in the end, the elf fell behind, cursing his weary feet. The Farstrider, on the other hand, ran with the speed and endurance of the wind, and when the Windsong reinforcements arrived two days early, the elves were forced to surrender."
+msgstr ""
+
+#. [unit_type]: id=EOM_Stormbringer, race=windsong
+#: ./units/windsong/d3_Stormbringer.cfg:5
+msgid "female^Stormbringer"
+msgstr ""
+
+#. [unit_type]: id=EOM_Stormbringer, race=windsong
+#: ./units/windsong/d3_Stormbringer.cfg:28
+msgid "The name Stormbringer was obviously appended to these great warriors for their ability to shatter enemy ranks with furious bolts of lightning, but seems doubly apt when one witnesses the way in which they lead the Windsong into battle. Spinning past their foes like dancers despite their heavy armor, the presence of a Stormbringer on the front lines can turn the most carefully prepared defence into a chaotic rout in seconds."
+msgstr ""
+
+#. [unit_type]: id=EOM_Gatekeeper, race=windsong
+#: ./units/windsong/e1_Gatekeeper.cfg:5
+msgid "female^Gatekeeper"
+msgstr ""
+
+#. [unit_type]: id=EOM_Gatekeeper, race=windsong
+#: ./units/windsong/e1_Gatekeeper.cfg:34
+msgid ""
+"The Windsong Foundation, though hidden far in the arctic northern seas, still represents too great a target to be left unguarded. The Gatekeepers have kept their cousins safe throughout the Age of Patience, and they have no intention of ceasing their vigilance now.\n"
+"\n"
+"Devoting themselves to the study of combat, they have created a unique, unarmed style which allows them to fight without removing their ceremonial blindfolds."
+msgstr ""
+
+#. [unit_type]: id=EOM_Heretic, race=windsong
+#: ./units/windsong/e2_Heretic.cfg:5
+msgid "female^Heretic"
+msgstr ""
+
+#. [unit_type]: id=EOM_Heretic, race=windsong
+#: ./units/windsong/e2_Heretic.cfg:37
+msgid ""
+"The Windsong Council preaches the importance of patience and pacifism, that one should not give in to anger and instead think carefully about every decision. It is this belief that has kept the Windsong out of conflict for so long.\n"
+"\n"
+"There is a faction, however, that believes that the balance of the world can only be brought about by action, and thus espouses a more active role for the Windsong, pushing constantly for war and the expansion of the Windsong's influence in the outside world.  Though they are known as Heretics, their opinions are nonetheless valued, and those Gatekeepers who follow the philosophy are allowed to train themselves in the forbidden arts of swordplay and fire magic."
+msgstr ""
+
+#. [attack]: type=fire
+#: ./units/windsong/e2_Heretic.cfg:54 ./units/windsong/e3_Harbinger.cfg:66
+msgid "sunburst"
+msgstr ""
+
+#. [unit_type]: id=EOM_Lorekeeper, race=windsong
+#: ./units/windsong/e2_Lorekeeper.cfg:7
+msgid "female^Lorekeeper"
+msgstr ""
+
+#. [unit_type]: id=EOM_Lorekeeper, race=windsong
+#: ./units/windsong/e2_Lorekeeper.cfg:38
+msgid "The Great Library, the enormous complex that forms the heart of the Windsong Foundation, is the home of what may the oldest texts still existing in the world, many of which have been copied down by generations of Scribes as their original bindings dissolved into dust. Most of the Windsong are forbidden from entering its hallowed halls, and only the most loyal and skilled Gatekeepers are allowed to join the ranks of the Lorekeepers and become its guards."
+msgstr ""
+
+#. [unit_type]: id=EOM_Harbinger, race=windsong
+#: ./units/windsong/e3_Harbinger.cfg:5
+msgid "female^Harbinger"
+msgstr ""
+
+#. [unit_type]: id=EOM_Harbinger, race=windsong
+#: ./units/windsong/e3_Harbinger.cfg:38
+msgid "Stunningly powerful warriors, Harbingers epitomize the warlike path of the Heretic. Their command of the forbidden flame cipher, as well as the bloodthirsty furor they unleash upon their opponents, make them the terror of their allies as much as of their enemies. Yet even the peaceful Windsong realize that such power must be put to use, and they are often selected to lead groups of their fellow Heretics into battle."
+msgstr ""
+
+#. [unit_type]: id=EOM_Oathkeeper, race=windsong
+#: ./units/windsong/e3_Oathkeeper.cfg:5
+msgid "female^Oathkeeper"
+msgstr ""
+
+#. [unit_type]: id=EOM_Oathkeeper, race=windsong
+#: ./units/windsong/e3_Oathkeeper.cfg:37
+msgid "Until recently, it was believed that the Oathkeeper caste had, like many others, vanished with time, made unnecessary by long years of peace. It was not until the deepest vaults opened and they marched forth to do battle that it became clear that the Oathkeeper title had not only survived, but that the mantle had been passed down from generation to generation through the millenia. Those few who are offered membership are inevitably among the most skilled warriors ever to walk the world, and capable of holding back entire armies singlehandedly."
+msgstr ""
+
+#. [unit_type]: id=EOM_Scribe, race=windsong
+#: ./units/windsong/f1_Scribe.cfg:5
+msgid "female^Scribe"
+msgstr ""
+
+#. [unit_type]: id=EOM_Scribe, race=windsong
+#: ./units/windsong/f1_Scribe.cfg:29
+msgid ""
+"The scribes of the Windsong are those engaged in studying, as well as contributing to, the vast libraries kept at the Foundation.\n"
+"\n"
+"With the coming of the Great Balancing, they have proven their worth in combat, employing against their enemies an ancient -- and very effective -- brand of magic known as the Cipher."
+msgstr ""
+
+#. [attack]: type=arcane
+#: ./units/windsong/f1_Scribe.cfg:37 ./units/windsong/f2_Savant.cfg:35 ./units/windsong/f3_Arbiter.cfg:43 ./units/windsong/f4_Librarian.cfg:44
+msgid "cipher"
+msgstr ""
+
+#. [unit_type]: id=EOM_Savant, race=windsong
+#: ./units/windsong/f2_Savant.cfg:5
+msgid "female^Savant"
+msgstr ""
+
+#. [unit_type]: id=EOM_Savant, race=windsong
+#: ./units/windsong/f2_Savant.cfg:29
+msgid "The savants teach the scribes more about using Ciphers and revise the contributions made by the scribes to the Great Library. In combat, though they may lack the skill needed to wield weapons, their magic compensates well for the drawback."
+msgstr ""
+
+#. [unit_type]: id=EOM_Arbiter, race=windsong
+#: ./units/windsong/f3_Arbiter.cfg:5
+msgid "female^Arbiter"
+msgstr ""
+
+#. [unit_type]: id=EOM_Arbiter, race=windsong
+#: ./units/windsong/f3_Arbiter.cfg:29
+msgid "The head mistress among the Savants is known as the Arbiter. Possessing vast knowledge on the Great Library and the Cipher, these maidens also wield scythes for protection from close range."
+msgstr ""
+
+#. [unit_type]: id=EOM_Runeforger, race=windsong
+#: ./units/windsong/f3_Runeforger.cfg:5
+msgid "female^Rune Forger"
+msgstr ""
+
+#. [unit_type]: id=EOM_Runeforger, race=windsong
+#: ./units/windsong/f3_Runeforger.cfg:33
+msgid "Instead of becoming Arbiters, some Savants may chose to master all forms of the Cipher. The Rune Forgers are experienced in all forms of the Cipher and they can use this knowledge to inflict catastrophic damage to the enemies who were foolish enough to cross paths with the Windsong."
+msgstr ""
+
+#. [attack]: type=blade
+#: ./units/windsong/f3_Runeforger.cfg:39
+msgid "sorrow"
+msgstr ""
+
+#. [attack]: type=impact
+#: ./units/windsong/f3_Runeforger.cfg:52
+msgid "memory"
+msgstr ""
+
+#. [attack]: type=pierce
+#: ./units/windsong/f3_Runeforger.cfg:65
+msgid "death"
+msgstr ""
+
+#. [unit_type]: id=EOM_Librarian, race=windsong
+#: ./units/windsong/f4_Librarian.cfg:5
+msgid "female^Librarian"
+msgstr ""
+

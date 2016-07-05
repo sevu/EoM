@@ -1,0 +1,1782 @@
+
+		----- The Era of Myths -----
+		          changelog
+
+
+VERSION 5.18.0
+--general changes
+*no unit uses the deprecated animation syntax anymore
+*the eras got better fitting names
+*all movetypes have uniqe präfixes
+
+-Devlings
+*the Curser line got a secondary arcane attack
+*Curser line cost 15->14, 30->29, 47->44, 65->62
+*Sneak HP 14->15
+*Abusers magic 10-4 -> 11-4
+
+-Elementals
+*added many portraits from Rise of the Elementalists
+*Earth Elementals got a slightly modified attack icon
+*the regenerative abilities work now on modified terrains, too
+*regeneration increased to 4 HP
+*worsened Fire Wisps movetype - he's not flying yet!
+*Fire Ghost needs 2 MP for forests.
+*Fire Elementals need 4 instead of 5 MP on water
+*Air Elementals and their advancements have now different chances for traits
+*changed Tornado Missile (from WoL)
+
+-Celestials
+*new shield icons for the Protector and Holy Sentinel
+*Messenger and Claimant got moving images (from Trader addon)
+
+-Therians
+*lower level cats use catsounds, too
+*heal halo for the Shaman and Priest
+*Serpent Therian -1 ranged damage
+*Hunter line seemed weak
+
+-Wargs
+*water dryad line got heal/cure ability
+*animation improvements for the higher level water dryads
+*fire sprite levelups had too few hp
+*reduced main warg line xp
+*reduced costs of blackfur, hunter and stalker
+
+-Vampires
+*preparations for making vampires undrainable
+*in 1.13, vampires are undrainable.
+*If you start a campaign with this (or a newer) Myths version in 1.12 and continue it in 1.13+, vampires will become undrainable, too.
+*female vampires got different bite sound
+*fixed Blood Manipulators animation
+*Methusalems range attack: 10-3 -> 8->3
+*Sangel: xp 100 -> 150, wipe 20-2 -> 19-2
+
+-Windsong
+*seeker line should be 60% flat
+
+
+VERSION 5.17.0
+--general changes
+*standard unit animations are now longer, like the Kalifate ones.
+*more use of localized strings for attacks
+*changed profile picture locations
+*the Era of Myths can now be used in the map editor
+*added unit-group icons for all races (for editor & debug mode in 1.13)
+
+-Celestials
+*Messenger line got undead_variation=drake
+*Herald needs 180 xp
+
+-Devlings
+*new unit: Little Ninja, advancement of Lurker
+*new animations for Sneak, Lurker, Ninja, Warrior and Hero
+*new attack icon: trident-2
+*dummy animations for the Flapper, Flyer and Attacker
+*changed movement costs 2 -> 1 and defense 20% -> 50% on ice for them
+*Overgrowns + advancements: changed castle defense 50% -> 60%
+*Hero: moves 7 -> 6 (like Warrior)
+
+-Elementals
+*portrait for the Water Elemental
+*Fire Sprite melee 3-1 -> 4-1
+
+-Vampires
+*animations for the Bood Manipulator
+*Sire needs 180 xp
+
+-Therians
+*new fire and ice animation for the magicans
+
+-Warg
+*portrait for the wolves
+
+-Windsong
+*new sprite for the Arbiter
+*Arbiter needs 180 xp
+*Skyshard needs 18 xp (maybe still to less)
+
+
+VERSION 5.16.0
+--general changes
+*possibly fixed the bug reported by Velensk
+*fixed monser_amla
+*fixed image paths
+*some gender changes
+*added / changed descriptions of some units
+*changed random leader selection for many factions
+*rewrote muche code
+
+-Elementals
+*new attack icons: icicle, horn, horn glowing, thunderbird lightning, firebreath
+*adopted from Era of Chaos and War of Legends:
+    - Wind Spirit ranged and standing animations
+    - Fire Elemental attack and death animations
+    - recruit animation for Vine Beast
+    - missile for "blade shower"
+    - Wind Spirit line got teamcolor
+*adopted from Fate of a Princess:
+    - SkyOnes portraits for the Unicorn and the Silver Unicorn
+    - more animations for the Unicorn and Silver unicorn
+    - increased defense on ice to 40%
+*new animations:
+    - Undine and Tempest have a new water punch animation
+    - the Fire Wisp has now an different animation when attacking in the north
+    - Ice Crab and Ice Shell have modified animations
+    - Vine Tiger has an recruit animation
+*Air Elemental has now working recruit animation
+*Fire Ghost: adjusted attack animation to match mainline
+*added Stone Titan as possible leader for the Age of Heros
+*adjusted timings of many animations
+
+-Therians
+*adopted from Panther Lord Campaign:
+    - images and battle animations for the Panther and Leopard
+    - REAL SHIFTING for the panther
+*Peregrine Falcon is shifting as well
+*cats use now the human form for aura waves
+*made Falcon recruitable in the Age of Heros
+*adjusted timings of some animations
+
+-Celestials
+*new attack icon: divine lightning
+*made Quester recruitable in the Age of Heros
+
+-Vampires
+*new attack icon: dementia gaze
+*Vampires are now immune to plague
+*besides the Blood Hulk, he would transform to an undead troll
+*Duelist and Sword Dancer: secondary attack +1 damage
+*Malborn gold cost = 17
+*swapped Malborn male and female picture
+
+-Windsong
+*new sprite for the Fartsrider
+*new attack icon: rock_thrown
+*Reaver and Dreadnought have seperate sprites
+*Arbiter needs now just 150 xp
+*added Pathfinder as possible leader
+*added Oathkeeper and Farstrider as possible leader for the Age of Heros
+*made Pathfinder recruitable in the Age of Heros
+
+-Wargs
+*new attack icons: sickle and scythe
+*Shapeshifters can get the trait attuned (+2 on aura wave)
+*added Night Eye and Water Shyde as possible leader for the Age of Heroes
+*made Shadow Pelt recruitable in Age of Heros
+
+-Devlings
+*Sneak and Lurker have undead_variation=goblin
+
+--translations:
+*fixes for german translation
+
+
+VERSION 5.15.0
+--general changes
+*added sounds for poisoning / slowing units
+*more use of soundlists
+*set defence to 0% for unreachable places for all units
+*some gender changes
+*fixed some image paths
+*added era descriptions
+
+-Therians
+*switched to MU's art for the Prairie Falcon, Gyrfalcon and Peregrine Falcon (Thanks Mu!)
+*the Therian apprentice line's fireballs are now shown in red
+*commented out the offset line for Therians cat / falcon, movement is ok
+
+-Vampires
+*the female vampire fledgelings use now the succubus image
+*minor animation improvements for the female thinblood line
+*gold value of the malborn increased from 7 to 14 (not for wesnoth 1.10)
+  (not recruitable, affects only the game-ends-because-of-no-turns-left-situation)
+
+-Wargs
+*Wargs got sounds (old ones were broken)
+        - non-weapon-attacks use bite.ogg & bite-small.ogg
+        - The main Wrag line uses the wolf.die & wold-hit soundlists
+        - The stalker line too
+        - The wolves use a selection of the higher pitched wolf sounds
+        - The blackfur line uses yeti-die.ogg instead of wolf-die-[1~3].ogg
+
+--Multiplayer (not for wesnoth 1.10)
+*added Khalifate to the eras with default units
+*included mainline multiplayer macros: 
+        - leaders have everytime at least 5 MP (affects only the Lorekeeper / Oathkeeper)
+        - if the turns run out, a winner will be determined by the game,
+          based on gold, the gold value of the units on the field, and the income
+
+--translations:
+*added a .pot-file-generator, which contains as well information on how to update translations
+*finished German language rework
+*litte corrections in English
+
+
+VERSION 5.14.0b
+* fixed "invalid WML found" warnings and the ellipse bug affecting most lvl 0 units.
+* reworked German translation
+
+VERSION 5.14.0a
+* linted, fixed minor lint issues and reuploaded to addon-server 1.12
+
+VERSION 5.14.0
+--general changes
+*removed the "Core Era of Myths" era
+*new era: "Balanced Myths", containing the Celestials, Elementals, Vampires and Windsong
+
+-Celestials
+*updated animations and sounds for all units
+*Crusader: both attacks +1 damage
+*better recruitment AI
+
+-Elementals
+*changed trait names to better suit their effects
+*changed the Razorbird's and Thunderbird's attacks
+*removed the Unicorn's lightbeam attack
+*updated animations and sounds for all units
+
+-Vampires
+*better recruitment AI
+
+-Windsong
+*updated animations and sounds for all units
+*changed the Heretic's and Harbinger's attack icons
+
+VERSION 5.13.0
+-Celestials
+*new sprite for the Divine Knight
+
+-Vampires
+*added attack sounds for all units
+
+-Windsong
+*new sprite for the Harbinger
+
+VERSION 5.12.0a
+*added a missing #enddef
+
+VERSION 5.12.0
+-Therians
+*finally clearing up the race chaos
+*fixed hunter line animations
+
+--translations:
+*updated translations: German, Latin
+
+VERSION 5.11.0
+---general changes
+*updated experience= settings to meet the new experience standards
+
+-Warg
+*fixed image paths to attack icons in various units
+
+-Vampires
+*replaced Mistress, Methusalem and Duchess sprite
+*Sire and Methusalem use the Noble portraits
+*fixed the female Fledgeling's defense animation
+
+-Therians
+*cleaned up the racetype
+
+-Celestials
+*replaced Great Wizard sprite
+
+-Elemetals
+*fixed incorrect animation paths
+
+---translations
+*updated translations: German
+*new translations: Latin
+
+VERSION 5.10.1:
+
+-Vampires
+*wired in the Flesh Artisan's portraits
+
+
+VERSION 5.10.0:
+
+---general changes
+*renamed many unit image files
+*added a loader intended for campaigns (campaign.cfg)
+*removed EOM_TO_CAMPAIGN
+*converted uses of AMLA_TOUGH to use AMLA_DEFAULT
+
+---translation
+*new translations: German
+
+-Celestials
+*added updated sprites for various units
+
+-Vampires
+*added some updated sprites for various units
+*added EVILEST's portraits for the following units: Flesh Artisan; Noble (female)
+
+-Windsong
+*horizontally flipped the Weaver's sprite
+
+
+VERSION EPSILON 9:
+
+---general changes
+*killed the final psychic resistance
+
+-Devlings
+*added EVILEST's portrait for the Nailers
+
+-Vampires
+*added EVILEST's portrait for the Blood Hulk, the Bloodborn, the Fledgeling, and the Sword Dancer
+
+VERSION EPSILON 8:
+Bug fix
+(8-4-09)
+
+---bug fixes
+*fixed some movetypes that had problems with chasm bridges and costal reefs
+*added two missing images, thus fixing the Apprentice line's ranged animations
+*made the Therian Cat recruitable, while making the Therian Wildcat unrecruitable in the 'era_EOM' era.
+
+
+VERSION EPSILON 7:
+Bug fix
+(5-17-09)
+
+---bug fixes
+*fixed id conflicts with the Windsong Prophetess and the Celestial Prophet
+
+
+VERSION EPSILON 6:
+Comb-over
+(5-x-09)
+
+---general changes
+*standardized unit ids
+*changed/updated many descriptions
+
+---unit changes
+-Devlings
+*movetypes: improved in many ways, hurt in very few
+*Cursers: cost 17 to 15; melee 2-3 to 2-2
+*Flappers: cost 16 to 15; melee 5-2 to 4-2; ranged 4-3 to 3-3; xp 36 to 34
+*Nailer: cost 14 to 10; hp 30 to 25; xp 36 to 32; pierce 20-1 to 15-1; impact 15-1 to 6-2
+*Overgrown: cost 15 to 14; xp 28 to 36
+
+-Therian
+*added Gyrfalcon unit
+
+
+
+VERSION EPSILON 5:
+Devlings must pay!!!
+(4-8-09)
+
+---general changes
+*added descriptions: Water Dryad and Fire Sprite lines
+*changed many Warg and Vampire sounds
+*cleaned up many files
+
+---unit changes
+-Devlings
+*Nailer and Curser lines: increased units by 1 level
+*Nailers: nail 14-1 to 20-1; club 12-1 to 15-1; hp 20 to 30; xp 20 to 36; cost 9 to 14
+*Spiker: nail 22-1 to 30-1; club 15-1 to 22-1; hp 30 to 42; xp 36 to 85; cost 15 to 28
+*Stapler: nail; 35-1 to 44-1; club 27-1 to 34-1; hp 42 to 50; xp 100 to 150; cost 25 to 40
+*Cursers: hp 15 to 26; xp 26 to 44; cost 11 to 17; melee 2-2 to 2-3; ranged 6-2 to 7-2
+*Blasphemists: hp 26 to 36; xp 44 to 75; cost 21 to 30
+*Offenders: hp 36 to 47; xp 70 to 130; cost 32 to 48
+*Abusers: hp 48 to 56; cost 50 to 65
+
+-Warg
+*Stalker: hp 34 to 31
+*Shadow Pelt: hp 44 to 40
+*Night Eye: 55 to 49
+*Blackfur: melee 5-3 to 4-3; cost 20 to 17
+*Black Hunter: moves 6 to 5
+*Water Dryad line: moves 5 to 6; shallow water 1 to 2; swamp 1 to 2; mountains 4 to 3, 50 to 40; castle 50 to 40
+
+
+
+VERSION EPSILON 4:
+Bug fixes
+(4-2-09)
+
+---bug fixes
+*fixed the problem that made it so that the general EoM movetypes wouldn't load.
+*fixed a broken macro call "{ELF_NAMES}"
+    -Now units of the Dryad race will be assigned names upon being recruited
+
+
+
+VERSION EPSILON 3:
+Figured out svn
+(4-1-09)
+
+--new features and whatnot
+*added a gettext helper file (mainline-strings.cfg)
+    -Now all units that use attack names with translations in mainline
+        use the mainline translations.
+*the EoM now uses the standard era detection system
+*it is now easy to make a campaign load the EoM thanks to macro "EOM_TO_CAMPAIGN"
+    -More details available in _main.cfg
+
+---general changes
+*all units use the appropriate special notes
+*the [binary_path] is now contained in the #ifdef, therefore the EoM won't load unless it is supposed to do so
+*reordered folders (thanks espreon)
+*some changed images
+*updated EOM movetypes
+*fixed water dryad
+*fixed Celestial leader list in empowered myths era
+*fixed some broken image paths
+*fixed an attack bug on divine champion
+*changed librarian sprite
+*made Therian Apprentice line recruitable again
+
+---unit changes
+-Devlings
+*Flappers: melee 4-3 to 5-2; ranged 5-3 to 4-3
+*Flyers: melee 7-3 to 6-3; ranged 6-4 to 5-4
+*Attackers: melee 9-3 to 8-3; ranged 8-4 to 7-4
+
+-Windsong
+*Dreadnought: movement 4 to 5
+
+---other changes
+*all spaces in file names were replaced with underscores
+
+
+
+VERSION EPSILON 2:
+Quick Warg fix
+(1-13-09)
+
+---general changes
+*removed many old, unused images
+*attempted to standardize all units with default amla to 150xp (left Devling Stapler at 100 and Lurker at 75)
+*restructured image folders
+
+---unit changes
+-Vampire
+*Malborn: xp 25 to 50
+*Marlgoyle: xp 150 to 70
+
+-Warg
+*Blackfur: cost 19 to 20; removed nightstalk
+*Stalker: cost 18 to 19
+*Water Dryad line: moves 6 to 5; movetype worsened; added level 3
+
+
+
+VERSION EPSILON 1:
+return of JW
+(1-7-09)
+
+---general changes
+*updated WML
+*renamed Therians to Therian
+*new era: Core Era of Myths (Therian, Warg, Celestials, Vampires)
+*new descriptions: Therian, Warg Stalker
+*some new images
+
+---unit changes
+-Devlings
+*removed greedy trait
+*Cursers: cost 10 to 11
+*Sneak: cost 9 to 8
+*Flappers: level 0 to 1; hp 17 to 24; xp 18 to 36; cost 11 to 16; moves 7 to 8; melee 4-2 to 4-3; ranged 5-2 to 5-3
+*Flyers: level 1 to 2; hp 24 to 37; xp 36 to 78; cost 19 to 27; melee 5-3 to 7-3; ranged 5-3 to 6-4
+*Attackers: level 2 to 3; hp 37 to 45; cost 30 to 39; melee 7-3 to 9-3; ranged 6-4 to 8-4
+
+-Elementals
+*increased arcane resistancies to at least 0%
+*Windfly movetype: pierce 50 to 30; blade 30 to 20; impact 30 to 20; cold 20 to 10
+*Wind Servant line (non-bird): removed cold attack; removed marksman; moves 6 to 8; ranged 6-2 to 5-3
+*Razorbird: ranged from 5-3 to 8-2
+*Thunderbird: ranged from 6-4 to 9-3
+*Unicorn: moves 8 to 7; added 6-1 ranged magic attack
+*Silver Unicorn: moves 8 to 7
+*Rock Golem line: removed ranged attack; increased hp by 5, 3, 0
+*Rockfoot movetype: shallow water 4 to 3; swamp 3 to 2; grass 30 to 40
+*Furnacefoot movetype: tundra 3 to 4, 20 to 10
+
+-Therian
+*relaced Apprentice line with Hunter line; Apprentice left for RPG era
+*Guard line: removed firststrike; reduced hp by 2, 4
+*Leopard: cost 17 to 18; melee 6-3 to 7-3
+*Serpent line: village defense 50 to 60; returned Sandskipper
+
+-Vampires
+*Blood Apprentice: melee 8-1 to 4-2; removed arcane attack
+*Blood Manipulator: melee 10-1 to 5-2; removed arcane attack
+*Sangel: melee 14-1 to 8-2
+*Bloodborn cost 6 to 8; hp 17 to 19
+
+-Warg
+*removed Bear Cub line
+*added Water Dryad line
+*replaced Will'o'Wisp line with Fire Sprite line
+*replaced Man-Cub line with Shapeshifter line
+*Stalker: cost 17 to 18; moves 6 to 7
+*Blackfur: cost 22 to 19
+*Black Hunter: xp 42 to 150
+
+-Windsong
+*no more AMLA problems
+
+
+
+
+4.23
+
+-Elementals
+* Razor bird now has lightning attack rather than blade storm, and an extra move.
+* Arcane resistance on unicorn/vinebeast modified
+
+-Celestials
+* xp requirements for light spirit increased
+
+-Vampire
+* blood born cost now 6 xp cost down, and hp down
+* Duelist line got counter on its fangs
+* Sword Dancer got skirmisher in exchange for a slightly weaker attack.
+
+
+
+4.23
+
+-Celestials
+* Messenger price decrease to 18
+* Crusader price decreased to 14
+* Crusader advancements tweaked
+* Crusader mounted advancement added (quester, uses paladin art atm)
+
+-Warg
+* Black Hunter fixed
+* Wisp melee increased slightly
+* Warrior Wolf Slightly tweaked
+
+-Vampire
+* New bloodborn line (poison) to make it worthwhile to lvl up bloodborn (unfortunatly has no art atm, and uses the bloodborn art)
+* Apprentice hp slightly decreased
+
+-Windsong
+* seeker slightly tweaked
+* weavers melee attack now cold, scribes attack now arcane (testing this out: mainly thematic, but some gameplay reasons)
+
+-Elementals
+* Wind Servents tweaked (marksman on attacks, increased price, less hp)
+* Unicorn resistant to cold
+
+-Devlings
+* Greedy tweaked
+
+
+
+4.2 patch
+-general
+*fixed empowered warg
+*new stalker art
+
+-warg
+*blackfur price increased
+*wisp price now 18 arcane weakness 0 and hp 17 xp increased by 1
+*mancub modified
+
+-therian
+*first strike for guard
+*modifications to snake
+*apprentices fire/ice attacks diversified.
+
+-celestial
+*light spirit modified
+
+-devlings
+*move types tweaked
+
+-windsong
+*weaver given a couple vulnerabilities (higher lvls not effected)
+*seeker price now 17, hp down slightly
+*skyrunner nerfed
+
+-elementals
+*wind servents now get a version of ruby that improves their attack
+*living furnace line made tougher
+
+
+
+4.1 patch
+-warg
+*changed wisp melee attack
+*mancub now has the hill/forest defences he was supposed to have all along
+
+-therians
+*cats hp reduced to 40
+*snake/cat defences on villages reduced to 50
+
+
+
+Version Delta 4
+--General Changes
+*new art
+*race descriptions
+*minor unmentioned tweaks
+*some units cfgs cleared up by creation of new movetypes
+
+--celetials
+* Lvl 4 for Messanger (old lvl 3 art used for lvl 4 older art used for lvl3)
+* Messanger line now has arcane resistance and impact weakness, inspire no longer boosts other messangers and cost for messangers is now 19
+* Legionaire hp now 37 and xp down to normal requirements
+
+--elementals
+*lvl 3 rock golum
+*ranged attack for A.rock line
+*made the wind herder line closer to the wind servent
+*B.Creations attack now 6-3 hp now 36
+*wind servents no longer get ruby but it's upper lvl recruits do
+
+--Therians
+*Snakes now cost 15
+*monks hp down to 34
+
+--Vampires
+*Vampires fang strikes varied
+*damage on wipe attacks increased
+*Apprentice hp now 28
+*Gargoyal now has 38hp, dauntless, much lower xp requirement, and costs 16
+*Placeholder Vampire trait removed
+*Monster AMLA now does full heal
+
+--Windsong
+*Marksmanship on the bows of the courtier line
+*Increased gatekeeper xp requirement and decreased hp to 38
+*Scribeline resistance to fire/cold now 10%
+*Decreased amount of xp nessisary for Assendant and increased prophet attack to 6-2
+
+--Devlings
+*Nailers cost now 9
+*Flapper cost now 11 fire damage up to 5-2 hp now 17
+*Overgrown move down to 5
+
+--Warg
+*Cost of Warrior Wolf and Bear Cub reduced by 1
+*Wisp line severely changed
+*Wolf-foot can now swim through shallow water for 2, and deep water for 5
+*Blackfur replaces naga fighter
+*shapeshifter replaced with man-cub
+*Bear has 10% imapct resistance
+
+
+
+Version Delta 3.5
+
+Greedy rebalanced
+some art added
+
+
+
+Version Delta 3
+--General changes
+*now version included in id key
+*more descriptions/art
+*default AMLA given out
+*general adjustment of cost to higher lvl units
+*ai recruitments altered to allow for a wider range of units
+
+-Warg
+*race now shows up correctly
+*wose replaced with bear cub
+*changes to wisps defences
+*wisps now undead
+*wisps now have an arcane attack
+*rabid wolf replaced by bear on leader list
+
+-Windsong
+*fixed resistnaces for scribe/weaver lines
+*names no longer inclued windsong at the front
+*Envoy is no longer on the leader list
+*female forms for many unit types
+
+-Vampires
+*Sire/Methusulum now have pierce fangs
+*gargoyals now have flies=true
+*flesh artisan uses "monster" amla
+*Gargoyals piercing resistance boosted
+
+-Elementals
+*undine lines melle now impact (missed this when I changed tidal last version)
+*windservent->Wind hearder line now has a impact ranged attack in addition to it's cold
+
+-Devilings
+*greedy trait implimented (only available to lvl 0s)
+
+
+
+Version Delta 2
+---General changes
+*New art
+*More descriptions
+
+---unit changes
+*a few minor tweaks to upper lvl units
+-Windsong
+*Weaver line arcane resist now 40%
+*Scribe line arcane resist now 20%
+*Seeker lightning damage +1
+
+-Devilings
+*sneak move reduced by 1
+*moderate tweaking of deviling move-types
+*deviling nailer damange on nail'em reduced by 1
+
+-Vampires
+*Obediant now only decreases hp/xp by 5% rather than 10%
+*Margoyals given blood hulks AMLA
+
+-Elementals
+* Lvl 3 for zepher line
+* Tidals melle attack back to impact (experiment)
+* Brazeir line gets 50%/1mv on sand now
+
+-Warg
+* Firesprite replaced with will'o'wisp
+
+
+
+Version Delta 1
+---General changes
+-many descriptions added or modified
+-Art from various people implimented
+
+---unit changes
+*a few minor unmentioned tweaks
+-celestial
+*Crusader given blade attack
+*Crusader given healing back
+*Messenger hp now 36
+*Greatmage line slightly boosted
+*Mystic line slightly nerfed
+*Legionnaire line got firststrike
+
+-deviling
+*sneak cost increased to 8
+
+-Warg
+*Minor changes to wolffoot movetype
+*Renaming of Werewolf, and warrior wolf (Warrior Wolf, and Warrior Warg)
+*Minor stat tweaks to upper lvl units
+*All warrior wolf line warg are chaotic
+
+-Elemental
+*Tidal cost now 16
+*Magic Servent renamed Wind servent
+
+-Therians
+*Therian cats claws are now 6-3
+*Shifters now gain an additional +1 from attuned
+*Therian apprentices hp now 26
+
+-Vampire
+*Gorgoyal is now neutral
+*Fledgling cost back down to 13
+*Bloodhulk hp now 48
+*Bloodhulks have feeding
+*Blood apprentices now have arcane attack
+*Set it so that Vampires use mainlines bats (at least for right now)
+*Gave lord/sire back leadership (less hp/damage for compensation)
+
+-Windsong
+*Gatekeeper atack 5-4
+*Seeker/weaver hp+2
+*Weaver bow attack now 9-2
+*Weaver cost now 18
+*Crystals attack boosted to 5-2 (cost now 11)
+*Variouse tweaks to higher lvl units
+
+---Fixes
+*Therpian apprentices now get traits
+*Vampires currently use mainline bats, I kept unit files where they were incase it is decided that they should be changed. Because of this the bats artwork now works.
+*Falcon artwork fixed
+
+
+
+VERSION GAMMA 8:
+delayed release (last JW update until Epsilon)
+(2-20-08)
+
+---general changes:
+*added more of Melon's vampire artwork; megane's Windsong art; tornado.png
+*reworked Elemental .cfgs to all be one race (thanks Espreon)
+
+---unit changes:
+-Elementals
+*animated rock: fire resist 50 to 20, hp 35 to 30, xp 30 to 37
+*rock golem: fire resist 50 to 20, hp 47 to 42
+*magic servant: arcane resist -50 to -20, ranged from impact to cold
+*wind herder line: defenses increased from 40% to 50%, hp reduced by 2
+*furnacefoot mountain defense: 60 to 50
+
+-Vampires
+*blood apprentice: fangs 5-2 blade to 4-2 pierce backstab
+*flesh artisan: claws 10-3 to 9-3; fangs 6-3 blade to 6-2 pierce backstab
+*blood manipulator: fangs 6-2 blade to 5-2 pierce backstab
+*sangel: fangs 6-3 blade to 7-2 pierce backstab
+*fledgeling: sword 5-4 to 7-3; fangs 5-3 blade to 5-2 pierce backstab
+*duelist: sword 6-5 to 7-4; fangs 6-3 blade to 6-2 pierce backstab
+*sword dancer: sword 8-6 to 8-5; fangs 8-3 blade to 8-2 pierce backstab
+*noble line: removed leadership
+*noble: sword 7-4 to 9-3; fangs 7-3 blade to 6-2 pierce drain backstab
+*sire: sword 8-5 to 12-3; fangs 7-4 blade to 8-2 pierce drain backstab
+*methusalem: sword 8-6 to 14-3; fangs 9-4 blade to 10-2 pierce drain backstab
+
+-Windsong
+*crystal defenses increased from 50 to 60
+
+
+
+VERSION GAMMA 7a:
+Vampire visuals
+(2-9-08)
+
+---general changes:
+*added Melon's vampire images
+
+
+
+VERSION GAMMA 7:
+And even more change
+(2-7-08)
+
+---general changes
+*new images: windsong pathfinder, therian falcon, vampire fledgling,
+ vineclaw icon
+
+---unit changes
+-Elementals
+*removed mystic puppet and avatar: animated rock is now recruitable at L1
+*BC line: removed impact melee
+*BC: melee from 4-4 to 9-2
+*LF: melee from 6-4 to 9-3
+*lava beast: melee from 9-4 to 13-3
+*animated rock: cost 18 to 17
+*unicorn, vine beast lines: arcane resists -10 to 10
+*rock line: arcane resist -10 to 0
+
+-Vampires
+*added gargoyle line
+
+-Wargs
+*shapeshifter line hill moves: 1 to 2
+*replaced naga fighter line with naga hunter (with altered stats)
+
+
+
+VERSION GAMMA 6:
+The element of change
+(2-6-08)
+
+---general changes
+*finally fixed the light spirit's illuminates aura
+*fixed windsong lorekeeper's standing image
+*new images: windsong prophet, sky crystal, heretic, reaver, emissary
+ and savant
+*new healing abilities
+
+---unit changes
+-Celestials
+*light spirit: cost 14 to 15, ranged 3-3 to 4-3
+*lantern archon: cost 20 to 22, xp 35 to 65, hp 29 to 31
+*altered healing effects of crusader line
+
+-Devlings
+*lots of resistancy changes
+
+-Elementals
+*changed lavahome to deserthome
+*Xhome abilities heal 3hp
+*most arcane resitancies from -10 to 0
+*tidal melee: impact to cold
+*BC: xp 30 to 34
+*BC line: shallow water moves from 50 to 5; defense from 20 to 10
+*MS: xp 24 to 26
+*MP line: added mountainhme ability; xp 21 to 24
+*unicorn: xp 34 to 38
+*silver unicorn: melee 10-2 to 8-2
+*removed L4 fire elemental
+
+-Therians
+*removed marksman from monk line
+
+-Wargs
+*most arcane resistancies from -10 to 10
+*wolffoot hill defense 60 to 50
+*shapeshifter: melee back to blade, forest defense 60 to 50
+*werewolf: melee 11-2 to 10-2; cost 18 to 17
+*warrior wolf melee: 11-3 to 10-3
+
+
+VERSION GAMMA 5:
+Annoyances...
+(1-2-08)
+
+---general changes
+*FINALLY removed all psychic resistancies....I think
+*updated legionnaire line descriptions for previous change
+*fixed name of inspire ability
+*removed excess text from obedient traits
+*changed elemental races to elemental
+*added help description for obedient trait
+*added windsong lorekeeper image
+*added illuminate halo for light spirit line
+*fixed some bugs/recruits in Empowered Myths era
+*removed tidal/undine/tempest spirit from random leaders
+
+---balancing changes
+-Devlings
+*blasphemists: cost 16 to 20
+*offenders: cost 26 to 30
+*flapper: hp 14 to 16, cost 9 to 10, melee 4-3 to 4-2
+*flyer: moves 10 to 9, cost 18 to 20
+*overgrown: hp 36 to 34
+*warrior: hp 55 to 50
+*soldier: cost 18 to 21
+*hero: hp 68 to 62
+*sneak: melee 3-2 to 4-2, ranged 2-3 to 2-2
+*lurker: melee 6-3 to 5-3, ranged 5-3 to 4-3, cost 14 to 17
+
+-Elementals
+*ice crab: melee 10-3 to 8-3
+*ice shell: melee 13-3 to 10-3
+
+-Windsong
+*weaver: cost 19 to 17
+*harbinger: rage attack from 10-3 to 8-3
+
+
+VERSION GAMMA 4:
+util fix
+(12-24-07)
+
+---general changes
+*fixed bugs that kept races from using all available traits
+
+---balancing changes
+-Celestials
+*removed strong trait from appearing on light spirit line
+
+---organizational changes
+*moved macros into subfolder
+
+
+
+VERSION GAMMA 3:
+Celestial nerf
+(12-23-07)
+
+---general changes:
+*fixed devling race to allow traits
+*changed devling flapper line's sword attack to mini-glaive
+*renamed shapeshifter's sickle attack to silver sickle
+*fixed wolf cub attack animation
+*fixed level 0 devling ellipses
+*fixed naming of obedient trait
+*added attack animations for: half blood line's bow; blood manipulator
+ line's magic attacks; halo for Wizard's magic attack
+
+---balancing changes:
+-Celestials:
+*crusader: melee from 5-4 to 4-4, arcane resist from 50 to 30
+*divine knight: blessed sword from 7-4 to 6-4, heavy mace from 9-3 to 8-3
+*protector: shield bash from 9-2 to 11-2, added defense weight
+*holy sentinel: shield bash from 13-2 to 15-2, added defense weight
+*messenger: cost from 16 to 18, move from 5 to 6
+*messenger line: hp +2, arcane resistance from 30 to 0
+*legionnaire line: removed steadfast, changed resistancies: arcane 30 to 10;
+ pierce 10 to 20; impact 10 to 20
+*decreased arcane resistance of wizard, zealot lines from 30 to 10
+
+-Devlings
+*added trats: beefy, brainy, brawny for devling race
+*increased cost of overgrown from 14 to 15
+*increased cursers xp from 20 to 26
+*increased spiker's spike 'em attack from 20-1 to 22-1
+
+-Elementals
+*increased ice crab line's defenses: tundra 40 to 60; deep water 20 to 40;
+ shallow water 20 to 50
+*changed brazier creation's attacks: fist 6-3 to 10-2; fire claws 8-2 to 4-4
+*changed living furnace's attacks: fist 7-4 to 10-3; fire claws 8-3 to 6-4
+*changed lava beast's attacks: fist 10-4 to 14-3; fire claws 12-3 to 9-4
+*decreased cost of mystic puppet from 9 to 7
+*decreased cost of magic servant from 12 to 11
+
+-Therians
+*increased leopard therian line's hp by 3
+
+-Vampires
+*increased blood apprentice's hp from 25 to 27
+*increased Fledgeling's hp from 34 to 36
+*decreased Fledgeling's cost from 14 to 13
+*increased thin blood's hp from 30 to 33
+*added leadership to noble line
+*added marksman to duelist's sword attack
+
+-Wargs
+*increased fire sprite's flame toss attack from 6-3 to 4-5
+*increased fire sprite's hp from 25 to 28
+*increased fire sprite2's flame toss attack from 9-3 to 6-5
+*increased fire sprite2's hp from 34 to 37
+*increased fire sprite3's fireball attack from 13-3 to 8-5
+*increased fire sprite3's hp from 44 to 49
+*added aura wave attacks to shapeshifter line
+*changed shapeshifter's silver sickle attack from blade to cold
+
+-Windsong
+*reduced gatekeeper, lorekeeper's village defense from 70 to 60
+*reduced sky shard's cost from 11 to 10; increased hp from 15 to 17
+*reduced sky crystal's cost from 20 to 16
+*reduced windsongcourier movetype costs: sand 2 to 1; hills 3 to 2;
+ tundra 2 to 1
+*increased windsongcourier movetype defense: sand 30 to 40; hills 30 to 40;
+ castle 40 to 50
+
+---organizational changes
+*seperate folder for movetypes
+*organized utils into type-specific .cfg files
+
+
+
+VERSION GAMMA 2:
+PLAYTEST!!!
+(12-14-07)
+
+---general changes
+*added traits elemental, vampire, ferocious
+*added blood bat to recruit list for vampires in empowered myths era
+*added Default + EoM era
+*renamed therian physical aura attacks to aura wave
+*fixed TC on blood hulk, other various, added TC to celestial wizard
+*added new Windsong descriptions (thanks hekutsu!!)
+*updated bat units
+
+---balancing changes
+-Celestials
+*removed fearless trait
+*changed sage's shock attack from electric (wtf?? thanks Weeksy) to fire
+
+-Devlings
+*added fearless trait to all devlings
+*decreased nailer cost from 9 to 8
+*increased flyer line's defense over swamp, shallow & deep water, sand,
+ canyon from 30 to 50
+*increased xp requirement for blasphemists from 24 to 44
+*increased xp requirement for offenders from 40 to 70
+*decreased offender's wail attack from 9-4 to 8-4
+*decreased abuser's wail attack from 10-5 to 10-4
+*increased abuser's hp from 44 to 48
+
+-Elementals
+*added elemental trait to most units
+*changed furnacefoot movetype costs over swamp 5 to 4; tundra 2 to 3
+*changed furnacefoot defenses on grassland 30 to 40; castle 40 to 50;
+ village 40 to 50; fungus 50 to 40
+*increased firefly movetype defenses from 40 to 50 except cave, fungus
+
+-Therians
+*increased monk line's hp by 3
+*increased monk cost from 15 to 16
+*increased guard's hp from 34 to 36
+*increased guard's cost from 13 to 14
+*increased leopard's hp from 36 to 39
+*increased jaguar's hp from 52 to 55
+*increasedall L2 snake's bite attacks from 7-3 to 8-3
+
+-Vampires
+*decreased fledgeling and noble line's moves from 6 to 5
+*decreased fledgeling cost from 16 to 14
+*decreased fledgeling hp from 36 to 34
+*reduced noble's sword attack from 6-5 to 7-4
+*increased noble's hp from 50 to 54
+*decreased duelist's hp from 52 to 48
+*changes sire line's dementia gaze attack from psychic ( =/ ) to arcane
+*reduced sire's dementia gaze attack from 8-3 to 8-2
+*reduced methusalem's dementia gaze attack from 9-4 to 9-3
+
+-Warg
+*added marksman to wolf cub line's bite attack (temporary)
+*increased wolf's bite attack from 5-3 to 6-3
+
+-Windsong
+*decreased price of weaver from 20 to 19
+*decreased price of seeker from 19 to 18
+*increased reaver moves from 4 to 6
+
+
+
+VERSION GAMMA 1:
+The Myth is Reborn
+(11-30-07)
+
+---general changes
+*added arcane damage type --thanks Mythological
+*removed holy and shadow damage types (1)
+*removed all psychic attacks, but not resistancies (2)
+*removed archaic disrupt resistancies
+*added Windsong faction
+*reordered movetypes into several files
+*added inspire ability
+*added desciptions for Shapeshifter line
+*Therian aura waves renamed to either physical wave (impact damage), or
+ spiritual wave (arcane damage)
+*Blood Manipulator line's wipe attack changed from shadow to arcane damage
+*Wizard line's telepathy attack removed
+
+---balancing changes
+-Celestials
+*removed blessed sword attack from Messenger line
+*replaced Messenger's leadership ability with inspire ability
+*decreased Crusader's cost from 16 to 15
+*increased Militant's chakram slice attack from 8-1 to 5-2
+*increased Sicarius's chakram slice attack from 10-1 to 8-2
+*increased Wizard's telepathy attack from 7-2 to 9-2
+
+-Elementals
+*changed all Elemental arcane resistancies to -10 with exceptions
+*Magic Servant's resistancy changes: arcane 10 to -50, cold 10 to 30
+*Mystic Puppet's resistancy changes: arcane 10 to -40, impact 0 to 20,
+ pierce 10 to 20
+*Avatar's resistancy changes: arcane 10 to -40, impact 0 to 20,
+ pierce 10 to 20
+*increased avatar's hp from 32 to 36
+*increased Rock Golem's hp from 42 to 47
+*increased Razorbird's beak attack from 9-1 to 11-1
+*increased Thunderbird's beak attack from 12-1 to 15-1
+*increased Thunderbird's hp from 38 to 44
+*increased Ice Crab line's cold resistance from 60 to 90
+*changed Ice Crab line's cold aura attack from melee to ranged
+*decreased Ice Crab's cold aura attack from 5-4 to 3-3
+*decreased Ice Shell's cold aura attack from 7-4 to 5-3
+*increased Unicorn's hp from 35 to 37
+*increased Unicorn's hp from 43 to 46
+
+-Therians
+*decreased Serpent Therian's cost from 15 to 14
+*increased Serpent Therian's psychic aura attack from 3-2 to 4-2
+*increased Serpent Therian line's blade resistance from -10 to 0
+
+-Vampires
+*increased vampfoot movetype psychic resistance from 0 to 10
+*decreased Thin Blood's knife attack from 7-2 to 6-2
+*decreased Thin Blood line's arcane resistance from 0 to -10
+*decreased Bloodborn's cost from 9 to 7
+*decreased Blood Hulk's xp requirement for AMLA from 60 to 48
+*Blood Hulk's resistancy changes: blade 20 to 30, impact 30 to 40,
+ pierce 20 to 10, psychic 50 to 0
+*increased Blood Hulk's fungus defense from 30 to 40
+*increased Blood Hulk's castle defense from 50 to 60
+*increased Blood Hulk's hp from 45 to 50
+
+-Warg
+*decreased Fire Sprite line's arcane resistance from 50 to -20
+*increased Fire Sprite line's fire resistance from 10 to 20
+*decreased wolffoot movetype arcane resistance from 20 to -10
+*increased wolffoot movetype fire resistance from -20 to -10
+*decreased Fire Sprite's cost from 17 to 16
+*changed Shapeshifter's arcane, cold, and fire resistancies to 0
+*increased Shapeshifter line's forest defense from 50 to 60
+*increased Shapeshifter line's hill movement cost from 1 to 2
+*decreased cost of Stalker from 18 to 17, changed usage to scout
+*increased Stalker's tackle attack from 6-2 to 8-2
+*increased Shadow Pelt's tackle attack from 6-2 to 8-2
+*increased Night Eye's tackle attack from 13-2 to 15-2
+
+---notes
+1) With the removal of the Holy damage type from the Default era,
+   the main reason for the existance of a Shadow damage type is
+   gone.  With the addition of the Arcane damage type to mirror
+   the Default era, the Holy and Shadow damage types are now
+   unnecessary, and thus removed.
+2) With the addition of the Arcane damage type, there is a non-physical
+   damage type that is non-spiritual.  Psychic damage was originally
+   created to approximate a damage type that was neither physical nor
+   spiritualy weighted (good v evil) in some way, as Holy/Shadow were.
+   Since Arcane has removed this spiritual element, Psychic damage is no
+   longer a necessity.  I have left the resistancies in place on the
+   chance that the damage type may once again be added at some point,
+   whether through changing the entire era once again, or through simply
+   adding another playable era to the Era of Myths add-on with customized
+   units.
+   Psychic damage would in the future be defined as the extent to which
+   a unit would suffer psychic assaults.  Intelligent beings will thus
+   resist Psychic damage whereas unitelligent beings will be susceptible
+   to it.  Beings without a mind would be impenetrably resistant.
+
+
+
+version Beta 8:
+(3-10-07)
+
+---general changes
+*renamed unit ids (thanks Lunar2!!)
+*added therian race
+*renamed Therian aura wave attacks to psychic aura
+*fixed Shadow Pelt image problem
+*new images: aura-master, tiger
+*added background.txt --- descriptions of several races
+
+---balancing changes
+-Celestials
+*added fearless trait
+
+-Therians
+*added attuned trait
+*decreased Therian Monk's fists attack from 5-3 to 4-3
+*decreased Aura Monk's fists attack from 8-3 to 6-3
+*decreased Aura Master's fists attack from 12-3 to 9-3
+*decreased L1 shapeshifting Therian's psychic aura attacks from 6-2 to 3-2
+*decreased cost of Falcon Therian from 17 to 16
+*decreased cost of Leopard Therian from 18 to 17
+*decreased hp of Leopard Therian from 38 to 36
+*decreased L2 shapeshifting Therian's psychic aura attacks from 10-2 to 4-3
+*decreased L3 shapeshifting Therian's psychic aura attacks from 14-2 to 6-3
+
+-Vampires
+*removed strong, resiliant, loyal traits
+*added obedient, fearless traits
+*increased Blood Hulk's attack from 12-2 to 14-2
+
+-Wargs
+*added fearless trait
+
+
+
+
+version Beta 7:
+Descriptive...
+(2-27-07)
+
+---general changes
+*added descriptions: all Celestials, Therian Guard line, Therian Monk line
+*cleaned up all unit .cfgs
+
+---balancing changes
+-Celestials
+*changed allied leadership ability to leadership ability in Messenger line
+
+-Devlings
+*added AMLA bonuses
+
+-Undead
+*removed Undead faction from eras: will add later as part of a modified Default+EOM era
+
+-Vampires
+*added unit Blood Hulk
+
+
+
+
+version Beta 6:
+Devling balance + icons
+(2-1-07)
+
+---general changes
+*new images: Divine Champion, Sage, scythe, sickle, chakram, chakram_bronze
+*renamed Zealot attacks, changed icons
+*fixed Warg faction select image problem
+
+---balancing changes
+-Celestials
+*increased Legionnaire xp cost to level from 38 to 46, decreased hp from 39 to 36
+*increased cost of Zealot from 13 to 14, decreased melee from 6-3 to 5-1, increased ranged from 3-2 to 6-3,
+ altered higher levels appropriately
+
+-Devlings
+*removed skirmish ability from Flapper line
+*increased Sneak cost from 6 to 7
+*increased overgrown cost from 13 to 14
+*removed RIPLB issue with Spiker, Stapler
+
+-Elementals
+*decreased hp of Tidal from 27 to 25
+*increased hp of Ice Crab from 40 to 43, increased shadow and holy resistancies from 10 to 30
+
+-Therians
+*increased cost of Therian Monk from 14 to 15
+
+
+
+
+version Beta 5:
+Image pack+
+(1-30-07)
+
+---general changes
+*cleaned up Warg .cfgs and image paths
+*new images: Pack Leader, Garou, Divine Knight, Wizard, Wizard-attack, Zealot, Militant, Sicarius
+
+---balancing changes
+-Celestials
+*decreased Legionnaire attack from 7-3 to 6-3, Keeper from 10-3 to 9-3, Sentinel from 14-3 to 12-3
+*increased damage of Lantern Archon from 6-3 to 7-3, Master of Light from 9-3 to 11-3
+
+-Devlings
+*increased cost of Overgrown from 12 to 13, decreased hp from 40 to 36
+*decreased cost of Nailer from 11 to 9
+*increased hp of Flyers, Sneak, Lurker, Blasphemists, Offenders, Abusers, Nailer, Spiker, Stapler
+
+-Elementals
+*increased furnacefoot and firefly resistancies to Holy and Shadow from 10 to 30
+
+
+
+
+version Beta 4:
+The Devlings
+(1-22-07)
+
+---general changes
+*added Devling faction
+*updated images: Shifter Monk, Aura Monk, Herald, Holy Sentinel, Zealot, Militant, Sicarius
+*renamed disrupt damage to psychic
+*renamed Shifters to Therians
+*cleaned up several Celestial images
+
+---balancing changes
+-Celestials
+*altered Holy/Shadow resistancies
+*changed damage of Crusader line
+
+-Elementals
+*added Wind Herder to Empowered Myths recruit list
+
+-Therians
+*changed aura wave attacks to ranged range, removed marksman
+*changed Aura Monk line aura waves attack from magical to marksman
+
+-Vampires
+*altered vampfoot resistancies
+*changed fang attacks from pierce to blade
+*decreased Duelist hp and damage
+*decreased Sword Dancer hp
+
+
+
+
+version Beta 3:
+Elementals v Wargs, icons
+(11-28-06)
+
+---general changes
+*removed all Overwhelm resistancies
+*fixed usage of Bloodborn, Wizard line
+*changed sound list for Shapeshifter line
+*replaced missing and incorrect attack icons
+*fixed Foresthome, Waterhome, Lavahome abilities to always be visible on units
+*fixed no ZOC ellipses on promoted level 1 units
+*renamed Wolf Cub line's claws attack to bite
+*updated images: Noble, Sire, Methusalem, Depthstalker
+*fixed Warg faction recruits in Empowered Myths era
+
+---balancing changes
+-Celestials
+*decreased damage of Divine Knight's blessed sword attack from 16-2 to 14-2
+*decreased damage of Divine Champion's blessed sword attack from 21-2 to 19-2
+
+-Elementals
+*increased xp requirement of Ice Crab from 30 to 78
+*replaced Razorbird's blades melee attack with blade shower ranged attack
+*decreased Razorbird's beak attack from 10-1 to 9-1
+*renamed Thunderbird's lightning attack to thunderbolt, increased from 10-1 to 10-2
+*decreased Thunderbird's beak attack from 14-1 to 12-1
+*decreased cost of Unicorn from 21 to 19
+
+-Shifters
+*decreased cost of Shifter Apprentice from 20 to 19
+*removed bite attack from Leopard Shifter
+*increased aura wave attack of Peregrine Falcon, Panther, Tiger, King Cobra,
+ Spitting Cobra from 15-1 to 14-2
+
+-Undead
+*reduced Bodak line's gaze of death attack by 3
+*added chill wave attack to Dark Adept line
+*decreased Dark Adept's shadow wave attack from 9-2 to 8-2
+*decreased Dark Sorcerer's shadow wave attack from 13-2 to 11-2
+*decreased Dark Adept's shadow wave attack from 17-2 to 14-2
+*decreased Lich's shadow tempest attack from 12-3 to 10-3
+*decreased cost of Skeleton Rider from 20 to 19
+
+-Vampires
+*changed alignment of Bloodborn from lawful to neutral
+*increased cost of Bloodborn from 8 to 9
+*changed Fledgeling's sword attack from 4-5 to 5-4
+
+-Warg
+*decreased hill and forest defense of Shapeshifter line from 60 to 50
+*increased village defense of Changeling, Wolver, Wolfling from 50 to 60
+*increased Fire resistance of Shapeshifter line from -20 to 0
+*increased Disrupt resistance of Wolf Cub line from 20 to 40
+*removed Wolf Cub line's fang attack
+*increased movement of Wolf from 8 to 9
+*increased Wolf Cub's bite attack from 4-2 to 3-3
+*increased hp of Wolf from 25 to 32
+*increased hp of Dire Wolf from 37 to 44
+*increased Fire resistance of Fire Sprite line from 0 to 10
+
+
+
+
+version Beta 2:
+factional personality - inspiration from jb
+(11-23-06)
+
+--general changes
+*Shifter mental channel attacks changed from Overwhelm to Disrupt damage type
+*added Woses to the Warg faction
+*added Nagas to the Warg faction
+*added Naga Depthstalker unit
+*added Fire Sprites to the Warg faction
+*renamed Zealot's sword attack to short sword
+*renamed Legionnaire line's poleaxe (pierce) attack to spear
+*removed Vampire Bat from Undead faction
+*added Skeleton Rider to Undead faction
+*added Myth RPG era
+
+--balancing changes
+*removed tackle attacks from Werewolf, Warrior Wolf, Moon Blade, Pack Leader, Garou
+*increased Pack Leader's sword attack from 13-3 to 14-3
+*increased Garou's sword attack from 16-3 to 17-3
+*increased Fenrir's war hammer attack from 12-3 to 15-3
+*added dagger throw attacks to Zealot line
+*removed Legionnaire line's poleaxe (blade) attacks
+*increased Legionnaire's spear attack from 6-3 to 7-3
+*added javelin attack to Sentinel
+
+
+
+
+version Beta 1:
+A new channel
+(11-15-06)
+
+-----general changes-----
+*added mental channel
+*Remove electric resistance type
+*Remove mental resistance type
+*Add overwhelm and disrupt resistance type
+*Rename werewolves to wargs
+*Fix Vampire Noble line
+*Fix Celestial Wizard line
+*Fix path to icons in faction defintion files
+*Add TC flag on some shifter units
+*Fix background for fireghost sprite
+*new graphics for Legionnaire line
+*new graphics for Shifter Apprentice lines
+
+-----balancing changes-----
+*removed Day Hunter and Twilight Hunter from leaders in Era of Myths era
+*removed Day Hunter and Twilight Hunter from recruits in Empowered Myths era
+
+---Celestials---
+*increased movement of Light Spirit line from 6 to 7
+*decreased movement of Messenger line from 6 to 5
+*added magic weapon special to Wizard line's shock attack
+-recruits-
+*decreased hp of Crusader from 36 to 34
+*decreased xp requiement of Light Spirit from 35 to 30
+*decreased cost of Messenger from 18 to 16
+*decreased hp of Messenger from 39 to 36
+*increased cost of Wizard from 16 to 20
+*increased xp requirement of Wizard from 40 to 58
+*increased hp of Zealot from 30 to 32
+*increased xp requirement of Zealot from 34 to 38
+-higher levels-
+*decreased cost of Divine Knight from 36 to 32
+*decreased hp of Divine Knight from 47 to 45
+*increased xp requirement of Divine Knight from 40 to 95
+*decreased hp of Divine Champion from 58 to 53
+*decreased cost of Protector from 34 to 29
+*increased xp requirement of Protector from 80 to 88
+*decreased Protector's shield bash attack from 11-2 to 9-2
+*increased hp of Holy Sentinel from 52 to 58
+*decreased Holy Sentinel's shield bash attack from 15-2 to 13-2
+*decreased cost of Keeper from 35 to 27
+*decreased cost of Lantern Archon from 32 to 20
+*decreased cost of Master of Light from 42 to 32
+*increased xp requirement of Mystic from 90 to 105
+*increased xp requirement of Great Wizard from 90 to 115
+*increased cost of Militant from from 12 to 24
+*decreased cost of Sicarius from 40 to 32
+
+---Elementals---
+-recruits-
+*decreased cost of Mystic Puppet from 10 to 9
+*decreased xp requirement of Mystic Puppet from 24 to 21
+*increased resistance of Mystic Puppet to blade from -10 to 0
+*increased xp requirement of Tidal from 26 to 35
+*increased hp of Unicorn from 28 to 35
+-higher levels-
+*increased cost of Lava Beast from 26 to 38
+*increased hp of Fire Wisp from 48 to 53
+*increased Fire Wisp's fire breath attack from 6-4 to 7-4
+*increased hp of Fire Ghost from 62 to 66
+*increased Fire Ghost's fire breath attack from 7-5 to 8-5
+*increased hp of Burning Spirit from 72 to 78
+*increased Burning Spirit's fire breath attack from 9-5 to 11-5
+*increased Wind Herder's dagger attack from 5-2 to 6-2
+*increased Wind Herder's tornado attack from 5-3 to 6-3
+*increased Zephyr's tornado attack from 8=3 to 9-3
+*increased Razorbird's beak attack from 8-1 to 10-1
+*increased Thunderbird's beak attack from 11-1 to 14-1
+*decreased Avatar's cost from 16 to 15
+*increased resistance of Avatar to blade from -10 to 0
+*increased Avatar's fist attack from 6-3 to 7-3
+*decreased cost of Animated Rock from 22 to 18
+*increased Animated Rock's fist attack from 5-3 to 6-3
+*decreased cost of Rock Golem from 36 to 29
+*increased Rock Golem's fist attack from 7-3 to 9-3
+*decreased cost of Undine from 46 to 30
+*decreased xp requirement of Undine from 100 to 84
+*decreased cost of Tempest Spirit from 46 to 40
+*increased hp of Ice Crab from 34 to 40
+*increased Ice Crab's icicle attack from 7-4 to 10-3
+*increased Ice Crab's cold aura attack from 6-3 to 5-4
+*increased Ice Shell's hp from 44 to 48
+*increased Ice Shell's icicle attack from 9-4 to 13-3
+*increased Ice Shell's cold aura attack from 8-3 to 7-4
+*decreased cost of Silver Unicorn from 44 to 38
+*increased hp of Silver Unicorn from 36 to 43
+*increased cost of Vine Tiger from 21 to 26
+
+---Shifters---
+-recruits-
+*increased Falcon Shifter, Leopard Shifter, and Serpent Shifter's aura wave
+ attacks from 5-1 to 6-2
+*increased hp of Serpent Shifter from 25 to 27
+*increased Shifter Guard's spear attack from 5-3 to 6-3
+*removed firststrike weapon special from Shifter Guard's spear attack
+*decreased Shifter Monk's fist attack from 4-4 to 5-3
+*increased Shifter Monk's aura wave attack from 5-2 to 6-3
+*increased resistancies of Shifter Monk to blade and pierce from -10 to 0
+-higher levels-
+*increased Falcon, Jaguar Shifter, Cobra, Sandskipper, and Sea Snake's
+ aura wave attacks from 10-1 to 10-2
+*increased cost of Spitting Cobra from 34 to 38
+*decreased cost of Aura Monk from 30 to 25
+*changed Aura Monk's fist attack from 6-4 to 8-3
+*increased Aura Monk's aura wave attack from 10-2 to 10-3
+*decreased cost of Aura Master from 42 to 36
+*changed Aura Master's fist attack from 9-4 to 12-3
+*increased Aura Master's aura wave attack from 15-2 to 14-3
+
+---Undead---
+-recruits-
+*decreased Dark Adept's shadow wave attack from 10-2 to 9-2
+
+---Vampires---
+-recruits-
+*decreased Blood Apprentice's fang attack from 6-2 to 5-2
+*increased Fledgeling's fang attack from 6-2 to 5-3
+-higher levels-
+*decreased cost of Blood Manipulator from 46 to 38
+*decreased hp of Blood Manipulator from 43 to 38
+*decreased cost of Sangel from 58 to 50
+*increased cost of Flesh Artisan from 30 to 33
+*decreased hp of Flesh Artisan from 61 to 46
+*removed Flesh Artisan's fist attack
+*decreased Flesh Artisan's claw attack from 9-4 to 10-3
+*decreased Flesh Artisan's fang attack from 10-2 to 6-3
+*decreased cost of Duelist from 33 to 27
+*decreased Duelist's sword attack from 6-6 to 7-5
+*decreased cost of Sword Dancer from 50 to 44
+*decreased Sword Dancer's sword attack from 7-7 to 8-6
+*decreased cost of Sire from 53 to 42
+*increased cost of Methusalem from 31 to 53
+
+---Warg---
+-recruits-
+*increased village defense of Shapeshifter from 50 to 60
+*decreased cost of Stalker from 20 to 18
+*decreased movement of Stalker from 7 to 6
+*increased xp requirement for Stalker from 32 to 37
+*increased hp of Werewolf from 35 to 38
+*increased xp requirement for Werewolf from 30 to 42
+*changed Werewolf alignment from neutral to chaotic
+*increased cost of Wolf Cub from 10 to 12
+*increased hp of Wolf Cub from 15 to 18
+*increased movement of Wolf Cub from 7 to 8
+-higher levels-
+*increased xp requirement of Changeling from 80 to 85
+*decreased xp requirement of Wolver from 80 to 75
+*decreased Shadow Pelt's spear attack from 9-3 to 8-3
+*increased Shadow Pelt's tackle attack from 8-2 to 9-2
+*decreased hp of Night Eye from 60 to 55
+*increased Night Eye's tackle attack from 10-2 to 13-2
+*increased Rabid Wolf's fang attack from 8-3 to 10-3
+*increased Rabid Wolf's claw attack from 14-2 to 16-2
+*decreased hp of Fenrir from 72 to 66
+*increased xp requirement of Pack Leader from 90 to 120
+*decreased hp of Garou from 87 to 77
+
+
+
+
+version Alpha 12:
+
+(9-5-2006)
+
+*altered attack damages for Warrior Wolf branches
+*increased cost of Light Spirit from 13 to 14, increased hp by 2
+*increased cost of Zealot from 12 to 13
+*increased EOM_undeadspirit holy resistance from -30% to -20%
+*altered EOM_firefly movetype
+*fixed foresthome and waterhome abilities
+*Zealot line leaders removed from random leader
+*changed messenger.png, removed old .png images
+
+
+
+
+version Alpha 11:
+balancing act
+(9-4-2006)
+
+*fixed level 0 unit ellipses
+*increased cost of Vine Beast from 15 to 16
+*increased hp of Vine Beast from 32 to 33
+*decreased cost of Shifter Apprentice from 21 to 20
+*increased cost of Leopard Shifter from 17 to 18
+*increased xp requirement of Falcon from 35 to 70
+*changed aura wave attack from magical to marksman on serpent shifter,
+	leopard shifter, and falcon shifter lines
+*decreased Blood Manipulator's fang attack from 6-3 to 7-2
+*decreased Blood Manipulator's blood boil attack from 9-4 to 7-4
+*decreased Blood Manipulator's wipe attack from 15-2 to 12-2
+*increased hp of Sangel from 43 to 50
+*decreased Sangel's fang attack from 7-4 to 7-3
+*decreased Sangel's blood boil attack from 10-5 to 8-5
+*decreased Sangel's wipe attack from 22-2 to 18-2
+*increased cold, holy, and shadow resistancies of Rock Golem from 20, 10, 10 to 30
+*increased hp, xp, cost, damage of Fire Wisp branch
+*added team color macro to Falcon Shifter line
+*increased wolffoot cost to cross mountains from 2 to 3
+*added tinymonk.png, messenger.png
+
+
+
+
+version Alpha 10:
+various additions
+(8-24-2006)
+
+*increased some Elementals resistancies to Holy and Shadow damage
+*added foresthome and waterhome abilities to Elemental units
+*increased cost of Bodak from 16 to 17
+*decreased damage for Bodak line ranged attack by 2
+*decreased defenses of EOM_lightfoot movetype
+*updated crusader.png
+*added great wizard.png, halfblood.png, and dayhunter.png
+
+
+
+
+version Alpha 9:
+minor AI fix
+(8-17-2006)
+
+*increased fire attack for Bazier Creation line
+*fixed some AI recruit patterns
+*fixed Vampires plague ability
+
+
+
+
+version Alpha 8:
+image/race fixes
+(8-9-2006)
+
+*fixed Celestial image problems
+*added missing Celestial race
+*properly renamed Werewolves display name to "The Warg"
+*reformatted most unit configs to be fully BfW 1.1.8 compatible
+*added vampire_fangs.png (thanks Jetryl)
+*increased cost of Blood Apprecntice from 19 to 21
+
+
+
+
+version Alpha 7:
+Resistancy fix & other tweaks
+(7-29-2006)
+
+*fixed many resistancy problems
+*reduced hp, cost, and added missing Illuminates from Light Spirit branch
+*reduced holy damage of Celestial Messenger branch by 1
+*moved Steadfast ability from Protector to appropriate Legionnaire branch
+*added Poison weapon special to Sandskipper attack
+*added Slow weapon special to King Cobra attack
+*added Eternal's monk .pngs to Shifter Monk line
+
+
+
+
+version Alpha 6:
+Vampires & Celestials
+(7-26-2006)
+
+*added Vampires
+*added Celestials
+*decreased price of Vine Beast, Unicorn
+*increased power of Ice Crab, Ice Shell
+
+
+
+
+version Alpha 5:
+movement types and bugfixes
+(6-13-2006)
+
+*modified level 1 Werewolf stats
+*modified wolffoot movetype
+*added new movetypes for Elementals
+*fixed Elemental recruit problem in Powered Myths era
+*decreased Bodak massivestrike attack dmg but increased CTH
+*minor bugfixes
+
+
+
+
+version Alpha 4:
+Elemental rebalancing
+(6-8-2006)
+
+*rearranged Elementals heavily and altered stats
+*minor bugfixes
+
+
+
+
+version Alpha 3:
+minor bugfixes
+(6-7-2006)
+
+*added era Power Myths - like Age of Heroes
+*changed alignment of 2 Werewolves
+*changed 2 Shifter images
+
+
+
+version Alpha 2:
+Elementals
+(6-6-2006)
+
+*added Elementals
+*added images to Shifters
+*modified level 1 Werewolf stats
+
+
+
+version Alpha 1:
+(6-5-2006)
+
+original playtest version included Shifters, Werewolves, and Undead
+

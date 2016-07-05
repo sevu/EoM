@@ -1,0 +1,78 @@
+#! /bin/bash
+
+# NEVER EXECUTE THIS SCRIPT WITH "DOUBBLE-CLICK"
+# ONLY RUN IT IN A TERMINAL
+# IT WILL OTHERWISE DESTROY YOUR TRANSLATION
+
+# Windows: This script is written for unix, maybe it runs with cygwin.
+
+# How translation works: 	(for the commands see below)
+# You have a .pot (.po-template) file which is for all languages the same.
+# You have an .po file for each language. You edit it with poedit (or another editor). There you translate.
+# You make an machine-readable version of it, the .mo file.
+# Tt must be stored in the folder translations/de/LC_MESSAGES/wesnoth-Era_of_Myths.mo 
+
+# If you change something in the game, you must generate a new .pot and merge the old .po file (containing translations) with the new .pot.
+# The result is a new .po file containing the translations.
+
+
+# Tools:
+# You have to have gnu gettext installed and need the wmlxgettext script. Poedit ist the recommended editor.
+# wmlxgettext is in your game_folder/utils/wmlxgettext. Probably you have to install a paket called wesnoth-tools or wesnoth-1.xy-tools first.
+# If that doesn't exist, download the wesnoth source code and copy the utils folder into your install (or somewhere else).
+# You must as well add the scripts location to the systems PATH variable.
+# e.g. with  export PATH=.:$PATH:/usr/share/wesnoth/utils:/usr/share/wesnoth/data/tools  in your ~/.bashrc file
+# the script in data/tools is the wrong one, it will maybe one day replace the current one.
+
+cd .. # change to base folder (otherwiese the filepaths in the next commands won't fit)
+
+# generate .pot 
+# There must be all *.cfg files which have written in their first line >> #textdomain wesnoth-Era_of_Myths <<.
+# This are in fact all *.cfg files besides a few ones which start with >> #wmllint: no translatables <<.
+# It are around 200 *.cfg files.
+echo ./mainline-strings.cfg ./macros/abilities.cfg ./macros/amla.cfg ./macros/traits.cfg ./macros/names.cfg ./macros/special-notes.cfg ./macros/specials.cfg ./units/*.cfg ./units/therians/*.cfg ./units/wargs/*.cfg ./units/celestials/*.cfg ./units/vampires/*.cfg ./units/devlings/*.cfg ./units/windsong/*.cfg ./units/elementals/*.cfg ./factions/*.cfg ./EOM_eras.cfg | xargs wmlxgettext --directory=. --domain=wesnoth-Era_of_Myths > translations/wesnoth-Era_of_Myths.pot
+
+# Create brand new .po file - not needed since we have already existing translations - only when starting a translation for a new language!
+##msginit --no-translator --input=translations/wesnoth-Era_of_Myths.pot --output-file=de.po --locale=de
+
+
+# Make yourself a backup. That's everytime a good idea.
+# cp translations/de/LC_MESSAGES/wesnoth-Era_of_Myths.po my_personal_backup_file.po
+
+# Merge old.po file (containing the translations) into the new.po(t) file.
+# Due to the -U option, we change the existing .po file instead of the .pot file. This is very comfortable, but we have then no backup.
+ msgmerge  -U translations/de/LC_MESSAGES/wesnoth-Era_of_Myths.po translations/wesnoth-Era_of_Myths.pot
+ msgmerge  -U translations/la/LC_MESSAGES/wesnoth-Era_of_Myths.po translations/wesnoth-Era_of_Myths.pot
+# -U, --update          Update old.po, do nothing if old.po already up to date
+#     --previous        Keep previous msgids of translated messages. (So no old but currently not needed translations get lost)
+#     --backup=CONTROL  Make a backup of old.po (Didn't test it myself)
+#     man msgmerge      Has more informations    
+# (If not using the -U option, the .po remains untouched and the .pot get's filled with the translations.)
+# Note that you can use msgmerge to merge two .po files as well.
+
+
+# Generate .mo files after translation work in the .po file is done and put it to the corret location.
+# msgfmt translations/de/LC_MESSAGES/wesnoth-Era_of_Myths.po --output-file=translations/de/LC_MESSAGES/wesnoth-Era_of_Myths.mo
+# (this overwrites the existing .mo)
+# Poedit creates the .mo files automatically when saving.
+
+# WHAT IF ... You lost the .po file containing the translations or had none to begin with, but have the .mo file?
+# You can get the .po file back with
+# msgunfmt file.mo > file.po
+
+
+# SUMMARY:
+# To get it 'up to date' do like shown above:
+# Generate a new .pot file
+# Merge the translated .po file with that one.
+# Make your translation work (in the now merged .po file). poedit recommended.
+# Generate .mo file from it. (if you save in poedit it get's done automatically)
+# Move it to the right location
+# Eentually delete the wesnoth cache. In the game, go to >> settings -> directorys <<. There is written where the cache is located.
+
+# Empty the cache:
+# rm  -f ~/.cache/wesnoth/*
+
+# If you still don't see the "new" translations, start a new game instead of loading a savefile.
+# Often this is the solution of the problem.
+
