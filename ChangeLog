@@ -2,6 +2,11 @@
 		----- The Era of Myths -----
 		          changelog
 
+VERSION 5.19.0
+-Windsong
+*Pathfinder (lvl2) backstab melee 5-3 -> 6-3 (like the mainline Rouge)
+*Skyrunner (lvl2, other path) melee 6-3 -> 7-3
+*Farstrider (lvl3) backstab melee 5-4 -> 6-4 (mainline Assassin has 8-3)
 
 VERSION 5.18.0
 --general changes
