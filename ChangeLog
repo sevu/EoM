@@ -35,7 +35,8 @@ VERSION 5.19.0
 *Tempses Spirit HP 46 -> 48, cost 45 -> 40, melee 12-3 -> 11-3, ranged 11-3 -> 10-3
 *Ice Crab cost 24 -> 22
 *Ice Shell HP 55 -> 54, cost 35 -> 33, melee 10-3 -> 11-3
-
+*Vine Beast cost 16 -> 14
+*Vine Tiger cost 32 -> 26, melee 7-4 -> 8-4, ranged 5-3 -> 6-3, new attack
 
 -Windsong
 *Pathfinder (lvl2) backstab melee 5-3 -> 6-3 (like the mainline Rouge)
