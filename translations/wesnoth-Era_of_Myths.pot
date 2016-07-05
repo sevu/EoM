@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2016-07-05 20:22+0200\n"
+"POT-Creation-Date: 2016-07-05 21:49+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1091,8 +1091,8 @@ msgid "Air Elementals take the form of a purple cloud. It fights with the ice wi
 msgstr ""
 
 #. [attack]: type=impact
-#: ./units/elementals/b0_Air_Elemental.cfg:29
-msgid "Galeforce"
+#: ./units/elementals/b0_Air_Elemental.cfg:29 ./units/elementals/b1_Wind_Spirit.cfg:38
+msgid "galeforce"
 msgstr ""
 
 #. [unit_type]: id=EOM_Razorbird, race=elemental
@@ -1101,7 +1101,7 @@ msgid "Razorbird"
 msgstr ""
 
 #. [unit_type]: id=EOM_Razorbird, race=elemental
-#: ./units/elementals/b1_Razorbird.cfg:22
+#: ./units/elementals/b1_Razorbird.cfg:21
 msgid "Lightning is not an element, however some wind spirits can take a form where they can control it. The body they need to develop from a younger form, known as the Razorbird. These birds have razor feathers which can slice anything but they need more energy to generate a lightning bolt."
 msgstr ""
 
@@ -1120,18 +1120,13 @@ msgstr ""
 msgid "As Air Elementals stay in their physical form, they grow stronger, as does their power over winds. The advanced ability to control or herd winds allows the elemental to attack with more force. In addition they are now strong enough to hold a dagger."
 msgstr ""
 
-#. [attack]: type=impact
-#: ./units/elementals/b1_Wind_Spirit.cfg:38
-msgid "galeforce"
-msgstr ""
-
 #. [unit_type]: id=EOM_Thunderbird, race=elemental
 #: ./units/elementals/b2_Thunderbird.cfg:5
 msgid "Thunderbird"
 msgstr ""
 
 #. [unit_type]: id=EOM_Thunderbird, race=elemental
-#: ./units/elementals/b2_Thunderbird.cfg:24
+#: ./units/elementals/b2_Thunderbird.cfg:23
 msgid "Using its metal feathers the Thunderbird is able to create powerfull sparks that can be thrown at long range."
 msgstr ""
 

@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Era_of_Myths\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2016-07-05 20:22+0200\n"
-"PO-Revision-Date: 2016-07-05 20:23+0200\n"
+"POT-Creation-Date: 2016-07-05 21:49+0200\n"
+"PO-Revision-Date: 2016-07-05 21:49+0200\n"
 "Last-Translator: Torben Undiwill <>\n"
 "Language-Team: none\n"
 "Language: la\n"
@@ -1414,7 +1414,8 @@ msgstr ""
 
 #. [attack]: type=impact
 #: units/elementals/b0_Air_Elemental.cfg:29
-msgid "Galeforce"
+#: units/elementals/b1_Wind_Spirit.cfg:38
+msgid "galeforce"
 msgstr "procella"
 
 #. [unit_type]: id=EOM_Razorbird, race=elemental
@@ -1423,7 +1424,7 @@ msgid "Razorbird"
 msgstr "Avis Ensium"
 
 #. [unit_type]: id=EOM_Razorbird, race=elemental
-#: units/elementals/b1_Razorbird.cfg:22
+#: units/elementals/b1_Razorbird.cfg:21
 msgid ""
 "Lightning is not an element, however some wind spirits can take a form where "
 "they can control it. The body they need to develop from a younger form, "
@@ -1450,18 +1451,13 @@ msgid ""
 "enough to hold a dagger."
 msgstr ""
 
-#. [attack]: type=impact
-#: units/elementals/b1_Wind_Spirit.cfg:38
-msgid "galeforce"
-msgstr "procella"
-
 #. [unit_type]: id=EOM_Thunderbird, race=elemental
 #: units/elementals/b2_Thunderbird.cfg:5
 msgid "Thunderbird"
 msgstr "Avis Fulminis"
 
 #. [unit_type]: id=EOM_Thunderbird, race=elemental
-#: units/elementals/b2_Thunderbird.cfg:24
+#: units/elementals/b2_Thunderbird.cfg:23
 msgid ""
 "Using its metal feathers the Thunderbird is able to create powerfull sparks "
 "that can be thrown at long range."
@@ -3464,6 +3460,9 @@ msgstr "mors"
 #: units/windsong/f4_Librarian.cfg:5
 msgid "female^Librarian"
 msgstr "Philosopha"
+
+#~ msgid "Galeforce"
+#~ msgstr "procella"
 
 #, fuzzy
 #~ msgid "Duchess"
