@@ -5,18 +5,19 @@
 NOTES for later: 
 lvl1: EoW plays first the fire sound, then the claws sound
 lvl2&3: EoW plays them the same time, WE PLAY FIRST THE FIRE SOUND (swapped behavior to lvl 1)
+compare Air Elementals (lvl0) recruit animation with other EoC or WoL
 
 *WML: 
-recheck lvl1 earth elemental, noted sths probably better there
+recheck lvl1 earth elemental, noted sth is probably better there (animation)
 lvl2 golem -> as well
 
 
 VERSION 5.19.0
 -Elementals
 *Ice Crab & Ice Shell +1 ranged damage/hit
-*Air Elemental cost 12 -> 11
+*Air Elemental HP 18 -> 20, cost 12 -> 11
 *Wind Spirit MP 8 -> 6
-*Razorbird & Thunderbird MP 9 -> 6
+*Razorbird & Thunderbird MP 9 -> 8
 *Raorbird HP 32 -> 31, cost 18 -> 17
 *Thunderbird beak 14-1 -> 13-1 blade shower 9-3 -> 8-3, thunderbolt 16-2 -> 15-2
 *Wind Spirit HP 28 -> 32
