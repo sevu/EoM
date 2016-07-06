@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Era_of_Myths\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2016-07-06 05:13+0200\n"
-"PO-Revision-Date: 2016-07-06 05:16+0200\n"
+"PO-Revision-Date: 2016-07-06 06:54+0200\n"
 "Last-Translator: Severin Glöckner <sgloeck@imn.htwk-leipzig.de>\n"
 "Language-Team: none\n"
 "Language: de\n"
@@ -1717,7 +1717,7 @@ msgstr ""
 #: units/elementals/b1_Wind_Spirit.cfg:46 units/elementals/b2_Zephyr.cfg:47
 #: units/elementals/b3_Djinn.cfg:51
 msgid "northern wind"
-msgstr "kalter Nordwind"
+msgstr "eisiger Nordwind"
 
 #. [unit_type]: id=EOM_Thunderbird, race=elemental
 #: units/elementals/b2_Thunderbird.cfg:5
