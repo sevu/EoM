@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Era_of_Myths\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2016-07-05 21:49+0200\n"
-"PO-Revision-Date: 2016-07-05 21:49+0200\n"
+"POT-Creation-Date: 2016-07-06 05:13+0200\n"
+"PO-Revision-Date: 2016-07-06 05:18+0200\n"
 "Last-Translator: Torben Undiwill <>\n"
 "Language-Team: none\n"
 "Language: la\n"
@@ -153,18 +153,28 @@ msgstr "callosus"
 
 #. [resistance]: id=dauntless
 #: macros/abilities.cfg:9
+msgid "female^dauntless"
+msgstr "callosus"
+
+#. [resistance]: id=dauntless
+#: macros/abilities.cfg:10
 msgid ""
 "While attacking, this unit's resistances are doubled, up to a maximum of 50. "
 "Weaknesses are not affected."
 msgstr ""
 
 #. [heals]: id=healing
-#: macros/abilities.cfg:25
+#: macros/abilities.cfg:29
 msgid "heals +3"
 msgstr "sanat +III"
 
 #. [heals]: id=healing
-#: macros/abilities.cfg:26
+#: macros/abilities.cfg:30
+msgid "female^heals +3"
+msgstr "sanat +III"
+
+#. [heals]: id=healing
+#: macros/abilities.cfg:31
 msgid ""
 "Allows the unit to heal adjacent allied units at the beginning of our turn.\n"
 "\n"
@@ -181,55 +191,60 @@ msgstr ""
 "unitatis quae sanat petere debet."
 
 #. [regenerate]: id=healing
-#: macros/abilities.cfg:50
+#: macros/abilities.cfg:55
 msgid "foresthome"
 msgstr "silvanus"
 
 #. [regenerate]: id=healing
-#: macros/abilities.cfg:51
+#: macros/abilities.cfg:56
 msgid "This unit will regenerate 4 HP when in forest."
 msgstr ""
 
 #. [regenerate]: id=healing
-#: macros/abilities.cfg:68
+#: macros/abilities.cfg:73
 msgid "waterhome"
 msgstr "aquaticus"
 
 #. [regenerate]: id=healing
-#: macros/abilities.cfg:69
+#: macros/abilities.cfg:74
 msgid ""
 "This unit will regenerate 4 HP when in deep or shallow water and swamps."
 msgstr ""
 
 #. [regenerate]: id=healing
-#: macros/abilities.cfg:83
+#: macros/abilities.cfg:88
 msgid "deserthome"
 msgstr "deserticus"
 
 #. [regenerate]: id=healing
-#: macros/abilities.cfg:84
+#: macros/abilities.cfg:89
 msgid ""
 "This unit will regenerate 4 HP when in desert or sand.\n"
 "If this unit can fly over lava, it will regenerate there as well."
 msgstr ""
 
 #. [regenerate]: id=healing
-#: macros/abilities.cfg:99
+#: macros/abilities.cfg:104
 msgid "mountainhome"
 msgstr "montanus"
 
 #. [regenerate]: id=healing
-#: macros/abilities.cfg:100
+#: macros/abilities.cfg:105
 msgid "This unit will regenerate 4 HP when on mountains."
 msgstr ""
 
 #. [leadership]: id=leadership
-#: macros/abilities.cfg:111
+#: macros/abilities.cfg:116
 msgid "inspire"
 msgstr "incitat"
 
 #. [leadership]: id=leadership
-#: macros/abilities.cfg:112
+#: macros/abilities.cfg:117
+msgid "female^inspire"
+msgstr "incitat"
+
+#. [leadership]: id=leadership
+#: macros/abilities.cfg:118
 msgid ""
 "This unit can inspire friendly units that are next to it, making them fight "
 "better.\n"
@@ -618,7 +633,7 @@ msgstr ""
 
 #. [attack]: type=arcane
 #: units/celestials/a1_Crusader.cfg:32 units/celestials/a2_Divine_Knight.cfg:31
-#: units/celestials/a2_Quester.cfg:41
+#: units/celestials/a2_Quester.cfg:43
 #: units/celestials/a3_Divine_Champion.cfg:32
 msgid "blessed sword"
 msgstr "gladius sacer"
@@ -655,7 +670,7 @@ msgid "Quester"
 msgstr "Salvator"
 
 #. [unit_type]: id=EOM_Quester, race=celestial
-#: units/celestials/a2_Quester.cfg:19
+#: units/celestials/a2_Quester.cfg:21
 msgid ""
 "Most Celestials don't ride horses, or wander alone, but some crusaders feel "
 "the call to work abroad on their own. These celestials follow the 'quest' to "
@@ -1412,9 +1427,10 @@ msgid ""
 "fragile, and has no defense at close range."
 msgstr ""
 
+#. [attack]: type=arcane
 #. [attack]: type=impact
 #: units/elementals/b0_Air_Elemental.cfg:29
-#: units/elementals/b1_Wind_Spirit.cfg:38
+#: units/elementals/b1_Wind_Spirit.cfg:37
 msgid "galeforce"
 msgstr "procella"
 
@@ -1451,6 +1467,12 @@ msgid ""
 "enough to hold a dagger."
 msgstr ""
 
+#. [attack]: type=cold
+#: units/elementals/b1_Wind_Spirit.cfg:46 units/elementals/b2_Zephyr.cfg:47
+#: units/elementals/b3_Djinn.cfg:51
+msgid "northern wind"
+msgstr ""
+
 #. [unit_type]: id=EOM_Thunderbird, race=elemental
 #: units/elementals/b2_Thunderbird.cfg:5
 msgid "Thunderbird"
@@ -1481,7 +1503,7 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=impact
-#: units/elementals/b2_Zephyr.cfg:39 units/elementals/b3_Djinn.cfg:43
+#: units/elementals/b2_Zephyr.cfg:38 units/elementals/b3_Djinn.cfg:42
 msgid "tornado"
 msgstr "vortex"
 
@@ -1626,7 +1648,7 @@ msgid "Tempest Spirit"
 msgstr "Thalassa"
 
 #. [unit_type]: id=EOM_Tempest_Spirit, race=elemental
-#: units/elementals/d3_Tempest_Spirit.cfg:26
+#: units/elementals/d3_Tempest_Spirit.cfg:25
 msgid ""
 "Tempest Spirits are manifestations of water that is influenced by the likes "
 "of a deadly storm, due to this these spirits weld very dangerous power and "
