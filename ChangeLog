@@ -11,6 +11,14 @@ compare Air Elementals (lvl0) recruit animation with other EoC or WoL
 recheck lvl1 earth elemental, noted sth is probably better there (animation)
 lvl2 golem -> as well
 
+*Animation Checklist:
+How do the changes to the Therians look.
+Should the shifting be quicker?
+Does the combination of moving and melee attacking look ok for the therian cat?
+Does it look better if we make the tornado missile frame longer?
+
+IDEAS:
+how about using razorbird-attack image for a moving animation?
 
 VERSION 5.19.0
 -Elementals
@@ -43,6 +51,10 @@ VERSION 5.19.0
 -Wargs
 *Wolf Cub cost 12 -> 11
 
+-Therians
+*Higher Level Falcons -1 MP
+*generic shifting animation for many cats and falcons
+
 -Celestials
 *Quester uses Paladin portrait
 
@@ -50,6 +62,7 @@ VERSION 5.19.0
 *Pathfinder (lvl2) backstab melee 5-3 -> 6-3 (like the mainline Rouge)
 *Skyrunner (lvl2, other path) melee 6-3 -> 7-3
 *Farstrider (lvl3) backstab melee 5-4 -> 6-4 (mainline Assassin has 8-3)
+
 
 VERSION 5.18.0
 --general changes
