@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Era_of_Myths\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2016-07-06 05:13+0200\n"
-"PO-Revision-Date: 2016-07-06 06:54+0200\n"
+"POT-Creation-Date: 2016-07-09 03:16+0200\n"
+"PO-Revision-Date: 2016-07-09 03:20+0200\n"
 "Last-Translator: Severin Glöckner <sgloeck@imn.htwk-leipzig.de>\n"
 "Language-Team: none\n"
 "Language: de\n"
@@ -692,7 +692,7 @@ msgid "Crusader"
 msgstr "Streiter"
 
 #. [unit_type]: id=EOM_Crusader, race=celestial
-#: units/celestials/a1_Crusader.cfg:18
+#: units/celestials/a1_Crusader.cfg:19
 msgid ""
 "Crusaders undergo rigorous martial training as well as rudimentary medicinal "
 "training to help their injured allies on the field of battle. Crusaders' "
@@ -706,9 +706,9 @@ msgstr ""
 "Krieg gegen die Vampire zurückgeht. "
 
 #. [attack]: type=arcane
-#: units/celestials/a1_Crusader.cfg:32 units/celestials/a2_Divine_Knight.cfg:31
+#: units/celestials/a1_Crusader.cfg:33 units/celestials/a2_Divine_Knight.cfg:32
 #: units/celestials/a2_Quester.cfg:43
-#: units/celestials/a3_Divine_Champion.cfg:32
+#: units/celestials/a3_Divine_Champion.cfg:33
 msgid "blessed sword"
 msgstr "Gesegnetes Schwert"
 
@@ -718,7 +718,7 @@ msgid "Divine Knight"
 msgstr "Ordensritter"
 
 #. [unit_type]: id=EOM_Divine_Knight, race=celestial
-#: units/celestials/a2_Divine_Knight.cfg:18
+#: units/celestials/a2_Divine_Knight.cfg:19
 msgid ""
 "A crusader who survives many fierce battles is granted the honor of "
 "knighthood. At this time the knight receives a ceremonial mace he must carry "
@@ -734,7 +734,7 @@ msgid "Protector"
 msgstr "Schildbruder"
 
 #. [unit_type]: id=EOM_Protector, race=celestial
-#: units/celestials/a2_Protector.cfg:18
+#: units/celestials/a2_Protector.cfg:19
 msgid ""
 "Protector's swords have been magically enchanted with the power of Fire by "
 "Celestial Wizards. Protectors also carry a large shield which they use to "
@@ -775,7 +775,7 @@ msgid "Divine Champion"
 msgstr "Ordensherr"
 
 #. [unit_type]: id=EOM_Divine_Champion, race=celestial
-#: units/celestials/a3_Divine_Champion.cfg:19
+#: units/celestials/a3_Divine_Champion.cfg:20
 msgid ""
 "For a Knight to be recognized as a Champion he must first commit at least "
 "two Great Deeds and have shown his form to be exceptional to other Knights "
@@ -793,7 +793,7 @@ msgid "Holy Sentinel"
 msgstr "Heiliger Gardist"
 
 #. [unit_type]: id=EOM_Holy_Sentinel, race=celestial
-#: units/celestials/a3_Holy_Sentinel.cfg:19
+#: units/celestials/a3_Holy_Sentinel.cfg:20
 msgid ""
 "These crusaders hold the line with flaming sword, and great sheild. They are "
 "famous for their ability to bash their way forward and then hold the ground "
@@ -809,7 +809,7 @@ msgid "Legionnaire"
 msgstr "Legionär"
 
 #. [unit_type]: id=EOM_Legionnaire, race=celestial
-#: units/celestials/b1_Legionnaire.cfg:19
+#: units/celestials/b1_Legionnaire.cfg:20
 msgid ""
 "Legionnaires are staunch defenders of the Celestial homelands. With "
 "extensive studies in the arts of defensive combat, Legionnaires have good "
@@ -825,7 +825,7 @@ msgid "Keeper"
 msgstr "Tempelhüter"
 
 #. [unit_type]: id=EOM_Keeper, race=celestial
-#: units/celestials/b2_Keeper.cfg:18
+#: units/celestials/b2_Keeper.cfg:19
 msgid ""
 "Keepers are staunch defenders of the Celestial homelands. With stout hearts, "
 "and hardened skin they will hold till death or relief comes."
@@ -840,7 +840,7 @@ msgid "Sentinel"
 msgstr "Sanktuarier"
 
 #. [unit_type]: id=EOM_Sentinel, race=celestial
-#: units/celestials/b3_Sentinel.cfg:19
+#: units/celestials/b3_Sentinel.cfg:20
 msgid ""
 "The great guardians of important celestials are called Sentinels, for their "
 "silent, but imposing presence, and their complete immunity to boredom."
@@ -855,7 +855,7 @@ msgid "Light Spirit"
 msgstr "Lichtbringerin"
 
 #. [unit_type]: id=EOM_Light_Spirit, race=celestial
-#: units/celestials/c1_Light_Spirit.cfg:25
+#: units/celestials/c1_Light_Spirit.cfg:26
 msgid ""
 "Light Spirits are a breed of faeries who possess an aura of arcane energy "
 "that infuses their entire body with a radiant light. They share their energy "
@@ -867,9 +867,9 @@ msgstr ""
 "gewisse Verehrung."
 
 #. [attack]: type=arcane
-#: units/celestials/c1_Light_Spirit.cfg:47
-#: units/celestials/c2_Lantern_Archon.cfg:46
-#: units/celestials/c3_Master_of_Light.cfg:47
+#: units/celestials/c1_Light_Spirit.cfg:48
+#: units/celestials/c2_Lantern_Archon.cfg:47
+#: units/celestials/c3_Master_of_Light.cfg:48
 msgid "shock of light"
 msgstr "Lichtblitz"
 
@@ -879,7 +879,7 @@ msgid "Lantern Archon"
 msgstr "Lichtgestalt"
 
 #. [unit_type]: id=EOM_Lantern_Archon, race=celestial
-#: units/celestials/c2_Lantern_Archon.cfg:24
+#: units/celestials/c2_Lantern_Archon.cfg:25
 msgid ""
 "Lantern Archons are a breed of faeries who possess an aura of arcane energy "
 "that infuses their entire body with a radiant light. Lantern Archons defend "
@@ -897,7 +897,7 @@ msgid "Master of Light"
 msgstr "Strahlende"
 
 #. [unit_type]: id=EOM_Master_of_Light, race=celestial
-#: units/celestials/c3_Master_of_Light.cfg:25
+#: units/celestials/c3_Master_of_Light.cfg:26
 msgid ""
 "A faerie who exercises her output of arcane energy may master using it as a "
 "weapon to such a degree that they are named Masters of Light."
@@ -911,7 +911,7 @@ msgid "Messenger"
 msgstr "Bote"
 
 #. [unit_type]: id=EOM_Messenger, race=celestial
-#: units/celestials/d1_Messenger.cfg:19
+#: units/celestials/d1_Messenger.cfg:20
 msgid ""
 "Messengers are chosen as Celestial leaders for the simple and traditional "
 "reason that their wings grow in adolescence rather than fall off or remain "
@@ -925,7 +925,7 @@ msgstr ""
 "Befehle geben, was die umgebenden Truppen stärkt."
 
 #. [female]
-#: units/celestials/d1_Messenger.cfg:83
+#: units/celestials/d1_Messenger.cfg:85
 msgid "female^Messenger"
 msgstr "Botin"
 
@@ -935,7 +935,7 @@ msgid "Claimant"
 msgstr "Sprecher"
 
 #. [unit_type]: id=EOM_Claimant, race=celestial
-#: units/celestials/d2_Claimant.cfg:19
+#: units/celestials/d2_Claimant.cfg:21
 msgid ""
 "All winged Celestials were once named Claimants. They were called this by "
 "their bretheren in the beginning days of Celestial society as they claimed "
@@ -948,7 +948,7 @@ msgstr ""
 "Boten verkünden sie dann dem Volk."
 
 #. [female]
-#: units/celestials/d2_Claimant.cfg:83
+#: units/celestials/d2_Claimant.cfg:86
 msgid "female^Claimant"
 msgstr "Sprecherin"
 
@@ -958,7 +958,7 @@ msgid "Herald"
 msgstr "Herold"
 
 #. [unit_type]: id=EOM_Herald, race=celestial
-#: units/celestials/d3_Herald.cfg:19
+#: units/celestials/d3_Herald.cfg:20
 msgid ""
 "Heralds are the highest ranking officers, skilled with sword, and words they "
 "inspire their troops to victory. They proclaim a message of hope to their "
@@ -970,7 +970,7 @@ msgstr ""
 
 #. [female]
 #. [unit_type]: id=EOM_Windsong_Herald, race=windsong
-#: units/celestials/d3_Herald.cfg:51 units/windsong/c3_Herald.cfg:5
+#: units/celestials/d3_Herald.cfg:52 units/windsong/c3_Herald.cfg:5
 msgid "female^Herald"
 msgstr "Heroldin"
 
@@ -980,7 +980,7 @@ msgid "Seraph"
 msgstr "Seraph"
 
 #. [unit_type]: id=EOM_Seraph, race=celestial
-#: units/celestials/d4_Seraphin.cfg:20
+#: units/celestials/d4_Seraphin.cfg:21
 msgid ""
 "Exalted is the title given to the mightiest of winged celestials. They are "
 "honored to the point where they are no longer considered officers in the "
@@ -994,7 +994,7 @@ msgstr ""
 "Inspirieren und Leiten besitzen."
 
 #. [female]
-#: units/celestials/d4_Seraphin.cfg:52
+#: units/celestials/d4_Seraphin.cfg:53
 msgid "female^Seraph"
 msgstr "Seraph"
 
@@ -1004,7 +1004,7 @@ msgid "Acolyte"
 msgstr "Akolyth"
 
 #. [unit_type]: id=EOM_Wizard, race=celestial
-#: units/celestials/e1_Wizard.cfg:18
+#: units/celestials/e1_Wizard.cfg:19
 msgid ""
 "Celestials who lose their vestigial wings in adolescence are not allowed to "
 "fight in the military. As a result, they must undertake other endeavors. The "
@@ -1023,7 +1023,7 @@ msgstr ""
 "unterstützen. Die Himmlischen Herolde erlauben ihnen diese Ehre."
 
 #. [attack]: type=fire
-#: units/celestials/e1_Wizard.cfg:37
+#: units/celestials/e1_Wizard.cfg:38
 msgid "flare"
 msgstr "Flamme"
 
@@ -1033,7 +1033,7 @@ msgid "Great Wizard"
 msgstr "Theurg"
 
 #. [unit_type]: id=EOM_Great_Wizard, race=celestial
-#: units/celestials/e2_Great_Wizard.cfg:18
+#: units/celestials/e2_Great_Wizard.cfg:19
 msgid ""
 "The wizards of the celestials have always harnessed the suns power for their "
 "magic. Those who fight with the military for a while become adept at pulling "
@@ -1049,7 +1049,7 @@ msgid "Mystic"
 msgstr "Mystiker"
 
 #. [unit_type]: id=EOM_Mystic, race=celestial
-#: units/celestials/e2_Mystic.cfg:18
+#: units/celestials/e2_Mystic.cfg:19
 msgid ""
 "Many celestial wizards focus on the study of spirits rather than raw sun "
 "magic. These are known as mystics. Their skills in this area allow them to "
@@ -1065,7 +1065,7 @@ msgid "Prophet"
 msgstr "Prophet"
 
 #. [unit_type]: id=EOM_Prophet, race=celestial
-#: units/celestials/e3_Prophet.cfg:19
+#: units/celestials/e3_Prophet.cfg:20
 msgid ""
 "Mystics who become skilled enough in their arts develop the strange ability "
 "to foretell events. No one is certain how they do this or when any of the "
@@ -1083,7 +1083,7 @@ msgid "Sage"
 msgstr "Thaumaturg"
 
 #. [unit_type]: id=EOM_Sage, race=celestial
-#: units/celestials/e3_Sage.cfg:19
+#: units/celestials/e3_Sage.cfg:20
 msgid ""
 "The celestials believe the power of a wizard is not measured by his skill "
 "with magic, but by his wisdom of it's use. A wizard who has achieved both "
@@ -1100,7 +1100,7 @@ msgid "Zealot"
 msgstr "Fanatiker"
 
 #. [unit_type]: id=EOM_Zealot, race=celestial
-#: units/celestials/f1_Zealot.cfg:18
+#: units/celestials/f1_Zealot.cfg:19
 msgid ""
 "The celestial society tends to breed people who would fearlessly battle with "
 "no regard for their own life or family. More in fact than they can support "
@@ -1115,14 +1115,14 @@ msgstr ""
 "Rängen akzeptieren, aber ihnen auch nicht die Chance zu kämpfen verwehren."
 
 #. [attack]: type=blade
-#: units/celestials/f1_Zealot.cfg:28 units/celestials/f2_Militant.cfg:28
-#: units/celestials/f3_Sicarius.cfg:31
+#: units/celestials/f1_Zealot.cfg:29 units/celestials/f2_Militant.cfg:29
+#: units/celestials/f3_Sicarius.cfg:32
 msgid "chakram slice"
 msgstr "Chakram"
 
 #. [attack]: type=blade
-#: units/celestials/f1_Zealot.cfg:37 units/celestials/f2_Militant.cfg:37
-#: units/celestials/f3_Sicarius.cfg:40
+#: units/celestials/f1_Zealot.cfg:38 units/celestials/f2_Militant.cfg:38
+#: units/celestials/f3_Sicarius.cfg:41
 msgid "chakram throw"
 msgstr "Chakram"
 
@@ -1132,7 +1132,7 @@ msgid "Militant"
 msgstr "Militarist"
 
 #. [unit_type]: id=EOM_Militant, race=celestial
-#: units/celestials/f2_Militant.cfg:18
+#: units/celestials/f2_Militant.cfg:19
 msgid ""
 "The celestials have always had a very militant, and totalitarian mindset. "
 "They believe that the battle with evil should be fought until it is over. As "
@@ -1152,7 +1152,7 @@ msgid "Sicarius"
 msgstr "Sicarius"
 
 #. [unit_type]: id=EOM_Sicarius, race=celestial
-#: units/celestials/f3_Sicarius.cfg:21
+#: units/celestials/f3_Sicarius.cfg:22
 msgid ""
 "Civilian warriors who have proven their worth time and time again, are "
 "granted an honorary rank known as Sicarius. It is quite an honor in "
@@ -2085,10 +2085,10 @@ msgstr ""
 "sind aber keine sonderlich guten Kämpfer."
 
 #. [attack]: type=impact
-#: units/therians/a1_Falcon.cfg:37 units/therians/a2_Prairie_Falcon.cfg:37
+#: units/therians/a1_Falcon.cfg:38 units/therians/a2_Prairie_Falcon.cfg:37
 #: units/therians/a3_Gyrfalcon.cfg:38 units/therians/a3_Peregrine_Falcon.cfg:39
 #: units/therians/b1_Cat.cfg:42 units/therians/b2_Wildcat.cfg:51
-#: units/therians/b3_Panther.cfg:54 units/therians/b3_Tiger.cfg:55
+#: units/therians/b3_Panther.cfg:54 units/therians/b3_Tiger.cfg:56
 #: units/therians/c1_Serpent.cfg:39 units/therians/c2_Cobra.cfg:53
 #: units/therians/c2_Sandskipper.cfg:58 units/therians/c2_Sea_Snake.cfg:40
 #: units/therians/c3_King_Cobra.cfg:55 units/therians/c3_Spitting_Cobra.cfg:66
@@ -2152,8 +2152,8 @@ msgstr "Unbändige Werkatze"
 
 #. [unit_type]: id=EOM_Panther, race=therian
 #: units/therians/b3_Panther.cfg:5
-msgid "Therian Black Cat"
-msgstr "Schwarze Katze"
+msgid "Panther Therian"
+msgstr "Werpanther"
 
 #. [unit_type]: id=EOM_Tiger, race=therian
 #: units/therians/b3_Tiger.cfg:5
@@ -2740,8 +2740,8 @@ msgstr "Ein Succubus ..."
 
 #. [attack]: type=pierce
 #: units/vampires/c2_Noble.cfg:169 units/vampires/c3_Sire.cfg:211
-#: units/vampires/c4_Methusalem.cfg:212 units/vampires/x3_Duchess.cfg:76
-#: units/vampires/y1_Succubus.cfg:72 units/vampires/y2_Mistress.cfg:75
+#: units/vampires/c4_Methusalem.cfg:212 units/vampires/y1_Succubus.cfg:72
+#: units/vampires/y2_Mistress.cfg:75 units/vampires/y3_Duchess.cfg:76
 msgid "screech"
 msgstr "kreischen"
 
@@ -2771,14 +2771,14 @@ msgstr "Böser Blick"
 #. [unit_type]: id=EOM_Mistress_variation, race=vampire
 #. [variation]: race=vampire
 #: units/vampires/c3_Sire.cfg:105 units/vampires/c3_Sire.cfg:161
-#: units/vampires/x3_Mistress.cfg:10 units/vampires/y2_Mistress.cfg:7
+#: units/vampires/x3_Mistress.cfg:12 units/vampires/y2_Mistress.cfg:7
 msgid "female^Mistress"
 msgstr "Regentin"
 
 #. [unit_type]: id=EOM_Mistress, race=vampire
 #. [unit_type]: id=EOM_Mistress_variation, race=vampire
 #. [variation]: race=vampire
-#: units/vampires/c3_Sire.cfg:177 units/vampires/x3_Mistress.cfg:25
+#: units/vampires/c3_Sire.cfg:177 units/vampires/x3_Mistress.cfg:27
 #: units/vampires/y2_Mistress.cfg:25
 msgid ""
 "Some of the beautiful vampiresses who are as powerful as a Sire and are "
@@ -2847,13 +2847,13 @@ msgstr ""
 #. [unit_type]: id=EOM_Duchess, race=vampire
 #. [variation]: race=vampire
 #: units/vampires/c4_Methusalem.cfg:106 units/vampires/c4_Methusalem.cfg:162
-#: units/vampires/x3_Duchess.cfg:7
+#: units/vampires/y3_Duchess.cfg:7
 msgid "female^Duchess"
 msgstr "Empusa"
 
 #. [unit_type]: id=EOM_Duchess, race=vampire
 #. [variation]: race=vampire
-#: units/vampires/c4_Methusalem.cfg:179 units/vampires/x3_Duchess.cfg:26
+#: units/vampires/c4_Methusalem.cfg:179 units/vampires/y3_Duchess.cfg:26
 msgid ""
 "A Duchess is a powerful, yet elegant vampiress who is often the wife of a "
 "Methusalem. Even though a Duchess is feared for all the minions she "
@@ -3054,7 +3054,7 @@ msgstr "Warg"
 #. [race]: id=warg
 #: units/warg.cfg:25
 msgid ""
-"Warg are also known as wolfmen. They live in the wilds and woods in almost "
+"Wargs are also known as wolfmen. They live in the wilds and woods in almost "
 "any climate, some favor the lush jungle, others the arctic woods, others "
 "alpine mountains. The warg tend to live in packs or clans, and establish "
 "their hunting grounds where they tend not to like intruders. Although "
@@ -3062,12 +3062,12 @@ msgid ""
 "blood-lust, that can be inspired by various things, especially if vampires "
 "are involved."
 msgstr ""
-"Warg sind auch als Wolfsmenschen bekannt. Sie leben in fast jeder Klimazone, "
-"manche im schwülen Dschungel, manche in der Taiga, manche in Bergwäldern. "
-"Die Warg leben meist in Rudeln oder Sippen, und können es nicht leiden, wenn "
-"Fremde in ihr Revier eindringen. Auch wenn sie Jäger sind, sind sie meistens "
-"friedlich, trotzdem gibt es eine tiefe Blutlust, die durch vieles geweckt "
-"wird, insbesondere, wenn es um Vampire geht."
+"Wargs sind auch als Wolfsmenschen bekannt. Sie leben in fast jeder "
+"Klimazone, manche im schwülen Dschungel, manche in der Taiga, manche in "
+"Bergwäldern. Die Warg leben meist in Rudeln oder Sippen, und können es nicht "
+"leiden, wenn Fremde in ihr Revier eindringen. Auch wenn sie Jäger sind, sind "
+"sie meistens friedlich, trotzdem gibt es eine tiefe Blutlust, die durch "
+"vieles geweckt wird, insbesondere, wenn es um Vampire geht."
 
 #. [unit_type]: id=EOM_Shapeshifter, race=therian
 #: units/wargs/a1_Shapeshifter.cfg:5
@@ -4247,6 +4247,9 @@ msgstr "Tod"
 #: units/windsong/f4_Librarian.cfg:5
 msgid "female^Librarian"
 msgstr "Bibliothekarin"
+
+#~ msgid "Therian Black Cat"
+#~ msgstr "Schwarze Katze"
 
 #~ msgid "Galeforce"
 #~ msgstr "Sturmböe"

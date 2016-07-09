@@ -29,8 +29,8 @@ cd .. # change to base folder (otherwiese the filepaths in the next commands won
 # generate .pot 
 # There must be all *.cfg files which have written in their first line >> #textdomain wesnoth-Era_of_Myths <<.
 # This are in fact all *.cfg files besides a few ones which start with >> #wmllint: no translatables <<.
-# It are around 200 *.cfg files.
-echo ./mainline-strings.cfg ./macros/abilities.cfg ./macros/amla.cfg ./macros/traits.cfg ./macros/names.cfg ./macros/special-notes.cfg ./macros/specials.cfg ./units/*.cfg ./units/therians/*.cfg ./units/wargs/*.cfg ./units/celestials/*.cfg ./units/vampires/*.cfg ./units/devlings/*.cfg ./units/windsong/*.cfg ./units/elementals/*.cfg ./factions/*.cfg ./EOM_eras.cfg | xargs wmlxgettext --directory=. --domain=wesnoth-Era_of_Myths > translations/wesnoth-Era_of_Myths.pot
+# It are around 200 *.cfg files. We can use the find command instead of listing them.
+find . -name \*.cfg -print0 | xargs -0 wmlxgettext --directory=. --domain=wesnoth-Era_of_Myths > translations/wesnoth-Era_of_Myths.pot
 
 # Create brand new .po file - not needed since we have already existing translations - only when starting a translation for a new language!
 ##msginit --no-translator --input=translations/wesnoth-Era_of_Myths.pot --output-file=de.po --locale=de
