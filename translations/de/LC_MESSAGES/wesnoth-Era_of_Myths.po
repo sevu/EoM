@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Era_of_Myths\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2016-07-09 03:16+0200\n"
-"PO-Revision-Date: 2016-07-09 03:20+0200\n"
+"POT-Creation-Date: 2016-07-15 18:17+0200\n"
+"PO-Revision-Date: 2016-07-15 18:21+0200\n"
 "Last-Translator: Severin Glöckner <sgloeck@imn.htwk-leipzig.de>\n"
 "Language-Team: none\n"
 "Language: de\n"
@@ -200,7 +200,7 @@ msgstr "Heilen +3"
 msgid ""
 "Allows the unit to heal adjacent allied units at the beginning of our turn.\n"
 "\n"
-"A unit cared for by this healer may heal up to 4 HP per turn, or stop poison "
+"A unit cared for by this healer may heal up to 3 HP per turn, or stop poison "
 "from taking effect for that turn.\n"
 "A poisoned unit cannot be cured of its poison by a healer, and must seek the "
 "care of a village or a unit that can cure."
@@ -208,74 +208,37 @@ msgstr ""
 "Benachbarte eigene oder verbündete Einheiten werden zu Beginn Eures Zuges "
 "geheilt.\n"
 "\n"
-"Eine Einheit, um die sich ein Heiler kümmert, erhält pro Runde bis zu 4 LP "
+"Eine Einheit, um die sich ein Heiler kümmert, erhält pro Runde bis zu 3 LP "
 "zurück.\n"
 "Vergiftungen kann ein Heiler zwar nicht kurieren, jedoch zumindest dem "
 "Schaden entgegenwirken.\n"
 "Giftopfer gesunden nur durch Einheiten mit der Fähigkeit »Kurieren« oder "
 "Rast in einem Dorf."
 
-#. [regenerate]: id=healing
-#: macros/abilities.cfg:55
-msgid "foresthome"
-msgstr "Waldgeist"
-
-#. [regenerate]: id=healing
+#. [regenerate]: id=regenerates
 #: macros/abilities.cfg:56
-msgid "This unit will regenerate 4 HP when in forest."
-msgstr "Diese Einheit regeneriert in Wäldern 4 Lebenspunkte."
+msgid "resurgence"
+msgstr "Naturgeist"
 
-#. [regenerate]: id=healing
-#: macros/abilities.cfg:73
-msgid "waterhome"
-msgstr "Wassergeist"
-
-#. [regenerate]: id=healing
-#: macros/abilities.cfg:74
+#. [regenerate]: id=regenerates
+#: macros/abilities.cfg:58
 msgid ""
-"This unit will regenerate 4 HP when in deep or shallow water and swamps."
+"This unit will absorb energy whenever it is on terrain that matches its "
+"elemental affinity, thus healing itself by 5 HP per turn."
 msgstr ""
-"Solange sich diese Einheit in einem Feuchtgebiet aufhält, regeneriert sie 4 "
-"Lebenspunkte pro Runde."
 
-#. [regenerate]: id=healing
-#: macros/abilities.cfg:88
-msgid "deserthome"
-msgstr "Wüstengeist"
-
-#. [regenerate]: id=healing
-#: macros/abilities.cfg:89
-msgid ""
-"This unit will regenerate 4 HP when in desert or sand.\n"
-"If this unit can fly over lava, it will regenerate there as well."
-msgstr ""
-"Solange sich diese Einheit in einem Wüstengebiet aufhält, regeneriert sie 4 "
-"Lebenspunkte pro Runde.\n"
-"Falls diese Einheit über Lava hinwegfliegen kann, so regeneriert sie sich "
-"auch dort."
-
-#. [regenerate]: id=healing
-#: macros/abilities.cfg:104
-msgid "mountainhome"
-msgstr "Berggeist"
-
-#. [regenerate]: id=healing
-#: macros/abilities.cfg:105
-msgid "This unit will regenerate 4 HP when on mountains."
-msgstr "Diese Einheit regeneriert auf Bergen 4 Lebenspunkte."
-
-#. [leadership]: id=leadership
-#: macros/abilities.cfg:116
+#. [leadership]: id=inspire
+#: macros/abilities.cfg:110
 msgid "inspire"
 msgstr "Ermutigung"
 
-#. [leadership]: id=leadership
-#: macros/abilities.cfg:117
+#. [leadership]: id=inspire
+#: macros/abilities.cfg:111
 msgid "female^inspire"
 msgstr "Ermutigung"
 
-#. [leadership]: id=leadership
-#: macros/abilities.cfg:118
+#. [leadership]: id=inspire
+#: macros/abilities.cfg:112
 msgid ""
 "This unit can inspire friendly units that are next to it, making them fight "
 "better.\n"
@@ -393,21 +356,13 @@ msgstr ""
 
 #: macros/special-notes.cfg:5
 msgid ""
-" The ranged attacks of this unit deal massive damage, but always have a low "
-"chance of hitting an opponent."
-msgstr ""
-" Der Fernangriff dieser Einheit verursacht großen Schaden, trifft aber nur "
-"selten."
-
-#: macros/special-notes.cfg:10
-msgid ""
 " This unit will heal allies by 3 HP at the beginning of its turns. In "
 "addition, this ability will inhibit the effects of poison."
 msgstr ""
 " Diese Einheit heilt zu Beginn einer Runde Verbündete um 3 Lebenspunkte. "
 "Gift fügt keinen Schaden zu."
 
-#: macros/special-notes.cfg:14
+#: macros/special-notes.cfg:9
 msgid ""
 " The ability of this unit to inspire its allies enables adjacent units of "
 "the same side to deal more damage in combat, though this does not apply to "
@@ -416,44 +371,15 @@ msgstr ""
 " Benachbarte Verbündete der Stufe 1 verursachen 10% mehr Schaden. Dies gilt "
 "nicht für andere Boten."
 
-#: macros/special-notes.cfg:18
+#: macros/special-notes.cfg:13
 msgid ""
-" Whenever this unit is in a forested area, it will regenerate 4 HP per turn."
-msgstr ""
-" Solange sich diese Einheit in einem Waldgebiet aufhält, regeneriert sie 4 "
-"Lebenspunkte pro Runde."
-
-#: macros/special-notes.cfg:22
-msgid ""
-" Whenever this unit is in a mountainous area, it will regenerate 4 HP per "
-"turn."
-msgstr ""
-" Solange sich diese Einheit sich in einem felsigen Gebiet aufhält, "
-"regeneriert sie 4 Lebenspunkte pro Runde"
-
-#: macros/special-notes.cfg:26
-msgid ""
-" Whenever this unit is in desert-like area, it will regenerate 4 HP per turn."
-msgstr ""
-" Solange sich diese Einheit in einem Wüstengebiet aufhält, regeneriert sie 4 "
-"Lebenspunkte pro Runde."
-
-#: macros/special-notes.cfg:30
-msgid ""
-" Whenever this unit is in an aquatic area, it will regenerate 4 HP per turn."
-msgstr ""
-" Solange sich diese Einheit in einem Feuchtgebiet aufhält, regeneriert sie 4 "
-"Lebenspunkte pro Runde."
-
-#: macros/special-notes.cfg:34
-msgid ""
-" Whenever this unit attacks with its counter attack defensively, it will "
-"always have at least 60% chance to hit."
+" While defending, this unit's counter attacks will always have at least 60% "
+"chance to hit."
 msgstr ""
 " Eine Einheit, die sich mit dieser Waffe verteidigt, besitzt stets eine "
 "Trefferchance von mindestens 60%."
 
-#: macros/special-notes.cfg:38
+#: macros/special-notes.cfg:17
 msgid ""
 " The steadiness of this unit reduces damage from some attacks, but only "
 "while attacking."
@@ -461,58 +387,126 @@ msgstr ""
 " Die Robustheit dieser Einheit verringert den Schaden mancher Angriffe, aber "
 "nur, wenn sie angreift."
 
-#: macros/special-notes.cfg:43
+#: macros/special-notes.cfg:22
 msgid ""
 " Vampires are immune to drain and plague but are still susceptible to poison."
 msgstr ""
 " Vampire sind immun gegenüber Lebensentzug und untoter Plage aber immer noch "
 "durch Gift verwundbar."
 
+#: macros/special-notes.cfg:43
+msgid ""
+" Whenever this unit is in a forested area, it will regenerate 5 HP per turn."
+msgstr ""
+" Solange sich diese Einheit in einem Waldgebiet aufhält, regeneriert sie 5 "
+"Lebenspunkte pro Runde."
+
+#: macros/special-notes.cfg:45
+#, fuzzy
+msgid " This unit will recover 5 HP per turn while in a forest."
+msgstr "Diese Einheit regeneriert in Wäldern 5 Lebenspunkte."
+
+#: macros/special-notes.cfg:47
+msgid ""
+" This unit will regenerate 5 HP per turn in forest or mushroom grove "
+"terrains."
+msgstr ""
+
+#: macros/special-notes.cfg:49
+msgid "This unit will regenerate 5 HP when in forest."
+msgstr "Diese Einheit regeneriert in Wäldern 5 Lebenspunkte."
+
+#: macros/special-notes.cfg:53
+msgid ""
+" Whenever this unit is in a mountainous area, it will regenerate 5 HP per "
+"turn."
+msgstr ""
+" Solange sich diese Einheit sich in einem felsigen Gebiet aufhält, "
+"regeneriert sie 5 Lebenspunkte pro Runde"
+
+#: macros/special-notes.cfg:55
+msgid ""
+" This unit will repair its body with the rocks found while in/on hills, "
+"caves, or mountains, thus recovering 5 HP in the process."
+msgstr ""
+
+#: macros/special-notes.cfg:57
+msgid "This unit will regenerate 5 HP when on mountains."
+msgstr "Diese Einheit regeneriert auf Bergen 5Lebenspunkte."
+
+#: macros/special-notes.cfg:62
+msgid ""
+" Whenever this unit is in desert-like area, it will regenerate 5 HP per turn."
+msgstr ""
+" Solange sich diese Einheit in einem Wüstengebiet aufhält, regeneriert sie 5 "
+"Lebenspunkte pro Runde."
+
+#: macros/special-notes.cfg:64
+#, fuzzy
+msgid ""
+" This unit will recover 5 HP per turn when on lava, sandy or desert terrain."
+msgstr "Diese Einheit regeneriert in Wüsten oder auf Sand 5 Lebenspunkte."
+
+#: macros/special-notes.cfg:66
+msgid ""
+"This unit will regenerate 5 HP when in desert or sand.\n"
+"If this unit can fly over lava, it will regenerate there as well."
+msgstr ""
+"Solange sich diese Einheit in einem Wüstengebiet aufhält, regeneriert sie 5 "
+"Lebenspunkte pro Runde.\n"
+"Falls diese Einheit über Lava hinwegfliegen kann, so regeneriert sie sich "
+"auch dort."
+
+#: macros/special-notes.cfg:72
+msgid ""
+" Whenever this unit is in an aquatic area, it will regenerate 5 HP per turn."
+msgstr ""
+" Solange sich diese Einheit in einem Feuchtgebiet aufhält, regeneriert sie 5 "
+"Lebenspunkte pro Runde."
+
+#: macros/special-notes.cfg:74
+msgid " This unit will recover 5 HP per turn when on watery terrain."
+msgstr ""
+
+#: macros/special-notes.cfg:76
+msgid ""
+"This unit will regenerate 5 HP when in deep or shallow water and swamps."
+msgstr ""
+"Solange sich diese Einheit in einem Feuchtgebiet aufhält, regeneriert sie 5 "
+"Lebenspunkte pro Runde."
+
+#: macros/special-notes.cfg:81
+msgid " This unit will recover 5 HP per turn while on snowy or icy terrain."
+msgstr ""
+
+#: macros/special-notes.cfg:85
+msgid "deserthome"
+msgstr "Wüstengeist"
+
+#: macros/special-notes.cfg:86
+msgid "waterhome"
+msgstr "Wassergeist"
+
+#: macros/special-notes.cfg:87
+msgid "foresthome"
+msgstr "Waldgeist"
+
+#: macros/special-notes.cfg:88
+msgid "mountainhome"
+msgstr "Berggeist"
+
 #. [chance_to_hit]: id=counter
-#: macros/specials.cfg:8
+#: macros/specials.cfg:6
 msgid "counter"
 msgstr "Gegenschlag"
 
 #. [chance_to_hit]: id=counter
-#: macros/specials.cfg:9
+#: macros/specials.cfg:7
 msgid ""
 "When used defensively, this attack always has at least a 60% chance to hit."
 msgstr ""
 "Wenn dieser Angriff defensiv gebraucht wird, beträgt die Trefferquote "
 "mindestens 60%."
-
-#. [chance_to_hit]: id=massivestrike
-#: macros/specials.cfg:21
-msgid "massive strike"
-msgstr "Schwerer Schlag"
-
-#. [chance_to_hit]: id=massivestrike
-#: macros/specials.cfg:22
-msgid "This attack always has a 20% chance to hit."
-msgstr "Die Trefferchance dieses Angriffes beträgt stets 20%."
-
-#. [damage]: id=udbane
-#: macros/specials.cfg:31
-msgid "unholybane"
-msgstr "Bannen der Unholde"
-
-#. [damage]: id=udbane
-#: macros/specials.cfg:32
-msgid ""
-"This attack cuts at the tie between an abomination and its corrupted source "
-"of animation. This attack deals additional damage to the target:\n"
-"\n"
-"aberration = 150%\n"
-"undead = 140%\n"
-"vampire = 120%"
-msgstr ""
-"Dieser Angriff durchtrennt das Band zwischen einer Abscheulichkeit und ihrer "
-"verderbten Lebensquelle. Dieser Angriff fügt seinem Ziel zusätzlichen "
-"Schaden zu:\n"
-"\n"
-"Grauen = 150%\n"
-"Untote = 140%\n"
-"Vampire = 120%"
 
 #. [trait]: id=ruby
 #: macros/traits.cfg:8
@@ -1552,16 +1546,11 @@ msgstr "Elementargeist"
 
 #. [race]: id=elemental
 #: units/elementals.cfg:8
-msgid "race+female^Elemental"
-msgstr "Elementargeist"
-
-#. [race]: id=elemental
-#: units/elementals.cfg:9
 msgid "race^Elementals"
 msgstr "Elementargeister"
 
 #. [race]: id=elemental
-#: units/elementals.cfg:14
+#: units/elementals.cfg:13
 msgid ""
 "The Elementals are the guardians of the World, spirits of the elements that "
 "incarnate themselves to fight. They are reclusive, but can be quite fierce "
@@ -1891,12 +1880,12 @@ msgstr ""
 "geeignet ist und sie mit speerähnlichen Eiszapfen  kämpfen können."
 
 #. [attack]: type=pierce
-#: units/elementals/d2_Ice_Crab.cfg:46 units/elementals/d3_Ice_Shell.cfg:47
+#: units/elementals/d2_Ice_Crab.cfg:49 units/elementals/d3_Ice_Shell.cfg:50
 msgid "icicle"
 msgstr "Eiszapfen"
 
 #. [attack]: type=cold
-#: units/elementals/d2_Ice_Crab.cfg:55 units/elementals/d3_Ice_Shell.cfg:56
+#: units/elementals/d2_Ice_Crab.cfg:58 units/elementals/d3_Ice_Shell.cfg:59
 msgid "gelid aura"
 msgstr "Aura der Kälte"
 
@@ -4248,6 +4237,51 @@ msgstr "Tod"
 msgid "female^Librarian"
 msgstr "Bibliothekarin"
 
+#~ msgid "female^resurgence"
+#~ msgstr "Elementargeist"
+
+#~ msgid ""
+#~ " Whenever this unit attacks with its counter attack defensively, it will "
+#~ "always have at least 60% chance to hit."
+#~ msgstr ""
+#~ " Eine Einheit, die sich mit dieser Waffe verteidigt, besitzt stets eine "
+#~ "Trefferchance von mindestens 60%."
+
+#~ msgid "massive strike"
+#~ msgstr "Schwerer Schlag"
+
+#~ msgid "This attack always has a 20% chance to hit."
+#~ msgstr "Die Trefferchance dieses Angriffes beträgt stets 20%."
+
+#~ msgid "unholybane"
+#~ msgstr "Bannen der Unholde"
+
+#~ msgid ""
+#~ "This attack cuts at the tie between an abomination and its corrupted "
+#~ "source of animation. This attack deals additional damage to the target:\n"
+#~ "\n"
+#~ "aberration = 150%\n"
+#~ "undead = 140%\n"
+#~ "vampire = 120%"
+#~ msgstr ""
+#~ "Dieser Angriff durchtrennt das Band zwischen einer Abscheulichkeit und "
+#~ "ihrer verderbten Lebensquelle. Dieser Angriff fügt seinem Ziel "
+#~ "zusätzlichen Schaden zu:\n"
+#~ "\n"
+#~ "Grauen = 150%\n"
+#~ "Untote = 140%\n"
+#~ "Vampire = 120%"
+
+#~ msgid ""
+#~ " The ranged attacks of this unit deal massive damage, but always have a "
+#~ "low chance of hitting an opponent."
+#~ msgstr ""
+#~ " Der Fernangriff dieser Einheit verursacht großen Schaden, trifft aber "
+#~ "nur selten."
+
+#~ msgid "race+female^Elemental"
+#~ msgstr "Elementargeist"
+
 #~ msgid "Therian Black Cat"
 #~ msgstr "Schwarze Katze"
 
@@ -4359,9 +4393,6 @@ msgstr "Bibliothekarin"
 #, fuzzy
 #~ msgid "Chief lvl4"
 #~ msgstr "Schlitzer"
-
-#~ msgid "This unit will regenerate 3 HP when in desert or sand."
-#~ msgstr "Diese Einheit regeneriert in Wüsten oder auf Sand 3 Lebenspunkte."
 
 #~ msgid "ferocious"
 #~ msgstr "Ungestüm"

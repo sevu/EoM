@@ -6,32 +6,33 @@ NOTES for later:
 lvl1: WoL plays first the fire sound, then the claws sound
 lvl2&3: WoL plays them the same time, WE PLAY FIRST THE FIRE SOUND (swapped behavior to lvl 1)
 compare Air Elemental's (lvl0) recruit animation with the one in EoC / WoL (experiments from last time)
-
-*WML: 
 recheck lvl1 earth elemental, noted sth. is probably better in WoL (animation)
 lvl2 golem -> as well
 
 *Animation Checklist:
-How do the changes to the Therians look.
-Should the shifting be quicker?
+How do the changes to the Therians look. Should the shifting be quicker?
 Does the combination of moving and melee attacking look ok for the therian cat?
 Does it look better if we make the tornado missile frame (zephyr/djinn) longer?
 
 IDEAS:
 how about using razorbird-attack image for a moving animation?
+unifying the elementals regeneration abilities into one - resurgence from EoC
 
 
 VERSION 5.19.0
 --general changes
-*rewrote the lightning base animation, so the pot-generation scripts doesn't break there anymore
+*rewrote the lightning base animation, so the pot-generation script doesn't break there anymore
 
 -Celestials
-*many new kind of portraits for the celestials, all done by tommy2teeth
+*many new semi-portraits for the celestials, all done by tommy2teeth
 *Quester uses mainline Paladin portrait
 *Messenger/Claimant use flying image on unwalkable terrain, too
 
 -Wargs
 *Wolf Cub cost 12 -> 11
+*Wolf Cub, Wolf, Dire Wolf -> new sprite
+*Fenrir -> new sprite
+*Moon Blade -> got an attack sprite
 
 -Therians
 *Higher Level Falcons -1 MP
@@ -41,6 +42,7 @@ VERSION 5.19.0
 *Pathfinder (lvl2) backstab melee 5-3 -> 6-3 (like the mainline Rouge)
 *Skyrunner (lvl2, other path) melee 6-3 -> 7-3
 *Farstrider (lvl3) backstab melee 5-4 -> 6-4 (mainline Assassin has 8-3)
+*Harbringer's/Herectic's sunburst attack looks now the same for all directions
 
 -Elementals - took over balance changes from WoL
 *Wind Spirits are recruitable (additionally to Air Elementals)
@@ -68,6 +70,7 @@ VERSION 5.19.0
 *Ice Shell HP 55 -> 54, cost 35 -> 33, melee 10-3 -> 11-3
 *Vine Beast cost 16 -> 14
 *Vine Tiger cost 32 -> 26, melee 7-4 -> 8-4, ranged 5-3 -> 6-3, new attack
+*adjusted tornado animation
 
 
 VERSION 5.18.0
