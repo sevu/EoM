@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Era_of_Myths\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2016-07-15 18:17+0200\n"
-"PO-Revision-Date: 2016-07-15 18:21+0200\n"
+"POT-Creation-Date: 2016-07-15 22:52+0200\n"
+"PO-Revision-Date: 2016-07-15 22:52+0200\n"
 "Last-Translator: Severin Glöckner <sgloeck@imn.htwk-leipzig.de>\n"
 "Language-Team: none\n"
 "Language: de\n"
@@ -167,17 +167,17 @@ msgid "Windsong"
 msgstr "Windflüsterinnen"
 
 #. [resistance]: id=dauntless
-#: macros/abilities.cfg:8
+#: macros/abilities.cfg:6
 msgid "dauntless"
 msgstr "Unerschrocken"
 
 #. [resistance]: id=dauntless
-#: macros/abilities.cfg:9
+#: macros/abilities.cfg:7
 msgid "female^dauntless"
 msgstr "Unerschrocken"
 
 #. [resistance]: id=dauntless
-#: macros/abilities.cfg:10
+#: macros/abilities.cfg:8
 msgid ""
 "While attacking, this unit's resistances are doubled, up to a maximum of 50. "
 "Weaknesses are not affected."
@@ -186,17 +186,17 @@ msgstr ""
 "Dies gilt nicht für Schwächen."
 
 #. [heals]: id=healing
-#: macros/abilities.cfg:29
+#: macros/abilities.cfg:27
 msgid "heals +3"
 msgstr "Heilen +3"
 
 #. [heals]: id=healing
-#: macros/abilities.cfg:30
+#: macros/abilities.cfg:28
 msgid "female^heals +3"
 msgstr "Heilen +3"
 
 #. [heals]: id=healing
-#: macros/abilities.cfg:31
+#: macros/abilities.cfg:29
 msgid ""
 "Allows the unit to heal adjacent allied units at the beginning of our turn.\n"
 "\n"
@@ -216,29 +216,29 @@ msgstr ""
 "Rast in einem Dorf."
 
 #. [regenerate]: id=regenerates
-#: macros/abilities.cfg:56
+#: macros/abilities.cfg:54
 msgid "resurgence"
 msgstr "Naturgeist"
 
 #. [regenerate]: id=regenerates
-#: macros/abilities.cfg:58
+#: macros/abilities.cfg:56
 msgid ""
 "This unit will absorb energy whenever it is on terrain that matches its "
 "elemental affinity, thus healing itself by 5 HP per turn."
 msgstr ""
 
 #. [leadership]: id=inspire
-#: macros/abilities.cfg:110
+#: macros/abilities.cfg:108
 msgid "inspire"
 msgstr "Ermutigung"
 
 #. [leadership]: id=inspire
-#: macros/abilities.cfg:111
+#: macros/abilities.cfg:109
 msgid "female^inspire"
 msgstr "Ermutigung"
 
 #. [leadership]: id=inspire
-#: macros/abilities.cfg:112
+#: macros/abilities.cfg:110
 msgid ""
 "This unit can inspire friendly units that are next to it, making them fight "
 "better.\n"
@@ -1545,12 +1545,12 @@ msgid "race^Elemental"
 msgstr "Elementargeist"
 
 #. [race]: id=elemental
-#: units/elementals.cfg:8
+#: units/elementals.cfg:9
 msgid "race^Elementals"
 msgstr "Elementargeister"
 
 #. [race]: id=elemental
-#: units/elementals.cfg:13
+#: units/elementals.cfg:14
 msgid ""
 "The Elementals are the guardians of the World, spirits of the elements that "
 "incarnate themselves to fight. They are reclusive, but can be quite fierce "
@@ -3434,32 +3434,32 @@ msgid "Water Shyde"
 msgstr "Wasserfee"
 
 #. [race]: id=abstraction, description=
-#: units/windsong.cfg:9
+#: units/windsong.cfg:7
 msgid "race^Abstraction"
 msgstr "Abstraktum"
 
 #. [race]: id=abstraction, description=
-#: units/windsong.cfg:10
+#: units/windsong.cfg:8
 msgid "race+female^Abstraction"
 msgstr "Abstraktum"
 
 #. [race]: id=abstraction, description=
-#: units/windsong.cfg:11
+#: units/windsong.cfg:9
 msgid "race^Abstractions"
 msgstr "Abstrakta"
 
 #. [race]: id=windsong
-#: units/windsong.cfg:21
+#: units/windsong.cfg:19
 msgid "race^Windsong Human"
 msgstr "Windflüsterin"
 
 #. [race]: id=windsong
-#: units/windsong.cfg:22
+#: units/windsong.cfg:20
 msgid "race^Windsong Humans"
 msgstr "Windflüsterinnen"
 
 #. [race]: id=windsong
-#: units/windsong.cfg:27
+#: units/windsong.cfg:25
 msgid ""
 "The Windsong are a mysterious people, consisting completely of abducted "
 "female humans. Their numbers are few, and their goals and motives obscure. "
