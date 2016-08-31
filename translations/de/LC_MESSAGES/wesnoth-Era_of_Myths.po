@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Era_of_Myths\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2016-07-15 22:52+0200\n"
-"PO-Revision-Date: 2016-07-15 22:52+0200\n"
+"POT-Creation-Date: 2016-08-30 03:25+0200\n"
+"PO-Revision-Date: 2016-08-30 03:28+0200\n"
 "Last-Translator: Severin Glöckner <sgloeck@imn.htwk-leipzig.de>\n"
 "Language-Team: none\n"
 "Language: de\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.7.1\n"
+"X-Generator: Poedit 1.8.8\n"
 
 #. [era]: id=era_EOM_{ERA_OF_MYTHS_VERSION}
 #: EOM_eras.cfg:102
@@ -228,17 +228,17 @@ msgid ""
 msgstr ""
 
 #. [leadership]: id=inspire
-#: macros/abilities.cfg:108
+#: macros/abilities.cfg:114
 msgid "inspire"
 msgstr "Ermutigung"
 
 #. [leadership]: id=inspire
-#: macros/abilities.cfg:109
+#: macros/abilities.cfg:115
 msgid "female^inspire"
 msgstr "Ermutigung"
 
 #. [leadership]: id=inspire
-#: macros/abilities.cfg:110
+#: macros/abilities.cfg:116
 msgid ""
 "This unit can inspire friendly units that are next to it, making them fight "
 "better.\n"
@@ -402,7 +402,6 @@ msgstr ""
 "Lebenspunkte pro Runde."
 
 #: macros/special-notes.cfg:45
-#, fuzzy
 msgid " This unit will recover 5 HP per turn while in a forest."
 msgstr "Diese Einheit regeneriert in Wäldern 5 Lebenspunkte."
 
@@ -416,7 +415,7 @@ msgstr ""
 msgid "This unit will regenerate 5 HP when in forest."
 msgstr "Diese Einheit regeneriert in Wäldern 5 Lebenspunkte."
 
-#: macros/special-notes.cfg:53
+#: macros/special-notes.cfg:54
 msgid ""
 " Whenever this unit is in a mountainous area, it will regenerate 5 HP per "
 "turn."
@@ -424,30 +423,29 @@ msgstr ""
 " Solange sich diese Einheit sich in einem felsigen Gebiet aufhält, "
 "regeneriert sie 5 Lebenspunkte pro Runde"
 
-#: macros/special-notes.cfg:55
+#: macros/special-notes.cfg:56
 msgid ""
 " This unit will repair its body with the rocks found while in/on hills, "
 "caves, or mountains, thus recovering 5 HP in the process."
 msgstr ""
 
-#: macros/special-notes.cfg:57
+#: macros/special-notes.cfg:58
 msgid "This unit will regenerate 5 HP when on mountains."
 msgstr "Diese Einheit regeneriert auf Bergen 5Lebenspunkte."
 
-#: macros/special-notes.cfg:62
+#: macros/special-notes.cfg:63
 msgid ""
 " Whenever this unit is in desert-like area, it will regenerate 5 HP per turn."
 msgstr ""
 " Solange sich diese Einheit in einem Wüstengebiet aufhält, regeneriert sie 5 "
 "Lebenspunkte pro Runde."
 
-#: macros/special-notes.cfg:64
-#, fuzzy
+#: macros/special-notes.cfg:65
 msgid ""
 " This unit will recover 5 HP per turn when on lava, sandy or desert terrain."
 msgstr "Diese Einheit regeneriert in Wüsten oder auf Sand 5 Lebenspunkte."
 
-#: macros/special-notes.cfg:66
+#: macros/special-notes.cfg:67
 msgid ""
 "This unit will regenerate 5 HP when in desert or sand.\n"
 "If this unit can fly over lava, it will regenerate there as well."
@@ -457,41 +455,41 @@ msgstr ""
 "Falls diese Einheit über Lava hinwegfliegen kann, so regeneriert sie sich "
 "auch dort."
 
-#: macros/special-notes.cfg:72
+#: macros/special-notes.cfg:73
 msgid ""
 " Whenever this unit is in an aquatic area, it will regenerate 5 HP per turn."
 msgstr ""
 " Solange sich diese Einheit in einem Feuchtgebiet aufhält, regeneriert sie 5 "
 "Lebenspunkte pro Runde."
 
-#: macros/special-notes.cfg:74
+#: macros/special-notes.cfg:75
 msgid " This unit will recover 5 HP per turn when on watery terrain."
 msgstr ""
 
-#: macros/special-notes.cfg:76
+#: macros/special-notes.cfg:77
 msgid ""
 "This unit will regenerate 5 HP when in deep or shallow water and swamps."
 msgstr ""
 "Solange sich diese Einheit in einem Feuchtgebiet aufhält, regeneriert sie 5 "
 "Lebenspunkte pro Runde."
 
-#: macros/special-notes.cfg:81
+#: macros/special-notes.cfg:82
 msgid " This unit will recover 5 HP per turn while on snowy or icy terrain."
 msgstr ""
 
-#: macros/special-notes.cfg:85
+#: macros/special-notes.cfg:86
 msgid "deserthome"
 msgstr "Wüstengeist"
 
-#: macros/special-notes.cfg:86
+#: macros/special-notes.cfg:87
 msgid "waterhome"
 msgstr "Wassergeist"
 
-#: macros/special-notes.cfg:87
+#: macros/special-notes.cfg:88
 msgid "foresthome"
 msgstr "Waldgeist"
 
-#: macros/special-notes.cfg:88
+#: macros/special-notes.cfg:89
 msgid "mountainhome"
 msgstr "Berggeist"
 
@@ -1027,7 +1025,7 @@ msgid "Great Wizard"
 msgstr "Theurg"
 
 #. [unit_type]: id=EOM_Great_Wizard, race=celestial
-#: units/celestials/e2_Great_Wizard.cfg:19
+#: units/celestials/e2_Great_Wizard.cfg:18
 msgid ""
 "The wizards of the celestials have always harnessed the suns power for their "
 "magic. Those who fight with the military for a while become adept at pulling "
@@ -1469,7 +1467,7 @@ msgstr ""
 #. [unit_type]: id=EOM_Assassin #? #or magican?, race=devling
 #: units/devlings/d3_Ninja.cfg:5
 msgid "Ninja"
-msgstr ""
+msgstr "Ninja"
 
 #. [unit_type]: id=EOM_Cursers, race=devling
 #: units/devlings/e1_Cursers.cfg:5
@@ -2147,7 +2145,7 @@ msgstr "Werpanther"
 #. [unit_type]: id=EOM_Tiger, race=therian
 #: units/therians/b3_Tiger.cfg:5
 msgid "Leopard Therian"
-msgstr "Werpanther"
+msgstr "Werpard"
 
 #. [unit_type]: id=EOM_Serpent, race=therian
 #: units/therians/c1_Serpent.cfg:5
