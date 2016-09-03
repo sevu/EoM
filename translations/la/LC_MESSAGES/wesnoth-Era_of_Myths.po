@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Era_of_Myths\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2016-08-30 03:25+0200\n"
+"POT-Creation-Date: 2016-09-02 19:27+0200\n"
 "PO-Revision-Date: 2016-08-30 03:32+0200\n"
 "Last-Translator: Torben Undiwill <>\n"
 "Language-Team: none\n"
@@ -203,17 +203,17 @@ msgid ""
 msgstr ""
 
 #. [leadership]: id=inspire
-#: macros/abilities.cfg:114
+#: macros/abilities.cfg:120
 msgid "inspire"
 msgstr "incitat"
 
 #. [leadership]: id=inspire
-#: macros/abilities.cfg:115
+#: macros/abilities.cfg:121
 msgid "female^inspire"
 msgstr "incitat"
 
 #. [leadership]: id=inspire
-#: macros/abilities.cfg:116
+#: macros/abilities.cfg:122
 msgid ""
 "This unit can inspire friendly units that are next to it, making them fight "
 "better.\n"
@@ -350,95 +350,101 @@ msgid ""
 "while attacking."
 msgstr ""
 
-#: macros/special-notes.cfg:22
+#: macros/special-notes.cfg:21
 msgid ""
-" Vampires are immune to drain and plague but are still susceptible to poison."
+" Foes who lose their life to the bite of this noble vampire will rise again "
+"as bloodborns, unless they are standing on a village."
 msgstr ""
 
-#: macros/special-notes.cfg:43
+#: macros/special-notes.cfg:25
 msgid ""
 " Whenever this unit is in a forested area, it will regenerate 5 HP per turn."
 msgstr ""
 
-#: macros/special-notes.cfg:45
+#: macros/special-notes.cfg:27
 msgid " This unit will recover 5 HP per turn while in a forest."
 msgstr ""
 
-#: macros/special-notes.cfg:47
+#: macros/special-notes.cfg:29
 msgid ""
 " This unit will regenerate 5 HP per turn in forest or mushroom grove "
 "terrains."
 msgstr ""
 
-#: macros/special-notes.cfg:49
+#: macros/special-notes.cfg:31
 msgid "This unit will regenerate 5 HP when in forest."
 msgstr ""
 
-#: macros/special-notes.cfg:54
+#: macros/special-notes.cfg:36
 msgid ""
 " Whenever this unit is in a mountainous area, it will regenerate 5 HP per "
 "turn."
 msgstr ""
 
-#: macros/special-notes.cfg:56
+#: macros/special-notes.cfg:38
 msgid ""
 " This unit will repair its body with the rocks found while in/on hills, "
 "caves, or mountains, thus recovering 5 HP in the process."
 msgstr ""
 
-#: macros/special-notes.cfg:58
+#: macros/special-notes.cfg:40
 msgid "This unit will regenerate 5 HP when on mountains."
 msgstr ""
 
-#: macros/special-notes.cfg:63
+#: macros/special-notes.cfg:45
 msgid ""
 " Whenever this unit is in desert-like area, it will regenerate 5 HP per turn."
 msgstr ""
 
-#: macros/special-notes.cfg:65
+#: macros/special-notes.cfg:47
 msgid ""
 " This unit will recover 5 HP per turn when on lava, sandy or desert terrain."
 msgstr ""
 
-#: macros/special-notes.cfg:67
+#: macros/special-notes.cfg:49
 msgid ""
 "This unit will regenerate 5 HP when in desert or sand.\n"
 "If this unit can fly over lava, it will regenerate there as well."
 msgstr ""
 
-#: macros/special-notes.cfg:73
+#: macros/special-notes.cfg:55
 msgid ""
 " Whenever this unit is in an aquatic area, it will regenerate 5 HP per turn."
 msgstr ""
 
-#: macros/special-notes.cfg:75
+#: macros/special-notes.cfg:57
 msgid " This unit will recover 5 HP per turn when on watery terrain."
 msgstr ""
 
-#: macros/special-notes.cfg:77
+#: macros/special-notes.cfg:59
 msgid ""
 "This unit will regenerate 5 HP when in deep or shallow water and swamps."
 msgstr ""
 
-#: macros/special-notes.cfg:82
+#: macros/special-notes.cfg:64
 msgid " This unit will recover 5 HP per turn while on snowy or icy terrain."
 msgstr ""
 
-#: macros/special-notes.cfg:86
+#: macros/special-notes.cfg:68
 msgid "deserthome"
 msgstr "deserticus"
 
-#: macros/special-notes.cfg:87
+#: macros/special-notes.cfg:69
 msgid "waterhome"
 msgstr "aquaticus"
 
-#: macros/special-notes.cfg:88
+#: macros/special-notes.cfg:70
 msgid "foresthome"
 msgstr "silvanus"
 
-#: macros/special-notes.cfg:89
+#: macros/special-notes.cfg:71
 msgid "mountainhome"
 msgstr "montanus"
+
+#: macros/special-notes.cfg:80
+msgid ""
+" Vampires are immune to drain and plague but are still susceptible to poison."
+msgstr ""
 
 #. [chance_to_hit]: id=counter
 #: macros/specials.cfg:6
@@ -585,22 +591,22 @@ msgid ""
 "attacks."
 msgstr ""
 
-#. [race]: id=celestial
+#. [race]: id=EOM_celestial
 #: units/celestials.cfg:7
 msgid "race^Celestial"
 msgstr "Vir Supernus"
 
-#. [race]: id=celestial
+#. [race]: id=EOM_celestial
 #: units/celestials.cfg:8
 msgid "race+female^Celestial"
 msgstr "Femina Superna"
 
-#. [race]: id=celestial
+#. [race]: id=EOM_celestial
 #: units/celestials.cfg:9
 msgid "race^Celestials"
 msgstr "Gens Superna"
 
-#. [race]: id=celestial
+#. [race]: id=EOM_celestial
 #: units/celestials.cfg:13
 msgid ""
 "The Celestials have vestigial wings that for most of them do not mature. "
@@ -618,12 +624,12 @@ msgstr ""
 "ambitionium causa nationes Supernae maiores esse solent finibus aliorum "
 "gentium, itaque vis armarum Supernorum ingens est."
 
-#. [unit_type]: id=EOM_Crusader, race=celestial
+#. [unit_type]: id=EOM_Crusader, race=EOM_celestial
 #: units/celestials/a1_Crusader.cfg:5
 msgid "Crusader"
 msgstr "Miles Lucis"
 
-#. [unit_type]: id=EOM_Crusader, race=celestial
+#. [unit_type]: id=EOM_Crusader, race=EOM_celestial
 #: units/celestials/a1_Crusader.cfg:19
 msgid ""
 "Crusaders undergo rigorous martial training as well as rudimentary medicinal "
@@ -639,12 +645,12 @@ msgstr ""
 msgid "blessed sword"
 msgstr "gladius sacer"
 
-#. [unit_type]: id=EOM_Divine_Knight, race=celestial
+#. [unit_type]: id=EOM_Divine_Knight, race=EOM_celestial
 #: units/celestials/a2_Divine_Knight.cfg:5
 msgid "Divine Knight"
 msgstr "Oppugnator Diei"
 
-#. [unit_type]: id=EOM_Divine_Knight, race=celestial
+#. [unit_type]: id=EOM_Divine_Knight, race=EOM_celestial
 #: units/celestials/a2_Divine_Knight.cfg:19
 msgid ""
 "A crusader who survives many fierce battles is granted the honor of "
@@ -652,12 +658,12 @@ msgid ""
 "at all times."
 msgstr ""
 
-#. [unit_type]: id=EOM_Protector, race=celestial
+#. [unit_type]: id=EOM_Protector, race=EOM_celestial
 #: units/celestials/a2_Protector.cfg:5
 msgid "Protector"
 msgstr "Propugnator Solis"
 
-#. [unit_type]: id=EOM_Protector, race=celestial
+#. [unit_type]: id=EOM_Protector, race=EOM_celestial
 #: units/celestials/a2_Protector.cfg:19
 msgid ""
 "Protector's swords have been magically enchanted with the power of Fire by "
@@ -665,12 +671,12 @@ msgid ""
 "bash and Slow their opponents."
 msgstr ""
 
-#. [unit_type]: id=EOM_Quester, race=celestial
+#. [unit_type]: id=EOM_Quester, race=EOM_celestial
 #: units/celestials/a2_Quester.cfg:5
 msgid "Quester"
 msgstr "Salvator"
 
-#. [unit_type]: id=EOM_Quester, race=celestial
+#. [unit_type]: id=EOM_Quester, race=EOM_celestial
 #: units/celestials/a2_Quester.cfg:21
 msgid ""
 "Most Celestials don't ride horses, or wander alone, but some crusaders feel "
@@ -682,12 +688,12 @@ msgid ""
 "it helps them accomplish their task."
 msgstr ""
 
-#. [unit_type]: id=EOM_Divine_Champion, race=celestial
+#. [unit_type]: id=EOM_Divine_Champion, race=EOM_celestial
 #: units/celestials/a3_Divine_Champion.cfg:5
 msgid "Divine Champion"
 msgstr "Noctifractor"
 
-#. [unit_type]: id=EOM_Divine_Champion, race=celestial
+#. [unit_type]: id=EOM_Divine_Champion, race=EOM_celestial
 #: units/celestials/a3_Divine_Champion.cfg:20
 msgid ""
 "For a Knight to be recognized as a Champion he must first commit at least "
@@ -696,12 +702,12 @@ msgid ""
 "perhaps even higher."
 msgstr ""
 
-#. [unit_type]: id=EOM_Holy_Sentinel, race=celestial
+#. [unit_type]: id=EOM_Holy_Sentinel, race=EOM_celestial
 #: units/celestials/a3_Holy_Sentinel.cfg:5
 msgid "Holy Sentinel"
 msgstr "Conservator Caeli"
 
-#. [unit_type]: id=EOM_Holy_Sentinel, race=celestial
+#. [unit_type]: id=EOM_Holy_Sentinel, race=EOM_celestial
 #: units/celestials/a3_Holy_Sentinel.cfg:20
 msgid ""
 "These crusaders hold the line with flaming sword, and great sheild. They are "
@@ -709,12 +715,12 @@ msgid ""
 "they just earned."
 msgstr ""
 
-#. [unit_type]: id=EOM_Legionnaire, race=celestial
+#. [unit_type]: id=EOM_Legionnaire, race=EOM_celestial
 #: units/celestials/b1_Legionnaire.cfg:5
 msgid "Legionnaire"
 msgstr "Legionarius"
 
-#. [unit_type]: id=EOM_Legionnaire, race=celestial
+#. [unit_type]: id=EOM_Legionnaire, race=EOM_celestial
 #: units/celestials/b1_Legionnaire.cfg:20
 msgid ""
 "Legionnaires are staunch defenders of the Celestial homelands. With "
@@ -722,36 +728,36 @@ msgid ""
 "physical resistancies."
 msgstr ""
 
-#. [unit_type]: id=EOM_Keeper, race=celestial
+#. [unit_type]: id=EOM_Keeper, race=EOM_celestial
 #: units/celestials/b2_Keeper.cfg:5
 msgid "Keeper"
 msgstr "Praetorianus"
 
-#. [unit_type]: id=EOM_Keeper, race=celestial
+#. [unit_type]: id=EOM_Keeper, race=EOM_celestial
 #: units/celestials/b2_Keeper.cfg:19
 msgid ""
 "Keepers are staunch defenders of the Celestial homelands. With stout hearts, "
 "and hardened skin they will hold till death or relief comes."
 msgstr ""
 
-#. [unit_type]: id=EOM_Sentinel, race=celestial
+#. [unit_type]: id=EOM_Sentinel, race=EOM_celestial
 #: units/celestials/b3_Sentinel.cfg:5
 msgid "Sentinel"
 msgstr "Saepevigilens"
 
-#. [unit_type]: id=EOM_Sentinel, race=celestial
+#. [unit_type]: id=EOM_Sentinel, race=EOM_celestial
 #: units/celestials/b3_Sentinel.cfg:20
 msgid ""
 "The great guardians of important celestials are called Sentinels, for their "
 "silent, but imposing presence, and their complete immunity to boredom."
 msgstr ""
 
-#. [unit_type]: id=EOM_Light_Spirit, race=celestial
+#. [unit_type]: id=EOM_Light_Spirit, race=EOM_celestial
 #: units/celestials/c1_Light_Spirit.cfg:5
 msgid "Light Spirit"
 msgstr "Luminalis"
 
-#. [unit_type]: id=EOM_Light_Spirit, race=celestial
+#. [unit_type]: id=EOM_Light_Spirit, race=EOM_celestial
 #: units/celestials/c1_Light_Spirit.cfg:26
 msgid ""
 "Light Spirits are a breed of faeries who possess an aura of arcane energy "
@@ -766,12 +772,12 @@ msgstr ""
 msgid "shock of light"
 msgstr "pulsus luminis"
 
-#. [unit_type]: id=EOM_Lantern_Archon, race=celestial
+#. [unit_type]: id=EOM_Lantern_Archon, race=EOM_celestial
 #: units/celestials/c2_Lantern_Archon.cfg:5
 msgid "Lantern Archon"
 msgstr "Archon Luminis"
 
-#. [unit_type]: id=EOM_Lantern_Archon, race=celestial
+#. [unit_type]: id=EOM_Lantern_Archon, race=EOM_celestial
 #: units/celestials/c2_Lantern_Archon.cfg:25
 msgid ""
 "Lantern Archons are a breed of faeries who possess an aura of arcane energy "
@@ -780,24 +786,24 @@ msgid ""
 "they are quite defenseless."
 msgstr ""
 
-#. [unit_type]: id=EOM_Master_of_Light, race=celestial
+#. [unit_type]: id=EOM_Master_of_Light, race=EOM_celestial
 #: units/celestials/c3_Master_of_Light.cfg:5
 msgid "Master of Light"
 msgstr "Luminifer"
 
-#. [unit_type]: id=EOM_Master_of_Light, race=celestial
+#. [unit_type]: id=EOM_Master_of_Light, race=EOM_celestial
 #: units/celestials/c3_Master_of_Light.cfg:26
 msgid ""
 "A faerie who exercises her output of arcane energy may master using it as a "
 "weapon to such a degree that they are named Masters of Light."
 msgstr ""
 
-#. [unit_type]: id=EOM_Messenger, race=celestial
+#. [unit_type]: id=EOM_Messenger, race=EOM_celestial
 #: units/celestials/d1_Messenger.cfg:5
 msgid "Messenger"
 msgstr "Nuntius"
 
-#. [unit_type]: id=EOM_Messenger, race=celestial
+#. [unit_type]: id=EOM_Messenger, race=EOM_celestial
 #: units/celestials/d1_Messenger.cfg:20
 msgid ""
 "Messengers are chosen as Celestial leaders for the simple and traditional "
@@ -811,12 +817,12 @@ msgstr ""
 msgid "female^Messenger"
 msgstr "Nuntia"
 
-#. [unit_type]: id=EOM_Claimant, race=celestial
+#. [unit_type]: id=EOM_Claimant, race=EOM_celestial
 #: units/celestials/d2_Claimant.cfg:5
 msgid "Claimant"
 msgstr "Orator"
 
-#. [unit_type]: id=EOM_Claimant, race=celestial
+#. [unit_type]: id=EOM_Claimant, race=EOM_celestial
 #: units/celestials/d2_Claimant.cfg:21
 msgid ""
 "All winged Celestials were once named Claimants. They were called this by "
@@ -830,12 +836,12 @@ msgstr ""
 msgid "female^Claimant"
 msgstr "Oratrix"
 
-#. [unit_type]: id=EOM_Herald, race=celestial
+#. [unit_type]: id=EOM_Herald, race=EOM_celestial
 #: units/celestials/d3_Herald.cfg:5
 msgid "Herald"
 msgstr "Legatus"
 
-#. [unit_type]: id=EOM_Herald, race=celestial
+#. [unit_type]: id=EOM_Herald, race=EOM_celestial
 #: units/celestials/d3_Herald.cfg:20
 msgid ""
 "Heralds are the highest ranking officers, skilled with sword, and words they "
@@ -844,17 +850,17 @@ msgid ""
 msgstr ""
 
 #. [female]
-#. [unit_type]: id=EOM_Windsong_Herald, race=windsong
+#. [unit_type]: id=EOM_Windsong_Herald, race=EOM_windsong
 #: units/celestials/d3_Herald.cfg:52 units/windsong/c3_Herald.cfg:5
 msgid "female^Herald"
 msgstr "Legata"
 
-#. [unit_type]: id=EOM_Seraph, race=celestial
+#. [unit_type]: id=EOM_Seraph, race=EOM_celestial
 #: units/celestials/d4_Seraphin.cfg:5
 msgid "Seraph"
 msgstr "Seraph"
 
-#. [unit_type]: id=EOM_Seraph, race=celestial
+#. [unit_type]: id=EOM_Seraph, race=EOM_celestial
 #: units/celestials/d4_Seraphin.cfg:21
 msgid ""
 "Exalted is the title given to the mightiest of winged celestials. They are "
@@ -868,12 +874,12 @@ msgstr ""
 msgid "female^Seraph"
 msgstr "Seraph"
 
-#. [unit_type]: id=EOM_Wizard, race=celestial
+#. [unit_type]: id=EOM_Wizard, race=EOM_celestial
 #: units/celestials/e1_Wizard.cfg:5
 msgid "Acolyte"
 msgstr "Acolythus"
 
-#. [unit_type]: id=EOM_Wizard, race=celestial
+#. [unit_type]: id=EOM_Wizard, race=EOM_celestial
 #: units/celestials/e1_Wizard.cfg:19
 msgid ""
 "Celestials who lose their vestigial wings in adolescence are not allowed to "
@@ -890,12 +896,12 @@ msgstr ""
 msgid "flare"
 msgstr "flamma"
 
-#. [unit_type]: id=EOM_Great_Wizard, race=celestial
+#. [unit_type]: id=EOM_Great_Wizard, race=EOM_celestial
 #: units/celestials/e2_Great_Wizard.cfg:5
 msgid "Great Wizard"
 msgstr "Magus"
 
-#. [unit_type]: id=EOM_Great_Wizard, race=celestial
+#. [unit_type]: id=EOM_Great_Wizard, race=EOM_celestial
 #: units/celestials/e2_Great_Wizard.cfg:18
 msgid ""
 "The wizards of the celestials have always harnessed the suns power for their "
@@ -903,12 +909,12 @@ msgid ""
 "the suns power into rapid magical blasts."
 msgstr ""
 
-#. [unit_type]: id=EOM_Mystic, race=celestial
+#. [unit_type]: id=EOM_Mystic, race=EOM_celestial
 #: units/celestials/e2_Mystic.cfg:5
 msgid "Mystic"
 msgstr "Mysticus"
 
-#. [unit_type]: id=EOM_Mystic, race=celestial
+#. [unit_type]: id=EOM_Mystic, race=EOM_celestial
 #: units/celestials/e2_Mystic.cfg:19
 msgid ""
 "Many celestial wizards focus on the study of spirits rather than raw sun "
@@ -916,12 +922,12 @@ msgid ""
 "aid the army in new ways."
 msgstr ""
 
-#. [unit_type]: id=EOM_Prophet, race=celestial
+#. [unit_type]: id=EOM_Prophet, race=EOM_celestial
 #: units/celestials/e3_Prophet.cfg:5
 msgid "Prophet"
 msgstr "Propheta"
 
-#. [unit_type]: id=EOM_Prophet, race=celestial
+#. [unit_type]: id=EOM_Prophet, race=EOM_celestial
 #: units/celestials/e3_Prophet.cfg:20
 msgid ""
 "Mystics who become skilled enough in their arts develop the strange ability "
@@ -930,12 +936,12 @@ msgid ""
 "years old coming true. These wizards are also deadly warriors in combat."
 msgstr ""
 
-#. [unit_type]: id=EOM_Sage, race=celestial
+#. [unit_type]: id=EOM_Sage, race=EOM_celestial
 #: units/celestials/e3_Sage.cfg:5
 msgid "Sage"
 msgstr "Thaumaturga"
 
-#. [unit_type]: id=EOM_Sage, race=celestial
+#. [unit_type]: id=EOM_Sage, race=EOM_celestial
 #: units/celestials/e3_Sage.cfg:20
 msgid ""
 "The celestials believe the power of a wizard is not measured by his skill "
@@ -943,12 +949,12 @@ msgid ""
 "power and wisdom is known as a sage."
 msgstr ""
 
-#. [unit_type]: id=EOM_Zealot, race=celestial
+#. [unit_type]: id=EOM_Zealot, race=EOM_celestial
 #: units/celestials/f1_Zealot.cfg:5
 msgid "Zealot"
 msgstr "Ardens"
 
-#. [unit_type]: id=EOM_Zealot, race=celestial
+#. [unit_type]: id=EOM_Zealot, race=EOM_celestial
 #: units/celestials/f1_Zealot.cfg:19
 msgid ""
 "The celestial society tends to breed people who would fearlessly battle with "
@@ -970,12 +976,12 @@ msgstr "rota bellis"
 msgid "chakram throw"
 msgstr "rota bellis"
 
-#. [unit_type]: id=EOM_Militant, race=celestial
+#. [unit_type]: id=EOM_Militant, race=EOM_celestial
 #: units/celestials/f2_Militant.cfg:5
 msgid "Militant"
 msgstr "Fanaticus"
 
-#. [unit_type]: id=EOM_Militant, race=celestial
+#. [unit_type]: id=EOM_Militant, race=EOM_celestial
 #: units/celestials/f2_Militant.cfg:19
 msgid ""
 "The celestials have always had a very militant, and totalitarian mindset. "
@@ -985,12 +991,12 @@ msgid ""
 "chance comes up."
 msgstr ""
 
-#. [unit_type]: id=EOM_Sicarius, race=celestial
+#. [unit_type]: id=EOM_Sicarius, race=EOM_celestial
 #: units/celestials/f3_Sicarius.cfg:7
 msgid "Sicarius"
 msgstr "Zelotes"
 
-#. [unit_type]: id=EOM_Sicarius, race=celestial
+#. [unit_type]: id=EOM_Sicarius, race=EOM_celestial
 #: units/celestials/f3_Sicarius.cfg:22
 msgid ""
 "Civilian warriors who have proven their worth time and time again, are "
@@ -998,22 +1004,22 @@ msgid ""
 "Celestial society."
 msgstr ""
 
-#. [race]: id=devling
+#. [race]: id=EOM_devling
 #: units/devlings.cfg:7
 msgid "race^Devling"
 msgstr "Daemonium"
 
-#. [race]: id=devling
+#. [race]: id=EOM_devling
 #: units/devlings.cfg:8
 msgid "race+female^Devling"
 msgstr "Daemonium"
 
-#. [race]: id=devling
+#. [race]: id=EOM_devling
 #: units/devlings.cfg:9
 msgid "race^Devlings"
 msgstr "Daemonia"
 
-#. [race]: id=devling
+#. [race]: id=EOM_devling
 #: units/devlings.cfg:19
 msgid ""
 "Devlings are small red creatures that live for nothing more than to torment "
@@ -1025,12 +1031,12 @@ msgid ""
 "host to be a serious threat to any well defended territory."
 msgstr ""
 
-#. [unit_type]: id=EOM_Flappers, race=devling
+#. [unit_type]: id=EOM_Flappers, race=EOM_devling
 #: units/devlings/a1_Flappers.cfg:5
 msgid "Flappers"
 msgstr "Pinnati"
 
-#. [unit_type]: id=EOM_Flappers, race=devling
+#. [unit_type]: id=EOM_Flappers, race=EOM_devling
 #: units/devlings/a1_Flappers.cfg:17
 msgid ""
 "Some devlings are of a slightly different breed, and grow wings, and can "
@@ -1043,39 +1049,39 @@ msgid "mini-glaive"
 msgstr "falx minima"
 
 #. [attack]: type=fire
-#: units/devlings/a1_Flappers.cfg:32 units/devlings/a2_Flyers.cfg:32
-#: units/devlings/a3_Attackers.cfg:33
+#: units/devlings/a1_Flappers.cfg:32 units/devlings/a2_Flyers.cfg:37
+#: units/devlings/a3_Attackers.cfg:40
 msgid "breath"
 msgstr "aura"
 
-#. [unit_type]: id=EOM_Flyers, race=devling
+#. [unit_type]: id=EOM_Flyers, race=EOM_devling
 #: units/devlings/a2_Flyers.cfg:5
 msgid "Flyers"
 msgstr "Volantes"
 
-#. [unit_type]: id=EOM_Flyers, race=devling
+#. [unit_type]: id=EOM_Flyers, race=EOM_devling
 #: units/devlings/a2_Flyers.cfg:17
 msgid "Devlings are dangerous without wings, and even more dangerous with."
 msgstr ""
 
-#. [unit_type]: id=EOM_Attackers, race=devling
+#. [unit_type]: id=EOM_Attackers, race=EOM_devling
 #: units/devlings/a3_Attackers.cfg:5
 msgid "Attackers"
 msgstr "Pugnantes"
 
-#. [unit_type]: id=EOM_Attackers, race=devling
+#. [unit_type]: id=EOM_Attackers, race=EOM_devling
 #: units/devlings/a3_Attackers.cfg:18
 msgid ""
 "With uncanny speed, heated breath, and sharp weapons, even the smallest of "
 "enemies is a threat."
 msgstr ""
 
-#. [unit_type]: id=EOM_Nailers, race=devling
+#. [unit_type]: id=EOM_Nailers, race=EOM_devling
 #: units/devlings/b1_Nailers.cfg:5
 msgid "Nailers"
 msgstr "Toccatores"
 
-#. [unit_type]: id=EOM_Nailers, race=devling
+#. [unit_type]: id=EOM_Nailers, race=EOM_devling
 #: units/devlings/b1_Nailers.cfg:19
 msgid ""
 "All craftsmen know that if they leave their tools lying about they will get "
@@ -1089,17 +1095,17 @@ msgid "nail 'em"
 msgstr "toccate"
 
 #. [attack]: type=impact
-#: units/devlings/b1_Nailers.cfg:41 units/devlings/b2_Spikers.cfg:41
-#: units/devlings/b3_Staplers.cfg:42
+#: units/devlings/b1_Nailers.cfg:41 units/devlings/b2_Spikers.cfg:42
+#: units/devlings/b3_Staplers.cfg:43
 msgid "club 'em"
 msgstr "pellate"
 
-#. [unit_type]: id=EOM_Spikers, race=devling
+#. [unit_type]: id=EOM_Spikers, race=EOM_devling
 #: units/devlings/b2_Spikers.cfg:5
 msgid "Spikers"
 msgstr "Piccatores"
 
-#. [unit_type]: id=EOM_Spikers, race=devling
+#. [unit_type]: id=EOM_Spikers, race=EOM_devling
 #: units/devlings/b2_Spikers.cfg:19
 msgid ""
 "Devlings are small knaves. They often use tricks to distract their enemies "
@@ -1108,16 +1114,16 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=pierce
-#: units/devlings/b2_Spikers.cfg:32
+#: units/devlings/b2_Spikers.cfg:33
 msgid "spiker 'em"
 msgstr "piccate"
 
-#. [unit_type]: id=EOM_Staplers, race=devling
+#. [unit_type]: id=EOM_Staplers, race=EOM_devling
 #: units/devlings/b3_Staplers.cfg:5
 msgid "Staplers"
 msgstr "Impalatores"
 
-#. [unit_type]: id=EOM_Staplers, race=devling
+#. [unit_type]: id=EOM_Staplers, race=EOM_devling
 #: units/devlings/b3_Staplers.cfg:20
 msgid ""
 "There are few happier things, than a small sadistic creature, with a great "
@@ -1125,28 +1131,28 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=pierce
-#: units/devlings/b3_Staplers.cfg:33
+#: units/devlings/b3_Staplers.cfg:34
 msgid "staple 'em"
 msgstr "impalate"
 
-#. [unit_type]: id=EOM_Overgrown_Devling, race=devling
+#. [unit_type]: id=EOM_Overgrown_Devling, race=EOM_devling
 #: units/devlings/c1_Overgrown.cfg:5
 msgid "Overgrown Devling"
 msgstr "Bestiola"
 
-#. [unit_type]: id=EOM_Overgrown_Devling, race=devling
+#. [unit_type]: id=EOM_Overgrown_Devling, race=EOM_devling
 #: units/devlings/c1_Overgrown.cfg:20
 msgid ""
 "Some devlings grow to be almost as tall as a dwarf. These devlings are solid "
 "fighters, and provide a bit of toughness to the devling arsenal."
 msgstr ""
 
-#. [unit_type]: id=EOM_Devling_Soldier, race=devling
+#. [unit_type]: id=EOM_Devling_Soldier, race=EOM_devling
 #: units/devlings/c2_Soldier.cfg:5
 msgid "Soldier"
 msgstr "Pugnator"
 
-#. [unit_type]: id=EOM_Devling_Soldier, race=devling
+#. [unit_type]: id=EOM_Devling_Soldier, race=EOM_devling
 #: units/devlings/c2_Soldier.cfg:19
 msgid ""
 "Much of devling philosophy is quite simple. Life is about hurting other "
@@ -1156,12 +1162,12 @@ msgid ""
 "are supposed to be stabbing with it rather than slicing..."
 msgstr ""
 
-#. [unit_type]: id=EOM_Devling_Warrior, race=devling
+#. [unit_type]: id=EOM_Devling_Warrior, race=EOM_devling
 #: units/devlings/c2_Warrior.cfg:5
 msgid "Warrior"
 msgstr "Bellator"
 
-#. [unit_type]: id=EOM_Devling_Warrior, race=devling
+#. [unit_type]: id=EOM_Devling_Warrior, race=EOM_devling
 #: units/devlings/c2_Warrior.cfg:19
 msgid ""
 "Much of devling philosophy is quite simple. Life is about hurting other "
@@ -1171,17 +1177,17 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=impact
-#: units/devlings/c2_Warrior.cfg:25 units/devlings/c3_Hero.cfg:25
-#: units/devlings/c4_Grand_Hero.cfg:29
+#: units/devlings/c2_Warrior.cfg:29 units/devlings/c3_Hero.cfg:29
+#: units/devlings/c4_Grand_Hero.cfg:33
 msgid "bash"
 msgstr "pulsus"
 
-#. [unit_type]: id=EOM_Devling_Chief, race=devling
+#. [unit_type]: id=EOM_Devling_Chief, race=EOM_devling
 #: units/devlings/c3_Chief.cfg:5
 msgid "Chief"
 msgstr "Princeps"
 
-#. [unit_type]: id=EOM_Devling_Chief, race=devling
+#. [unit_type]: id=EOM_Devling_Chief, race=EOM_devling
 #: units/devlings/c3_Chief.cfg:19
 msgid ""
 "The Devlings Chiefs may look burly compared to their lesser kin but are "
@@ -1190,12 +1196,12 @@ msgid ""
 "be stabbing weapons, but more than make up for that with brute muscle."
 msgstr ""
 
-#. [unit_type]: id=EOM_Devling_Hero, race=devling
+#. [unit_type]: id=EOM_Devling_Hero, race=EOM_devling
 #: units/devlings/c3_Hero.cfg:5
 msgid "Hero"
 msgstr "Heros"
 
-#. [unit_type]: id=EOM_Devling_Hero, race=devling
+#. [unit_type]: id=EOM_Devling_Hero, race=EOM_devling
 #: units/devlings/c3_Hero.cfg:19
 msgid ""
 "Eventually a deviling can become proficient enough to be revered by his "
@@ -1204,73 +1210,73 @@ msgid ""
 "glory."
 msgstr ""
 
-#. [unit_type]: id=EOM_Grand_Devling_Chief, race=devling
+#. [unit_type]: id=EOM_Grand_Devling_Chief, race=EOM_devling
 #: units/devlings/c4_Grand_Chief.cfg:5
 #, fuzzy
 msgid "Grand Chief"
 msgstr "Princeps"
 
-#. [unit_type]: id=EOM_Assassin #? #or magican?, race=devling
-#. [unit_type]: id=EOM_Grand_Devling_Chief, race=devling
-#. [unit_type]: id=EOM_Grand_Devling_Hero, race=devling
-#. [unit_type]: id=EOM_Librarian, race=windsong
+#. [unit_type]: id=EOM_Assassin #? #or magican?, race=EOM_devling
+#. [unit_type]: id=EOM_Grand_Devling_Chief, race=EOM_devling
+#. [unit_type]: id=EOM_Grand_Devling_Hero, race=EOM_devling
+#. [unit_type]: id=EOM_Librarian, race=EOM_windsong
 #: units/devlings/c4_Grand_Chief.cfg:20 units/devlings/c4_Grand_Hero.cfg:20
 #: units/devlings/d3_Ninja.cfg:18 units/windsong/f4_Librarian.cfg:30
 msgid "..."
 msgstr "..."
 
-#. [unit_type]: id=EOM_Grand_Devling_Hero, race=devling
+#. [unit_type]: id=EOM_Grand_Devling_Hero, race=EOM_devling
 #: units/devlings/c4_Grand_Hero.cfg:5
 msgid "Grand Hero"
 msgstr ""
 
-#. [unit_type]: id=EOM_Sneak, race=devling
+#. [unit_type]: id=EOM_Sneak, race=EOM_devling
 #: units/devlings/d0_Sneak.cfg:5
 msgid "Sneak"
 msgstr "Furtivus"
 
-#. [unit_type]: id=EOM_Sneak, race=devling
+#. [unit_type]: id=EOM_Sneak, race=EOM_devling
 #: units/devlings/d0_Sneak.cfg:17
 msgid ""
 "Devilings small size allows them to swiftly slip around enemies, and stick "
 "sharp objects into vulnerable places."
 msgstr ""
 
-#. [unit_type]: id=EOM_Lurker, race=devling
+#. [unit_type]: id=EOM_Lurker, race=EOM_devling
 #: units/devlings/d1_Lurker.cfg:5
 msgid "Lurker"
 msgstr "Insidius"
 
-#. [unit_type]: id=EOM_Lurker, race=devling
+#. [unit_type]: id=EOM_Lurker, race=EOM_devling
 #: units/devlings/d1_Lurker.cfg:17
 msgid ""
 "Devilings who practice sticking knives into peoples backs long enough get "
 "even better at it."
 msgstr ""
 
-#. [unit_type]: id=EOM_Ninja, race=devling
+#. [unit_type]: id=EOM_Ninja, race=EOM_devling
 #: units/devlings/d2_Ninja.cfg:5
 msgid "Little Ninja"
 msgstr ""
 
-#. [unit_type]: id=EOM_Ninja, race=devling
+#. [unit_type]: id=EOM_Ninja, race=EOM_devling
 #: units/devlings/d2_Ninja.cfg:17
 msgid ""
-"Some devlings which didn't let others kill them, gain weight so that they do "
-"more powerful damage."
+"Some devlings which didn't let others kill them, gain weight, and so that "
+"they do more powerful damage."
 msgstr ""
 
-#. [unit_type]: id=EOM_Assassin #? #or magican?, race=devling
+#. [unit_type]: id=EOM_Assassin #? #or magican?, race=EOM_devling
 #: units/devlings/d3_Ninja.cfg:5
 msgid "Ninja"
 msgstr ""
 
-#. [unit_type]: id=EOM_Cursers, race=devling
+#. [unit_type]: id=EOM_Cursers, race=EOM_devling
 #: units/devlings/e1_Cursers.cfg:5
 msgid "Cursers"
 msgstr "Maledicentes"
 
-#. [unit_type]: id=EOM_Cursers, race=devling
+#. [unit_type]: id=EOM_Cursers, race=EOM_devling
 #: units/devlings/e1_Cursers.cfg:18
 msgid ""
 "Devlings may be small creatures, but they have big mouths. Filthy ones too. "
@@ -1279,16 +1285,16 @@ msgstr ""
 
 #. [attack]: type=impact
 #: units/devlings/e1_Cursers.cfg:24 units/devlings/e2_Blasphemists.cfg:24
-#: units/devlings/e3_Offenders.cfg:24 units/devlings/e4_Abusers.cfg:25
+#: units/devlings/e3_Offenders.cfg:31 units/devlings/e4_Abusers.cfg:32
 msgid "kick"
 msgstr "pede pellere"
 
-#. [unit_type]: id=EOM_Blasphemists, race=devling
+#. [unit_type]: id=EOM_Blasphemists, race=EOM_devling
 #: units/devlings/e2_Blasphemists.cfg:5
 msgid "Blasphemists"
 msgstr "Deprecatores"
 
-#. [unit_type]: id=EOM_Blasphemists, race=devling
+#. [unit_type]: id=EOM_Blasphemists, race=EOM_devling
 #: units/devlings/e2_Blasphemists.cfg:18
 msgid ""
 "Devilings have a way of saying taunting peoples beliefs to undermine their "
@@ -1296,12 +1302,12 @@ msgid ""
 "claw. Devilings like to combine the two."
 msgstr ""
 
-#. [unit_type]: id=EOM_Offenders, race=devling
+#. [unit_type]: id=EOM_Offenders, race=EOM_devling
 #: units/devlings/e3_Offenders.cfg:5
 msgid "Offenders"
 msgstr "Vexatores"
 
-#. [unit_type]: id=EOM_Offenders, race=devling
+#. [unit_type]: id=EOM_Offenders, race=EOM_devling
 #: units/devlings/e3_Offenders.cfg:18
 msgid ""
 "If you have any pride in your heart, then devilings will find a way to "
@@ -1309,12 +1315,12 @@ msgid ""
 "that way. Unfortunately that won't save you from their magics."
 msgstr ""
 
-#. [unit_type]: id=EOM_Abusers, race=devling
+#. [unit_type]: id=EOM_Abusers, race=EOM_devling
 #: units/devlings/e4_Abusers.cfg:5
 msgid "Abusers"
 msgstr "Desecratores"
 
-#. [unit_type]: id=EOM_Abusers, race=devling
+#. [unit_type]: id=EOM_Abusers, race=EOM_devling
 #: units/devlings/e4_Abusers.cfg:19
 msgid ""
 "Words can harm a person, and devilings have a knack for finding the right "
@@ -1322,17 +1328,17 @@ msgid ""
 "you could not with any physical weapon."
 msgstr ""
 
-#. [race]: id=elemental
+#. [race]: id=EOM_elemental
 #: units/elementals.cfg:7
 msgid "race^Elemental"
 msgstr "Elementarium"
 
-#. [race]: id=elemental
+#. [race]: id=EOM_elemental
 #: units/elementals.cfg:9
 msgid "race^Elementals"
 msgstr "Elementaria"
 
-#. [race]: id=elemental
+#. [race]: id=EOM_elemental
 #: units/elementals.cfg:14
 msgid ""
 "The Elementals are the guardians of the World, spirits of the elements that "
@@ -1343,24 +1349,24 @@ msgstr ""
 "pugnandi causa. Non aggressiva esse solent, sed feroces brutalisque esse "
 "possunt - nullum natura atrocius esse dicitur."
 
-#. [unit_type]: id=EOM_Fire, race=elemental
+#. [unit_type]: id=EOM_Fire, race=EOM_elemental
 #: units/elementals/a1_Fire_Elemental.cfg:5
 msgid "Fire Elemental"
 msgstr "Ignarium"
 
-#. [unit_type]: id=EOM_Fire, race=elemental
+#. [unit_type]: id=EOM_Fire, race=EOM_elemental
 #: units/elementals/a1_Fire_Elemental.cfg:24
 msgid ""
 "Fire spirits tend to inhabit rocks to give them form to fight in. This form "
 "gives them decent power, and toughness."
 msgstr ""
 
-#. [unit_type]: id=EOM_Fire_Wisp, race=elemental
+#. [unit_type]: id=EOM_Fire_Wisp, race=EOM_elemental
 #: units/elementals/a2_Fire_Wisp.cfg:5
 msgid "Fire Wisp"
 msgstr "Fervens"
 
-#. [unit_type]: id=EOM_Fire_Wisp, race=elemental
+#. [unit_type]: id=EOM_Fire_Wisp, race=EOM_elemental
 #: units/elementals/a2_Fire_Wisp.cfg:24
 msgid ""
 "Fire Wisps are spirits of smoke and flame. When not being ordered around "
@@ -1373,48 +1379,48 @@ msgstr ""
 msgid "fire bash"
 msgstr "pulsus ignis"
 
-#. [unit_type]: id=EOM_Living_Furnace, race=elemental
+#. [unit_type]: id=EOM_Living_Furnace, race=EOM_elemental
 #: units/elementals/a2_Living_Furnace.cfg:5
 msgid "Living Furnace"
 msgstr "Cacus"
 
-#. [unit_type]: id=EOM_Living_Furnace, race=elemental
+#. [unit_type]: id=EOM_Living_Furnace, race=EOM_elemental
 #: units/elementals/a2_Living_Furnace.cfg:23
 msgid ""
 "In the course of time, Fire Elementals grow into a larger and stronger form. "
 "Their strength has also increased."
 msgstr ""
 
-#. [unit_type]: id=EOM_Fire_Ghost, race=elemental
+#. [unit_type]: id=EOM_Fire_Ghost, race=EOM_elemental
 #: units/elementals/a3_Fire_Ghost.cfg:5
 msgid "Fire Ghost"
 msgstr "Genius Flammarum"
 
-#. [unit_type]: id=EOM_Fire_Ghost, race=elemental
+#. [unit_type]: id=EOM_Fire_Ghost, race=EOM_elemental
 #: units/elementals/a3_Fire_Ghost.cfg:25
 msgid ""
 "Fire Wisps take the form of a ghost when they have enough power. These "
 "ghosts are composed of the fire element and breathe out fire."
 msgstr ""
 
-#. [unit_type]: id=EOM_Lava_Beast, race=elemental
+#. [unit_type]: id=EOM_Lava_Beast, race=EOM_elemental
 #: units/elementals/a3_Lava_Beast.cfg:5
 msgid "Lava Beast"
 msgstr "Volcanus"
 
-#. [unit_type]: id=EOM_Lava_Beast, race=elemental
+#. [unit_type]: id=EOM_Lava_Beast, race=EOM_elemental
 #: units/elementals/a3_Lava_Beast.cfg:24
 msgid ""
 "Eventually these spirits will grow to monstrous Lava Beast. Beware of them, "
 "they'll burn you!"
 msgstr ""
 
-#. [unit_type]: id=EOM_Air, race=elemental
+#. [unit_type]: id=EOM_Air, race=EOM_elemental
 #: units/elementals/b0_Air_Elemental.cfg:5
 msgid "Air Elemental"
 msgstr "Aereum"
 
-#. [unit_type]: id=EOM_Air, race=elemental
+#. [unit_type]: id=EOM_Air, race=EOM_elemental
 #: units/elementals/b0_Air_Elemental.cfg:23
 msgid ""
 "Air Elementals take the form of a purple cloud. It fights with the ice winds "
@@ -1430,12 +1436,12 @@ msgstr ""
 msgid "galeforce"
 msgstr "procella"
 
-#. [unit_type]: id=EOM_Razorbird, race=elemental
+#. [unit_type]: id=EOM_Razorbird, race=EOM_elemental
 #: units/elementals/b1_Razorbird.cfg:5
 msgid "Razorbird"
 msgstr "Avis Ensium"
 
-#. [unit_type]: id=EOM_Razorbird, race=elemental
+#. [unit_type]: id=EOM_Razorbird, race=EOM_elemental
 #: units/elementals/b1_Razorbird.cfg:21
 msgid ""
 "Lightning is not an element, however some wind spirits can take a form where "
@@ -1449,12 +1455,12 @@ msgstr ""
 msgid "blade shower"
 msgstr ""
 
-#. [unit_type]: id=EOM_Wind_Spirit, race=elemental
+#. [unit_type]: id=EOM_Wind_Spirit, race=EOM_elemental
 #: units/elementals/b1_Wind_Spirit.cfg:5
 msgid "Wind Spirit"
 msgstr "Spiritus Ventorum"
 
-#. [unit_type]: id=EOM_Wind_Spirit, race=elemental
+#. [unit_type]: id=EOM_Wind_Spirit, race=EOM_elemental
 #: units/elementals/b1_Wind_Spirit.cfg:22
 msgid ""
 "As Air Elementals stay in their physical form, they grow stronger, as does "
@@ -1469,12 +1475,12 @@ msgstr ""
 msgid "northern wind"
 msgstr ""
 
-#. [unit_type]: id=EOM_Thunderbird, race=elemental
+#. [unit_type]: id=EOM_Thunderbird, race=EOM_elemental
 #: units/elementals/b2_Thunderbird.cfg:5
 msgid "Thunderbird"
 msgstr "Avis Fulminis"
 
-#. [unit_type]: id=EOM_Thunderbird, race=elemental
+#. [unit_type]: id=EOM_Thunderbird, race=EOM_elemental
 #: units/elementals/b2_Thunderbird.cfg:23
 msgid ""
 "Using its metal feathers the Thunderbird is able to create powerfull sparks "
@@ -1486,12 +1492,12 @@ msgstr ""
 msgid "thunderbolt"
 msgstr "fulmen"
 
-#. [unit_type]: id=EOM_Zephyr, race=elemental
+#. [unit_type]: id=EOM_Zephyr, race=EOM_elemental
 #: units/elementals/b2_Zephyr.cfg:5
 msgid "Zephyr"
 msgstr "Zephyrus"
 
-#. [unit_type]: id=EOM_Zephyr, race=elemental
+#. [unit_type]: id=EOM_Zephyr, race=EOM_elemental
 #: units/elementals/b2_Zephyr.cfg:23
 msgid ""
 "A wind spirit who stays in form long enough gains great mastery over winds. "
@@ -1503,12 +1509,12 @@ msgstr ""
 msgid "tornado"
 msgstr "vortex"
 
-#. [unit_type]: id=EOM_Djinn, race=elemental
+#. [unit_type]: id=EOM_Djinn, race=EOM_elemental
 #: units/elementals/b3_Djinn.cfg:7
 msgid "Djinn"
 msgstr "Dominus Tempestatum"
 
-#. [unit_type]: id=EOM_Djinn, race=elemental
+#. [unit_type]: id=EOM_Djinn, race=EOM_elemental
 #: units/elementals/b3_Djinn.cfg:25
 msgid ""
 "For centuries, there have been tales about mighty wind spirits known as "
@@ -1530,24 +1536,24 @@ msgid ""
 "mages."
 msgstr ""
 
-#. [unit_type]: id=EOM_Earth, race=elemental
+#. [unit_type]: id=EOM_Earth, race=EOM_elemental
 #: units/elementals/c1_Earth_Elemental.cfg:5
 msgid "Earth Elemental"
 msgstr "Terranum"
 
-#. [unit_type]: id=EOM_Earth, race=elemental
+#. [unit_type]: id=EOM_Earth, race=EOM_elemental
 #: units/elementals/c1_Earth_Elemental.cfg:23
 msgid ""
 "Earth spirts take the form of moving rocks. In combat the contribute great "
 "durability, and mediocre attacks."
 msgstr ""
 
-#. [unit_type]: id=EOM_Rock_Golem, race=elemental
+#. [unit_type]: id=EOM_Rock_Golem, race=EOM_elemental
 #: units/elementals/c2_Rock_Golem.cfg:5
 msgid "Rock Golem"
 msgstr "Vir Lapideus"
 
-#. [unit_type]: id=EOM_Rock_Golem, race=elemental
+#. [unit_type]: id=EOM_Rock_Golem, race=EOM_elemental
 #: units/elementals/c2_Rock_Golem.cfg:23
 msgid ""
 "Rock Golems are the bodies of Earth spirits that have grown strong enough to "
@@ -1555,24 +1561,24 @@ msgid ""
 "for their size."
 msgstr ""
 
-#. [unit_type]: id=EOM_Stone_Titan, race=elemental
+#. [unit_type]: id=EOM_Stone_Titan, race=EOM_elemental
 #: units/elementals/c3_Stone_Titan.cfg:5
 msgid "Stone Titan"
 msgstr "Titan Lapideus"
 
-#. [unit_type]: id=EOM_Stone_Titan, race=elemental
+#. [unit_type]: id=EOM_Stone_Titan, race=EOM_elemental
 #: units/elementals/c3_Stone_Titan.cfg:27
 msgid ""
 "Earth Spirits of immense power can animate immense bodies. Although not "
 "fast, the shear mass of the monster can cause quite a bit of damage."
 msgstr ""
 
-#. [unit_type]: id=EOM_Water, race=elemental
+#. [unit_type]: id=EOM_Water, race=EOM_elemental
 #: units/elementals/d1_Water_Elemental.cfg:5
 msgid "Water Elemental"
 msgstr "Aquarium"
 
-#. [unit_type]: id=EOM_Water, race=elemental
+#. [unit_type]: id=EOM_Water, race=EOM_elemental
 #: units/elementals/d1_Water_Elemental.cfg:24
 msgid ""
 "Water elementals bodies are merely a mass of water. In water it is hard to "
@@ -1588,12 +1594,12 @@ msgstr ""
 msgid "water punch"
 msgstr "pulsus aquaticus"
 
-#. [unit_type]: id=EOM_Ice_Crab, race=elemental
+#. [unit_type]: id=EOM_Ice_Crab, race=EOM_elemental
 #: units/elementals/d2_Ice_Crab.cfg:5
 msgid "Ice Crab"
 msgstr "Cancer Glacialis"
 
-#. [unit_type]: id=EOM_Ice_Crab, race=elemental
+#. [unit_type]: id=EOM_Ice_Crab, race=EOM_elemental
 #: units/elementals/d2_Ice_Crab.cfg:22
 msgid ""
 "Some water elementals decide to generate an aura of cold, to freeze their "
@@ -1612,12 +1618,12 @@ msgstr "stiria"
 msgid "gelid aura"
 msgstr "nimbus frigidus"
 
-#. [unit_type]: id=EOM_Undine, race=elemental
+#. [unit_type]: id=EOM_Undine, race=EOM_elemental
 #: units/elementals/d2_Undine.cfg:5
 msgid "Undine"
 msgstr "Undina"
 
-#. [unit_type]: id=EOM_Undine, race=elemental
+#. [unit_type]: id=EOM_Undine, race=EOM_elemental
 #: units/elementals/d2_Undine.cfg:24
 msgid ""
 "In conserving more power, little water elementals become the more violent "
@@ -1625,12 +1631,12 @@ msgid ""
 "they seemed to have, for some unknown reason, taken the shape of a woman."
 msgstr ""
 
-#. [unit_type]: id=EOM_Ice_Shell, race=elemental
+#. [unit_type]: id=EOM_Ice_Shell, race=EOM_elemental
 #: units/elementals/d3_Ice_Shell.cfg:5
 msgid "Ice Shell"
 msgstr "Cryonis"
 
-#. [unit_type]: id=EOM_Ice_Shell, race=elemental
+#. [unit_type]: id=EOM_Ice_Shell, race=EOM_elemental
 #: units/elementals/d3_Ice_Shell.cfg:23
 msgid ""
 "Once ice crabs gather enough elemental power from the cold, they evolve into "
@@ -1638,12 +1644,12 @@ msgid ""
 "they prefer to thrive in the coldest regions of the world."
 msgstr ""
 
-#. [unit_type]: id=EOM_Tempest_Spirit, race=elemental
+#. [unit_type]: id=EOM_Tempest_Spirit, race=EOM_elemental
 #: units/elementals/d3_Tempest_Spirit.cfg:5
 msgid "Tempest Spirit"
 msgstr "Thalassa"
 
-#. [unit_type]: id=EOM_Tempest_Spirit, race=elemental
+#. [unit_type]: id=EOM_Tempest_Spirit, race=EOM_elemental
 #: units/elementals/d3_Tempest_Spirit.cfg:25
 msgid ""
 "Tempest Spirits are manifestations of water that is influenced by the likes "
@@ -1653,12 +1659,12 @@ msgid ""
 "with them or can counter their awesome power."
 msgstr ""
 
-#. [unit_type]: id=EOM_Unicorn, race=elemental
+#. [unit_type]: id=EOM_Unicorn, race=EOM_elemental
 #: units/elementals/e1_Unicorn.cfg:5
 msgid "Unicorn"
 msgstr "Monoceros"
 
-#. [unit_type]: id=EOM_Unicorn, race=elemental
+#. [unit_type]: id=EOM_Unicorn, race=EOM_elemental
 #: units/elementals/e1_Unicorn.cfg:25
 msgid ""
 "These small, white, horse-like creatures proudly bear a horn in the middle "
@@ -1671,12 +1677,12 @@ msgstr ""
 msgid "horn"
 msgstr "cornu"
 
-#. [unit_type]: id=EOM_Silver_Unicorn, race=elemental
+#. [unit_type]: id=EOM_Silver_Unicorn, race=EOM_elemental
 #: units/elementals/e2_Silver_Unicorn.cfg:5
 msgid "Silver Unicorn"
 msgstr "Monoceros Argenteus"
 
-#. [unit_type]: id=EOM_Silver_Unicorn, race=elemental
+#. [unit_type]: id=EOM_Silver_Unicorn, race=EOM_elemental
 #: units/elementals/e2_Silver_Unicorn.cfg:26
 msgid ""
 "Gleaming with light, these exotic creatures bear a magical silvery horn in "
@@ -1685,12 +1691,12 @@ msgid ""
 "heals allied units around them."
 msgstr ""
 
-#. [unit_type]: id=EOM_Vine_Beast, race=elemental
+#. [unit_type]: id=EOM_Vine_Beast, race=EOM_elemental
 #: units/elementals/f1_Vine_Beast.cfg:5
 msgid "Vine Beast"
 msgstr "Bestia Vitibus"
 
-#. [unit_type]: id=EOM_Vine_Beast, race=elemental
+#. [unit_type]: id=EOM_Vine_Beast, race=EOM_elemental
 #: units/elementals/f1_Vine_Beast.cfg:21
 msgid ""
 "The vine beasts are diffrent from most elementals. They are not an "
@@ -1698,34 +1704,34 @@ msgid ""
 "given life by magic."
 msgstr ""
 
-#. [unit_type]: id=EOM_Vine_Tiger, race=elemental
+#. [unit_type]: id=EOM_Vine_Tiger, race=EOM_elemental
 #: units/elementals/f2_Vine_Tiger.cfg:5
 msgid "Vine Tiger"
 msgstr "Tigris Vitibus"
 
-#. [unit_type]: id=EOM_Vine_Tiger, race=elemental
+#. [unit_type]: id=EOM_Vine_Tiger, race=EOM_elemental
 #: units/elementals/f2_Vine_Tiger.cfg:22
 msgid ""
 "The vine beasts grow in size as they live, and the larger forms are called "
 "tigers after a beast that they resemble."
 msgstr ""
 
-#. [race]: id=therian
+#. [race]: id=EOM_therian
 #: units/therians.cfg:7
 msgid "race^Therian Human"
 msgstr "Therianus"
 
-#. [race]: id=therian
+#. [race]: id=EOM_therian
 #: units/therians.cfg:8
 msgid "race+female^Therian Human"
 msgstr "Theriana"
 
-#. [race]: id=therian
+#. [race]: id=EOM_therian
 #: units/therians.cfg:9
 msgid "race^Therian Humans"
 msgstr "Theriani"
 
-#. [race]: id=therian
+#. [race]: id=EOM_therian
 #: units/therians.cfg:13
 msgid ""
 "The Therians are a spiritual people, who are generally not very aggressive, "
@@ -1737,15 +1743,15 @@ msgid ""
 "friendship with the warg."
 msgstr ""
 
-#. [unit_type]: id=EOM_Falcon, race=therian
+#. [unit_type]: id=EOM_Falcon, race=EOM_therian
 #: units/therians/a1_Falcon.cfg:5
 msgid "Falcon Therian"
 msgstr "Falco Therianus"
 
-#. [unit_type]: id=EOM_Falcon, race=therian
-#. [unit_type]: id=EOM_Gyrfalcon, race=therian
-#. [unit_type]: id=EOM_Peregrine_Falcon, race=therian
-#. [unit_type]: id=EOM_Prairie_Falcon, race=therian
+#. [unit_type]: id=EOM_Falcon, race=EOM_therian
+#. [unit_type]: id=EOM_Gyrfalcon, race=EOM_therian
+#. [unit_type]: id=EOM_Peregrine_Falcon, race=EOM_therian
+#. [unit_type]: id=EOM_Prairie_Falcon, race=EOM_therian
 #: units/therians/a1_Falcon.cfg:20 units/therians/a2_Prairie_Falcon.cfg:20
 #: units/therians/a3_Gyrfalcon.cfg:21 units/therians/a3_Peregrine_Falcon.cfg:21
 msgid ""
@@ -1773,30 +1779,30 @@ msgstr ""
 msgid "aura wave"
 msgstr "nimbus"
 
-#. [unit_type]: id=EOM_Prairie_Falcon, race=therian
+#. [unit_type]: id=EOM_Prairie_Falcon, race=EOM_therian
 #: units/therians/a2_Prairie_Falcon.cfg:5
 msgid "Falcon"
 msgstr "Falco Maior"
 
-#. [unit_type]: id=EOM_Gyrfalcon, race=therian
+#. [unit_type]: id=EOM_Gyrfalcon, race=EOM_therian
 #: units/therians/a3_Gyrfalcon.cfg:5
 msgid "Gyrfalcon"
 msgstr "Falco Rusticolus"
 
-#. [unit_type]: id=EOM_Peregrine_Falcon, race=therian
+#. [unit_type]: id=EOM_Peregrine_Falcon, race=EOM_therian
 #: units/therians/a3_Peregrine_Falcon.cfg:5
 msgid "Peregrine Falcon"
 msgstr "Falco Peregrinus"
 
-#. [unit_type]: id=EOM_Cat, race=therian
+#. [unit_type]: id=EOM_Cat, race=EOM_therian
 #: units/therians/b1_Cat.cfg:5
 msgid "Cat Therian"
 msgstr "Feles Theriana"
 
-#. [unit_type]: id=EOM_Cat, race=therian
-#. [unit_type]: id=EOM_Panther, race=therian
-#. [unit_type]: id=EOM_Tiger, race=therian
-#. [unit_type]: id=EOM_Wildcat, race=therian
+#. [unit_type]: id=EOM_Cat, race=EOM_therian
+#. [unit_type]: id=EOM_Panther, race=EOM_therian
+#. [unit_type]: id=EOM_Tiger, race=EOM_therian
+#. [unit_type]: id=EOM_Wildcat, race=EOM_therian
 #: units/therians/b1_Cat.cfg:19 units/therians/b2_Wildcat.cfg:19
 #: units/therians/b3_Panther.cfg:19 units/therians/b3_Tiger.cfg:20
 msgid ""
@@ -1812,32 +1818,32 @@ msgid ""
 "people."
 msgstr ""
 
-#. [unit_type]: id=EOM_Wildcat, race=therian
+#. [unit_type]: id=EOM_Wildcat, race=EOM_therian
 #: units/therians/b2_Wildcat.cfg:5
 msgid "Wildcat Therian"
 msgstr "Feles Saeva"
 
-#. [unit_type]: id=EOM_Panther, race=therian
+#. [unit_type]: id=EOM_Panther, race=EOM_therian
 #: units/therians/b3_Panther.cfg:5
 msgid "Panther Therian"
 msgstr "Panthera"
 
-#. [unit_type]: id=EOM_Tiger, race=therian
+#. [unit_type]: id=EOM_Tiger, race=EOM_therian
 #: units/therians/b3_Tiger.cfg:5
 msgid "Leopard Therian"
 msgstr "Leopardus"
 
-#. [unit_type]: id=EOM_Serpent, race=therian
+#. [unit_type]: id=EOM_Serpent, race=EOM_therian
 #: units/therians/c1_Serpent.cfg:5
 msgid "Serpent Therian"
 msgstr "Serpens Therianus"
 
-#. [unit_type]: id=EOM_Cobra, race=therian
-#. [unit_type]: id=EOM_King_Cobra, race=therian
-#. [unit_type]: id=EOM_Sandskipper, race=therian
-#. [unit_type]: id=EOM_Sea_Snake, race=therian
-#. [unit_type]: id=EOM_Serpent, race=therian
-#. [unit_type]: id=EOM_Spitting_Cobra, race=therian
+#. [unit_type]: id=EOM_Cobra, race=EOM_therian
+#. [unit_type]: id=EOM_King_Cobra, race=EOM_therian
+#. [unit_type]: id=EOM_Sandskipper, race=EOM_therian
+#. [unit_type]: id=EOM_Sea_Snake, race=EOM_therian
+#. [unit_type]: id=EOM_Serpent, race=EOM_therian
+#. [unit_type]: id=EOM_Spitting_Cobra, race=EOM_therian
 #: units/therians/c1_Serpent.cfg:19 units/therians/c2_Cobra.cfg:19
 #: units/therians/c2_Sandskipper.cfg:20 units/therians/c2_Sea_Snake.cfg:20
 #: units/therians/c3_King_Cobra.cfg:20 units/therians/c3_Spitting_Cobra.cfg:20
@@ -1853,27 +1859,27 @@ msgid ""
 "when in their attuned form."
 msgstr ""
 
-#. [unit_type]: id=EOM_Cobra, race=therian
+#. [unit_type]: id=EOM_Cobra, race=EOM_therian
 #: units/therians/c2_Cobra.cfg:5
 msgid "Cobra"
 msgstr "Anguis"
 
-#. [unit_type]: id=EOM_Sandskipper, race=therian
+#. [unit_type]: id=EOM_Sandskipper, race=EOM_therian
 #: units/therians/c2_Sandskipper.cfg:5
 msgid "Sandskipper"
 msgstr "Serpens deserti"
 
-#. [unit_type]: id=EOM_Sea_Snake, race=therian
+#. [unit_type]: id=EOM_Sea_Snake, race=EOM_therian
 #: units/therians/c2_Sea_Snake.cfg:5
 msgid "Sea Snake"
 msgstr "Serpens marina"
 
-#. [unit_type]: id=EOM_King_Cobra, race=therian
+#. [unit_type]: id=EOM_King_Cobra, race=EOM_therian
 #: units/therians/c3_King_Cobra.cfg:5
 msgid "King Cobra"
 msgstr "Anguis Regalis"
 
-#. [unit_type]: id=EOM_Spitting_Cobra, race=therian
+#. [unit_type]: id=EOM_Spitting_Cobra, race=EOM_therian
 #: units/therians/c3_Spitting_Cobra.cfg:5
 msgid "Spitting Cobra"
 msgstr "Anguis Venenomittens"
@@ -1883,12 +1889,12 @@ msgstr "Anguis Venenomittens"
 msgid "spit"
 msgstr "venenum missum"
 
-#. [unit_type]: id=EOM_Therian_Hunter, race=therian
+#. [unit_type]: id=EOM_Therian_Hunter, race=EOM_therian
 #: units/therians/d1_Hunter.cfg:5
 msgid "Hunter"
 msgstr "Venator"
 
-#. [unit_type]: id=EOM_Therian_Hunter, race=therian
+#. [unit_type]: id=EOM_Therian_Hunter, race=EOM_therian
 #: units/therians/d1_Hunter.cfg:20
 msgid ""
 "The hunters of Theria travel with minimal armor, carrying only their bow, "
@@ -1904,12 +1910,12 @@ msgstr ""
 msgid "skinning knife"
 msgstr "culter venatoris"
 
-#. [unit_type]: id=EOM_Therian_Tracker, race=therian
+#. [unit_type]: id=EOM_Therian_Tracker, race=EOM_therian
 #: units/therians/d2_Tracker.cfg:5
 msgid "Tracker"
 msgstr "Bestiarius"
 
-#. [unit_type]: id=EOM_Therian_Tracker, race=therian
+#. [unit_type]: id=EOM_Therian_Tracker, race=EOM_therian
 #: units/therians/d2_Tracker.cfg:20
 msgid ""
 "The hunters of Theria travel with minimal armor, carrying only their bow, "
@@ -1920,12 +1926,12 @@ msgid ""
 "adept at hunting their prey."
 msgstr ""
 
-#. [unit_type]: id=EOM_Therian_Ranger, race=therian
+#. [unit_type]: id=EOM_Therian_Ranger, race=EOM_therian
 #: units/therians/d3_Ranger.cfg:5
 msgid "Ranger"
 msgstr "Silviperitus"
 
-#. [unit_type]: id=EOM_Therian_Ranger, race=therian
+#. [unit_type]: id=EOM_Therian_Ranger, race=EOM_therian
 #: units/therians/d3_Ranger.cfg:21
 msgid ""
 "Therian Rangers have trained to hunt with only a knife in case of an "
@@ -1933,13 +1939,13 @@ msgid ""
 "point where they cannot be caught off guard."
 msgstr ""
 
-#. [unit_type]: id=EOM_Therian_Guard, race=therian
+#. [unit_type]: id=EOM_Therian_Guard, race=EOM_therian
 #: units/therians/e1_Guard.cfg:5
 msgid "Therian Guard"
 msgstr "Defensor Therianus"
 
-#. [unit_type]: id=EOM_Therian_Defender, race=therian
-#. [unit_type]: id=EOM_Therian_Guard, race=therian
+#. [unit_type]: id=EOM_Therian_Defender, race=EOM_therian
+#. [unit_type]: id=EOM_Therian_Guard, race=EOM_therian
 #: units/therians/e1_Guard.cfg:18 units/therians/e2_Defender.cfg:19
 msgid ""
 "Therian are peaceful and spiritual by nature, but must protect themselves "
@@ -1950,19 +1956,19 @@ msgid ""
 "spears on his back for this purpose."
 msgstr ""
 
-#. [unit_type]: id=EOM_Therian_Defender, race=therian
+#. [unit_type]: id=EOM_Therian_Defender, race=EOM_therian
 #: units/therians/e2_Defender.cfg:5
 msgid "Therian Defender"
 msgstr "Propugnator Therianus"
 
-#. [unit_type]: id=EOM_Therian_Monk, race=therian
+#. [unit_type]: id=EOM_Therian_Monk, race=EOM_therian
 #: units/therians/f1_Monk.cfg:5
 msgid "Monk"
 msgstr "Monachus"
 
-#. [unit_type]: id=EOM_Aura_Master, race=therian
-#. [unit_type]: id=EOM_Aura_Monk, race=therian
-#. [unit_type]: id=EOM_Therian_Monk, race=therian
+#. [unit_type]: id=EOM_Aura_Master, race=EOM_therian
+#. [unit_type]: id=EOM_Aura_Monk, race=EOM_therian
+#. [unit_type]: id=EOM_Therian_Monk, race=EOM_therian
 #: units/therians/f1_Monk.cfg:19 units/therians/f2_Aura_Monk.cfg:19
 #: units/therians/f3_Aura_Master.cfg:20
 msgid ""
@@ -1980,22 +1986,22 @@ msgstr ""
 msgid "spiritual aura"
 msgstr "nimbus spiritualis"
 
-#. [unit_type]: id=EOM_Aura_Monk, race=therian
+#. [unit_type]: id=EOM_Aura_Monk, race=EOM_therian
 #: units/therians/f2_Aura_Monk.cfg:5
 msgid "Aura Monk"
 msgstr "Monachus Nimborum"
 
-#. [unit_type]: id=EOM_Aura_Master, race=therian
+#. [unit_type]: id=EOM_Aura_Master, race=EOM_therian
 #: units/therians/f3_Aura_Master.cfg:5
 msgid "Aura Master"
 msgstr "Magister Nimborum"
 
-#. [unit_type]: id=EOM_Therian_Apprentice, race=therian
+#. [unit_type]: id=EOM_Therian_Apprentice, race=EOM_therian
 #: units/therians/x1_Apprentice.cfg:5
 msgid "Apprentice"
 msgstr "Vates"
 
-#. [unit_type]: id=EOM_Therian_Apprentice, race=therian
+#. [unit_type]: id=EOM_Therian_Apprentice, race=EOM_therian
 #: units/therians/x1_Apprentice.cfg:18
 msgid ""
 "Therians are a peaceable people who enjoy quite study and contemplation. As "
@@ -2018,24 +2024,24 @@ msgstr "flamma"
 msgid "freeze"
 msgstr "pruina"
 
-#. [unit_type]: id=EOM_Therian_Mage, race=therian
+#. [unit_type]: id=EOM_Therian_Mage, race=EOM_therian
 #: units/therians/x2_Mage.cfg:5
 msgid "Mage"
 msgstr "Augur"
 
-#. [unit_type]: id=EOM_Therian_Mage, race=therian
+#. [unit_type]: id=EOM_Therian_Mage, race=EOM_therian
 #: units/therians/x2_Mage.cfg:18
 msgid ""
 "Therians who decide to do battle magics tend to have a pretty even match of "
 "mastery between methods."
 msgstr ""
 
-#. [unit_type]: id=EOM_Therian_Shaman, race=therian
+#. [unit_type]: id=EOM_Therian_Shaman, race=EOM_therian
 #: units/therians/x2_Shaman.cfg:5
 msgid "Shaman"
 msgstr "Sacerdos"
 
-#. [unit_type]: id=EOM_Therian_Shaman, race=therian
+#. [unit_type]: id=EOM_Therian_Shaman, race=EOM_therian
 #: units/therians/x2_Shaman.cfg:18
 msgid ""
 "The more spirital apprentices become shamans and spend much time learning "
@@ -2043,65 +2049,65 @@ msgid ""
 "in different ways."
 msgstr ""
 
-#. [unit_type]: id=EOM_Therian_Master, race=therian
+#. [unit_type]: id=EOM_Therian_Master, race=EOM_therian
 #: units/therians/x3_Master.cfg:5
 msgid "Master"
 msgstr "Haruspex"
 
-#. [unit_type]: id=EOM_Therian_Master, race=therian
+#. [unit_type]: id=EOM_Therian_Master, race=EOM_therian
 #: units/therians/x3_Master.cfg:19
 msgid "A master magician is a force to be reckoned with."
 msgstr ""
 
-#. [unit_type]: id=EOM_Therian_Priest, race=therian
+#. [unit_type]: id=EOM_Therian_Priest, race=EOM_therian
 #: units/therians/x3_Priest.cfg:5
 msgid "Priest"
 msgstr "Flamen"
 
-#. [unit_type]: id=EOM_Therian_Priest, race=therian
+#. [unit_type]: id=EOM_Therian_Priest, race=EOM_therian
 #: units/therians/x3_Priest.cfg:19
 msgid ""
 "Therian Priests are shamans who have become very skilled in the many skills "
 "they have learned."
 msgstr ""
 
-#. [race]: id=gargoyle
+#. [race]: id=EOM_gargoyle
 #: units/vampires.cfg:5
 msgid "race^Gargoyle"
 msgstr "Iugulator"
 
-#. [race]: id=gargoyle
+#. [race]: id=EOM_gargoyle
 #: units/vampires.cfg:6
 msgid "race+female^Gargoyle"
 msgstr "Iugulatrix"
 
-#. [race]: id=gargoyle
+#. [race]: id=EOM_gargoyle
 #: units/vampires.cfg:7
 msgid "race^Gargoyles"
 msgstr "Iugulatores"
 
-#. [race]: id=gargoyle
+#. [race]: id=EOM_gargoyle
 #: units/vampires.cfg:11
 msgid ""
 "Vampires can animate stones with blood magics, the result are gargoyles."
 msgstr "Iugulatores automata sunt veneficiis vampirorum sanguineis animata."
 
-#. [race]: id=vampire
+#. [race]: id=EOM_vampire
 #: units/vampires.cfg:18
 msgid "race^Vampire"
 msgstr "Vampirus"
 
-#. [race]: id=vampire
+#. [race]: id=EOM_vampire
 #: units/vampires.cfg:19
 msgid "race+female^Vampire"
 msgstr "Vampira"
 
-#. [race]: id=vampire
+#. [race]: id=EOM_vampire
 #: units/vampires.cfg:20
 msgid "race^Vampires"
 msgstr "Vampiri"
 
-#. [race]: id=vampire
+#. [race]: id=EOM_vampire
 #: units/vampires.cfg:28
 msgid ""
 "Vampires means 'tainted blood' in the therian language, and indeed vampires "
@@ -2129,12 +2135,12 @@ msgstr ""
 "homines subiugat, Vampiri addicti sanguinis sunt, sanguis pecunia vampirorum "
 "est, et maxima pars venificiorum vampirorum sanguine effecta est."
 
-#. [unit_type]: id=EOM_Blood_Apprentice, race=vampire
+#. [unit_type]: id=EOM_Blood_Apprentice, race=EOM_vampire
 #: units/vampires/a1_Blood_Apprentice.cfg:5
 msgid "Blood Apprentice"
 msgstr "Veneficus Sanguinis"
 
-#. [unit_type]: id=EOM_Blood_Apprentice, race=vampire
+#. [unit_type]: id=EOM_Blood_Apprentice, race=EOM_vampire
 #: units/vampires/a1_Blood_Apprentice.cfg:18
 msgid ""
 "Vampires have always had an obsession with blood and control. As such their "
@@ -2155,12 +2161,12 @@ msgstr ""
 msgid "blood boil"
 msgstr "sanguinem infervere"
 
-#. [unit_type]: id=EOM_Blood_Manipulator, race=vampire
+#. [unit_type]: id=EOM_Blood_Manipulator, race=EOM_vampire
 #: units/vampires/a2_Blood_Manipulator.cfg:5
 msgid "Blood Manipulator"
 msgstr "Tortor Sanguinis"
 
-#. [unit_type]: id=EOM_Blood_Manipulator, race=vampire
+#. [unit_type]: id=EOM_Blood_Manipulator, race=EOM_vampire
 #: units/vampires/a2_Blood_Manipulator.cfg:18
 msgid ""
 "It is horrifying what an skilled manipulator of blood can do to you. He can "
@@ -2172,12 +2178,12 @@ msgstr ""
 "infertus est. Edere nihil efficit. Vomitas. Cerebrum inflammat. Omnes eorum "
 "Tortores possent efficere, et non sunt potestates horribilissimae."
 
-#. [unit_type]: id=EOM_Flesh_Artisan, race=vampire
+#. [unit_type]: id=EOM_Flesh_Artisan, race=EOM_vampire
 #: units/vampires/a2_Flesh_Artisan.cfg:5
 msgid "Flesh Artisan"
 msgstr "Carniformator"
 
-#. [unit_type]: id=EOM_Flesh_Artisan, race=vampire
+#. [unit_type]: id=EOM_Flesh_Artisan, race=EOM_vampire
 #: units/vampires/a2_Flesh_Artisan.cfg:21
 msgid ""
 "Some vampires who take up blood magic prefer to work on themeseleves rather "
@@ -2185,12 +2191,12 @@ msgid ""
 "both in melee and at a distance."
 msgstr ""
 
-#. [unit_type]: id=EOM_Sangel, race=vampire
+#. [unit_type]: id=EOM_Sangel, race=EOM_vampire
 #: units/vampires/a3_Sangel.cfg:5
 msgid "Sangel"
 msgstr "Sanguinipotens"
 
-#. [unit_type]: id=EOM_Sangel, race=vampire
+#. [unit_type]: id=EOM_Sangel, race=EOM_vampire
 #: units/vampires/a3_Sangel.cfg:19
 msgid ""
 "Any vampier who has earned the title Sangel can do things with your blood "
@@ -2204,12 +2210,12 @@ msgstr ""
 msgid "wipe"
 msgstr "dolor"
 
-#. [unit_type]: id=EOM_Bloodborn, race=vampire
+#. [unit_type]: id=EOM_Bloodborn, race=EOM_vampire
 #: units/vampires/b0_Bloodborn.cfg:7
 msgid "Bloodborn"
 msgstr "Sanguine Natus"
 
-#. [unit_type]: id=EOM_Bloodborn, race=vampire
+#. [unit_type]: id=EOM_Bloodborn, race=EOM_vampire
 #: units/vampires/b0_Bloodborn.cfg:28
 msgid ""
 "Vampires do not bear many natural children. Most vampires are spawned by a "
@@ -2226,12 +2232,12 @@ msgstr ""
 msgid "female^Bloodborn"
 msgstr "Sanguine Nata"
 
-#. [unit_type]: id=EOM_Malborn, race=vampire
+#. [unit_type]: id=EOM_Malborn, race=EOM_vampire
 #: units/vampires/b1_Malborn.cfg:5
 msgid "Malborn"
 msgstr "Malenatus"
 
-#. [unit_type]: id=EOM_Malborn, race=vampire
+#. [unit_type]: id=EOM_Malborn, race=EOM_vampire
 #: units/vampires/b1_Malborn.cfg:22
 msgid ""
 "Some people are simply to weak to handle the blood, and it leaves them a "
@@ -2246,12 +2252,12 @@ msgstr ""
 msgid "female^Malborn"
 msgstr "Malenata"
 
-#. [unit_type]: id=EOM_Fledgeling, race=vampire
+#. [unit_type]: id=EOM_Fledgeling, race=EOM_vampire
 #: units/vampires/c1_Fledgeling.cfg:5
 msgid "Fledgeling"
 msgstr "Tiro"
 
-#. [unit_type]: id=EOM_Fledgeling, race=vampire
+#. [unit_type]: id=EOM_Fledgeling, race=EOM_vampire
 #: units/vampires/c1_Fledgeling.cfg:21
 msgid ""
 "Most vampires are weak ones in service of the lords and more powerful ones, "
@@ -2266,12 +2272,12 @@ msgstr ""
 msgid "female^Fledgeling"
 msgstr "Tiro"
 
-#. [unit_type]: id=EOM_Duelist, race=vampire
+#. [unit_type]: id=EOM_Duelist, race=EOM_vampire
 #: units/vampires/c2_Duelist.cfg:5
 msgid "Duelist"
 msgstr "Ensifer"
 
-#. [unit_type]: id=EOM_Duelist, race=vampire
+#. [unit_type]: id=EOM_Duelist, race=EOM_vampire
 #: units/vampires/c2_Duelist.cfg:21
 msgid ""
 "Vampires have always had a somewhat upper-class manner. This transfers over "
@@ -2288,12 +2294,12 @@ msgstr ""
 msgid "female^Duelist"
 msgstr "Ensifer"
 
-#. [unit_type]: id=EOM_Noble, race=vampire
+#. [unit_type]: id=EOM_Noble, race=EOM_vampire
 #: units/vampires/c2_Noble.cfg:5
 msgid "Noble"
 msgstr "Nobilis"
 
-#. [unit_type]: id=EOM_Noble, race=vampire
+#. [unit_type]: id=EOM_Noble, race=EOM_vampire
 #: units/vampires/c2_Noble.cfg:21
 msgid ""
 "The vampires with family or leadership make themselves lord over whatever "
@@ -2311,17 +2317,17 @@ msgstr ""
 msgid "female^Noble"
 msgstr "Nobilis"
 
-#. [unit_type]: id=EOM_Succubus, race=vampire
-#. [unit_type]: id=EOM_Succubus_variation, race=vampire
-#. [variation]: race=vampire
+#. [unit_type]: id=EOM_Succubus, race=EOM_vampire
+#. [unit_type]: id=EOM_Succubus_variation, race=EOM_vampire
+#. [variation]: race=EOM_vampire
 #: units/vampires/c2_Noble.cfg:119 units/vampires/x2_Succubus.cfg:10
 #: units/vampires/y1_Succubus.cfg:7
 #, fuzzy
 msgid "female^Succubus"
 msgstr "Scriptrix"
 
-#. [unit_type]: id=EOM_Succubus, race=vampire
-#. [variation]: race=vampire
+#. [unit_type]: id=EOM_Succubus, race=EOM_vampire
+#. [variation]: race=EOM_vampire
 #: units/vampires/c2_Noble.cfg:136 units/vampires/y1_Succubus.cfg:23
 msgid "A Vampire Succubus ..."
 msgstr ""
@@ -2333,12 +2339,12 @@ msgstr ""
 msgid "screech"
 msgstr ""
 
-#. [unit_type]: id=EOM_Sire, race=vampire
+#. [unit_type]: id=EOM_Sire, race=EOM_vampire
 #: units/vampires/c3_Sire.cfg:5
 msgid "Sire"
 msgstr "Princeps"
 
-#. [unit_type]: id=EOM_Sire, race=vampire
+#. [unit_type]: id=EOM_Sire, race=EOM_vampire
 #: units/vampires/c3_Sire.cfg:21
 msgid ""
 "Some vampires grow strong enough to subject other vampire lords to "
@@ -2352,17 +2358,17 @@ msgid "dementia gaze"
 msgstr "fascinum"
 
 #. [female]
-#. [unit_type]: id=EOM_Mistress, race=vampire
-#. [unit_type]: id=EOM_Mistress_variation, race=vampire
-#. [variation]: race=vampire
+#. [unit_type]: id=EOM_Mistress, race=EOM_vampire
+#. [unit_type]: id=EOM_Mistress_variation, race=EOM_vampire
+#. [variation]: race=EOM_vampire
 #: units/vampires/c3_Sire.cfg:105 units/vampires/c3_Sire.cfg:161
 #: units/vampires/x3_Mistress.cfg:12 units/vampires/y2_Mistress.cfg:7
 msgid "female^Mistress"
 msgstr "Princeps"
 
-#. [unit_type]: id=EOM_Mistress, race=vampire
-#. [unit_type]: id=EOM_Mistress_variation, race=vampire
-#. [variation]: race=vampire
+#. [unit_type]: id=EOM_Mistress, race=EOM_vampire
+#. [unit_type]: id=EOM_Mistress_variation, race=EOM_vampire
+#. [variation]: race=EOM_vampire
 #: units/vampires/c3_Sire.cfg:177 units/vampires/x3_Mistress.cfg:27
 #: units/vampires/y2_Mistress.cfg:25
 msgid ""
@@ -2376,12 +2382,12 @@ msgid ""
 "from the wrath of the Mistress husband."
 msgstr ""
 
-#. [unit_type]: id=EOM_Sword_Dancer, race=vampire
+#. [unit_type]: id=EOM_Sword_Dancer, race=EOM_vampire
 #: units/vampires/c3_Sword_Dancer.cfg:5
 msgid "Sword Dancer"
 msgstr "Sallator Gladii"
 
-#. [unit_type]: id=EOM_Sword_Dancer, race=vampire
+#. [unit_type]: id=EOM_Sword_Dancer, race=EOM_vampire
 #: units/vampires/c3_Sword_Dancer.cfg:22
 msgid ""
 "Vampires live a long time, and have time to develop many social graces, "
@@ -2395,12 +2401,12 @@ msgstr ""
 msgid "female^Sword Dancer"
 msgstr "Sallatrix Gladii"
 
-#. [unit_type]: id=EOM_Methusalem, race=vampire
+#. [unit_type]: id=EOM_Methusalem, race=EOM_vampire
 #: units/vampires/c4_Methusalem.cfg:5
 msgid "Methusalem"
 msgstr "Aeternus"
 
-#. [unit_type]: id=EOM_Methusalem, race=vampire
+#. [unit_type]: id=EOM_Methusalem, race=EOM_vampire
 #: units/vampires/c4_Methusalem.cfg:22
 msgid ""
 "You may only see one such vampire every thousand years, but when you do you "
@@ -2412,15 +2418,15 @@ msgid ""
 msgstr ""
 
 #. [female]
-#. [unit_type]: id=EOM_Duchess, race=vampire
-#. [variation]: race=vampire
+#. [unit_type]: id=EOM_Duchess, race=EOM_vampire
+#. [variation]: race=EOM_vampire
 #: units/vampires/c4_Methusalem.cfg:106 units/vampires/c4_Methusalem.cfg:162
 #: units/vampires/y3_Duchess.cfg:7
 msgid "female^Duchess"
 msgstr "Aeterna"
 
-#. [unit_type]: id=EOM_Duchess, race=vampire
-#. [variation]: race=vampire
+#. [unit_type]: id=EOM_Duchess, race=EOM_vampire
+#. [variation]: race=EOM_vampire
 #: units/vampires/c4_Methusalem.cfg:179 units/vampires/y3_Duchess.cfg:26
 msgid ""
 "A Duchess is a powerful, yet elegant vampiress who is often the wife of a "
@@ -2431,12 +2437,12 @@ msgid ""
 "number of minions she controls."
 msgstr ""
 
-#. [unit_type]: id=EOM_Thin_Blood, race=vampire
+#. [unit_type]: id=EOM_Thin_Blood, race=EOM_vampire
 #: units/vampires/d1_Thin_Blood.cfg:5
 msgid "Thin Blood"
 msgstr "Hybrida"
 
-#. [unit_type]: id=EOM_Thin_Blood, race=vampire
+#. [unit_type]: id=EOM_Thin_Blood, race=EOM_vampire
 #: units/vampires/d1_Thin_Blood.cfg:19
 msgid ""
 "Not all bloodborn grow towards their vampire side. Some lean on the human "
@@ -2451,12 +2457,12 @@ msgstr ""
 msgid "female^Thin Blood"
 msgstr "Hybrida"
 
-#. [unit_type]: id=EOM_Half_Blood, race=vampire
+#. [unit_type]: id=EOM_Half_Blood, race=EOM_vampire
 #: units/vampires/d2_Half_Blood.cfg:5
 msgid "Half Blood"
 msgstr "Hybrida Aequatus"
 
-#. [unit_type]: id=EOM_Half_Blood, race=vampire
+#. [unit_type]: id=EOM_Half_Blood, race=EOM_vampire
 #: units/vampires/d2_Half_Blood.cfg:19
 msgid ""
 "Thin Blood vampires blood grows stronger as they kill. When they are "
@@ -2468,12 +2474,12 @@ msgstr ""
 msgid "female^Half Blood"
 msgstr "Hybrida Aequata"
 
-#. [unit_type]: id=EOM_Day_Hunter, race=vampire
+#. [unit_type]: id=EOM_Day_Hunter, race=EOM_vampire
 #: units/vampires/d3_Day_Hunter.cfg:5
 msgid "Day Hunter"
 msgstr "Venator Diurnus"
 
-#. [unit_type]: id=EOM_Day_Hunter, race=vampire
+#. [unit_type]: id=EOM_Day_Hunter, race=EOM_vampire
 #: units/vampires/d3_Day_Hunter.cfg:20
 msgid ""
 "After heading to the halfway point, a halfblood can choose to go back. They "
@@ -2488,12 +2494,12 @@ msgstr ""
 msgid "female^Day Hunter"
 msgstr "Venatrix Diurna"
 
-#. [unit_type]: id=EOM_Twilight_Walker, race=vampire
+#. [unit_type]: id=EOM_Twilight_Walker, race=EOM_vampire
 #: units/vampires/d3_Twilight_Walker.cfg:5
 msgid "Twilight Walker"
 msgstr "Hybrida Ancipis"
 
-#. [unit_type]: id=EOM_Twilight_Walker, race=vampire
+#. [unit_type]: id=EOM_Twilight_Walker, race=EOM_vampire
 #: units/vampires/d3_Twilight_Walker.cfg:20
 msgid ""
 "After reaching the halfway point, a halfblood can choose to go back, but "
@@ -2514,12 +2520,12 @@ msgstr "pugio venatus"
 msgid "female^Twilight Walker"
 msgstr "Hybrida Ancipis"
 
-#. [unit_type]: id=EOM_Gargoyle, race=gargoyle
+#. [unit_type]: id=EOM_Gargoyle, race=EOM_gargoyle
 #: units/vampires/f1_Gargoyle.cfg:5
 msgid "Gargoyle"
 msgstr "Iugulator"
 
-#. [unit_type]: id=EOM_Gargoyle, race=gargoyle
+#. [unit_type]: id=EOM_Gargoyle, race=EOM_gargoyle
 #: units/vampires/f1_Gargoyle.cfg:18
 msgid ""
 "Vampires can animate stone with blood. These stone creatures use the magic "
@@ -2533,12 +2539,12 @@ msgstr ""
 msgid "slam"
 msgstr "affligere"
 
-#. [unit_type]: id=EOM_Marlgoyle, race=gargoyle
+#. [unit_type]: id=EOM_Marlgoyle, race=EOM_gargoyle
 #: units/vampires/f2_Marlgoyle.cfg:5
 msgid "Marlgoyle"
 msgstr "Iugulator Atrox"
 
-#. [unit_type]: id=EOM_Marlgoyle, race=gargoyle
+#. [unit_type]: id=EOM_Marlgoyle, race=EOM_gargoyle
 #: units/vampires/f2_Marlgoyle.cfg:19
 msgid ""
 "The blood magic of the gargoyle is strengthened when it kills enough. As it "
@@ -2546,12 +2552,12 @@ msgid ""
 "strength."
 msgstr ""
 
-#. [unit_type]: id=EOM_Blood_Hulk, race=vampire
+#. [unit_type]: id=EOM_Blood_Hulk, race=EOM_vampire
 #: units/vampires/g2_Blood_Hulk.cfg:5
 msgid "Blood Hulk"
 msgstr "Carnifex"
 
-#. [unit_type]: id=EOM_Blood_Hulk, race=vampire
+#. [unit_type]: id=EOM_Blood_Hulk, race=EOM_vampire
 #: units/vampires/g2_Blood_Hulk.cfg:27
 msgid ""
 "These monstrous vampires gorge themselves on the blood of their victims "
@@ -2560,32 +2566,32 @@ msgid ""
 "create such monstrosities."
 msgstr ""
 
-#. [race]: id=dryad, description=
+#. [race]: id=EOM_dryad, description=
 #: units/warg.cfg:5
 msgid "race^Dryad"
 msgstr "Nympha"
 
-#. [race]: id=dryad, description=
+#. [race]: id=EOM_dryad, description=
 #: units/warg.cfg:6
 msgid "race^Dryads"
 msgstr "Nymphae"
 
-#. [race]: id=warg
+#. [race]: id=EOM_warg
 #: units/warg.cfg:18
 msgid "race^Warg"
 msgstr "Cynocephalus"
 
-#. [race]: id=warg
+#. [race]: id=EOM_warg
 #: units/warg.cfg:19
 msgid "race+female^Warg"
 msgstr "Cynocephala"
 
-#. [race]: id=warg
+#. [race]: id=EOM_warg
 #: units/warg.cfg:20
 msgid "race^Wargs"
 msgstr "Cynocephali"
 
-#. [race]: id=warg
+#. [race]: id=EOM_warg
 #: units/warg.cfg:25
 msgid ""
 "Wargs are also known as wolfmen. They live in the wilds and woods in almost "
@@ -2601,12 +2607,12 @@ msgstr ""
 "pacem praeferrunt. Sed inest voluptas cruoris nonullis causis, maxime "
 "vampiris, agitata."
 
-#. [unit_type]: id=EOM_Shapeshifter, race=therian
+#. [unit_type]: id=EOM_Shapeshifter, race=EOM_therian
 #: units/wargs/a1_Shapeshifter.cfg:5
 msgid "Shapeshifter"
 msgstr "Lupinus"
 
-#. [unit_type]: id=EOM_Shapeshifter, race=therian
+#. [unit_type]: id=EOM_Shapeshifter, race=EOM_therian
 #: units/wargs/a1_Shapeshifter.cfg:18
 msgid ""
 "The Therian and Warg are good neighbors; a mutual respect binds the two "
@@ -2621,12 +2627,12 @@ msgstr ""
 msgid "sickle"
 msgstr "Falx"
 
-#. [unit_type]: id=EOM_Changeling, race=therian
+#. [unit_type]: id=EOM_Changeling, race=EOM_therian
 #: units/wargs/a2_Changeling.cfg:5
 msgid "Changeling"
 msgstr "Versipellis"
 
-#. [unit_type]: id=EOM_Changeling, race=therian
+#. [unit_type]: id=EOM_Changeling, race=EOM_therian
 #: units/wargs/a2_Changeling.cfg:18
 msgid ""
 "Shapeshifters who have spent extended periods of time enveloped within the "
@@ -2639,12 +2645,12 @@ msgstr ""
 msgid "scythe"
 msgstr "falx"
 
-#. [unit_type]: id=EOM_Wolfling, race=therian
+#. [unit_type]: id=EOM_Wolfling, race=EOM_therian
 #: units/wargs/a3_Wolfling.cfg:7
 msgid "Wolfling"
 msgstr "Lupinotus"
 
-#. [unit_type]: id=EOM_Wolfling, race=therian
+#. [unit_type]: id=EOM_Wolfling, race=EOM_therian
 #: units/wargs/a3_Wolfling.cfg:21
 msgid ""
 "Once a Shapeshifter has become fully integrated into Warg society they are "
@@ -2652,12 +2658,12 @@ msgid ""
 "society, but as essential companions."
 msgstr ""
 
-#. [unit_type]: id=EOM_Stalker, race=warg
+#. [unit_type]: id=EOM_Stalker, race=EOM_warg
 #: units/wargs/b1_Stalker.cfg:5
 msgid "Stalker"
 msgstr "Secutor"
 
-#. [unit_type]: id=EOM_Stalker, race=warg
+#. [unit_type]: id=EOM_Stalker, race=EOM_warg
 #: units/wargs/b1_Stalker.cfg:18
 msgid ""
 "Stalkers are the smaller of the Warg bretheren and are known for their "
@@ -2672,12 +2678,12 @@ msgstr ""
 msgid "tackle"
 msgstr "Pugnantes"
 
-#. [unit_type]: id=EOM_Shadow_Pelt, race=warg
+#. [unit_type]: id=EOM_Shadow_Pelt, race=EOM_warg
 #: units/wargs/b2_Shadow_Pelt.cfg:5
 msgid "Shadow Pelt"
 msgstr "Pellis Umbrarum"
 
-#. [unit_type]: id=EOM_Shadow_Pelt, race=warg
+#. [unit_type]: id=EOM_Shadow_Pelt, race=EOM_warg
 #: units/wargs/b2_Shadow_Pelt.cfg:17
 msgid ""
 "Many stalkers who have grown more experianced, will smear certain kinds of "
@@ -2686,12 +2692,12 @@ msgid ""
 "resting on them."
 msgstr ""
 
-#. [unit_type]: id=EOM_Night_Eye, race=warg
+#. [unit_type]: id=EOM_Night_Eye, race=EOM_warg
 #: units/wargs/b3_Night_Eye.cfg:5
 msgid "Night Eye"
 msgstr "Oculus Noctis"
 
-#. [unit_type]: id=EOM_Night_Eye, race=warg
+#. [unit_type]: id=EOM_Night_Eye, race=EOM_warg
 #: units/wargs/b3_Night_Eye.cfg:18
 msgid ""
 "After a time as a shadow pelt something about the dirt bleeds into the fur. "
@@ -2699,24 +2705,24 @@ msgid ""
 "nights."
 msgstr ""
 
-#. [unit_type]: id=EOM_Warrior_Wolf, race=warg
+#. [unit_type]: id=EOM_Warrior_Wolf, race=EOM_warg
 #: units/wargs/c1_Warrior_Wolf.cfg:5
 msgid "Warrior Wolf"
 msgstr "Lupibellator"
 
-#. [unit_type]: id=EOM_Warrior_Wolf, race=warg
+#. [unit_type]: id=EOM_Warrior_Wolf, race=EOM_warg
 #: units/wargs/c1_Warrior_Wolf.cfg:17
 msgid ""
 "The low ranking warriors of the clan are know as wolves, only after proving "
 "themselves are they allowed to call themselves warg."
 msgstr ""
 
-#. [unit_type]: id=EOM_Rabid_Wolf, race=warg
+#. [unit_type]: id=EOM_Rabid_Wolf, race=EOM_warg
 #: units/wargs/c2_Rabid_Wolf.cfg:5
 msgid "Rabid Wolf"
 msgstr "Lupus Rabidus"
 
-#. [unit_type]: id=EOM_Rabid_Wolf, race=warg
+#. [unit_type]: id=EOM_Rabid_Wolf, race=EOM_warg
 #: units/wargs/c2_Rabid_Wolf.cfg:18
 msgid ""
 "Some warrior wolves prefer to become more like wolves rather than choose to "
@@ -2724,24 +2730,24 @@ msgid ""
 "adapt a style using their whole body, and move on all fours."
 msgstr ""
 
-#. [unit_type]: id=EOM_Warrior_Warg, race=warg
+#. [unit_type]: id=EOM_Warrior_Warg, race=EOM_warg
 #: units/wargs/c2_Warrior_Warg.cfg:5
 msgid "Warrior Warg"
 msgstr "Miles Cynocephalus"
 
-#. [unit_type]: id=EOM_Warrior_Warg, race=warg
+#. [unit_type]: id=EOM_Warrior_Warg, race=EOM_warg
 #: units/wargs/c2_Warrior_Warg.cfg:17
 msgid ""
 "The Warg who have proven themselves worthy of the name are a force to be "
 "reckoned with when defending their homeland."
 msgstr ""
 
-#. [unit_type]: id=EOM_Fenrir, race=warg
+#. [unit_type]: id=EOM_Fenrir, race=EOM_warg
 #: units/wargs/c3_Fenrir.cfg:7
 msgid "Fenrir"
 msgstr "Lupus Teumesius"
 
-#. [unit_type]: id=EOM_Fenrir, race=warg
+#. [unit_type]: id=EOM_Fenrir, race=EOM_warg
 #: units/wargs/c3_Fenrir.cfg:20
 msgid ""
 "Warg can fight quite well without weapons, as such many of their warriors "
@@ -2749,12 +2755,12 @@ msgid ""
 "Fenrir, and are warriors to be feared."
 msgstr ""
 
-#. [unit_type]: id=EOM_Moon_Blade, race=warg
+#. [unit_type]: id=EOM_Moon_Blade, race=EOM_warg
 #: units/wargs/c3_Moon_Blade.cfg:5
 msgid "Moon Blade"
 msgstr "Lunarius"
 
-#. [unit_type]: id=EOM_Moon_Blade, race=warg
+#. [unit_type]: id=EOM_Moon_Blade, race=EOM_warg
 #: units/wargs/c3_Moon_Blade.cfg:18
 msgid ""
 "The warg revere the moon, and sometimes the moon blesses devout warriors "
@@ -2767,36 +2773,36 @@ msgstr ""
 msgid "Moon Sword"
 msgstr "Gladius Lunae"
 
-#. [unit_type]: id=EOM_Pack_Leader, race=warg
+#. [unit_type]: id=EOM_Pack_Leader, race=EOM_warg
 #: units/wargs/c3_Pack_Leader.cfg:5
 msgid "Pack Leader"
 msgstr "Dux Turbae"
 
-#. [unit_type]: id=EOM_Pack_Leader, race=warg
+#. [unit_type]: id=EOM_Pack_Leader, race=EOM_warg
 #: units/wargs/c3_Pack_Leader.cfg:17
 msgid ""
 "The individual packs, and clans each have a leader chosen from their "
 "warriors, for his wisdom and prowess."
 msgstr ""
 
-#. [unit_type]: id=EOM_Garou, race=warg
+#. [unit_type]: id=EOM_Garou, race=EOM_warg
 #: units/wargs/c4_Garou.cfg:5
 msgid "Garou"
 msgstr "Lykaon"
 
-#. [unit_type]: id=EOM_Garou, race=warg
+#. [unit_type]: id=EOM_Garou, race=EOM_warg
 #: units/wargs/c4_Garou.cfg:18
 msgid ""
 "Most warg don't live to be very old. However the leaders that live to be "
 "very old are revered by freinds, and feared by foes."
 msgstr ""
 
-#. [unit_type]: id=EOM_Wolf_Cub, race=warg
+#. [unit_type]: id=EOM_Wolf_Cub, race=EOM_warg
 #: units/wargs/d0_Wolf_Cub.cfg:5
 msgid "Wolf Cub"
 msgstr "Lupulus"
 
-#. [unit_type]: id=EOM_Wolf_Cub, race=warg
+#. [unit_type]: id=EOM_Wolf_Cub, race=EOM_warg
 #: units/wargs/d0_Wolf_Cub.cfg:19
 msgid ""
 "The warg can catch and train real wolves to aid them in war. They do it by "
@@ -2804,22 +2810,22 @@ msgid ""
 "Wolves make good scouts as they can move even faster than the warg can."
 msgstr ""
 
-#. [unit_type]: id=EOM_Wolf, race=warg
+#. [unit_type]: id=EOM_Wolf, race=EOM_warg
 #: units/wargs/d1_Wolf.cfg:5
 msgid "Wolf"
 msgstr "Lupus"
 
-#. [unit_type]: id=EOM_Wolf, race=warg
+#. [unit_type]: id=EOM_Wolf, race=EOM_warg
 #: units/wargs/d1_Wolf.cfg:19
 msgid "Full grown wolves are rather swift, and accurate with their jaws."
 msgstr ""
 
-#. [unit_type]: id=EOM_Dire_Wolf, race=warg
+#. [unit_type]: id=EOM_Dire_Wolf, race=EOM_warg
 #: units/wargs/d2_Dire_Wolf.cfg:5
 msgid "Dire Wolf"
 msgstr "Lupus Dirus"
 
-#. [unit_type]: id=EOM_Dire_Wolf, race=warg
+#. [unit_type]: id=EOM_Dire_Wolf, race=EOM_warg
 #: units/wargs/d2_Dire_Wolf.cfg:20
 msgid ""
 "Something about the warg bleeds into the wolves they tame, causing them to "
@@ -2827,14 +2833,14 @@ msgid ""
 "sure firepower to the wargs arsenal."
 msgstr ""
 
-#. [unit_type]: id=EOM_Fire_Sprite, race=dryad
+#. [unit_type]: id=EOM_Fire_Sprite, race=EOM_dryad
 #: units/wargs/e1_Fire_Sprite.cfg:5
 msgid "Fire Sprite"
 msgstr "Spiritus Ignis"
 
-#. [unit_type]: id=EOM_Fire_Sprite, race=dryad
-#. [unit_type]: id=EOM_Flame_Spirit, race=dryad
-#. [unit_type]: id=EOM_Flame_Sprite, race=dryad
+#. [unit_type]: id=EOM_Fire_Sprite, race=EOM_dryad
+#. [unit_type]: id=EOM_Flame_Spirit, race=EOM_dryad
+#. [unit_type]: id=EOM_Flame_Sprite, race=EOM_dryad
 #: units/wargs/e1_Fire_Sprite.cfg:19 units/wargs/e2_Flame_Sprite.cfg:19
 #: units/wargs/e3_Flame_Spirit.cfg:20
 msgid ""
@@ -2855,12 +2861,12 @@ msgstr "pulsus spirituum"
 msgid "sapphire flame"
 msgstr "ignis spirituum"
 
-#. [unit_type]: id=EOM_Flame_Sprite, race=dryad
+#. [unit_type]: id=EOM_Flame_Sprite, race=EOM_dryad
 #: units/wargs/e2_Flame_Sprite.cfg:5
 msgid "Flame Sprite"
 msgstr "Spiritus Flammarum"
 
-#. [unit_type]: id=EOM_Flame_Spirit, race=dryad
+#. [unit_type]: id=EOM_Flame_Spirit, race=EOM_dryad
 #: units/wargs/e3_Flame_Spirit.cfg:5
 msgid "Flame Spirit"
 msgstr "Spiritus Conflagrationis"
@@ -2870,12 +2876,12 @@ msgstr "Spiritus Conflagrationis"
 msgid "spirit fire"
 msgstr "ignis geniorum"
 
-#. [unit_type]: id=EOM_Blackfur, race=warg
+#. [unit_type]: id=EOM_Blackfur, race=EOM_warg
 #: units/wargs/f1_Blackfur.cfg:5
 msgid "Blackfur"
 msgstr "Obscurus"
 
-#. [unit_type]: id=EOM_Blackfur, race=warg
+#. [unit_type]: id=EOM_Blackfur, race=EOM_warg
 #: units/wargs/f1_Blackfur.cfg:18
 msgid ""
 "There is a rare breed of warg with black fur and a slight build. Although "
@@ -2883,26 +2889,26 @@ msgid ""
 "sudden death that could await in any dark shadow."
 msgstr ""
 
-#. [unit_type]: id=EOM_Black_Hunter, race=warg
+#. [unit_type]: id=EOM_Black_Hunter, race=EOM_warg
 #: units/wargs/f2_Black_Hunter.cfg:5
 msgid "Black Hunter"
 msgstr "Venator Niger"
 
-#. [unit_type]: id=EOM_Black_Hunter, race=warg
+#. [unit_type]: id=EOM_Black_Hunter, race=EOM_warg
 #: units/wargs/f2_Black_Hunter.cfg:19
 msgid ""
 "The blackfur hunt at night for the concealment it gives, and are quite adept "
 "at hunting any kind of quarry."
 msgstr ""
 
-#. [unit_type]: id=EOM_Water_Dryad, race=dryad
+#. [unit_type]: id=EOM_Water_Dryad, race=EOM_dryad
 #: units/wargs/g1_Water_Dryad.cfg:5
 msgid "Water Dryad"
 msgstr "Nympha Aquae"
 
-#. [unit_type]: id=EOM_Water_Dryad, race=dryad
-#. [unit_type]: id=EOM_Water_Nymph, race=dryad
-#. [unit_type]: id=EOM_Water_Shyde, race=dryad
+#. [unit_type]: id=EOM_Water_Dryad, race=EOM_dryad
+#. [unit_type]: id=EOM_Water_Nymph, race=EOM_dryad
+#. [unit_type]: id=EOM_Water_Shyde, race=EOM_dryad
 #: units/wargs/g1_Water_Dryad.cfg:19 units/wargs/g2_Water_Nymph.cfg:19
 #: units/wargs/g3_Water_Shyde.cfg:22
 msgid ""
@@ -2911,42 +2917,42 @@ msgid ""
 "life to ensnare her enemies and slow them down until help arrives."
 msgstr ""
 
-#. [unit_type]: id=EOM_Water_Nymph, race=dryad
+#. [unit_type]: id=EOM_Water_Nymph, race=EOM_dryad
 #: units/wargs/g2_Water_Nymph.cfg:5
 msgid "Water Nymph"
 msgstr "Naias"
 
-#. [unit_type]: id=EOM_Water_Shyde, race=dryad
+#. [unit_type]: id=EOM_Water_Shyde, race=EOM_dryad
 #: units/wargs/g3_Water_Shyde.cfg:5
 msgid "Water Shyde"
 msgstr "Aquaepotens"
 
-#. [race]: id=abstraction, description=
+#. [race]: id=EOM_abstraction, description=
 #: units/windsong.cfg:7
 msgid "race^Abstraction"
 msgstr "Abstractio"
 
-#. [race]: id=abstraction, description=
+#. [race]: id=EOM_abstraction, description=
 #: units/windsong.cfg:8
 msgid "race+female^Abstraction"
 msgstr "Abstractio"
 
-#. [race]: id=abstraction, description=
+#. [race]: id=EOM_abstraction, description=
 #: units/windsong.cfg:9
 msgid "race^Abstractions"
 msgstr "Abstractiones"
 
-#. [race]: id=windsong
+#. [race]: id=EOM_windsong
 #: units/windsong.cfg:19
 msgid "race^Windsong Human"
 msgstr "Aeolocantrix"
 
-#. [race]: id=windsong
+#. [race]: id=EOM_windsong
 #: units/windsong.cfg:20
 msgid "race^Windsong Humans"
 msgstr "Aeolocantrices"
 
-#. [race]: id=windsong
+#. [race]: id=EOM_windsong
 #: units/windsong.cfg:25
 msgid ""
 "The Windsong are a mysterious people, consisting completely of abducted "
@@ -2959,12 +2965,12 @@ msgid ""
 "under their noses. Most other races distrust them."
 msgstr ""
 
-#. [unit_type]: id=EOM_Courier, race=windsong
+#. [unit_type]: id=EOM_Courier, race=EOM_windsong
 #: units/windsong/a1_Courier.cfg:5
 msgid "female^Courier"
 msgstr "Portatrix"
 
-#. [unit_type]: id=EOM_Courier, race=windsong
+#. [unit_type]: id=EOM_Courier, race=EOM_windsong
 #: units/windsong/a1_Courier.cfg:19
 msgid ""
 "Unlike most other peoples, the Windsong possess neither domesticated beasts "
@@ -2979,12 +2985,12 @@ msgid ""
 "accurate."
 msgstr ""
 
-#. [unit_type]: id=EOM_Emissary, race=windsong
+#. [unit_type]: id=EOM_Emissary, race=EOM_windsong
 #: units/windsong/a2_Emissary.cfg:5
 msgid "female^Emissary"
 msgstr "Latatrix"
 
-#. [unit_type]: id=EOM_Emissary, race=windsong
+#. [unit_type]: id=EOM_Emissary, race=EOM_windsong
 #: units/windsong/a2_Emissary.cfg:20
 msgid ""
 "Those Couriers who show themselves to be intelligent and reliable are "
@@ -2996,12 +3002,12 @@ msgid ""
 "Emissaries prefer to use their original weapons if possible."
 msgstr ""
 
-#. [unit_type]: id=EOM_Reaver, race=windsong
+#. [unit_type]: id=EOM_Reaver, race=EOM_windsong
 #: units/windsong/a2_Reaver.cfg:5
 msgid "female^Reaver"
 msgstr "Destructrix"
 
-#. [unit_type]: id=EOM_Reaver, race=windsong
+#. [unit_type]: id=EOM_Reaver, race=EOM_windsong
 #: units/windsong/a2_Reaver.cfg:19
 msgid ""
 "While Couriers in peacetime are rarely of a martial bent, war brings out "
@@ -3011,12 +3017,12 @@ msgid ""
 "iron blades, crushing any who stand in the path of the Windsong."
 msgstr ""
 
-#. [unit_type]: id=EOM_Dreadnought, race=windsong
+#. [unit_type]: id=EOM_Dreadnought, race=EOM_windsong
 #: units/windsong/a3_Dreadnought.cfg:5
 msgid "female^Dreadnought"
 msgstr "Obliteratrix"
 
-#. [unit_type]: id=EOM_Dreadnought, race=windsong
+#. [unit_type]: id=EOM_Dreadnought, race=EOM_windsong
 #: units/windsong/a3_Dreadnought.cfg:25
 msgid ""
 "The records concerning the master Reavers for whom the title of Dreadnought "
@@ -3028,12 +3034,12 @@ msgid ""
 "certain that new ones will soon be written."
 msgstr ""
 
-#. [unit_type]: id=EOM_Sky_Shard, race=abstraction
+#. [unit_type]: id=EOM_Sky_Shard, race=EOM_abstraction
 #: units/windsong/b0_Sky_Shard.cfg:5
 msgid "Sky Shard"
 msgstr "Gemma Caelestis"
 
-#. [unit_type]: id=EOM_Sky_Shard, race=abstraction
+#. [unit_type]: id=EOM_Sky_Shard, race=EOM_abstraction
 #: units/windsong/b0_Sky_Shard.cfg:32
 msgid ""
 "In an age long forgotten by the rest of the world, when the Windsong first "
@@ -3065,12 +3071,12 @@ msgstr ""
 msgid "purge"
 msgstr "purgare"
 
-#. [unit_type]: id=EOM_Sky_Crystal, race=abstraction
+#. [unit_type]: id=EOM_Sky_Crystal, race=EOM_abstraction
 #: units/windsong/b1_Sky_Crystal.cfg:5
 msgid "Sky Crystal"
 msgstr "Cristallus Caelestis"
 
-#. [unit_type]: id=EOM_Sky_Crystal, race=abstraction
+#. [unit_type]: id=EOM_Sky_Crystal, race=EOM_abstraction
 #: units/windsong/b1_Sky_Crystal.cfg:33
 msgid ""
 "A Sky Crystal is a Shard that has emerged further into reality and so has a "
@@ -3084,12 +3090,12 @@ msgid ""
 "'pushed out' of reality."
 msgstr ""
 
-#. [unit_type]: id=EOM_Weaver, race=windsong
+#. [unit_type]: id=EOM_Weaver, race=EOM_windsong
 #: units/windsong/c1_Weaver.cfg:5
 msgid "female^Weaver"
 msgstr "Textrix"
 
-#. [unit_type]: id=EOM_Weaver, race=windsong
+#. [unit_type]: id=EOM_Weaver, race=EOM_windsong
 #: units/windsong/c1_Weaver.cfg:24
 msgid ""
 "While most Windsong are able to devote themselves to only one or two aspects "
@@ -3108,12 +3114,12 @@ msgid ""
 "cannot yet cure poison."
 msgstr ""
 
-#. [unit_type]: id=EOM_Envoy, race=windsong
+#. [unit_type]: id=EOM_Envoy, race=EOM_windsong
 #: units/windsong/c2_Envoy.cfg:5
 msgid "female^Envoy"
 msgstr "Missa"
 
-#. [unit_type]: id=EOM_Envoy, race=windsong
+#. [unit_type]: id=EOM_Envoy, race=EOM_windsong
 #: units/windsong/c2_Envoy.cfg:22
 msgid ""
 "The Windsong know how dangerous unadvised action can be. Their limited "
@@ -3132,12 +3138,12 @@ msgid ""
 "towns). Envoys cannot heal anymore."
 msgstr ""
 
-#. [unit_type]: id=EOM_Prophetess, race=windsong
+#. [unit_type]: id=EOM_Prophetess, race=EOM_windsong
 #: units/windsong/c2_Prophet.cfg:5
 msgid "female^Prophetess"
 msgstr "Oraculum"
 
-#. [unit_type]: id=EOM_Prophetess, race=windsong
+#. [unit_type]: id=EOM_Prophetess, race=EOM_windsong
 #: units/windsong/c2_Prophet.cfg:22
 msgid ""
 "There are many among the Windsong who could successfully lead an army, or "
@@ -3159,12 +3165,12 @@ msgid ""
 "immediately and without question."
 msgstr ""
 
-#. [unit_type]: id=EOM_Ascendant, race=windsong
+#. [unit_type]: id=EOM_Ascendant, race=EOM_windsong
 #: units/windsong/c3_Ascendant.cfg:5
 msgid "female^Ascendant"
 msgstr "Ascendens"
 
-#. [unit_type]: id=EOM_Ascendant, race=windsong
+#. [unit_type]: id=EOM_Ascendant, race=EOM_windsong
 #: units/windsong/c3_Ascendant.cfg:23
 msgid ""
 "Few Weavers and Prophets reach the rank of Ascendant. Not just because of "
@@ -3192,7 +3198,7 @@ msgid ""
 "obeying them with fervor."
 msgstr ""
 
-#. [unit_type]: id=EOM_Windsong_Herald, race=windsong
+#. [unit_type]: id=EOM_Windsong_Herald, race=EOM_windsong
 #: units/windsong/c3_Herald.cfg:23
 msgid ""
 "As children, Weavers learn to communicate with their accompanying spirit via "
@@ -3208,12 +3214,12 @@ msgid ""
 "towns)."
 msgstr ""
 
-#. [unit_type]: id=EOM_Seeker, race=windsong
+#. [unit_type]: id=EOM_Seeker, race=EOM_windsong
 #: units/windsong/d1_Seeker.cfg:5
 msgid "female^Seeker"
 msgstr "Currens"
 
-#. [unit_type]: id=EOM_Seeker, race=windsong
+#. [unit_type]: id=EOM_Seeker, race=EOM_windsong
 #: units/windsong/d1_Seeker.cfg:19
 msgid ""
 "The name given to the Seekers comes from their role in the legend of the "
@@ -3233,12 +3239,12 @@ msgstr ""
 msgid "polearm"
 msgstr "hasta"
 
-#. [unit_type]: id=EOM_Pathfinder, race=windsong
+#. [unit_type]: id=EOM_Pathfinder, race=EOM_windsong
 #: units/windsong/d2_Pathfinder.cfg:5
 msgid "female^Pathfinder"
 msgstr "Speculatrix"
 
-#. [unit_type]: id=EOM_Pathfinder, race=windsong
+#. [unit_type]: id=EOM_Pathfinder, race=EOM_windsong
 #: units/windsong/d2_Pathfinder.cfg:19
 msgid ""
 "Capable of racing through the toughest terrain with uncanny speed, those "
@@ -3249,12 +3255,12 @@ msgid ""
 "the thunder they wield, catching distracted foes unawares."
 msgstr ""
 
-#. [unit_type]: id=EOM_Skyrunner, race=windsong
+#. [unit_type]: id=EOM_Skyrunner, race=EOM_windsong
 #: units/windsong/d2_Skyrunner.cfg:5
 msgid "female^Skyrunner"
 msgstr "Caellocurrens"
 
-#. [unit_type]: id=EOM_Skyrunner, race=windsong
+#. [unit_type]: id=EOM_Skyrunner, race=EOM_windsong
 #: units/windsong/d2_Skyrunner.cfg:27
 msgid ""
 "One of the few warrior groups to survive the Age of Patience, the "
@@ -3266,12 +3272,12 @@ msgid ""
 "again the old mantle of war."
 msgstr ""
 
-#. [unit_type]: id=EOM_Farstrider, race=windsong
+#. [unit_type]: id=EOM_Farstrider, race=EOM_windsong
 #: units/windsong/d3_Farstrider.cfg:5
 msgid "female^Farstrider"
 msgstr "Exploratrix"
 
-#. [unit_type]: id=EOM_Farstrider, race=windsong
+#. [unit_type]: id=EOM_Farstrider, race=EOM_windsong
 #: units/windsong/d3_Farstrider.cfg:20
 msgid ""
 "One of the oldest tales that have come down from the wars of the ancients "
@@ -3284,12 +3290,12 @@ msgid ""
 "elves were forced to surrender."
 msgstr ""
 
-#. [unit_type]: id=EOM_Stormbringer, race=windsong
+#. [unit_type]: id=EOM_Stormbringer, race=EOM_windsong
 #: units/windsong/d3_Stormbringer.cfg:5
 msgid "female^Stormbringer"
 msgstr "Procellamittens"
 
-#. [unit_type]: id=EOM_Stormbringer, race=windsong
+#. [unit_type]: id=EOM_Stormbringer, race=EOM_windsong
 #: units/windsong/d3_Stormbringer.cfg:28
 msgid ""
 "The name Stormbringer was obviously appended to these great warriors for "
@@ -3300,12 +3306,12 @@ msgid ""
 "carefully prepared defence into a chaotic rout in seconds."
 msgstr ""
 
-#. [unit_type]: id=EOM_Gatekeeper, race=windsong
+#. [unit_type]: id=EOM_Gatekeeper, race=EOM_windsong
 #: units/windsong/e1_Gatekeeper.cfg:5
 msgid "female^Gatekeeper"
 msgstr "Custos Portarum"
 
-#. [unit_type]: id=EOM_Gatekeeper, race=windsong
+#. [unit_type]: id=EOM_Gatekeeper, race=EOM_windsong
 #: units/windsong/e1_Gatekeeper.cfg:34
 msgid ""
 "The Windsong Foundation, though hidden far in the arctic northern seas, "
@@ -3318,12 +3324,12 @@ msgid ""
 "blindfolds."
 msgstr ""
 
-#. [unit_type]: id=EOM_Heretic, race=windsong
+#. [unit_type]: id=EOM_Heretic, race=EOM_windsong
 #: units/windsong/e2_Heretic.cfg:5
 msgid "female^Heretic"
 msgstr "Heretica"
 
-#. [unit_type]: id=EOM_Heretic, race=windsong
+#. [unit_type]: id=EOM_Heretic, race=EOM_windsong
 #: units/windsong/e2_Heretic.cfg:37
 msgid ""
 "The Windsong Council preaches the importance of patience and pacifism, that "
@@ -3345,12 +3351,12 @@ msgstr ""
 msgid "sunburst"
 msgstr "incendere"
 
-#. [unit_type]: id=EOM_Lorekeeper, race=windsong
+#. [unit_type]: id=EOM_Lorekeeper, race=EOM_windsong
 #: units/windsong/e2_Lorekeeper.cfg:7
 msgid "female^Lorekeeper"
 msgstr "Custos Legendarum"
 
-#. [unit_type]: id=EOM_Lorekeeper, race=windsong
+#. [unit_type]: id=EOM_Lorekeeper, race=EOM_windsong
 #: units/windsong/e2_Lorekeeper.cfg:38
 msgid ""
 "The Great Library, the enormous complex that forms the heart of the Windsong "
@@ -3362,12 +3368,12 @@ msgid ""
 "become its guards."
 msgstr ""
 
-#. [unit_type]: id=EOM_Harbinger, race=windsong
+#. [unit_type]: id=EOM_Harbinger, race=EOM_windsong
 #: units/windsong/e3_Harbinger.cfg:5
 msgid "female^Harbinger"
 msgstr "Monatrix"
 
-#. [unit_type]: id=EOM_Harbinger, race=windsong
+#. [unit_type]: id=EOM_Harbinger, race=EOM_windsong
 #: units/windsong/e3_Harbinger.cfg:38
 msgid ""
 "Stunningly powerful warriors, Harbingers epitomize the warlike path of the "
@@ -3378,12 +3384,12 @@ msgid ""
 "lead groups of their fellow Heretics into battle."
 msgstr ""
 
-#. [unit_type]: id=EOM_Oathkeeper, race=windsong
+#. [unit_type]: id=EOM_Oathkeeper, race=EOM_windsong
 #: units/windsong/e3_Oathkeeper.cfg:5
 msgid "female^Oathkeeper"
 msgstr "Custos Testimoniarum"
 
-#. [unit_type]: id=EOM_Oathkeeper, race=windsong
+#. [unit_type]: id=EOM_Oathkeeper, race=EOM_windsong
 #: units/windsong/e3_Oathkeeper.cfg:37
 msgid ""
 "Until recently, it was believed that the Oathkeeper caste had, like many "
@@ -3396,12 +3402,12 @@ msgid ""
 "armies singlehandedly."
 msgstr ""
 
-#. [unit_type]: id=EOM_Scribe, race=windsong
+#. [unit_type]: id=EOM_Scribe, race=EOM_windsong
 #: units/windsong/f1_Scribe.cfg:5
 msgid "female^Scribe"
 msgstr "Scriptrix"
 
-#. [unit_type]: id=EOM_Scribe, race=windsong
+#. [unit_type]: id=EOM_Scribe, race=EOM_windsong
 #: units/windsong/f1_Scribe.cfg:29
 msgid ""
 "The scribes of the Windsong are those engaged in studying, as well as "
@@ -3418,12 +3424,12 @@ msgstr ""
 msgid "cipher"
 msgstr "signum"
 
-#. [unit_type]: id=EOM_Savant, race=windsong
+#. [unit_type]: id=EOM_Savant, race=EOM_windsong
 #: units/windsong/f2_Savant.cfg:5
 msgid "female^Savant"
 msgstr "Erudita"
 
-#. [unit_type]: id=EOM_Savant, race=windsong
+#. [unit_type]: id=EOM_Savant, race=EOM_windsong
 #: units/windsong/f2_Savant.cfg:29
 msgid ""
 "The savants teach the scribes more about using Ciphers and revise the "
@@ -3432,12 +3438,12 @@ msgid ""
 "well for the drawback."
 msgstr ""
 
-#. [unit_type]: id=EOM_Arbiter, race=windsong
+#. [unit_type]: id=EOM_Arbiter, race=EOM_windsong
 #: units/windsong/f3_Arbiter.cfg:5
 msgid "female^Arbiter"
 msgstr "Arbitatrix"
 
-#. [unit_type]: id=EOM_Arbiter, race=windsong
+#. [unit_type]: id=EOM_Arbiter, race=EOM_windsong
 #: units/windsong/f3_Arbiter.cfg:29
 msgid ""
 "The head mistress among the Savants is known as the Arbiter. Possessing vast "
@@ -3445,12 +3451,12 @@ msgid ""
 "scythes for protection from close range."
 msgstr ""
 
-#. [unit_type]: id=EOM_Runeforger, race=windsong
+#. [unit_type]: id=EOM_Runeforger, race=EOM_windsong
 #: units/windsong/f3_Runeforger.cfg:5
 msgid "female^Rune Forger"
 msgstr "Signifex"
 
-#. [unit_type]: id=EOM_Runeforger, race=windsong
+#. [unit_type]: id=EOM_Runeforger, race=EOM_windsong
 #: units/windsong/f3_Runeforger.cfg:33
 msgid ""
 "Instead of becoming Arbiters, some Savants may chose to master all forms of "
@@ -3474,7 +3480,7 @@ msgstr "memoria"
 msgid "death"
 msgstr "mors"
 
-#. [unit_type]: id=EOM_Librarian, race=windsong
+#. [unit_type]: id=EOM_Librarian, race=EOM_windsong
 #: units/windsong/f4_Librarian.cfg:5
 msgid "female^Librarian"
 msgstr "Philosopha"
