@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2016-09-02 19:27+0200\n"
+"POT-Creation-Date: 2016-09-04 21:45+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -968,7 +968,7 @@ msgstr ""
 
 #. [unit_type]: id=EOM_Ninja, race=EOM_devling
 #: ./units/devlings/d2_Ninja.cfg:17
-msgid "Some devlings which didn't let others kill them, gain weight, and so that they do more powerful damage."
+msgid "Some devlings which didn't let others kill them, gain weight, and so they do more powerful damage."
 msgstr ""
 
 #. [unit_type]: id=EOM_Assassin #? #or magican?, race=EOM_devling
