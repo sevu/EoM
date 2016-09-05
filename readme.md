@@ -7,9 +7,12 @@
 - Balancing for the Devlings by IPS ( https://r.wesnoth.org/p601712 )
 - Unified regeneration ability for the Elementals
 - Shifting animations for the Therians
-- And more ...
+- And more ...  
 
 **Things which are not yet ready:**
 - The shifting animation for movement can't stay like that
 - The regeneration ability could need another name (The current one is fine in English language, but not with the translation)
-- Balancing of the Elementals - are the WoL stats better or worse?
+- Balancing of the Elementals - are the WoL stats better or worse?  
+  
+  
+See the ChangeLog and NOTES files for more informations
