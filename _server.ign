@@ -1,4 +1,3 @@
-images/wargs/wargs/
 .*
 .*/
 __MACOSX/
@@ -24,3 +23,6 @@ Thumbs.db
 *.save
 desktop.ini
 readme.md
+Readme.md
+README.md
+NOTES

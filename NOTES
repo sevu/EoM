@@ -1,0 +1,46 @@
+		----- The Era of Myths -----
+           Notes for Development
+
+
+*Animation Checklist:
+*How do the changes to the Therians look. Should the shifting be quicker?
+*Does the combination of moving and melee attacking look ok for the therian cat? (No, it doesn't ... )
+*Does it look better if we make the tornado missile frame (zephyr/djinn) longer? -> looks fine now
+*blood-manipulator: see below
+
+*Checklist for other things:
+*I changed the ranged icon for the Water Elemental. Better or Worse?
+ (for comparison, the higher lvls don't have this change (yet?))
+
+IDEAS:
+how about using razorbird-attack image for a moving animation?
+
+NOTES for later, about inconsitencies :
+*lvl1 fire elemental: WoL plays first the fire sound, then the claws sound
+ lvl2&3: WoL plays them the same time, we play first the fire sound (swapped behavior to lvl 1)
+*compare Air Elemental's (lvl0) recruit animation with the one in EoC / WoL
+*recheck lvl 1&2 earth elemental, noted sth. is probably better about the animation in WoL
+*have unified aura wave animation among therians and wargs
+
+
+IDEAS about Graphics:
+*Make the flyers and attackers fly, too, by moving the picture a few pixels up and down
+*Maybe we could uses this: https://r.wesnoth.org/p382676
+    -> there was critics about the moon blade sword
+    -> the animation with two attacks, maybe we can split it in two animations
+*The main problem with the blood manipulator animation seems to be that he's higher in the attack frames, there is an in-between frame needed to the base and defense frame
+*there is a brighter version of the vine attack icon in ageless - switching to that one?
+*there is an alternative icicle icon in WoL
+
+
+Resurgence:
+*not sure about the non-forest terrains of the vine-type resurgence
+*beach sands for the desert resurgence? the casual player probably won't divide between them
+ an completely different idea would be to give the regenartion when beeing adjacent (and on) Ql*^* tiles
+*having 5 regeneration + the good movetype on their favored tarrain ... maybe this makes them to defensive, and the regeneration should be 4 (like small heal, it were 3 before)
+*snow AND water resurgence for ice elementals?
+
+RELESE BLOCKING:
+how to name the resurgence ability (and the special_notes for them)
+update translations afterdwards
+we can make a release with leaving out some of the unfinished changes in the readme.md

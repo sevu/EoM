@@ -1,22 +1,6 @@
 
 		----- The Era of Myths -----
 		          changelog
-		          
-NOTES for later: 
-lvl1: WoL plays first the fire sound, then the claws sound
-lvl2&3: WoL plays them the same time, WE PLAY FIRST THE FIRE SOUND (swapped behavior to lvl 1)
-compare Air Elemental's (lvl0) recruit animation with the one in EoC / WoL (experiments from last time)
-recheck lvl1 earth elemental, noted sth. is probably better in WoL (animation)
-lvl2 golem -> as well
-
-*Animation Checklist:
-How do the changes to the Therians look. Should the shifting be quicker?
-Does the combination of moving and melee attacking look ok for the therian cat?
-Does it look better if we make the tornado missile frame (zephyr/djinn) longer?
-
-IDEAS:
-how about using razorbird-attack image for a moving animation?
-unifying the elementals regeneration abilities into one - resurgence from EoC
 
 
 VERSION 5.19.0
@@ -25,8 +9,8 @@ VERSION 5.19.0
 
 -Celestials
 *many new semi-portraits for the celestials, all done by tommy2teeth
-*Quester uses mainline Paladin portrait
-*Messenger/Claimant use flying image on unwalkable terrain, too
+*Messenger/Claimant use flying image on unwalkable terrain
+*an own unit-group-icon
 
 -Wargs
 *Wolf Cub cost 12 -> 11
@@ -38,6 +22,10 @@ VERSION 5.19.0
 -Therians
 *Higher Level Falcons -1 MP
 *generic shifting animation for many cats and falcons
+
+-Vampires
+*changed plague description to match vampire theme instead of zombie theme
+*female fledgeling uses the old image again
 
 -Windsong
 *Pathfinder (lvl2) backstab melee 5-3 -> 6-3 (like the mainline Rouge)
@@ -72,6 +60,26 @@ VERSION 5.19.0
 *Vine Beast cost 16 -> 14
 *Vine Tiger cost 32 -> 26, melee 7-4 -> 8-4, ranged 5-3 -> 6-3, new attack
 *adjusted tornado animation
+
+-Devlings - Balance changes by IPS ( https://r.wesnoth.org/p601712 )
+*Overgrowns: HP 37 -> 38, resistances: clold & arcane  -20% -> -10%
+*Warrior: resistances: clold & arcane  -20% -> -10%, impact 0% -> 20%
+*Hero: HP 62 -> 68, XP 180 -> 120, resistances: clold & arcane -20% -> -10%
+*Grand Hero: HP 80 -> 84, resistances: clold & arcane -20% -> -10%, impact 0% -> 30%
+*Soldier: resistances: clold & arcane -20% -> -10%, blade 0% -> 10 %
+*Chief: HP 55 -> 62, XP 180 -> 120, resistances: clold & arcane -20% -> -10%, blade 0% -> 10 %
+*Grand Chief: melee 12-4 -> 13-4, ranged 9-2 -> 10-2, resistances: clold & arcane -20% -> -10%, blade 0% -> 20 %, impact 10% -> 20%
+*Nailers: HP 25 -> 28
+*Spikers: XP 85 -> 53, cost 28 -> 24, resistances: impact -10% -> 0%
+*Staplers: HP 50 -> 60, resistances: -10% -> 0%
+*Flappers: HP 24 -> 30
+*Flyers: XP 78 -> 70, resistances: blade & impact -10% -> 0%
+*Attackers: HP 45 -> 53, resistances: blade & impact -10% -> 0%, cold  -20% -> -10%, fire 30% -> 40%
+*Lurker: HP 23 -> 25, cost 18 -> 17
+*Cursers: ranged 7-2 -> 8-2, secondary 5-2 -> 6-2
+*Blasphemists: ranged 7-3 -> 9-3, secondary 5-3 -> 6-3, melee 2-4 -> 3-4
+*Offenders: XP 130 -> 100, ranged 8-4 -> 10-4, secondary 6-4 -> 7-4, melee 2-5 -> 3-5, resistances: blade & impact, cold -10% -> 0%, arcane -20% -> -10%
+*Abusers: ranged 11-4 -> 13-4, secondary 9-4 -> 10-4, melee 3-5 -> 4-5, resistances: blade & impact 0%, arcane -20% -> 0%, cold -10% -> 20%
 
 
 VERSION 5.18.0
