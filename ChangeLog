@@ -6,6 +6,7 @@
 VERSION 5.19.0
 --general changes
 *rewrote the lightning base animation, so the pot-generation script doesn't break there anymore
+*races use prefixes
 
 -Celestials
 *many new semi-portraits for the celestials, all done by tommy2teeth
@@ -86,7 +87,7 @@ VERSION 5.18.0
 --general changes
 *no unit uses the deprecated animation syntax anymore
 *the eras got better fitting names
-*all movetypes have uniqe präfixes
+*all movetypes have unique prefixes
 
 -Devlings
 *the Curser line got a secondary arcane attack

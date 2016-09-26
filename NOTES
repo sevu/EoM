@@ -33,14 +33,14 @@ IDEAS about Graphics:
 *there is an alternative icicle icon in WoL
 
 
-Resurgence:
+Resurgence Ability:
 *not sure about the non-forest terrains of the vine-type resurgence
 *beach sands for the desert resurgence? the casual player probably won't divide between them
  an completely different idea would be to give the regenartion when beeing adjacent (and on) Ql*^* tiles
-*having 5 regeneration + the good movetype on their favored tarrain ... maybe this makes them to defensive, and the regeneration should be 4 (like small heal, it were 3 before)
+*having 5 regeneration + the good movetype on their favored terrain ... maybe this makes them to defensive, and the regeneration should be 4 (like small heal, it were 3 before)
 *snow AND water resurgence for ice elementals?
 
 RELESE BLOCKING:
 how to name the resurgence ability (and the special_notes for them)
 update translations afterdwards
-we can make a release with leaving out some of the unfinished changes in the readme.md
+we can make a release with leaving out the elementals balance changes (but still including the new resurgence)
