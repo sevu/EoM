@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Era_of_Myths\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2016-09-04 21:45+0200\n"
-"PO-Revision-Date: 2016-09-04 21:45+0200\n"
+"POT-Creation-Date: 2016-12-04 03:00+0100\n"
+"PO-Revision-Date: 2016-12-04 03:03+0100\n"
 "Last-Translator: Severin Glöckner <sgloeck@imn.htwk-leipzig.de>\n"
 "Language-Team: none\n"
 "Language: de\n"
@@ -11,15 +11,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.8\n"
+"X-Generator: Poedit 1.8.11\n"
 
-#. [era]: id=era_EOM_{ERA_OF_MYTHS_VERSION}
-#: EOM_eras.cfg:102
+#. [era]: id=EOM{VERSION_POSTFIX}
+#: EOM_eras.cfg:97
 msgid "Era of Myths"
 msgstr "Zeit der Mythen"
 
-#. [era]: id=era_EOM_{ERA_OF_MYTHS_VERSION}
-#: EOM_eras.cfg:104
+#. [era]: id=EOM{VERSION_POSTFIX}
+#: EOM_eras.cfg:99
 msgid ""
 "The standard Era of Myths.\n"
 "Pickable factions are:\n"
@@ -43,13 +43,13 @@ msgstr ""
 "Die Warg\n"
 "Windflüsterinnen"
 
-#. [era]: id=era_EOM_balanced_{ERA_OF_MYTHS_VERSION}
-#: EOM_eras.cfg:131
+#. [era]: id=EOM_balanced{VERSION_POSTFIX}
+#: EOM_eras.cfg:125
 msgid "Era of Myths (balanced)"
 msgstr "Zeit der Mythen (balanced)"
 
-#. [era]: id=era_EOM_balanced_{ERA_OF_MYTHS_VERSION}
-#: EOM_eras.cfg:133
+#. [era]: id=EOM_balanced{VERSION_POSTFIX}
+#: EOM_eras.cfg:127
 msgid ""
 "A selection of factions considered balanced. As there would be:\n"
 "\n"
@@ -66,49 +66,54 @@ msgstr ""
 "Vampire\n"
 "Windflüsterinnen"
 
-#. [era]: id=era_EOM_power_{ERA_OF_MYTHS_VERSION}
-#: EOM_eras.cfg:153
+#. [era]: id=EOM_power{VERSION_POSTFIX}
+#: EOM_eras.cfg:146
 msgid "Era of Myths Lvl. 2"
 msgstr "Zeit der Mythen Lvl. 2"
 
-#. [era]: id=era_EOM_power_{ERA_OF_MYTHS_VERSION}
-#: EOM_eras.cfg:155
+#. [era]: id=EOM_power{VERSION_POSTFIX}
+#: EOM_eras.cfg:148
 msgid ""
 "Same factions like in the standard Era of Myths, but you can recruit level 2 "
 "units."
 msgstr "Die Zeit der Mythen. Man kann Level 2 Einheiten ausbilden."
 
-#. [era]: id=era_default_and_EOM_{ERA_OF_MYTHS_VERSION}
-#: EOM_eras.cfg:173
+#. [era]: id=EOM+default{VERSION_POSTFIX}
+#: EOM_eras.cfg:165
 msgid "Default + Myths"
 msgstr "Standard und Mythen"
 
-#. [era]: id=era_default_and_EOM_{ERA_OF_MYTHS_VERSION}
-#: EOM_eras.cfg:175
+#. [era]: id=EOM+default{VERSION_POSTFIX}
+#: EOM_eras.cfg:167
 msgid "The factions from the standard era and the Era of Myths are available."
 msgstr "Die Standard Fraktionen und die Fraktionen der Zeit der Mythen."
 
-#. [era]: id=era_EOM_power_aoh_{ERA_OF_MYTHS_VERSION}
-#: EOM_eras.cfg:200
+#. [era]: id=EOM+default_power{VERSION_POSTFIX}
+#: EOM_eras.cfg:191
 msgid "Default + Myths Lvl. 2"
 msgstr "Standard und Mythen Lvl. 2"
 
-#. [era]: id=era_EOM_power_aoh_{ERA_OF_MYTHS_VERSION}
-#: EOM_eras.cfg:202
+#. [era]: id=EOM+default_power{VERSION_POSTFIX}
+#: EOM_eras.cfg:193
 msgid "The standard era and the Era of Myths. You can recruit level 2 units."
 msgstr ""
 "Die Standard Fraktionen und die Fraktionen der Zeit der Mythen. Man kann "
 "Level 2 Einheiten ausbilden."
 
-#. [era]: id=era_EOM_recruit_{ERA_OF_MYTHS_VERSION}
-#: EOM_eras.cfg:227
+#. [era]: id=EOM_recruit{VERSION_POSTFIX}
+#: EOM_eras.cfg:217
 msgid "Myths RPG"
 msgstr "Rollenspiel-Mythen"
 
-#. [era]: id=era_EOM_recruit_{ERA_OF_MYTHS_VERSION}
-#: EOM_eras.cfg:229
-msgid "An Era for RPG Playing. You cannot recruit units."
-msgstr "Eine Ära für Rollenspieler. Man kann keine Einheiten ausbilden."
+#. [era]: id=EOM_recruit{VERSION_POSTFIX}
+#: EOM_eras.cfg:219
+msgid ""
+"An Era for RPG Playing. You cannot recruit units. This is only meant to be "
+"used for RPG-style scenarios, or other scenarios where you shouldn't be "
+"allowed to recruit."
+msgstr ""
+"Eine Ära für RPG Spiele. Man kann keine Einheiten ausbilden. Dies ist für "
+"spezielle RPG Szenarien gedacht."
 
 #. [multiplayer_side]: id=EOM_celestials, type=EOM_Claimant
 #. [multiplayer_side]: id=POWER_celestials, type=EOM_Herald
@@ -226,19 +231,21 @@ msgid ""
 "This unit will absorb energy whenever it is on terrain that matches its "
 "elemental affinity, thus healing itself by 5 HP per turn."
 msgstr ""
+"Diese Einheit regeneriert 5 LP wenn sie sich in Gebieten aufhält, die ihrem "
+"Element entsprechen."
 
 #. [leadership]: id=inspire
-#: macros/abilities.cfg:120
+#: macros/abilities.cfg:118
 msgid "inspire"
 msgstr "Ermutigung"
 
 #. [leadership]: id=inspire
-#: macros/abilities.cfg:121
+#: macros/abilities.cfg:119
 msgid "female^inspire"
 msgstr "Ermutigung"
 
 #. [leadership]: id=inspire
-#: macros/abilities.cfg:122
+#: macros/abilities.cfg:120
 msgid ""
 "This unit can inspire friendly units that are next to it, making them fight "
 "better.\n"
@@ -354,6 +361,44 @@ msgstr ""
 "Vana,Vele,Veshere,Vanesa,Vithia,Hana,Haru,Heshia,Hia,Holaria,Hasha,Hena,"
 "Shara,Shena,Shira,Shefia,Shune,Shai,Shena,Shalia,Shasi,Shava,Shura"
 
+#: macros/names.cfg:13
+msgid ""
+"Adiur,Ahimelek,Ahuni,Akki,Amarsin,Amelagar,Amempsin,Ammenon,Ammidikaga,Ammi-"
+"Ditana,Amukkan,Amurum,Anshar,Anu-Malik,Aos,Arakhu,Aralu,Ardates,Ardi-Ea,"
+"Ardorach,Ardusin,Asardin,Assoros,Azag-Nannar,Baalu,Belbalidina,Belesis,"
+"Balasi,Belibni,Bellabarisruk,Belteshazzar,Bel-Samu,Buvalu,Dagan,Dakuri,Daon,"
+"Dapinu,Enmeduranki,Etana,Gahal,Gamil-Sin,Gobryas,Gudea,Hammurabi,Hasis-Adra,"
+"Heabani,Idadu,Igigi,Immertum,Irigibel,Irshusin,Ismi-Dagan,Izdubar,Kara-Bel,"
+"Kara-Hardas,Khamourabi,Kingu,Kir-Shamash,Kurigalzu,Lakhmu,Makru,Merodak,"
+"Milik-Harbat,Mili-Sihu,Muranu,Nabonahid,Nabonassar,Nabuchodrosser,Namtar,"
+"Nannar,Naramsin,Nebuchad,Nergal,Ninib,Nurval,Ramman,Saga-Saltiyas,"
+"Samoulsamouken,Samsi-Luna,Shamas,Shamash-Bel,Sharyukin,Shemesh,Sibri,Silani,"
+"Sisit,Sumai,Sutur-Cit,Suzub,Tammuz,Tamzi,Ulam-Khala,Ur,Urhammu,Urhamsi,Urukh,"
+"Yanzu,Zaidu,Zikar-Sin,Zur-Sin"
+msgstr ""
+"Adiur,Ahimelek,Ahuni,Akki,Amarsin,Amelagar,Amempsin,Ammenon,Ammidikaga,Ammi-"
+"Ditana,Amukkan,Amurum,Anshar,Anu-Malik,Aos,Arakhu,Aralu,Ardates,Ardi-Ea,"
+"Ardorach,Ardusin,Asardin,Assoros,Azag-Nannar,Baalu,Belbalidina,Belesis,"
+"Balasi,Belibni,Bellabarisruk,Belteshazzar,Bel-Samu,Buvalu,Dagan,Dakuri,Daon,"
+"Dapinu,Enmeduranki,Etana,Gahal,Gamil-Sin,Gobryas,Gudea,Hammurabi,Hasis-Adra,"
+"Heabani,Idadu,Igigi,Immertum,Irigibel,Irshusin,Ismi-Dagan,Izdubar,Kara-Bel,"
+"Kara-Hardas,Khamourabi,Kingu,Kir-Shamash,Kurigalzu,Lakhmu,Makru,Merodak,"
+"Milik-Harbat,Mili-Sihu,Muranu,Nabonahid,Nabonassar,Nabuchodrosser,Namtar,"
+"Nannar,Naramsin,Nebuchad,Nergal,Ninib,Nurval,Ramman,Saga-Saltiyas,"
+"Samoulsamouken,Samsi-Luna,Shamas,Shamash-Bel,Sharyukin,Shemesh,Sibri,Silani,"
+"Sisit,Sumai,Sutur-Cit,Suzub,Tammuz,Tamzi,Ulam-Khala,Ur,Urhammu,Urhamsi,Urukh,"
+"Yanzu,Zaidu,Zikar-Sin,Zur-Sin"
+
+#: macros/names.cfg:14
+msgid ""
+"Allatu,Anunit,Aralu,Belatsunat,Belili,Belit,Damkina,Davke,Ellat-Gula,Gula,"
+"Istar,Kissare,Mylitta,Nana,Nin-Marki,Rubati,Sabitum,Shala,Tashmitum,Tiamat,"
+"Zirat-Banit"
+msgstr ""
+"Allatu,Anunit,Aralu,Belatsunat,Belili,Belit,Damkina,Davke,Ellat-Gula,Gula,"
+"Istar,Kissare,Mylitta,Nana,Nin-Marki,Rubati,Sabitum,Shala,Tashmitum,Tiamat,"
+"Zirat-Banit"
+
 #: macros/special-notes.cfg:5
 msgid ""
 " This unit will heal allies by 3 HP at the beginning of its turns. In "
@@ -387,7 +432,7 @@ msgstr ""
 " Die Robustheit dieser Einheit verringert den Schaden mancher Angriffe, aber "
 "nur, wenn sie angreift."
 
-#: macros/special-notes.cfg:21
+#: macros/special-notes.cfg:20
 msgid ""
 " Foes who lose their life to the bite of this noble vampire will rise again "
 "as bloodborns, unless they are standing on a village."
@@ -396,28 +441,21 @@ msgstr ""
 "sogleich wieder als Blutgeborener und kämpft ab sofort an seiner Seite. Nur "
 "Opfer, die sich gerade in einem Dorf aufhalten, entrinnen solchem Schicksal."
 
-#: macros/special-notes.cfg:25
+#: macros/special-notes.cfg:23
+msgid ""
+" Vampires are immune to drain and plague but are still susceptible to poison."
+msgstr ""
+" Vampire sind immun gegenüber Lebensentzug und untoter Plage aber immer noch "
+"durch Gift verwundbar."
+
+#: macros/special-notes.cfg:27
 msgid ""
 " Whenever this unit is in a forested area, it will regenerate 5 HP per turn."
 msgstr ""
 " Solange sich diese Einheit in einem Waldgebiet aufhält, regeneriert sie 5 "
 "Lebenspunkte pro Runde."
 
-#: macros/special-notes.cfg:27
-msgid " This unit will recover 5 HP per turn while in a forest."
-msgstr "Diese Einheit regeneriert in Wäldern 5 Lebenspunkte."
-
-#: macros/special-notes.cfg:29
-msgid ""
-" This unit will regenerate 5 HP per turn in forest or mushroom grove "
-"terrains."
-msgstr ""
-
 #: macros/special-notes.cfg:31
-msgid "This unit will regenerate 5 HP when in forest."
-msgstr "Diese Einheit regeneriert in Wäldern 5 Lebenspunkte."
-
-#: macros/special-notes.cfg:36
 msgid ""
 " Whenever this unit is in a mountainous area, it will regenerate 5 HP per "
 "turn."
@@ -425,29 +463,58 @@ msgstr ""
 " Solange sich diese Einheit sich in einem felsigen Gebiet aufhält, "
 "regeneriert sie 5 Lebenspunkte pro Runde"
 
-#: macros/special-notes.cfg:38
-msgid ""
-" This unit will repair its body with the rocks found while in/on hills, "
-"caves, or mountains, thus recovering 5 HP in the process."
-msgstr ""
-
-#: macros/special-notes.cfg:40
-msgid "This unit will regenerate 5 HP when on mountains."
-msgstr "Diese Einheit regeneriert auf Bergen 5Lebenspunkte."
-
-#: macros/special-notes.cfg:45
+#: macros/special-notes.cfg:35
 msgid ""
 " Whenever this unit is in desert-like area, it will regenerate 5 HP per turn."
 msgstr ""
 " Solange sich diese Einheit in einem Wüstengebiet aufhält, regeneriert sie 5 "
 "Lebenspunkte pro Runde."
 
-#: macros/special-notes.cfg:47
+#: macros/special-notes.cfg:39
+msgid ""
+" Whenever this unit is in an aquatic area, it will regenerate 5 HP per turn."
+msgstr ""
+" Solange sich diese Einheit in einem Feuchtgebiet aufhält, regeneriert sie 5 "
+"Lebenspunkte pro Runde."
+
+#: macros/special-notes.cfg:43
+msgid " This unit will recover 5 HP per turn while on snowy or icy terrain."
+msgstr ""
+
+#: macros/special-notes.cfg:48
+msgid ""
+" This unit will repair its body with the rocks found while in/on hills, "
+"caves, or mountains, thus recovering 5 HP in the process."
+msgstr ""
+
+#: macros/special-notes.cfg:51
+msgid " This unit will recover 5 HP per turn while in a forest."
+msgstr "Diese Einheit regeneriert in Wäldern 5 Lebenspunkte."
+
+#: macros/special-notes.cfg:53
+msgid ""
+" This unit will regenerate 5 HP per turn in forest or mushroom grove "
+"terrains."
+msgstr ""
+
+#: macros/special-notes.cfg:56
 msgid ""
 " This unit will recover 5 HP per turn when on lava, sandy or desert terrain."
 msgstr "Diese Einheit regeneriert in Wüsten oder auf Sand 5 Lebenspunkte."
 
-#: macros/special-notes.cfg:49
+#: macros/special-notes.cfg:59
+msgid " This unit will recover 5 HP per turn when on watery terrain."
+msgstr ""
+
+#: macros/special-notes.cfg:62
+msgid "This unit will regenerate 5 HP when on mountains."
+msgstr "Diese Einheit regeneriert auf Bergen 5Lebenspunkte."
+
+#: macros/special-notes.cfg:65
+msgid "This unit will regenerate 5 HP when in forest."
+msgstr "Diese Einheit regeneriert in Wäldern 5 Lebenspunkte."
+
+#: macros/special-notes.cfg:68
 msgid ""
 "This unit will regenerate 5 HP when in desert or sand.\n"
 "If this unit can fly over lava, it will regenerate there as well."
@@ -457,50 +524,28 @@ msgstr ""
 "Falls diese Einheit über Lava hinwegfliegen kann, so regeneriert sie sich "
 "auch dort."
 
-#: macros/special-notes.cfg:55
-msgid ""
-" Whenever this unit is in an aquatic area, it will regenerate 5 HP per turn."
-msgstr ""
-" Solange sich diese Einheit in einem Feuchtgebiet aufhält, regeneriert sie 5 "
-"Lebenspunkte pro Runde."
-
-#: macros/special-notes.cfg:57
-msgid " This unit will recover 5 HP per turn when on watery terrain."
-msgstr ""
-
-#: macros/special-notes.cfg:59
+#: macros/special-notes.cfg:72
 msgid ""
 "This unit will regenerate 5 HP when in deep or shallow water and swamps."
 msgstr ""
 "Solange sich diese Einheit in einem Feuchtgebiet aufhält, regeneriert sie 5 "
 "Lebenspunkte pro Runde."
 
-#: macros/special-notes.cfg:64
-msgid " This unit will recover 5 HP per turn while on snowy or icy terrain."
-msgstr ""
-
-#: macros/special-notes.cfg:68
+#: macros/special-notes.cfg:76
 msgid "deserthome"
 msgstr "Wüstengeist"
 
-#: macros/special-notes.cfg:69
+#: macros/special-notes.cfg:77
 msgid "waterhome"
 msgstr "Wassergeist"
 
-#: macros/special-notes.cfg:70
+#: macros/special-notes.cfg:78
 msgid "foresthome"
 msgstr "Waldgeist"
 
-#: macros/special-notes.cfg:71
+#: macros/special-notes.cfg:79
 msgid "mountainhome"
 msgstr "Berggeist"
-
-#: macros/special-notes.cfg:80
-msgid ""
-" Vampires are immune to drain and plague but are still susceptible to poison."
-msgstr ""
-" Vampire sind immun gegenüber Lebensentzug und untoter Plage aber immer noch "
-"durch Gift verwundbar."
 
 #. [chance_to_hit]: id=counter
 #: macros/specials.cfg:6
@@ -516,134 +561,134 @@ msgstr ""
 "mindestens 60%."
 
 #. [trait]: id=ruby
-#: macros/traits.cfg:8
+#: macros/traits.cfg:20
 msgid "ruby"
 msgstr "Rubin"
 
 #. [trait]: id=ruby
-#: macros/traits.cfg:9
+#: macros/traits.cfg:21
 msgid "female^ruby"
 msgstr "Rubin"
 
 #. [trait]: id=emerald
-#: macros/traits.cfg:26
+#: macros/traits.cfg:38
 msgid "emerald"
 msgstr "Smaragd"
 
 #. [trait]: id=emerald
-#: macros/traits.cfg:27
+#: macros/traits.cfg:39
 msgid "female^emerald"
 msgstr "Smaragd"
 
 #. [trait]: id=sapphire
-#: macros/traits.cfg:43
+#: macros/traits.cfg:55
 msgid "sapphire"
 msgstr "Saphir"
 
 #. [trait]: id=sapphire
-#: macros/traits.cfg:44
+#: macros/traits.cfg:56
 msgid "female^sapphire"
 msgstr "Saphir"
 
 #. [trait]: id=diamond
-#: macros/traits.cfg:56
+#: macros/traits.cfg:68
 msgid "diamond"
 msgstr "Diamant"
 
 #. [trait]: id=diamond
-#: macros/traits.cfg:57
+#: macros/traits.cfg:69
 msgid "female^diamond"
 msgstr "Diamant"
 
 #. [trait]: id=amethyst
-#: macros/traits.cfg:74
+#: macros/traits.cfg:86
 msgid "amethyst"
 msgstr "Quartz"
 
 #. [trait]: id=amethyst
-#: macros/traits.cfg:75
+#: macros/traits.cfg:87
 msgid "female^amethyst"
 msgstr "Quartz"
 
 #. [trait]: id=incorporeal, description={STR_NONLIVING_DESCRIPTION}
-#: macros/traits.cfg:92
+#: macros/traits.cfg:104
 msgid "incorporeal"
 msgstr "körperlos"
 
 #. [trait]: id=incorporeal, description={STR_NONLIVING_DESCRIPTION}
-#: macros/traits.cfg:93
+#: macros/traits.cfg:105
 msgid "female^incorporeal"
 msgstr "körperlos"
 
 #. [trait]: id=beefy
-#: macros/traits.cfg:115
+#: macros/traits.cfg:127
 msgid "beefy"
 msgstr "zäh"
 
 #. [trait]: id=beefy
-#: macros/traits.cfg:116
+#: macros/traits.cfg:128
 msgid "female^beefy"
 msgstr "zäh"
 
 #. [trait]: id=beefy
-#: macros/traits.cfg:117
+#: macros/traits.cfg:129
 msgid ""
 "These Devlings are bigger than other Devlings and can withstand more "
 "punishment."
 msgstr "Diese Teufelchen sind größer und halten mehr aus als die Anderen."
 
 #. [trait]: id=brainy
-#: macros/traits.cfg:134
+#: macros/traits.cfg:146
 msgid "brainy"
 msgstr "klug"
 
 #. [trait]: id=brainy
-#: macros/traits.cfg:135
+#: macros/traits.cfg:147
 msgid "female^brainy"
 msgstr "klug"
 
 #. [trait]: id=brainy
-#: macros/traits.cfg:136
+#: macros/traits.cfg:148
 msgid "Brainy Devlings level faster than their brethren."
 msgstr "Kluge Teufelchen lernen schneller als die Anderen."
 
 #. [trait]: id=brawny
-#: macros/traits.cfg:152
+#: macros/traits.cfg:164
 msgid "brawny"
 msgstr "stark"
 
 #. [trait]: id=brawny
-#: macros/traits.cfg:153
+#: macros/traits.cfg:165
 msgid "female^brawny"
 msgstr "stark"
 
 #. [trait]: id=brawny
-#: macros/traits.cfg:154
+#: macros/traits.cfg:166
 msgid "Brawny Devlings hit harder, but are dumber than other Devlings."
 msgstr "Starke Teufelchen schlagen härter zu aber sind dümmer als die Anderen."
 
 #. [trait]: id=obedient, description={STR_ZERO_UPKEEP}
-#: macros/traits.cfg:170 macros/traits.cfg:191
+#: macros/traits.cfg:182 macros/traits.cfg:203
 msgid "obedient"
 msgstr "unterwürfig"
 
 #. [trait]: id=obedient, description={STR_ZERO_UPKEEP}
-#: macros/traits.cfg:171 macros/traits.cfg:192
+#: macros/traits.cfg:183 macros/traits.cfg:204
 msgid "female^obedient"
 msgstr "unterwürfig"
 
 #. [trait]: id=attuned
-#: macros/traits.cfg:216
+#: macros/traits.cfg:228
 msgid "attuned"
 msgstr "harmonisch"
 
 #. [trait]: id=attuned
-#: macros/traits.cfg:217
+#: macros/traits.cfg:229
 msgid "female^attuned"
 msgstr "harmonisch"
 
 #. [trait]: id=attuned
-#: macros/traits.cfg:218
+#: macros/traits.cfg:230
 msgid ""
 "Shifters who are attuned to their auras gain a +2 bonus to their aura "
 "attacks."
@@ -1429,7 +1474,7 @@ msgstr "..."
 #. [unit_type]: id=EOM_Grand_Devling_Hero, race=EOM_devling
 #: units/devlings/c4_Grand_Hero.cfg:5
 msgid "Grand Hero"
-msgstr "Großer Held"
+msgstr "Großer Wüterich"
 
 #. [unit_type]: id=EOM_Sneak, race=EOM_devling
 #: units/devlings/d0_Sneak.cfg:5
@@ -2470,7 +2515,7 @@ msgid "race^Vampires"
 msgstr "Vampire"
 
 #. [race]: id=EOM_vampire
-#: units/vampires.cfg:28
+#: units/vampires.cfg:30
 msgid ""
 "Vampires means 'tainted blood' in the therian language, and indeed vampires "
 "are not in and of themselves a race, but rather what happens when blood is "
@@ -2523,9 +2568,9 @@ msgstr ""
 "ihre Blutfiebermagie auch auf ihre Aura anwenden."
 
 #. [attack]: type=fire
-#: units/vampires/a1_Blood_Apprentice.cfg:39
-#: units/vampires/a2_Blood_Manipulator.cfg:39
-#: units/vampires/a2_Flesh_Artisan.cfg:51 units/vampires/a3_Sangel.cfg:40
+#: units/vampires/a1_Blood_Apprentice.cfg:37
+#: units/vampires/a2_Blood_Manipulator.cfg:37
+#: units/vampires/a2_Flesh_Artisan.cfg:49 units/vampires/a3_Sangel.cfg:38
 msgid "blood boil"
 msgstr "Blutfieber"
 
@@ -2578,7 +2623,7 @@ msgstr ""
 "unaussprechlich schreckliche Dinge antun."
 
 #. [attack]: type=arcane
-#: units/vampires/a3_Sangel.cfg:52
+#: units/vampires/a3_Sangel.cfg:50
 msgid "wipe"
 msgstr "Psychische Peitsche"
 
@@ -2588,7 +2633,7 @@ msgid "Bloodborn"
 msgstr "Blutgeborener"
 
 #. [unit_type]: id=EOM_Bloodborn, race=EOM_vampire
-#: units/vampires/b0_Bloodborn.cfg:28
+#: units/vampires/b0_Bloodborn.cfg:29
 msgid ""
 "Vampires do not bear many natural children. Most vampires are spawned by a "
 "bite from another vampire. The curses and strengths of vampires are spread "
@@ -2608,7 +2653,7 @@ msgstr ""
 "übergroße Kinder."
 
 #. [female]
-#: units/vampires/b0_Bloodborn.cfg:57
+#: units/vampires/b0_Bloodborn.cfg:56
 msgid "female^Bloodborn"
 msgstr "Blutgeborene"
 
@@ -2632,7 +2677,7 @@ msgstr ""
 "vergifteten Dolchen bewaffnet - denn nur sie können sich nicht auflehen,"
 
 #. [female]
-#: units/vampires/b1_Malborn.cfg:55
+#: units/vampires/b1_Malborn.cfg:53
 msgid "female^Malborn"
 msgstr "Fehlgeborene"
 
@@ -2656,7 +2701,7 @@ msgstr ""
 "Vampirfürsten zur Verfügung steht."
 
 #. [female]
-#: units/vampires/c1_Fledgeling.cfg:77
+#: units/vampires/c1_Fledgeling.cfg:73
 msgid "female^Fledgeling"
 msgstr "Jungspund"
 
@@ -2684,7 +2729,7 @@ msgstr ""
 "rasantes und unheimlich genaues Fechten."
 
 #. [female]
-#: units/vampires/c2_Duelist.cfg:78
+#: units/vampires/c2_Duelist.cfg:76
 msgid "female^Duelist"
 msgstr "Degen"
 
@@ -2716,27 +2761,27 @@ msgstr ""
 "für das wöchentliche Blutmahl bereitzustellen."
 
 #. [female]
-#: units/vampires/c2_Noble.cfg:79
+#: units/vampires/c2_Noble.cfg:77
 msgid "female^Noble"
 msgstr "Adlige"
 
 #. [unit_type]: id=EOM_Succubus, race=EOM_vampire
 #. [unit_type]: id=EOM_Succubus_variation, race=EOM_vampire
 #. [variation]: race=EOM_vampire
-#: units/vampires/c2_Noble.cfg:119 units/vampires/x2_Succubus.cfg:10
+#: units/vampires/c2_Noble.cfg:117 units/vampires/x2_Succubus.cfg:10
 #: units/vampires/y1_Succubus.cfg:7
 msgid "female^Succubus"
 msgstr "Succubus"
 
 #. [unit_type]: id=EOM_Succubus, race=EOM_vampire
 #. [variation]: race=EOM_vampire
-#: units/vampires/c2_Noble.cfg:136 units/vampires/y1_Succubus.cfg:23
+#: units/vampires/c2_Noble.cfg:134 units/vampires/y1_Succubus.cfg:23
 msgid "A Vampire Succubus ..."
 msgstr "Ein Succubus ..."
 
 #. [attack]: type=pierce
-#: units/vampires/c2_Noble.cfg:169 units/vampires/c3_Sire.cfg:211
-#: units/vampires/c4_Methusalem.cfg:212 units/vampires/y1_Succubus.cfg:72
+#: units/vampires/c2_Noble.cfg:167 units/vampires/c3_Sire.cfg:209
+#: units/vampires/c4_Methusalem.cfg:210 units/vampires/y1_Succubus.cfg:72
 #: units/vampires/y2_Mistress.cfg:75 units/vampires/y3_Duchess.cfg:76
 msgid "screech"
 msgstr "kreischen"
@@ -2758,7 +2803,7 @@ msgstr ""
 "Herren einen Zehnt an den Gebieter."
 
 #. [attack]: type=arcane
-#: units/vampires/c3_Sire.cfg:56 units/vampires/c4_Methusalem.cfg:57
+#: units/vampires/c3_Sire.cfg:54 units/vampires/c4_Methusalem.cfg:55
 msgid "dementia gaze"
 msgstr "Böser Blick"
 
@@ -2766,7 +2811,7 @@ msgstr "Böser Blick"
 #. [unit_type]: id=EOM_Mistress, race=EOM_vampire
 #. [unit_type]: id=EOM_Mistress_variation, race=EOM_vampire
 #. [variation]: race=EOM_vampire
-#: units/vampires/c3_Sire.cfg:105 units/vampires/c3_Sire.cfg:161
+#: units/vampires/c3_Sire.cfg:103 units/vampires/c3_Sire.cfg:159
 #: units/vampires/x3_Mistress.cfg:12 units/vampires/y2_Mistress.cfg:7
 msgid "female^Mistress"
 msgstr "Regentin"
@@ -2774,7 +2819,7 @@ msgstr "Regentin"
 #. [unit_type]: id=EOM_Mistress, race=EOM_vampire
 #. [unit_type]: id=EOM_Mistress_variation, race=EOM_vampire
 #. [variation]: race=EOM_vampire
-#: units/vampires/c3_Sire.cfg:177 units/vampires/x3_Mistress.cfg:27
+#: units/vampires/c3_Sire.cfg:175 units/vampires/x3_Mistress.cfg:27
 #: units/vampires/y2_Mistress.cfg:25
 msgid ""
 "Some of the beautiful vampiresses who are as powerful as a Sire and are "
@@ -2812,7 +2857,7 @@ msgstr ""
 "einer verheerenden und präzisen Kampfform, die Verteidigungen zu Fall bringt."
 
 #. [female]
-#: units/vampires/c3_Sword_Dancer.cfg:83
+#: units/vampires/c3_Sword_Dancer.cfg:81
 msgid "female^Sword Dancer"
 msgstr "Schwerttänzerin"
 
@@ -2842,14 +2887,14 @@ msgstr ""
 #. [female]
 #. [unit_type]: id=EOM_Duchess, race=EOM_vampire
 #. [variation]: race=EOM_vampire
-#: units/vampires/c4_Methusalem.cfg:106 units/vampires/c4_Methusalem.cfg:162
+#: units/vampires/c4_Methusalem.cfg:104 units/vampires/c4_Methusalem.cfg:160
 #: units/vampires/y3_Duchess.cfg:7
 msgid "female^Duchess"
 msgstr "Empusa"
 
 #. [unit_type]: id=EOM_Duchess, race=EOM_vampire
 #. [variation]: race=EOM_vampire
-#: units/vampires/c4_Methusalem.cfg:179 units/vampires/y3_Duchess.cfg:26
+#: units/vampires/c4_Methusalem.cfg:177 units/vampires/y3_Duchess.cfg:26
 msgid ""
 "A Duchess is a powerful, yet elegant vampiress who is often the wife of a "
 "Methusalem. Even though a Duchess is feared for all the minions she "
@@ -2885,7 +2930,7 @@ msgstr ""
 "Unterstützung für eine Vampirarmee."
 
 #. [female]
-#: units/vampires/d1_Thin_Blood.cfg:82
+#: units/vampires/d1_Thin_Blood.cfg:80
 msgid "female^Thin Blood"
 msgstr "Dünnblüterin"
 
@@ -2904,7 +2949,7 @@ msgstr ""
 "Gleichgewicht im Blut erlangt haben, werden sie als Halbblüter bezeichnet."
 
 #. [female]
-#: units/vampires/d2_Half_Blood.cfg:82
+#: units/vampires/d2_Half_Blood.cfg:80
 msgid "female^Half Blood"
 msgstr "Halbblüterin"
 
@@ -2929,7 +2974,7 @@ msgstr ""
 "Vampirherren bedauern es selten, sie in ihre Dienst zu haben."
 
 #. [female]
-#: units/vampires/d3_Day_Hunter.cfg:86
+#: units/vampires/d3_Day_Hunter.cfg:84
 msgid "female^Day Hunter"
 msgstr "Tagesjäger"
 
@@ -2957,12 +3002,12 @@ msgstr ""
 "Dämmerung mit Gift getötet werden als mit einer Vampirarmee."
 
 #. [attack]: type=blade
-#: units/vampires/d3_Twilight_Walker.cfg:36
+#: units/vampires/d3_Twilight_Walker.cfg:34
 msgid "poisoned dagger"
 msgstr "Vergifteter Dolch"
 
 #. [female]
-#: units/vampires/d3_Twilight_Walker.cfg:107
+#: units/vampires/d3_Twilight_Walker.cfg:105
 msgid "female^Twilight Walker"
 msgstr "Dhampirin"
 
@@ -3010,7 +3055,7 @@ msgid "Blood Hulk"
 msgstr "Blutungetüm"
 
 #. [unit_type]: id=EOM_Blood_Hulk, race=EOM_vampire
-#: units/vampires/g2_Blood_Hulk.cfg:27
+#: units/vampires/g2_Blood_Hulk.cfg:28
 msgid ""
 "These monstrous vampires gorge themselves on the blood of their victims "
 "instead of turning them. Their appetite for blood is never sated, and with "
@@ -4123,12 +4168,12 @@ msgstr ""
 "die Schlacht zu führen."
 
 #. [unit_type]: id=EOM_Oathkeeper, race=EOM_windsong
-#: units/windsong/e3_Oathkeeper.cfg:5
+#: units/windsong/e3_Oathkeeper.cfg:7
 msgid "female^Oathkeeper"
 msgstr "Hüterin des Schwures"
 
 #. [unit_type]: id=EOM_Oathkeeper, race=EOM_windsong
-#: units/windsong/e3_Oathkeeper.cfg:37
+#: units/windsong/e3_Oathkeeper.cfg:39
 msgid ""
 "Until recently, it was believed that the Oathkeeper caste had, like many "
 "others, vanished with time, made unnecessary by long years of peace. It was "
@@ -4243,6 +4288,9 @@ msgstr "Tod"
 #: units/windsong/f4_Librarian.cfg:5
 msgid "female^Librarian"
 msgstr "Bibliothekarin"
+
+#~ msgid "An Era for RPG Playing. You cannot recruit units."
+#~ msgstr "Eine Ära für Rollenspieler. Man kann keine Einheiten ausbilden."
 
 #~ msgid "female^resurgence"
 #~ msgstr "Elementargeist"

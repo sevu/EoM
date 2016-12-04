@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2016-09-04 21:45+0200\n"
+"POT-Creation-Date: 2016-12-04 03:00+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -10,13 +10,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. [era]: id=era_EOM_{ERA_OF_MYTHS_VERSION}
-#: ./EOM_eras.cfg:102
+#. [era]: id=EOM{VERSION_POSTFIX}
+#: ./EOM_eras.cfg:97
 msgid "Era of Myths"
 msgstr ""
 
-#. [era]: id=era_EOM_{ERA_OF_MYTHS_VERSION}
-#: ./EOM_eras.cfg:104
+#. [era]: id=EOM{VERSION_POSTFIX}
+#: ./EOM_eras.cfg:99
 msgid ""
 "The standard Era of Myths.\n"
 "Pickable factions are:\n"
@@ -30,13 +30,13 @@ msgid ""
 "Windsongs"
 msgstr ""
 
-#. [era]: id=era_EOM_balanced_{ERA_OF_MYTHS_VERSION}
-#: ./EOM_eras.cfg:131
+#. [era]: id=EOM_balanced{VERSION_POSTFIX}
+#: ./EOM_eras.cfg:125
 msgid "Era of Myths (balanced)"
 msgstr ""
 
-#. [era]: id=era_EOM_balanced_{ERA_OF_MYTHS_VERSION}
-#: ./EOM_eras.cfg:133
+#. [era]: id=EOM_balanced{VERSION_POSTFIX}
+#: ./EOM_eras.cfg:127
 msgid ""
 "A selection of factions considered balanced. As there would be:\n"
 "\n"
@@ -46,44 +46,44 @@ msgid ""
 "Windsongs"
 msgstr ""
 
-#. [era]: id=era_EOM_power_{ERA_OF_MYTHS_VERSION}
-#: ./EOM_eras.cfg:153
+#. [era]: id=EOM_power{VERSION_POSTFIX}
+#: ./EOM_eras.cfg:146
 msgid "Era of Myths Lvl. 2"
 msgstr ""
 
-#. [era]: id=era_EOM_power_{ERA_OF_MYTHS_VERSION}
-#: ./EOM_eras.cfg:155
+#. [era]: id=EOM_power{VERSION_POSTFIX}
+#: ./EOM_eras.cfg:148
 msgid "Same factions like in the standard Era of Myths, but you can recruit level 2 units."
 msgstr ""
 
-#. [era]: id=era_default_and_EOM_{ERA_OF_MYTHS_VERSION}
-#: ./EOM_eras.cfg:173
+#. [era]: id=EOM+default{VERSION_POSTFIX}
+#: ./EOM_eras.cfg:165
 msgid "Default + Myths"
 msgstr ""
 
-#. [era]: id=era_default_and_EOM_{ERA_OF_MYTHS_VERSION}
-#: ./EOM_eras.cfg:175
+#. [era]: id=EOM+default{VERSION_POSTFIX}
+#: ./EOM_eras.cfg:167
 msgid "The factions from the standard era and the Era of Myths are available."
 msgstr ""
 
-#. [era]: id=era_EOM_power_aoh_{ERA_OF_MYTHS_VERSION}
-#: ./EOM_eras.cfg:200
+#. [era]: id=EOM+default_power{VERSION_POSTFIX}
+#: ./EOM_eras.cfg:191
 msgid "Default + Myths Lvl. 2"
 msgstr ""
 
-#. [era]: id=era_EOM_power_aoh_{ERA_OF_MYTHS_VERSION}
-#: ./EOM_eras.cfg:202
+#. [era]: id=EOM+default_power{VERSION_POSTFIX}
+#: ./EOM_eras.cfg:193
 msgid "The standard era and the Era of Myths. You can recruit level 2 units."
 msgstr ""
 
-#. [era]: id=era_EOM_recruit_{ERA_OF_MYTHS_VERSION}
-#: ./EOM_eras.cfg:227
+#. [era]: id=EOM_recruit{VERSION_POSTFIX}
+#: ./EOM_eras.cfg:217
 msgid "Myths RPG"
 msgstr ""
 
-#. [era]: id=era_EOM_recruit_{ERA_OF_MYTHS_VERSION}
-#: ./EOM_eras.cfg:229
-msgid "An Era for RPG Playing. You cannot recruit units."
+#. [era]: id=EOM_recruit{VERSION_POSTFIX}
+#: ./EOM_eras.cfg:219
+msgid "An Era for RPG Playing. You cannot recruit units. This is only meant to be used for RPG-style scenarios, or other scenarios where you shouldn't be allowed to recruit."
 msgstr ""
 
 #. [multiplayer_side]: id=EOM_celestials, type=EOM_Claimant
@@ -180,17 +180,17 @@ msgid "This unit will absorb energy whenever it is on terrain that matches its e
 msgstr ""
 
 #. [leadership]: id=inspire
-#: ./macros/abilities.cfg:120
+#: ./macros/abilities.cfg:118
 msgid "inspire"
 msgstr ""
 
 #. [leadership]: id=inspire
-#: ./macros/abilities.cfg:121
+#: ./macros/abilities.cfg:119
 msgid "female^inspire"
 msgstr ""
 
 #. [leadership]: id=inspire
-#: ./macros/abilities.cfg:122
+#: ./macros/abilities.cfg:120
 msgid ""
 "This unit can inspire friendly units that are next to it, making them fight better.\n"
 "\n"
@@ -214,6 +214,14 @@ msgstr ""
 msgid "Ana,Arala,Ala,Asare,Ashara,Athesa,Ama,Averana,Atharuna,Amoshe,Ahurena,Alera,Ave,Arila,Ai,Atha,Ashe,Aru,Amasela,Aoshe,Amelara,Alura,Eva,Elena,Esure,Ena,Ethe,Eme,Eira,Ela,Efara,Evina,Eshe,Ethara,Esaora,Eumane,Ehuva,Ere,Emi,Eshi,Enemura,Sela,Sara,Sula,Salura,Sana,Semisha,Soshire,Suvana,Sife,Saletha,Sitheri,Surei,Somile,Sahama,Salarema,Sea,Severa,Suthe,Sithame,Ola,Omana,Osheura,Olena,Onethe,Ovenatha,Fira,Fesha,Fena,Felai,Foma,Furava,Fusatha,Fala,Famia,Fesea,Fenoma,Fihama,Fama,Fia,Famori,Irena,Ima,Ishama,Iolara,Imaha,Inithe,Imana,Isora,Ilameshe,Ila,Ishe,Ithoe,Ivie,Imia,Iralura,Isanare,Ihama,Iri,Ithania,Isavora,Ila,Mana,Mia,Mara,Mura,Masohe,Mushena,Malesa,Minaru,Minare,Monia,Mesere,Mulasha,Mathe,Minashema,Mesa,Mirana,Mifa,Mivareshana,Une,Uara,Ushala,Uhima,Uthe,Unaluthe,Thesa,Thema,Thirala,Thoshe,Thofara,Thami,Thise,Therama,Thila,Thama,Therasa,Thurana,Thalia,Therana,Thomena,Thosa,Thene,Thime,Thamele,Theshia,Nai,Nama,Norale,Nethala,Nisha,Nemene,Nefe,Navaru,Nula,Nusina,Naria,Nosua,Naomi,Nahasa,Nila,Nuralena,Nema,Lisa,Lara,Loe,Lasama,Lemeshe,Lathia,Leshara,Laisa,Line,Lenesa,Loma,Lura,Lesamia,Lehara,Lana,Lashe,Larena,Lotha,Limia,Lania,Larie,Lafana,Lerava,Love,Rama,Runa,Rashe,Ria,Rovena,Riva,Rufa,Rithia,Raina,Rava,Rashama,Rei,Rosha,Vena,Via,Velara,Veruna,Visha,Vana,Vele,Veshere,Vanesa,Vithia,Hana,Haru,Heshia,Hia,Holaria,Hasha,Hena,Shara,Shena,Shira,Shefia,Shune,Shai,Shena,Shalia,Shasi,Shava,Shura"
 msgstr ""
 
+#: ./macros/names.cfg:13
+msgid "Adiur,Ahimelek,Ahuni,Akki,Amarsin,Amelagar,Amempsin,Ammenon,Ammidikaga,Ammi-Ditana,Amukkan,Amurum,Anshar,Anu-Malik,Aos,Arakhu,Aralu,Ardates,Ardi-Ea,Ardorach,Ardusin,Asardin,Assoros,Azag-Nannar,Baalu,Belbalidina,Belesis,Balasi,Belibni,Bellabarisruk,Belteshazzar,Bel-Samu,Buvalu,Dagan,Dakuri,Daon,Dapinu,Enmeduranki,Etana,Gahal,Gamil-Sin,Gobryas,Gudea,Hammurabi,Hasis-Adra,Heabani,Idadu,Igigi,Immertum,Irigibel,Irshusin,Ismi-Dagan,Izdubar,Kara-Bel,Kara-Hardas,Khamourabi,Kingu,Kir-Shamash,Kurigalzu,Lakhmu,Makru,Merodak,Milik-Harbat,Mili-Sihu,Muranu,Nabonahid,Nabonassar,Nabuchodrosser,Namtar,Nannar,Naramsin,Nebuchad,Nergal,Ninib,Nurval,Ramman,Saga-Saltiyas,Samoulsamouken,Samsi-Luna,Shamas,Shamash-Bel,Sharyukin,Shemesh,Sibri,Silani,Sisit,Sumai,Sutur-Cit,Suzub,Tammuz,Tamzi,Ulam-Khala,Ur,Urhammu,Urhamsi,Urukh,Yanzu,Zaidu,Zikar-Sin,Zur-Sin"
+msgstr ""
+
+#: ./macros/names.cfg:14
+msgid "Allatu,Anunit,Aralu,Belatsunat,Belili,Belit,Damkina,Davke,Ellat-Gula,Gula,Istar,Kissare,Mylitta,Nana,Nin-Marki,Rubati,Sabitum,Shala,Tashmitum,Tiamat,Zirat-Banit"
+msgstr ""
+
 #: ./macros/special-notes.cfg:5
 msgid " This unit will heal allies by 3 HP at the beginning of its turns. In addition, this ability will inhibit the effects of poison."
 msgstr ""
@@ -230,86 +238,86 @@ msgstr ""
 msgid " The steadiness of this unit reduces damage from some attacks, but only while attacking."
 msgstr ""
 
-#: ./macros/special-notes.cfg:21
+#: ./macros/special-notes.cfg:20
 msgid " Foes who lose their life to the bite of this noble vampire will rise again as bloodborns, unless they are standing on a village."
 msgstr ""
 
-#: ./macros/special-notes.cfg:25
-msgid " Whenever this unit is in a forested area, it will regenerate 5 HP per turn."
+#: ./macros/special-notes.cfg:23
+msgid " Vampires are immune to drain and plague but are still susceptible to poison."
 msgstr ""
 
 #: ./macros/special-notes.cfg:27
-msgid " This unit will recover 5 HP per turn while in a forest."
-msgstr ""
-
-#: ./macros/special-notes.cfg:29
-msgid " This unit will regenerate 5 HP per turn in forest or mushroom grove terrains."
+msgid " Whenever this unit is in a forested area, it will regenerate 5 HP per turn."
 msgstr ""
 
 #: ./macros/special-notes.cfg:31
-msgid "This unit will regenerate 5 HP when in forest."
-msgstr ""
-
-#: ./macros/special-notes.cfg:36
 msgid " Whenever this unit is in a mountainous area, it will regenerate 5 HP per turn."
 msgstr ""
 
-#: ./macros/special-notes.cfg:38
-msgid " This unit will repair its body with the rocks found while in/on hills, caves, or mountains, thus recovering 5 HP in the process."
-msgstr ""
-
-#: ./macros/special-notes.cfg:40
-msgid "This unit will regenerate 5 HP when on mountains."
-msgstr ""
-
-#: ./macros/special-notes.cfg:45
+#: ./macros/special-notes.cfg:35
 msgid " Whenever this unit is in desert-like area, it will regenerate 5 HP per turn."
 msgstr ""
 
-#: ./macros/special-notes.cfg:47
+#: ./macros/special-notes.cfg:39
+msgid " Whenever this unit is in an aquatic area, it will regenerate 5 HP per turn."
+msgstr ""
+
+#: ./macros/special-notes.cfg:43
+msgid " This unit will recover 5 HP per turn while on snowy or icy terrain."
+msgstr ""
+
+#: ./macros/special-notes.cfg:48
+msgid " This unit will repair its body with the rocks found while in/on hills, caves, or mountains, thus recovering 5 HP in the process."
+msgstr ""
+
+#: ./macros/special-notes.cfg:51
+msgid " This unit will recover 5 HP per turn while in a forest."
+msgstr ""
+
+#: ./macros/special-notes.cfg:53
+msgid " This unit will regenerate 5 HP per turn in forest or mushroom grove terrains."
+msgstr ""
+
+#: ./macros/special-notes.cfg:56
 msgid " This unit will recover 5 HP per turn when on lava, sandy or desert terrain."
 msgstr ""
 
-#: ./macros/special-notes.cfg:49
+#: ./macros/special-notes.cfg:59
+msgid " This unit will recover 5 HP per turn when on watery terrain."
+msgstr ""
+
+#: ./macros/special-notes.cfg:62
+msgid "This unit will regenerate 5 HP when on mountains."
+msgstr ""
+
+#: ./macros/special-notes.cfg:65
+msgid "This unit will regenerate 5 HP when in forest."
+msgstr ""
+
+#: ./macros/special-notes.cfg:68
 msgid ""
 "This unit will regenerate 5 HP when in desert or sand.\n"
 "If this unit can fly over lava, it will regenerate there as well."
 msgstr ""
 
-#: ./macros/special-notes.cfg:55
-msgid " Whenever this unit is in an aquatic area, it will regenerate 5 HP per turn."
-msgstr ""
-
-#: ./macros/special-notes.cfg:57
-msgid " This unit will recover 5 HP per turn when on watery terrain."
-msgstr ""
-
-#: ./macros/special-notes.cfg:59
+#: ./macros/special-notes.cfg:72
 msgid "This unit will regenerate 5 HP when in deep or shallow water and swamps."
 msgstr ""
 
-#: ./macros/special-notes.cfg:64
-msgid " This unit will recover 5 HP per turn while on snowy or icy terrain."
-msgstr ""
-
-#: ./macros/special-notes.cfg:68
+#: ./macros/special-notes.cfg:76
 msgid "deserthome"
 msgstr ""
 
-#: ./macros/special-notes.cfg:69
+#: ./macros/special-notes.cfg:77
 msgid "waterhome"
 msgstr ""
 
-#: ./macros/special-notes.cfg:70
+#: ./macros/special-notes.cfg:78
 msgid "foresthome"
 msgstr ""
 
-#: ./macros/special-notes.cfg:71
+#: ./macros/special-notes.cfg:79
 msgid "mountainhome"
-msgstr ""
-
-#: ./macros/special-notes.cfg:80
-msgid " Vampires are immune to drain and plague but are still susceptible to poison."
 msgstr ""
 
 #. [chance_to_hit]: id=counter
@@ -323,132 +331,132 @@ msgid "When used defensively, this attack always has at least a 60% chance to hi
 msgstr ""
 
 #. [trait]: id=ruby
-#: ./macros/traits.cfg:8
+#: ./macros/traits.cfg:20
 msgid "ruby"
 msgstr ""
 
 #. [trait]: id=ruby
-#: ./macros/traits.cfg:9
+#: ./macros/traits.cfg:21
 msgid "female^ruby"
 msgstr ""
 
 #. [trait]: id=emerald
-#: ./macros/traits.cfg:26
+#: ./macros/traits.cfg:38
 msgid "emerald"
 msgstr ""
 
 #. [trait]: id=emerald
-#: ./macros/traits.cfg:27
+#: ./macros/traits.cfg:39
 msgid "female^emerald"
 msgstr ""
 
 #. [trait]: id=sapphire
-#: ./macros/traits.cfg:43
+#: ./macros/traits.cfg:55
 msgid "sapphire"
 msgstr ""
 
 #. [trait]: id=sapphire
-#: ./macros/traits.cfg:44
+#: ./macros/traits.cfg:56
 msgid "female^sapphire"
 msgstr ""
 
 #. [trait]: id=diamond
-#: ./macros/traits.cfg:56
+#: ./macros/traits.cfg:68
 msgid "diamond"
 msgstr ""
 
 #. [trait]: id=diamond
-#: ./macros/traits.cfg:57
+#: ./macros/traits.cfg:69
 msgid "female^diamond"
 msgstr ""
 
 #. [trait]: id=amethyst
-#: ./macros/traits.cfg:74
+#: ./macros/traits.cfg:86
 msgid "amethyst"
 msgstr ""
 
 #. [trait]: id=amethyst
-#: ./macros/traits.cfg:75
+#: ./macros/traits.cfg:87
 msgid "female^amethyst"
 msgstr ""
 
 #. [trait]: id=incorporeal, description={STR_NONLIVING_DESCRIPTION}
-#: ./macros/traits.cfg:92
+#: ./macros/traits.cfg:104
 msgid "incorporeal"
 msgstr ""
 
 #. [trait]: id=incorporeal, description={STR_NONLIVING_DESCRIPTION}
-#: ./macros/traits.cfg:93
+#: ./macros/traits.cfg:105
 msgid "female^incorporeal"
 msgstr ""
 
 #. [trait]: id=beefy
-#: ./macros/traits.cfg:115
+#: ./macros/traits.cfg:127
 msgid "beefy"
 msgstr ""
 
 #. [trait]: id=beefy
-#: ./macros/traits.cfg:116
+#: ./macros/traits.cfg:128
 msgid "female^beefy"
 msgstr ""
 
 #. [trait]: id=beefy
-#: ./macros/traits.cfg:117
+#: ./macros/traits.cfg:129
 msgid "These Devlings are bigger than other Devlings and can withstand more punishment."
 msgstr ""
 
 #. [trait]: id=brainy
-#: ./macros/traits.cfg:134
+#: ./macros/traits.cfg:146
 msgid "brainy"
 msgstr ""
 
 #. [trait]: id=brainy
-#: ./macros/traits.cfg:135
+#: ./macros/traits.cfg:147
 msgid "female^brainy"
 msgstr ""
 
 #. [trait]: id=brainy
-#: ./macros/traits.cfg:136
+#: ./macros/traits.cfg:148
 msgid "Brainy Devlings level faster than their brethren."
 msgstr ""
 
 #. [trait]: id=brawny
-#: ./macros/traits.cfg:152
+#: ./macros/traits.cfg:164
 msgid "brawny"
 msgstr ""
 
 #. [trait]: id=brawny
-#: ./macros/traits.cfg:153
+#: ./macros/traits.cfg:165
 msgid "female^brawny"
 msgstr ""
 
 #. [trait]: id=brawny
-#: ./macros/traits.cfg:154
+#: ./macros/traits.cfg:166
 msgid "Brawny Devlings hit harder, but are dumber than other Devlings."
 msgstr ""
 
 #. [trait]: id=obedient, description={STR_ZERO_UPKEEP}
-#: ./macros/traits.cfg:170 ./macros/traits.cfg:191
+#: ./macros/traits.cfg:182 ./macros/traits.cfg:203
 msgid "obedient"
 msgstr ""
 
 #. [trait]: id=obedient, description={STR_ZERO_UPKEEP}
-#: ./macros/traits.cfg:171 ./macros/traits.cfg:192
+#: ./macros/traits.cfg:183 ./macros/traits.cfg:204
 msgid "female^obedient"
 msgstr ""
 
 #. [trait]: id=attuned
-#: ./macros/traits.cfg:216
+#: ./macros/traits.cfg:228
 msgid "attuned"
 msgstr ""
 
 #. [trait]: id=attuned
-#: ./macros/traits.cfg:217
+#: ./macros/traits.cfg:229
 msgid "female^attuned"
 msgstr ""
 
 #. [trait]: id=attuned
-#: ./macros/traits.cfg:218
+#: ./macros/traits.cfg:230
 msgid "Shifters who are attuned to their auras gain a +2 bonus to their aura attacks."
 msgstr ""
 
@@ -1629,7 +1637,7 @@ msgid "race^Vampires"
 msgstr ""
 
 #. [race]: id=EOM_vampire
-#: ./units/vampires.cfg:28
+#: ./units/vampires.cfg:30
 msgid "Vampires means 'tainted blood' in the therian language, and indeed vampires are not in and of themselves a race, but rather what happens when blood is tainted. Vampires usually appear much like what they were made out of except with pale skin, white hair, red eyes, and fangs. Vampires have a certain power over people that people can't quite understand. They naturally rise to lordship over humans, whom they treat as serfs. Vampires require blood to live, and thus harvest their serfs of it whenever they feel like. Among themselves, vampires tend to have a feudal system, with the humans as the serfs, and the vampires as the aristocrats. Most of these vampires have not allot of personal strength or charisma, so they rely on the vampire lord to subject the humans they manipulate while trying to earn favor with the vampire lord so that they can get more blood. Vampires are obsessed with blood, it is their currency, and most of their magics involve it."
 msgstr ""
 
@@ -1644,7 +1652,7 @@ msgid "Vampires have always had an obsession with blood and control. As such the
 msgstr ""
 
 #. [attack]: type=fire
-#: ./units/vampires/a1_Blood_Apprentice.cfg:39 ./units/vampires/a2_Blood_Manipulator.cfg:39 ./units/vampires/a2_Flesh_Artisan.cfg:51 ./units/vampires/a3_Sangel.cfg:40
+#: ./units/vampires/a1_Blood_Apprentice.cfg:37 ./units/vampires/a2_Blood_Manipulator.cfg:37 ./units/vampires/a2_Flesh_Artisan.cfg:49 ./units/vampires/a3_Sangel.cfg:38
 msgid "blood boil"
 msgstr ""
 
@@ -1679,7 +1687,7 @@ msgid "Any vampier who has earned the title Sangel can do things with your blood
 msgstr ""
 
 #. [attack]: type=arcane
-#: ./units/vampires/a3_Sangel.cfg:52
+#: ./units/vampires/a3_Sangel.cfg:50
 msgid "wipe"
 msgstr ""
 
@@ -1689,12 +1697,12 @@ msgid "Bloodborn"
 msgstr ""
 
 #. [unit_type]: id=EOM_Bloodborn, race=EOM_vampire
-#: ./units/vampires/b0_Bloodborn.cfg:28
+#: ./units/vampires/b0_Bloodborn.cfg:29
 msgid "Vampires do not bear many natural children. Most vampires are spawned by a bite from another vampire. The curses and strengths of vampires are spread as the vampire sucks the blood from his prey, and replaces it with magic. People new to the blood are made weak by it, and have not enough mastery over their mind to resist an order of the one who bit them. Eventually, they will grow used to it, and learn how to use the strength it provides them, but until then they are much as oversized children."
 msgstr ""
 
 #. [female]
-#: ./units/vampires/b0_Bloodborn.cfg:57
+#: ./units/vampires/b0_Bloodborn.cfg:56
 msgid "female^Bloodborn"
 msgstr ""
 
@@ -1709,7 +1717,7 @@ msgid "Some people are simply to weak to handle the blood, and it leaves them a 
 msgstr ""
 
 #. [female]
-#: ./units/vampires/b1_Malborn.cfg:55
+#: ./units/vampires/b1_Malborn.cfg:53
 msgid "female^Malborn"
 msgstr ""
 
@@ -1724,7 +1732,7 @@ msgid "Most vampires are weak ones in service of the lords and more powerful one
 msgstr ""
 
 #. [female]
-#: ./units/vampires/c1_Fledgeling.cfg:77
+#: ./units/vampires/c1_Fledgeling.cfg:73
 msgid "female^Fledgeling"
 msgstr ""
 
@@ -1739,7 +1747,7 @@ msgid "Vampires have always had a somewhat upper-class manner. This transfers ov
 msgstr ""
 
 #. [female]
-#: ./units/vampires/c2_Duelist.cfg:78
+#: ./units/vampires/c2_Duelist.cfg:76
 msgid "female^Duelist"
 msgstr ""
 
@@ -1754,25 +1762,25 @@ msgid "The vampires with family or leadership make themselves lord over whatever
 msgstr ""
 
 #. [female]
-#: ./units/vampires/c2_Noble.cfg:79
+#: ./units/vampires/c2_Noble.cfg:77
 msgid "female^Noble"
 msgstr ""
 
 #. [unit_type]: id=EOM_Succubus, race=EOM_vampire
 #. [unit_type]: id=EOM_Succubus_variation, race=EOM_vampire
 #. [variation]: race=EOM_vampire
-#: ./units/vampires/c2_Noble.cfg:119 ./units/vampires/x2_Succubus.cfg:10 ./units/vampires/y1_Succubus.cfg:7
+#: ./units/vampires/c2_Noble.cfg:117 ./units/vampires/x2_Succubus.cfg:10 ./units/vampires/y1_Succubus.cfg:7
 msgid "female^Succubus"
 msgstr ""
 
 #. [unit_type]: id=EOM_Succubus, race=EOM_vampire
 #. [variation]: race=EOM_vampire
-#: ./units/vampires/c2_Noble.cfg:136 ./units/vampires/y1_Succubus.cfg:23
+#: ./units/vampires/c2_Noble.cfg:134 ./units/vampires/y1_Succubus.cfg:23
 msgid "A Vampire Succubus ..."
 msgstr ""
 
 #. [attack]: type=pierce
-#: ./units/vampires/c2_Noble.cfg:169 ./units/vampires/c3_Sire.cfg:211 ./units/vampires/c4_Methusalem.cfg:212 ./units/vampires/y1_Succubus.cfg:72 ./units/vampires/y2_Mistress.cfg:75 ./units/vampires/y3_Duchess.cfg:76
+#: ./units/vampires/c2_Noble.cfg:167 ./units/vampires/c3_Sire.cfg:209 ./units/vampires/c4_Methusalem.cfg:210 ./units/vampires/y1_Succubus.cfg:72 ./units/vampires/y2_Mistress.cfg:75 ./units/vampires/y3_Duchess.cfg:76
 msgid "screech"
 msgstr ""
 
@@ -1787,7 +1795,7 @@ msgid "Some vampires grow strong enough to subject other vampire lords to themse
 msgstr ""
 
 #. [attack]: type=arcane
-#: ./units/vampires/c3_Sire.cfg:56 ./units/vampires/c4_Methusalem.cfg:57
+#: ./units/vampires/c3_Sire.cfg:54 ./units/vampires/c4_Methusalem.cfg:55
 msgid "dementia gaze"
 msgstr ""
 
@@ -1795,14 +1803,14 @@ msgstr ""
 #. [unit_type]: id=EOM_Mistress, race=EOM_vampire
 #. [unit_type]: id=EOM_Mistress_variation, race=EOM_vampire
 #. [variation]: race=EOM_vampire
-#: ./units/vampires/c3_Sire.cfg:105 ./units/vampires/c3_Sire.cfg:161 ./units/vampires/x3_Mistress.cfg:12 ./units/vampires/y2_Mistress.cfg:7
+#: ./units/vampires/c3_Sire.cfg:103 ./units/vampires/c3_Sire.cfg:159 ./units/vampires/x3_Mistress.cfg:12 ./units/vampires/y2_Mistress.cfg:7
 msgid "female^Mistress"
 msgstr ""
 
 #. [unit_type]: id=EOM_Mistress, race=EOM_vampire
 #. [unit_type]: id=EOM_Mistress_variation, race=EOM_vampire
 #. [variation]: race=EOM_vampire
-#: ./units/vampires/c3_Sire.cfg:177 ./units/vampires/x3_Mistress.cfg:27 ./units/vampires/y2_Mistress.cfg:25
+#: ./units/vampires/c3_Sire.cfg:175 ./units/vampires/x3_Mistress.cfg:27 ./units/vampires/y2_Mistress.cfg:25
 msgid "Some of the beautiful vampiresses who are as powerful as a Sire and are capable of winning the love of one are given the title of 'Mistress'. These vampiresses are capable of unleashing a world of pain and suffering upon their enemies with their twin daggers and their dementing gaze. The minions and mercenaries which serve her fight significantly better whenever they around her, sometimes it is unknown whether she is leading them or the mercenaries and minions are protecting her in order to protect themselves from the wrath of the Mistress husband."
 msgstr ""
 
@@ -1817,7 +1825,7 @@ msgid "Vampires live a long time, and have time to develop many social graces, i
 msgstr ""
 
 #. [female]
-#: ./units/vampires/c3_Sword_Dancer.cfg:83
+#: ./units/vampires/c3_Sword_Dancer.cfg:81
 msgid "female^Sword Dancer"
 msgstr ""
 
@@ -1834,13 +1842,13 @@ msgstr ""
 #. [female]
 #. [unit_type]: id=EOM_Duchess, race=EOM_vampire
 #. [variation]: race=EOM_vampire
-#: ./units/vampires/c4_Methusalem.cfg:106 ./units/vampires/c4_Methusalem.cfg:162 ./units/vampires/y3_Duchess.cfg:7
+#: ./units/vampires/c4_Methusalem.cfg:104 ./units/vampires/c4_Methusalem.cfg:160 ./units/vampires/y3_Duchess.cfg:7
 msgid "female^Duchess"
 msgstr ""
 
 #. [unit_type]: id=EOM_Duchess, race=EOM_vampire
 #. [variation]: race=EOM_vampire
-#: ./units/vampires/c4_Methusalem.cfg:179 ./units/vampires/y3_Duchess.cfg:26
+#: ./units/vampires/c4_Methusalem.cfg:177 ./units/vampires/y3_Duchess.cfg:26
 msgid "A Duchess is a powerful, yet elegant vampiress who is often the wife of a Methusalem. Even though a Duchess is feared for all the minions she controlls, she is capable of ravaging her enemies with her graceful swordsmanship and her dementing gaze; in addition she has a powerful bite. It is wise not to get in her way due to her dreadful power and the vast number of minions she controls."
 msgstr ""
 
@@ -1855,7 +1863,7 @@ msgid "Not all bloodborn grow towards their vampire side. Some lean on the human
 msgstr ""
 
 #. [female]
-#: ./units/vampires/d1_Thin_Blood.cfg:82
+#: ./units/vampires/d1_Thin_Blood.cfg:80
 msgid "female^Thin Blood"
 msgstr ""
 
@@ -1870,7 +1878,7 @@ msgid "Thin Blood vampires blood grows stronger as they kill. When they are bala
 msgstr ""
 
 #. [female]
-#: ./units/vampires/d2_Half_Blood.cfg:82
+#: ./units/vampires/d2_Half_Blood.cfg:80
 msgid "female^Half Blood"
 msgstr ""
 
@@ -1885,7 +1893,7 @@ msgid "After heading to the halfway point, a halfblood can choose to go back. Th
 msgstr ""
 
 #. [female]
-#: ./units/vampires/d3_Day_Hunter.cfg:86
+#: ./units/vampires/d3_Day_Hunter.cfg:84
 msgid "female^Day Hunter"
 msgstr ""
 
@@ -1900,12 +1908,12 @@ msgid "After reaching the halfway point, a halfblood can choose to go back, but 
 msgstr ""
 
 #. [attack]: type=blade
-#: ./units/vampires/d3_Twilight_Walker.cfg:36
+#: ./units/vampires/d3_Twilight_Walker.cfg:34
 msgid "poisoned dagger"
 msgstr ""
 
 #. [female]
-#: ./units/vampires/d3_Twilight_Walker.cfg:107
+#: ./units/vampires/d3_Twilight_Walker.cfg:105
 msgid "female^Twilight Walker"
 msgstr ""
 
@@ -1940,7 +1948,7 @@ msgid "Blood Hulk"
 msgstr ""
 
 #. [unit_type]: id=EOM_Blood_Hulk, race=EOM_vampire
-#: ./units/vampires/g2_Blood_Hulk.cfg:27
+#: ./units/vampires/g2_Blood_Hulk.cfg:28
 msgid "These monstrous vampires gorge themselves on the blood of their victims instead of turning them. Their appetite for blood is never sated, and with each victim they grow in strength and size. Only talented blood mages can create such monstrosities."
 msgstr ""
 
@@ -2509,12 +2517,12 @@ msgid "Stunningly powerful warriors, Harbingers epitomize the warlike path of th
 msgstr ""
 
 #. [unit_type]: id=EOM_Oathkeeper, race=EOM_windsong
-#: ./units/windsong/e3_Oathkeeper.cfg:5
+#: ./units/windsong/e3_Oathkeeper.cfg:7
 msgid "female^Oathkeeper"
 msgstr ""
 
 #. [unit_type]: id=EOM_Oathkeeper, race=EOM_windsong
-#: ./units/windsong/e3_Oathkeeper.cfg:37
+#: ./units/windsong/e3_Oathkeeper.cfg:39
 msgid "Until recently, it was believed that the Oathkeeper caste had, like many others, vanished with time, made unnecessary by long years of peace. It was not until the deepest vaults opened and they marched forth to do battle that it became clear that the Oathkeeper title had not only survived, but that the mantle had been passed down from generation to generation through the millenia. Those few who are offered membership are inevitably among the most skilled warriors ever to walk the world, and capable of holding back entire armies singlehandedly."
 msgstr ""
 
