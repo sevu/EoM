@@ -8,12 +8,6 @@
 *Does it look better if we make the tornado missile frame (zephyr/djinn) longer? -> looks fine now
 *blood-manipulator: see below
 
-*Checklist for other things:
-*I changed the ranged icon for the Water Elemental. Better or Worse?
- (for comparison, the higher lvls don't have this change (yet?))
-
-IDEAS:
-how about using razorbird-attack image for a moving animation?
 
 NOTES for later, about inconsitencies :
 *lvl1 fire elemental: WoL plays first the fire sound, then the claws sound
@@ -24,20 +18,18 @@ NOTES for later, about inconsitencies :
 
 
 IDEAS about Graphics:
-*Make the flyers and attackers fly, too, by moving the picture a few pixels up and down
-*Maybe we could uses this: https://r.wesnoth.org/p382676
-    -> there was critics about the moon blade sword
-    -> the animation with two attacks, maybe we can split it in two animations
 *The main problem with the blood manipulator animation seems to be that he's higher in the attack frames, there is an in-between frame needed to the base and defense frame
-*there is a brighter version of the vine attack icon in ageless - switching to that one?
 *there is an alternative icicle icon in WoL
-
+*Maybe we could uses this: https://r.wesnoth.org/p382676
+    -> moon blade animation is now included, but disabled
+       the switch from moon-blade-attack-8.png to moon-blade.png is looking bad
+    -> the animation with two attacks, maybe we can split it in two animations
+*Make the flyers and attackers fly, too, by moving the picture a few pixels up and down
+*how about using razorbird-attack image for a moving animation?
 
 Resurgence Ability:
 *not sure about the non-forest terrains of the vine-type resurgence
 *fire resurgence: an completely different idea would be to give the regenartion when beeing adjacent (and on) Ql*^* tiles
-*having 5 regeneration + the good movetype on their favored terrain ... maybe this makes them to defensive, and the regeneration should be 4 (like small heal, it were 3 before)
-*snow AND water resurgence for ice elementals?
 
 RELESE BLOCKING:
 how to name the resurgence ability (and the special_notes for them)

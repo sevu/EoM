@@ -61,6 +61,7 @@ VERSION 5.19.0
 *Vine Beast cost 16 -> 14
 *Vine Tiger cost 32 -> 26, melee 7-4 -> 8-4, ranged 5-3 -> 6-3, new attack
 *adjusted tornado animation
+*water elementals use a different melee icon
 
 -Devlings - Balance changes by IPS ( https://r.wesnoth.org/p601712 )
 *Overgrowns: HP 37 -> 38, resistances: clold & arcane  -20% -> -10%
