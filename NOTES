@@ -4,7 +4,7 @@
 
 *Animation Checklist:
 *How do the changes to the Therians look. Should the shifting be quicker?
-*Does the combination of moving and melee attacking look ok for the therian cat? (No, it doesn't ... )
+*Does the combination of moving and melee attacking look ok for the therian cat? (No, it doesn't ... disabled for lvl 1 )
 *Does it look better if we make the tornado missile frame (zephyr/djinn) longer? -> looks fine now
 *blood-manipulator: see below
 
@@ -28,10 +28,7 @@ IDEAS about Graphics:
 *how about using razorbird-attack image for a moving animation?
 
 Resurgence Ability:
-*not sure about the non-forest terrains of the vine-type resurgence
 *fire resurgence: an completely different idea would be to give the regenartion when beeing adjacent (and on) Ql*^* tiles
 
 RELESE BLOCKING:
-how to name the resurgence ability (and the special_notes for them)
-update translations afterdwards
 we can make a release with leaving out the elementals balance changes (but still including the new resurgence)

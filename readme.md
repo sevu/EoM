@@ -10,7 +10,6 @@
 - And more ...  
 
 **Things which are not yet ready:**
-- The regeneration ability could need another name (The current one is fine in English language, but not with the translation)
 - Balancing of the Elementals - are the WoL stats better or worse?  
   
   
