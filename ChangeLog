@@ -48,11 +48,6 @@ VERSION 5.19.0
 *Wind Spirit HP 28 -> 32, new secondary attack
 *Zephyr HP 40 -> 44, cost 36 -> 37, exp 100 -> 60, new secondary attack
 *Djinn HP 52 -> 54, melee 9-3 -> 8-3, new secondary attack
-*Fire Elemental HP 37 -> 36, melee 6-3 -> 12-2
-*Living Furnace HP 52 -> 55, cost 28 -> 26, melee 9-3 -> 11-3
-*Lava Beast cost 38 -> 44, melee 13-3 -> 16-3
-*Fire Wisp HP 53 -> 48, cost 34 -> 28, melee 9-2 -> 8-2
-*Fire Ghost HP 66 -> 63, cost 45 -> 46
 *Earth Elemental HP 36 -> 37
 *Rock Golem HP 46 -> 48, cost 30 -> 29, melee 9-3 -> 10-3, exp 100 -> 76
 *Stone Titan HP 60 -> 65, cost 50 -> 44, melee 12-3 -> 14-3
