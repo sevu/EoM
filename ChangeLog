@@ -39,8 +39,6 @@ VERSION 5.19.0
 *adjusted tornado animation
 *water elementals use a different melee icon
 *Ice Crab & Ice Shell +1 ranged damage/hit
-*Vine Beast cost 16 -> 14
-*Vine Tiger cost 32 -> 26, melee 7-4 -> 8-4, ranged 5-3 -> 6-3, new attack
 
 -Devlings - Balance changes by IPS ( https://r.wesnoth.org/p601712 )
 *Overgrowns: HP 37 -> 38, resistances: clold & arcane  -20% -> -10%
