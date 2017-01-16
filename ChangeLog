@@ -36,18 +36,9 @@ VERSION 5.19.0
 
 -Elementals - took over balance changes from WoL
 *Portraits for various Elementals, most of them from Rise of the Elementals campaign
-*Wind Spirits are recruitable (additionally to Air Elementals)
 *adjusted tornado animation
 *water elementals use a different melee icon
 *Ice Crab & Ice Shell +1 ranged damage/hit
-*Air Elemental HP 18 -> 20, cost 12 -> 11, changed attack type to arcane
-*Wind Spirit MP 8 -> 6
-*Razorbird & Thunderbird MP 9 -> 8
-*Raorbird HP 32 -> 31, cost 18 -> 17
-*Thunderbird beak 14-1 -> 13-1 blade shower 9-3 -> 8-3, thunderbolt 16-2 -> 15-2
-*Wind Spirit HP 28 -> 32, new secondary attack
-*Zephyr HP 40 -> 44, cost 36 -> 37, exp 100 -> 60, new secondary attack
-*Djinn HP 52 -> 54, melee 9-3 -> 8-3, new secondary attack
 *Earth Elemental HP 36 -> 37
 *Rock Golem HP 46 -> 48, cost 30 -> 29, melee 9-3 -> 10-3, exp 100 -> 76
 *Stone Titan HP 60 -> 65, cost 50 -> 44, melee 12-3 -> 14-3
