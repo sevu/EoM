@@ -39,9 +39,6 @@ VERSION 5.19.0
 *adjusted tornado animation
 *water elementals use a different melee icon
 *Ice Crab & Ice Shell +1 ranged damage/hit
-*Earth Elemental HP 36 -> 37
-*Rock Golem HP 46 -> 48, cost 30 -> 29, melee 9-3 -> 10-3, exp 100 -> 76
-*Stone Titan HP 60 -> 65, cost 50 -> 44, melee 12-3 -> 14-3
 *Vine Beast cost 16 -> 14
 *Vine Tiger cost 32 -> 26, melee 7-4 -> 8-4, ranged 5-3 -> 6-3, new attack
 
