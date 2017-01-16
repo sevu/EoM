@@ -51,11 +51,6 @@ VERSION 5.19.0
 *Earth Elemental HP 36 -> 37
 *Rock Golem HP 46 -> 48, cost 30 -> 29, melee 9-3 -> 10-3, exp 100 -> 76
 *Stone Titan HP 60 -> 65, cost 50 -> 44, melee 12-3 -> 14-3
-*Water Elemental cost 16 -> 17
-*Undine exp 84 -> 74, cost 27 -> 30
-*Tempses Spirit HP 46 -> 48, cost 45 -> 40, melee 12-3 -> 11-3, ranged 11-3 -> 10-3
-*Ice Crab cost 24 -> 22
-*Ice Shell HP 55 -> 54, cost 35 -> 33, melee 10-3 -> 11-3
 *Vine Beast cost 16 -> 14
 *Vine Tiger cost 32 -> 26, melee 7-4 -> 8-4, ranged 5-3 -> 6-3, new attack
 
