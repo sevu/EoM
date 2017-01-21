@@ -34,11 +34,11 @@ VERSION 5.19.0
 *Farstrider (lvl3) backstab melee 5-4 -> 6-4 (mainline Assassin has 8-3)
 *Harbringer's/Herectic's sunburst attack looks now the same for all directions
 
--Elementals - took over balance changes from WoL
+-Elementals
 *Portraits for various Elementals, most of them from Rise of the Elementals campaign
 *adjusted tornado animation
 *water elementals use a different melee icon
-*Ice Crab & Ice Shell +1 ranged damage/hit
+*Ice Crab & Ice Shell +1 ranged damage per hit
 
 -Devlings - Balance changes by IPS ( https://r.wesnoth.org/p601712 )
 *Overgrowns: HP 37 -> 38, resistances: clold & arcane  -20% -> -10%
