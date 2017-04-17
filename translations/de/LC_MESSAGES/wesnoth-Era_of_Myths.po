@@ -588,7 +588,7 @@ msgstr ""
 #. [female]
 #: units/vampires/d3_Day_Hunter.cfg:84
 msgid "female^Day Hunter"
-msgstr "Tagesjäger"
+msgstr "Tagesjägerin"
 
 #. [race]: id=EOM_abstraction, description=
 #: units/windsong.cfg:7
