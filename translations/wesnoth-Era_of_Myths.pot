@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2017-01-11 23:54 UTC\n"
+"POT-Creation-Date: 2017-06-09 18:02 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -466,7 +466,7 @@ msgstr ""
 #: ./units/celestials/a3_Divine_Champion.cfg:33
 #: ./units/celestials/a1_Crusader.cfg:33
 #: ./units/celestials/a2_Divine_Knight.cfg:32
-#: ./units/celestials/a2_Quester.cfg:43
+#: ./units/celestials/a2_Quester.cfg:47
 msgid "blessed sword"
 msgstr ""
 
@@ -707,7 +707,8 @@ msgid "Quester"
 msgstr ""
 
 #. [unit_type]: id=EOM_Quester, race=EOM_celestial
-#: ./units/celestials/a2_Quester.cfg:21
+#: ./units/celestials/a2_Quester.cfg:22
+#: ./units/celestials/a2_Quester.cfg:24
 msgid "Most Celestials don't ride horses, or wander alone, but some crusaders feel the call to work abroad on their own. These celestials follow the 'quest' to bring light to the world individually through works of valor. Knowing they must travel great distances, they learn to ride horses, and adapt a lance for devastating charge attacks. Although the quest is supposed to be an individual thing, Questers have no problems grouping up with other people if it helps them accomplish their task."
 msgstr ""
 
@@ -1204,7 +1205,7 @@ msgstr ""
 #. [unit_type]: id=EOM_Water_Shyde, race=EOM_dryad
 #. [unit_type]: id=EOM_Water_Dryad, race=EOM_dryad
 #. [unit_type]: id=EOM_Water_Nymph, race=EOM_dryad
-#: ./units/wargs/g3_Water_Shyde.cfg:22
+#: ./units/wargs/g3_Water_Shyde.cfg:29
 #: ./units/wargs/g1_Water_Dryad.cfg:19
 #: ./units/wargs/g2_Water_Nymph.cfg:19
 msgid "In any wetland area you may find a Dryad calling the place her home. Dryads are not combatitive in nature and instead will control surrounding plant life to ensnare her enemies and slow them down until help arrives."
@@ -1337,7 +1338,7 @@ msgid "Fenrir"
 msgstr ""
 
 #. [unit_type]: id=EOM_Fenrir, race=EOM_warg
-#: ./units/wargs/c3_Fenrir.cfg:20
+#: ./units/wargs/c3_Fenrir.cfg:26
 msgid "Warg can fight quite well without weapons, as such many of their warriors never become skilled with them. However the ones who do, are given the title Fenrir, and are warriors to be feared."
 msgstr ""
 
@@ -1502,7 +1503,7 @@ msgstr ""
 
 #. [unit_type]: id=EOM_Assassin # ? or magican?, race=EOM_devling
 #: ./units/devlings/d3_Ninja.cfg:5
-msgid "Ninja"
+msgid "Little Magican"
 msgstr ""
 
 #. [unit_type]: id=EOM_Assassin # ? or magican?, race=EOM_devling
@@ -1774,13 +1775,6 @@ msgstr ""
 msgid "tornado"
 msgstr ""
 
-#. [attack]: type=cold
-#: ./units/elementals/b2_Zephyr.cfg:47
-#: ./units/elementals/b3_Djinn.cfg:51
-#: ./units/elementals/b1_Wind_Spirit.cfg:46
-msgid "northern wind"
-msgstr ""
-
 #. [unit_type]: id=EOM_Razorbird, race=EOM_elemental
 #: ./units/elementals/b1_Razorbird.cfg:5
 msgid "Razorbird"
@@ -1823,7 +1817,6 @@ msgstr ""
 msgid "Air Elementals take the form of a purple cloud. It fights with the ice winds of the north that can draw the living heat from your skin, and gales of wind that slice through armor. However the magical form of the elemental is fragile, and has no defense at close range."
 msgstr ""
 
-#. [attack]: type=arcane
 #. [attack]: type=impact
 #: ./units/elementals/b0_Air_Elemental.cfg:29
 #: ./units/elementals/b1_Wind_Spirit.cfg:37
@@ -2541,17 +2534,7 @@ msgid ""
 msgstr ""
 
 #. [leadership]: id=inspire
-#: ./macros/abilities.cfg:120
-msgid "inspire"
-msgstr ""
-
-#. [leadership]: id=inspire
-#: ./macros/abilities.cfg:121
-msgid "female^inspire"
-msgstr ""
-
-#. [leadership]: id=inspire
-#: ./macros/abilities.cfg:122
+#: ./macros/abilities.cfg:124
 msgid ""
 "This unit can inspire friendly units that are next to it, making them fight better.\n"
 "\n"
@@ -2610,6 +2593,10 @@ msgstr ""
 
 #: ./macros/special-notes.cfg:43
 msgid " This unit will recover 5 HP per turn while on snowy or icy terrain."
+msgstr ""
+
+#: ./macros/special-notes.cfg:47
+msgid " Blood Hulks can't advance to another unit, but they get a stronger bonus."
 msgstr ""
 
 #. [era]: id=EOM{VERSION_POSTFIX}

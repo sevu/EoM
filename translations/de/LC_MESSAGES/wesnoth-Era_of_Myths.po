@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Era_of_Myths\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2017-01-11 23:54 UTC\n"
-"PO-Revision-Date: 2017-03-04 21:59+0100\n"
+"POT-Creation-Date: 2017-06-09 18:02 UTC\n"
+"PO-Revision-Date: 2017-06-09 20:24+0200\n"
 "Last-Translator: Severin Glöckner <sgloeck@imn.htwk-leipzig.de>\n"
 "Language-Team: none\n"
 "Language: de\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.11\n"
+"X-Generator: Poedit 2.0.1\n"
 
 #. [multiplayer_side]: id=POWER_therians, type=random
 #. [multiplayer_side]: id=RECRUIT_therians, type=random
@@ -679,7 +679,7 @@ msgstr ""
 #. [attack]: type=arcane
 #: units/celestials/a3_Divine_Champion.cfg:33
 #: units/celestials/a1_Crusader.cfg:33 units/celestials/a2_Divine_Knight.cfg:32
-#: units/celestials/a2_Quester.cfg:43
+#: units/celestials/a2_Quester.cfg:47
 msgid "blessed sword"
 msgstr "Gesegnetes Schwert"
 
@@ -1061,7 +1061,7 @@ msgid "Quester"
 msgstr "Pilger"
 
 #. [unit_type]: id=EOM_Quester, race=EOM_celestial
-#: units/celestials/a2_Quester.cfg:21
+#: units/celestials/a2_Quester.cfg:22 units/celestials/a2_Quester.cfg:24
 msgid ""
 "Most Celestials don't ride horses, or wander alone, but some crusaders feel "
 "the call to work abroad on their own. These celestials follow the 'quest' to "
@@ -1781,7 +1781,7 @@ msgstr "Wasserfee"
 #. [unit_type]: id=EOM_Water_Shyde, race=EOM_dryad
 #. [unit_type]: id=EOM_Water_Dryad, race=EOM_dryad
 #. [unit_type]: id=EOM_Water_Nymph, race=EOM_dryad
-#: units/wargs/g3_Water_Shyde.cfg:22 units/wargs/g1_Water_Dryad.cfg:19
+#: units/wargs/g3_Water_Shyde.cfg:29 units/wargs/g1_Water_Dryad.cfg:19
 #: units/wargs/g2_Water_Nymph.cfg:19
 msgid ""
 "In any wetland area you may find a Dryad calling the place her home. Dryads "
@@ -1953,7 +1953,7 @@ msgid "Fenrir"
 msgstr "Fenrir"
 
 #. [unit_type]: id=EOM_Fenrir, race=EOM_warg
-#: units/wargs/c3_Fenrir.cfg:20
+#: units/wargs/c3_Fenrir.cfg:26
 msgid ""
 "Warg can fight quite well without weapons, as such many of their warriors "
 "never become skilled with them. However the ones who do, are given the title "
@@ -2176,8 +2176,8 @@ msgstr ""
 
 #. [unit_type]: id=EOM_Assassin # ? or magican?, race=EOM_devling
 #: units/devlings/d3_Ninja.cfg:5
-msgid "Ninja"
-msgstr "Ninja"
+msgid "Little Magican"
+msgstr "kleiner Magier"
 
 #. [unit_type]: id=EOM_Assassin # ? or magican?, race=EOM_devling
 #. [unit_type]: id=EOM_Grand_Devling_Hero, race=EOM_devling
@@ -2552,12 +2552,6 @@ msgstr ""
 msgid "tornado"
 msgstr "Windhose"
 
-#. [attack]: type=cold
-#: units/elementals/b2_Zephyr.cfg:47 units/elementals/b3_Djinn.cfg:51
-#: units/elementals/b1_Wind_Spirit.cfg:46
-msgid "northern wind"
-msgstr "eisiger Nordwind"
-
 #. [unit_type]: id=EOM_Razorbird, race=EOM_elemental
 #: units/elementals/b1_Razorbird.cfg:5
 msgid "Razorbird"
@@ -2625,7 +2619,6 @@ msgstr ""
 "durchbrechen. Sie sind allerdings sehr fragil und können sich nicht im "
 "Nahkampf verteidigen."
 
-#. [attack]: type=arcane
 #. [attack]: type=impact
 #: units/elementals/b0_Air_Elemental.cfg:29
 #: units/elementals/b1_Wind_Spirit.cfg:37
@@ -4017,17 +4010,7 @@ msgstr ""
 "Und Pflanzengeister erhalten diesen Bonus in bewachsenen Gebieten."
 
 #. [leadership]: id=inspire
-#: macros/abilities.cfg:120
-msgid "inspire"
-msgstr "Ermutigung"
-
-#. [leadership]: id=inspire
-#: macros/abilities.cfg:121
-msgid "female^inspire"
-msgstr "Ermutigung"
-
-#. [leadership]: id=inspire
-#: macros/abilities.cfg:122
+#: macros/abilities.cfg:124
 msgid ""
 "This unit can inspire friendly units that are next to it, making them fight "
 "better.\n"
@@ -4135,6 +4118,13 @@ msgstr ""
 "Wenn sich diese Einheit auf schneebedecktem oder vereistem Terrain aufhält, "
 "erholt sie sich um 5 LP."
 
+#: macros/special-notes.cfg:47
+msgid ""
+" Blood Hulks can't advance to another unit, but they get a stronger bonus."
+msgstr ""
+"Blutungetüme können sich nicht weiterentwickeln, aber sie erhalten "
+"stattdessen einen stärkeren Bonus."
+
 #. [era]: id=EOM{VERSION_POSTFIX}
 #: EOM_eras.cfg:97
 msgid "Era of Myths"
@@ -4236,6 +4226,18 @@ msgid ""
 msgstr ""
 "Eine Ära für RPG Spiele. Man kann keine Einheiten ausbilden. Dies ist für "
 "spezielle RPG Szenarien gedacht."
+
+#~ msgid "Ninja"
+#~ msgstr "Ninja"
+
+#~ msgid "northern wind"
+#~ msgstr "eisiger Nordwind"
+
+#~ msgid "inspire"
+#~ msgstr "Ermutigung"
+
+#~ msgid "female^inspire"
+#~ msgstr "Ermutigung"
 
 #~ msgid " This unit will recover 5 HP per turn while beeing in a forest."
 #~ msgstr "Diese Einheit regeneriert in Wäldern 5 Lebenspunkte."
