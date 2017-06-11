@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Era_of_Myths\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2017-06-09 18:02 UTC\n"
-"PO-Revision-Date: 2017-06-09 20:24+0200\n"
+"POT-Creation-Date: 2017-06-11 00:14 UTC\n"
+"PO-Revision-Date: 2017-06-11 03:21+0200\n"
 "Last-Translator: Severin Glöckner <sgloeck@imn.htwk-leipzig.de>\n"
 "Language-Team: none\n"
 "Language: de\n"
@@ -3899,33 +3899,52 @@ msgid "Brawny Devlings hit harder, but are dumber than other Devlings."
 msgstr "Starke Teufelchen schlagen härter zu aber sind dümmer als die Anderen."
 
 #. [trait]: id=obedient, description={STR_ZERO_UPKEEP}
-#: macros/traits.cfg:182 macros/traits.cfg:204
+#: macros/traits.cfg:182 macros/traits.cfg:204 macros/traits.cfg:231
 msgid "obedient"
 msgstr "unterwürfig"
 
 #. [trait]: id=obedient, description={STR_ZERO_UPKEEP}
-#: macros/traits.cfg:183 macros/traits.cfg:205
+#: macros/traits.cfg:183 macros/traits.cfg:205 macros/traits.cfg:232
 msgid "female^obedient"
 msgstr "unterwürfig"
 
 #. [trait]: id=attuned
-#: macros/traits.cfg:229
+#: macros/traits.cfg:251
 msgid "attuned"
 msgstr "harmonisch"
 
 #. [trait]: id=attuned
-#: macros/traits.cfg:230
+#: macros/traits.cfg:252
 msgid "female^attuned"
 msgstr "harmonisch"
 
 #. [trait]: id=attuned
-#: macros/traits.cfg:231
+#: macros/traits.cfg:253
 msgid ""
 "Shifters who are attuned to their auras gain a +2 bonus to their aura "
 "attacks."
 msgstr ""
 "Therianer, die sich mit ihrer Aura in Harmonie befinden, fügen mit dieser 2 "
 "Punkte mehr Schaden zu."
+
+#. [trait]: id=legend
+#: macros/traits.cfg:265
+msgid "legendary"
+msgstr "legendär"
+
+#. [trait]: id=legend
+#: macros/traits.cfg:266
+msgid "female^legendary"
+msgstr "legendär"
+
+#. [trait]: id=legend
+#: macros/traits.cfg:267
+msgid ""
+"Some people are simply incredible. They seem to have an edge in every area "
+"over others. Such units benefit from all standard traits."
+msgstr ""
+"Manche Leute sind einfach umwerfend. Sie sind anderen in jeder Hinsicht eine "
+"Nase voraus. Solche Einheiten profitieren von allen Standardcharakteristiken."
 
 #. [advancement]: id=monster
 #: macros/amla.cfg:9
@@ -4126,12 +4145,12 @@ msgstr ""
 "stattdessen einen stärkeren Bonus."
 
 #. [era]: id=EOM{VERSION_POSTFIX}
-#: EOM_eras.cfg:97
+#: EOM_eras.cfg:199
 msgid "Era of Myths"
 msgstr "Zeit der Mythen"
 
 #. [era]: id=EOM{VERSION_POSTFIX}
-#: EOM_eras.cfg:99
+#: EOM_eras.cfg:201
 msgid ""
 "The standard Era of Myths.\n"
 "Pickable factions are:\n"
@@ -4156,12 +4175,12 @@ msgstr ""
 "Windflüsterinnen"
 
 #. [era]: id=EOM_balanced{VERSION_POSTFIX}
-#: EOM_eras.cfg:125
+#: EOM_eras.cfg:228
 msgid "Era of Myths (balanced)"
 msgstr "Zeit der Mythen (balanced)"
 
 #. [era]: id=EOM_balanced{VERSION_POSTFIX}
-#: EOM_eras.cfg:127
+#: EOM_eras.cfg:230
 msgid ""
 "A selection of factions considered balanced. As there would be:\n"
 "\n"
@@ -4179,46 +4198,46 @@ msgstr ""
 "Windflüsterinnen"
 
 #. [era]: id=EOM_power{VERSION_POSTFIX}
-#: EOM_eras.cfg:146
+#: EOM_eras.cfg:250
 msgid "Era of Myths Lvl. 2"
 msgstr "Zeit der Mythen Lvl. 2"
 
 #. [era]: id=EOM_power{VERSION_POSTFIX}
-#: EOM_eras.cfg:148
+#: EOM_eras.cfg:252
 msgid ""
 "Same factions like in the standard Era of Myths, but you can recruit level 2 "
 "units."
 msgstr "Die Zeit der Mythen. Man kann Level 2 Einheiten ausbilden."
 
 #. [era]: id=EOM+default{VERSION_POSTFIX}
-#: EOM_eras.cfg:165
+#: EOM_eras.cfg:270
 msgid "Default + Myths"
 msgstr "Standard und Mythen"
 
 #. [era]: id=EOM+default{VERSION_POSTFIX}
-#: EOM_eras.cfg:167
+#: EOM_eras.cfg:272
 msgid "The factions from the standard era and the Era of Myths are available."
 msgstr "Die Standard Fraktionen und die Fraktionen der Zeit der Mythen."
 
 #. [era]: id=EOM+default_power{VERSION_POSTFIX}
-#: EOM_eras.cfg:191
+#: EOM_eras.cfg:297
 msgid "Default + Myths Lvl. 2"
 msgstr "Standard und Mythen Lvl. 2"
 
 #. [era]: id=EOM+default_power{VERSION_POSTFIX}
-#: EOM_eras.cfg:193
+#: EOM_eras.cfg:299
 msgid "The standard era and the Era of Myths. You can recruit level 2 units."
 msgstr ""
 "Die Standard Fraktionen und die Fraktionen der Zeit der Mythen. Man kann "
 "Level 2 Einheiten ausbilden."
 
 #. [era]: id=EOM_recruit{VERSION_POSTFIX}
-#: EOM_eras.cfg:217
+#: EOM_eras.cfg:324
 msgid "Myths RPG"
 msgstr "Rollenspiel-Mythen"
 
 #. [era]: id=EOM_recruit{VERSION_POSTFIX}
-#: EOM_eras.cfg:219
+#: EOM_eras.cfg:326
 msgid ""
 "An Era for RPG Playing. You cannot recruit units. This is only meant to be "
 "used for RPG-style scenarios, or other scenarios where you shouldn't be "
@@ -4467,9 +4486,6 @@ msgstr ""
 #~ msgstr "Vampirin"
 
 #~ msgid "elemental"
-#~ msgstr "Elementargeist"
-
-#~ msgid "female^elemental"
 #~ msgstr "Elementargeist"
 
 #~ msgid "shield bash"

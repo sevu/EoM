@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2017-06-09 18:02 UTC\n"
+"POT-Creation-Date: 2017-06-11 00:14 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2453,28 +2453,45 @@ msgstr ""
 #. [trait]: id=obedient, description={STR_ZERO_UPKEEP}
 #: ./macros/traits.cfg:182
 #: ./macros/traits.cfg:204
+#: ./macros/traits.cfg:231
 msgid "obedient"
 msgstr ""
 
 #. [trait]: id=obedient, description={STR_ZERO_UPKEEP}
 #: ./macros/traits.cfg:183
 #: ./macros/traits.cfg:205
+#: ./macros/traits.cfg:232
 msgid "female^obedient"
 msgstr ""
 
 #. [trait]: id=attuned
-#: ./macros/traits.cfg:229
+#: ./macros/traits.cfg:251
 msgid "attuned"
 msgstr ""
 
 #. [trait]: id=attuned
-#: ./macros/traits.cfg:230
+#: ./macros/traits.cfg:252
 msgid "female^attuned"
 msgstr ""
 
 #. [trait]: id=attuned
-#: ./macros/traits.cfg:231
+#: ./macros/traits.cfg:253
 msgid "Shifters who are attuned to their auras gain a +2 bonus to their aura attacks."
+msgstr ""
+
+#. [trait]: id=legend
+#: ./macros/traits.cfg:265
+msgid "legendary"
+msgstr ""
+
+#. [trait]: id=legend
+#: ./macros/traits.cfg:266
+msgid "female^legendary"
+msgstr ""
+
+#. [trait]: id=legend
+#: ./macros/traits.cfg:267
+msgid "Some people are simply incredible. They seem to have an edge in every area over others. Such units benefit from all standard traits."
 msgstr ""
 
 #. [advancement]: id=monster
@@ -2600,12 +2617,12 @@ msgid " Blood Hulks can't advance to another unit, but they get a stronger bonus
 msgstr ""
 
 #. [era]: id=EOM{VERSION_POSTFIX}
-#: ./EOM_eras.cfg:97
+#: ./EOM_eras.cfg:199
 msgid "Era of Myths"
 msgstr ""
 
 #. [era]: id=EOM{VERSION_POSTFIX}
-#: ./EOM_eras.cfg:99
+#: ./EOM_eras.cfg:201
 msgid ""
 "The standard Era of Myths.\n"
 "Pickable factions are:\n"
@@ -2620,12 +2637,12 @@ msgid ""
 msgstr ""
 
 #. [era]: id=EOM_balanced{VERSION_POSTFIX}
-#: ./EOM_eras.cfg:125
+#: ./EOM_eras.cfg:228
 msgid "Era of Myths (balanced)"
 msgstr ""
 
 #. [era]: id=EOM_balanced{VERSION_POSTFIX}
-#: ./EOM_eras.cfg:127
+#: ./EOM_eras.cfg:230
 msgid ""
 "A selection of factions considered balanced. As there would be:\n"
 "\n"
@@ -2636,42 +2653,42 @@ msgid ""
 msgstr ""
 
 #. [era]: id=EOM_power{VERSION_POSTFIX}
-#: ./EOM_eras.cfg:146
+#: ./EOM_eras.cfg:250
 msgid "Era of Myths Lvl. 2"
 msgstr ""
 
 #. [era]: id=EOM_power{VERSION_POSTFIX}
-#: ./EOM_eras.cfg:148
+#: ./EOM_eras.cfg:252
 msgid "Same factions like in the standard Era of Myths, but you can recruit level 2 units."
 msgstr ""
 
 #. [era]: id=EOM+default{VERSION_POSTFIX}
-#: ./EOM_eras.cfg:165
+#: ./EOM_eras.cfg:270
 msgid "Default + Myths"
 msgstr ""
 
 #. [era]: id=EOM+default{VERSION_POSTFIX}
-#: ./EOM_eras.cfg:167
+#: ./EOM_eras.cfg:272
 msgid "The factions from the standard era and the Era of Myths are available."
 msgstr ""
 
 #. [era]: id=EOM+default_power{VERSION_POSTFIX}
-#: ./EOM_eras.cfg:191
+#: ./EOM_eras.cfg:297
 msgid "Default + Myths Lvl. 2"
 msgstr ""
 
 #. [era]: id=EOM+default_power{VERSION_POSTFIX}
-#: ./EOM_eras.cfg:193
+#: ./EOM_eras.cfg:299
 msgid "The standard era and the Era of Myths. You can recruit level 2 units."
 msgstr ""
 
 #. [era]: id=EOM_recruit{VERSION_POSTFIX}
-#: ./EOM_eras.cfg:217
+#: ./EOM_eras.cfg:324
 msgid "Myths RPG"
 msgstr ""
 
 #. [era]: id=EOM_recruit{VERSION_POSTFIX}
-#: ./EOM_eras.cfg:219
+#: ./EOM_eras.cfg:326
 msgid "An Era for RPG Playing. You cannot recruit units. This is only meant to be used for RPG-style scenarios, or other scenarios where you shouldn't be allowed to recruit."
 msgstr ""
 
