@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2017-06-11 00:14 UTC\n"
+"POT-Creation-Date: 2017-06-12 03:36 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -748,7 +748,7 @@ msgid "race^Devlings"
 msgstr ""
 
 #. [race]: id=EOM_devling
-#: ./units/devlings.cfg:19
+#: ./units/devlings.cfg:20
 msgid "Devlings are small red creatures that live for nothing more than to torment others. They always live and travel in rather large extended families, and due to their very frequent breeding will almost always appear in overwhelming numbers. They are masters of chaos, and despite not being strong or tough, have demonstrated their ability to cause massive damage. However their chaotic ways tend to stop them from forming a large enough host to be a serious threat to any well defended territory."
 msgstr ""
 
@@ -1475,19 +1475,19 @@ msgid "Nailers"
 msgstr ""
 
 #. [unit_type]: id=EOM_Nailers, race=EOM_devling
-#: ./units/devlings/b1_Nailers.cfg:19
+#: ./units/devlings/b1_Nailers.cfg:25
 msgid "All craftsmen know that if they leave their tools lying about they will get lost, though few know why. Though small devlings have a knack for doing lots of damage with simple tools."
 msgstr ""
 
 #. [attack]: type=pierce
-#: ./units/devlings/b1_Nailers.cfg:32
+#: ./units/devlings/b1_Nailers.cfg:42
 msgid "nail 'em"
 msgstr ""
 
 #. [attack]: type=impact
-#: ./units/devlings/b1_Nailers.cfg:41
-#: ./units/devlings/b2_Spikers.cfg:42
-#: ./units/devlings/b3_Staplers.cfg:43
+#: ./units/devlings/b1_Nailers.cfg:51
+#: ./units/devlings/b2_Spikers.cfg:52
+#: ./units/devlings/b3_Staplers.cfg:53
 msgid "club 'em"
 msgstr ""
 
@@ -1499,22 +1499,6 @@ msgstr ""
 #. [unit_type]: id=EOM_Ninja, race=EOM_devling
 #: ./units/devlings/d2_Ninja.cfg:17
 msgid "Some devlings which didn't let others kill them, gain weight, and so they do more powerful damage."
-msgstr ""
-
-#. [unit_type]: id=EOM_Assassin # ? or magican?, race=EOM_devling
-#: ./units/devlings/d3_Ninja.cfg:5
-msgid "Little Magican"
-msgstr ""
-
-#. [unit_type]: id=EOM_Assassin # ? or magican?, race=EOM_devling
-#. [unit_type]: id=EOM_Grand_Devling_Hero, race=EOM_devling
-#. [unit_type]: id=EOM_Grand_Devling_Chief, race=EOM_devling
-#. [unit_type]: id=EOM_Librarian, race=EOM_windsong
-#: ./units/devlings/d3_Ninja.cfg:18
-#: ./units/devlings/c4_Grand_Hero.cfg:20
-#: ./units/devlings/c4_Grand_Chief.cfg:20
-#: ./units/windsong/f4_Librarian.cfg:30
-msgid "..."
 msgstr ""
 
 #. [unit_type]: id=EOM_Cursers, race=EOM_devling
@@ -1541,13 +1525,29 @@ msgid "Spikers"
 msgstr ""
 
 #. [unit_type]: id=EOM_Spikers, race=EOM_devling
-#: ./units/devlings/b2_Spikers.cfg:19
+#: ./units/devlings/b2_Spikers.cfg:25
 msgid "Devlings are small knaves. They often use tricks to distract their enemies before taking a swing. They may be small but certainly not harmless carrying around a large club or hammer."
 msgstr ""
 
 #. [attack]: type=pierce
-#: ./units/devlings/b2_Spikers.cfg:33
+#: ./units/devlings/b2_Spikers.cfg:43
 msgid "spiker 'em"
+msgstr ""
+
+#. [unit_type]: id=EOM_Assassin # ? or magican?, race=EOM_devling
+#: ./units/devlings/d3_Magican.cfg:5
+msgid "Little Magican"
+msgstr ""
+
+#. [unit_type]: id=EOM_Assassin # ? or magican?, race=EOM_devling
+#. [unit_type]: id=EOM_Grand_Devling_Hero, race=EOM_devling
+#. [unit_type]: id=EOM_Grand_Devling_Chief, race=EOM_devling
+#. [unit_type]: id=EOM_Librarian, race=EOM_windsong
+#: ./units/devlings/d3_Magican.cfg:18
+#: ./units/devlings/c4_Grand_Hero.cfg:20
+#: ./units/devlings/c4_Grand_Chief.cfg:20
+#: ./units/windsong/f4_Librarian.cfg:30
+msgid "..."
 msgstr ""
 
 #. [unit_type]: id=EOM_Staplers, race=EOM_devling
@@ -1556,12 +1556,12 @@ msgid "Staplers"
 msgstr ""
 
 #. [unit_type]: id=EOM_Staplers, race=EOM_devling
-#: ./units/devlings/b3_Staplers.cfg:20
+#: ./units/devlings/b3_Staplers.cfg:26
 msgid "There are few happier things, than a small sadistic creature, with a great big hammer."
 msgstr ""
 
 #. [attack]: type=pierce
-#: ./units/devlings/b3_Staplers.cfg:34
+#: ./units/devlings/b3_Staplers.cfg:44
 msgid "staple 'em"
 msgstr ""
 
@@ -1649,11 +1649,11 @@ msgstr ""
 
 #. [unit_type]: id=EOM_Overgrown_Devling, race=EOM_devling
 #: ./units/devlings/c1_Overgrown.cfg:5
-msgid "Overgrown Devling"
+msgid "Overgrown"
 msgstr ""
 
 #. [unit_type]: id=EOM_Overgrown_Devling, race=EOM_devling
-#: ./units/devlings/c1_Overgrown.cfg:20
+#: ./units/devlings/c1_Overgrown.cfg:19
 msgid "Some devlings grow to be almost as tall as a dwarf. These devlings are solid fighters, and provide a bit of toughness to the devling arsenal."
 msgstr ""
 
@@ -1688,7 +1688,7 @@ msgid "Sneak"
 msgstr ""
 
 #. [unit_type]: id=EOM_Sneak, race=EOM_devling
-#: ./units/devlings/d0_Sneak.cfg:17
+#: ./units/devlings/d0_Sneak.cfg:22
 msgid "Devilings small size allows them to swiftly slip around enemies, and stick sharp objects into vulnerable places."
 msgstr ""
 
@@ -2452,45 +2452,41 @@ msgstr ""
 
 #. [trait]: id=obedient, description={STR_ZERO_UPKEEP}
 #: ./macros/traits.cfg:182
-#: ./macros/traits.cfg:204
-#: ./macros/traits.cfg:231
 msgid "obedient"
 msgstr ""
 
 #. [trait]: id=obedient, description={STR_ZERO_UPKEEP}
 #: ./macros/traits.cfg:183
-#: ./macros/traits.cfg:205
-#: ./macros/traits.cfg:232
 msgid "female^obedient"
 msgstr ""
 
 #. [trait]: id=attuned
-#: ./macros/traits.cfg:251
+#: ./macros/traits.cfg:230
 msgid "attuned"
 msgstr ""
 
 #. [trait]: id=attuned
-#: ./macros/traits.cfg:252
+#: ./macros/traits.cfg:231
 msgid "female^attuned"
 msgstr ""
 
 #. [trait]: id=attuned
-#: ./macros/traits.cfg:253
+#: ./macros/traits.cfg:232
 msgid "Shifters who are attuned to their auras gain a +2 bonus to their aura attacks."
 msgstr ""
 
 #. [trait]: id=legend
-#: ./macros/traits.cfg:265
+#: ./macros/traits.cfg:244
 msgid "legendary"
 msgstr ""
 
 #. [trait]: id=legend
-#: ./macros/traits.cfg:266
+#: ./macros/traits.cfg:245
 msgid "female^legendary"
 msgstr ""
 
 #. [trait]: id=legend
-#: ./macros/traits.cfg:267
+#: ./macros/traits.cfg:246
 msgid "Some people are simply incredible. They seem to have an edge in every area over others. Such units benefit from all standard traits."
 msgstr ""
 
@@ -2550,8 +2546,18 @@ msgid ""
 "For vine units, this is vegetated area."
 msgstr ""
 
+#. [dummy]: id=low_upkeep
+#: ./macros/abilities.cfg:118
+msgid "low upkeep"
+msgstr ""
+
+#. [dummy]: id=low_upkeep
+#: ./macros/abilities.cfg:119
+msgid "This unit costs 1 less gold worth of upkeep than it would normally."
+msgstr ""
+
 #. [leadership]: id=inspire
-#: ./macros/abilities.cfg:124
+#: ./macros/abilities.cfg:133
 msgid ""
 "This unit can inspire friendly units that are next to it, making them fight better.\n"
 "\n"
@@ -2614,6 +2620,10 @@ msgstr ""
 
 #: ./macros/special-notes.cfg:47
 msgid " Blood Hulks can't advance to another unit, but they get a stronger bonus."
+msgstr ""
+
+#: ./macros/special-notes.cfg:51
+msgid " This unit costs 1 less gold worth of upkeep than it would normally."
 msgstr ""
 
 #. [era]: id=EOM{VERSION_POSTFIX}

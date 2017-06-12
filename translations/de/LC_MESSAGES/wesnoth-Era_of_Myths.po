@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Era_of_Myths\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2017-06-11 00:14 UTC\n"
-"PO-Revision-Date: 2017-06-11 03:21+0200\n"
+"POT-Creation-Date: 2017-06-12 03:36 UTC\n"
+"PO-Revision-Date: 2017-06-12 05:42+0200\n"
 "Last-Translator: Severin Glöckner <sgloeck@imn.htwk-leipzig.de>\n"
 "Language-Team: none\n"
 "Language: de\n"
@@ -1128,7 +1128,7 @@ msgid "race^Devlings"
 msgstr "Teufelchen"
 
 #. [race]: id=EOM_devling
-#: units/devlings.cfg:19
+#: units/devlings.cfg:20
 msgid ""
 "Devlings are small red creatures that live for nothing more than to torment "
 "others. They always live and travel in rather large extended families, and "
@@ -2139,7 +2139,7 @@ msgid "Nailers"
 msgstr "Stecher"
 
 #. [unit_type]: id=EOM_Nailers, race=EOM_devling
-#: units/devlings/b1_Nailers.cfg:19
+#: units/devlings/b1_Nailers.cfg:25
 msgid ""
 "All craftsmen know that if they leave their tools lying about they will get "
 "lost, though few know why. Though small devlings have a knack for doing lots "
@@ -2150,13 +2150,13 @@ msgstr ""
 "mit einfachen Werkzeugen großen Schaden anzurichten."
 
 #. [attack]: type=pierce
-#: units/devlings/b1_Nailers.cfg:32
+#: units/devlings/b1_Nailers.cfg:42
 msgid "nail 'em"
 msgstr "Stecht sie!"
 
 #. [attack]: type=impact
-#: units/devlings/b1_Nailers.cfg:41 units/devlings/b2_Spikers.cfg:42
-#: units/devlings/b3_Staplers.cfg:43
+#: units/devlings/b1_Nailers.cfg:51 units/devlings/b2_Spikers.cfg:52
+#: units/devlings/b3_Staplers.cfg:53
 msgid "club 'em"
 msgstr "Haut sie!"
 
@@ -2173,20 +2173,6 @@ msgid ""
 msgstr ""
 "Einige Teufelchen, welche sich nicht von anderen umbringen lassen, werden "
 "schwerer und machen mehr Schaden."
-
-#. [unit_type]: id=EOM_Assassin # ? or magican?, race=EOM_devling
-#: units/devlings/d3_Ninja.cfg:5
-msgid "Little Magican"
-msgstr "kleiner Magier"
-
-#. [unit_type]: id=EOM_Assassin # ? or magican?, race=EOM_devling
-#. [unit_type]: id=EOM_Grand_Devling_Hero, race=EOM_devling
-#. [unit_type]: id=EOM_Grand_Devling_Chief, race=EOM_devling
-#. [unit_type]: id=EOM_Librarian, race=EOM_windsong
-#: units/devlings/d3_Ninja.cfg:18 units/devlings/c4_Grand_Hero.cfg:20
-#: units/devlings/c4_Grand_Chief.cfg:20 units/windsong/f4_Librarian.cfg:30
-msgid "..."
-msgstr "..."
 
 #. [unit_type]: id=EOM_Cursers, race=EOM_devling
 #: units/devlings/e1_Cursers.cfg:5
@@ -2214,7 +2200,7 @@ msgid "Spikers"
 msgstr "Aufspießer"
 
 #. [unit_type]: id=EOM_Spikers, race=EOM_devling
-#: units/devlings/b2_Spikers.cfg:19
+#: units/devlings/b2_Spikers.cfg:25
 msgid ""
 "Devlings are small knaves. They often use tricks to distract their enemies "
 "before taking a swing. They may be small but certainly not harmless carrying "
@@ -2225,9 +2211,23 @@ msgstr ""
 "Knüppel oder Hammer sind sie sicherlich nicht harmlos."
 
 #. [attack]: type=pierce
-#: units/devlings/b2_Spikers.cfg:33
+#: units/devlings/b2_Spikers.cfg:43
 msgid "spiker 'em"
 msgstr "Spießt sie auf!"
+
+#. [unit_type]: id=EOM_Assassin # ? or magican?, race=EOM_devling
+#: units/devlings/d3_Magican.cfg:5
+msgid "Little Magican"
+msgstr "kleiner Magier"
+
+#. [unit_type]: id=EOM_Assassin # ? or magican?, race=EOM_devling
+#. [unit_type]: id=EOM_Grand_Devling_Hero, race=EOM_devling
+#. [unit_type]: id=EOM_Grand_Devling_Chief, race=EOM_devling
+#. [unit_type]: id=EOM_Librarian, race=EOM_windsong
+#: units/devlings/d3_Magican.cfg:18 units/devlings/c4_Grand_Hero.cfg:20
+#: units/devlings/c4_Grand_Chief.cfg:20 units/windsong/f4_Librarian.cfg:30
+msgid "..."
+msgstr "..."
 
 #. [unit_type]: id=EOM_Staplers, race=EOM_devling
 #: units/devlings/b3_Staplers.cfg:5
@@ -2235,7 +2235,7 @@ msgid "Staplers"
 msgstr "Bohrer"
 
 #. [unit_type]: id=EOM_Staplers, race=EOM_devling
-#: units/devlings/b3_Staplers.cfg:20
+#: units/devlings/b3_Staplers.cfg:26
 msgid ""
 "There are few happier things, than a small sadistic creature, with a great "
 "big hammer."
@@ -2244,7 +2244,7 @@ msgstr ""
 "großen, schweren Hammer."
 
 #. [attack]: type=pierce
-#: units/devlings/b3_Staplers.cfg:34
+#: units/devlings/b3_Staplers.cfg:44
 msgid "staple 'em"
 msgstr "Durchbohrt sie!"
 
@@ -2376,11 +2376,11 @@ msgstr "Teufelchen sind mit Flügeln noch gefährlicher als ohne."
 
 #. [unit_type]: id=EOM_Overgrown_Devling, race=EOM_devling
 #: units/devlings/c1_Overgrown.cfg:5
-msgid "Overgrown Devling"
+msgid "Overgrown"
 msgstr "Brocken"
 
 #. [unit_type]: id=EOM_Overgrown_Devling, race=EOM_devling
-#: units/devlings/c1_Overgrown.cfg:20
+#: units/devlings/c1_Overgrown.cfg:19
 msgid ""
 "Some devlings grow to be almost as tall as a dwarf. These devlings are solid "
 "fighters, and provide a bit of toughness to the devling arsenal."
@@ -2435,7 +2435,7 @@ msgid "Sneak"
 msgstr "Schleicher"
 
 #. [unit_type]: id=EOM_Sneak, race=EOM_devling
-#: units/devlings/d0_Sneak.cfg:17
+#: units/devlings/d0_Sneak.cfg:22
 msgid ""
 "Devilings small size allows them to swiftly slip around enemies, and stick "
 "sharp objects into vulnerable places."
@@ -3899,27 +3899,27 @@ msgid "Brawny Devlings hit harder, but are dumber than other Devlings."
 msgstr "Starke Teufelchen schlagen härter zu aber sind dümmer als die Anderen."
 
 #. [trait]: id=obedient, description={STR_ZERO_UPKEEP}
-#: macros/traits.cfg:182 macros/traits.cfg:204 macros/traits.cfg:231
+#: macros/traits.cfg:182
 msgid "obedient"
 msgstr "unterwürfig"
 
 #. [trait]: id=obedient, description={STR_ZERO_UPKEEP}
-#: macros/traits.cfg:183 macros/traits.cfg:205 macros/traits.cfg:232
+#: macros/traits.cfg:183
 msgid "female^obedient"
 msgstr "unterwürfig"
 
 #. [trait]: id=attuned
-#: macros/traits.cfg:251
+#: macros/traits.cfg:230
 msgid "attuned"
 msgstr "harmonisch"
 
 #. [trait]: id=attuned
-#: macros/traits.cfg:252
+#: macros/traits.cfg:231
 msgid "female^attuned"
 msgstr "harmonisch"
 
 #. [trait]: id=attuned
-#: macros/traits.cfg:253
+#: macros/traits.cfg:232
 msgid ""
 "Shifters who are attuned to their auras gain a +2 bonus to their aura "
 "attacks."
@@ -3928,17 +3928,17 @@ msgstr ""
 "Punkte mehr Schaden zu."
 
 #. [trait]: id=legend
-#: macros/traits.cfg:265
+#: macros/traits.cfg:244
 msgid "legendary"
 msgstr "legendär"
 
 #. [trait]: id=legend
-#: macros/traits.cfg:266
+#: macros/traits.cfg:245
 msgid "female^legendary"
 msgstr "legendär"
 
 #. [trait]: id=legend
-#: macros/traits.cfg:267
+#: macros/traits.cfg:246
 msgid ""
 "Some people are simply incredible. They seem to have an edge in every area "
 "over others. Such units benefit from all standard traits."
@@ -4028,8 +4028,18 @@ msgstr ""
 "Für Erdgeister sind dies Berge und Hügel.\n"
 "Und Pflanzengeister erhalten diesen Bonus in bewachsenen Gebieten."
 
+#. [dummy]: id=low_upkeep
+#: macros/abilities.cfg:118
+msgid "low upkeep"
+msgstr "niedrige Kosten"
+
+#. [dummy]: id=low_upkeep
+#: macros/abilities.cfg:119
+msgid "This unit costs 1 less gold worth of upkeep than it would normally."
+msgstr "Die Unterhaltskosten dieser Einheit sind 1 Gold billiger."
+
 #. [leadership]: id=inspire
-#: macros/abilities.cfg:124
+#: macros/abilities.cfg:133
 msgid ""
 "This unit can inspire friendly units that are next to it, making them fight "
 "better.\n"
@@ -4143,6 +4153,10 @@ msgid ""
 msgstr ""
 "Blutungetüme können sich nicht weiterentwickeln, aber sie erhalten "
 "stattdessen einen stärkeren Bonus."
+
+#: macros/special-notes.cfg:51
+msgid " This unit costs 1 less gold worth of upkeep than it would normally."
+msgstr " Diese Einheit hat niedrigere Unterhaltskosten."
 
 #. [era]: id=EOM{VERSION_POSTFIX}
 #: EOM_eras.cfg:199
