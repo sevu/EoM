@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2017-06-12 07:02 UTC\n"
+"POT-Creation-Date: 2017-06-12 23:02 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -750,6 +750,11 @@ msgstr ""
 #. [race]: id=EOM_devling
 #: ./units/devlings.cfg:20
 msgid "Devlings are small red creatures that live for nothing more than to torment others. They always live and travel in rather large extended families, and due to their very frequent breeding will almost always appear in overwhelming numbers. They are masters of chaos, and despite not being strong or tough, have demonstrated their ability to cause massive damage. However their chaotic ways tend to stop them from forming a large enough host to be a serious threat to any well defended territory."
+msgstr ""
+
+#. [race]: id=EOM_devling
+#: ./units/devlings.cfg:20
+msgid " Devling leaders are stronger than their brethren."
 msgstr ""
 
 #. [race]: id=EOM_dryad, description=

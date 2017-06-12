@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Era_of_Myths\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2017-06-12 07:02 UTC\n"
+"POT-Creation-Date: 2017-06-12 23:02 UTC\n"
 "PO-Revision-Date: 2017-03-04 21:59+0100\n"
 "Last-Translator: Torben Undiwill <>\n"
 "Language-Team: none\n"
@@ -943,6 +943,12 @@ msgid ""
 "However their chaotic ways tend to stop them from forming a large enough "
 "host to be a serious threat to any well defended territory."
 msgstr ""
+
+#. [race]: id=EOM_devling
+#: units/devlings.cfg:20
+#, fuzzy
+msgid " Devling leaders are stronger than their brethren."
+msgstr "Daemonia callida celerius discunt"
 
 #. [race]: id=EOM_dryad, description=
 #: units/warg.cfg:5

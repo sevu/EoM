@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Era_of_Myths\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2017-06-12 07:02 UTC\n"
-"PO-Revision-Date: 2017-06-12 09:02+0200\n"
+"POT-Creation-Date: 2017-06-12 23:02 UTC\n"
+"PO-Revision-Date: 2017-06-13 01:03+0200\n"
 "Last-Translator: Severin Glöckner <sgloeck@imn.htwk-leipzig.de>\n"
 "Language-Team: none\n"
 "Language: de\n"
@@ -1146,6 +1146,11 @@ msgstr ""
 "anzurichten unter Beweis gestellt. Trotzdem verhindert ihre chaotische Art, "
 "dass sich Schwärme formieren, die groß genug wären, ein gut verteidigtes "
 "Land wirklich zu gefährden."
+
+#. [race]: id=EOM_devling
+#: units/devlings.cfg:20
+msgid " Devling leaders are stronger than their brethren."
+msgstr " Die Anführer der Teufelchen sind stärker als ihre Artgenossen."
 
 #. [race]: id=EOM_dryad, description=
 #: units/warg.cfg:5
@@ -4036,7 +4041,7 @@ msgstr "niedrige Kosten"
 #. [dummy]: id=low_upkeep
 #: macros/abilities.cfg:119
 msgid "This unit costs 1 less gold worth of upkeep than it would normally."
-msgstr "Die Unterhaltskosten dieser Einheit sind 1 Gold billiger."
+msgstr "Die Unterhaltskosten dieser Einheit sind 1 Gold niedriger."
 
 #. [leadership]: id=inspire
 #: macros/abilities.cfg:133
@@ -4261,6 +4266,9 @@ msgid ""
 msgstr ""
 "Eine Ära für RPG Spiele. Man kann keine Einheiten ausbilden. Dies ist für "
 "spezielle RPG Szenarien gedacht."
+
+#~ msgid " Devling leaders get a special trait."
+#~ msgstr " Die Anführer der Teufelchen sind stärker als ihre Artgenossen."
 
 #~ msgid "Ninja"
 #~ msgstr "Ninja"
