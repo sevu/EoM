@@ -2,6 +2,47 @@
 		----- The Era of Myths -----
 		          changelog
 
+VERSION 5.20.0
+--general changes
+*added Devlings to balanced factions
+
+-Devlings - empowered
+*all devlings can get the obedient trait
+*Nailer line has -1 upkeep
+*Flappers melee 4-2 -> 5-2, ranged 3-3 -> 4-3
+*Flyers melee 6-3 -> 8-3, ranged 5-4 -> 6-4, HP 37 -> 39
+*Attackers melee 8-3 -> 9-3, ranged 7-4 -> 8-4, cost 39 -> 42
+*Cursers cost 14 -> 13
+*Blasphemists melee 3-4 -> 4-3
+*Offenders melee 3-5 -> 5-3, HP 47 -> 49
+*Abusers melee 4-5 -> 7-3, HP 56 -> 63 , cost 62 -> 63
+*Overgrowns can't get the fearless trait twice anymore
+*Chief & Hero cost 38 -> 43
+*Chief ranged 7-2 -> 8-2
+*Grand Chief ranged 10-2 -> 11-2
+*renamed lvl3 Ninja to Little Magican
+*Lurker cost 17 -> 14, XP 42 -> 35
+*Ninja cost 28 -> 26, HP 35 -> 40, XP 80 -> 70
+*Magican cost 40-> 42, HP 45 -> 51
+
+
+
+-Vampires
+*Vampires resistence weaknesses have been lowered, fire -20% -> -10%, arcane -20% -> -10%
+*added a note about Blood Hulks stronger AMLA
+*trait obedient (like loyal) decreases damage by 1 at higher levels
+
+-Wargs
+*added a portrait for the water shyde (lvl3)
+*added a picture in the help for the fenrir (lvl2)
+*wolves use the new undead_variation in 1.13
+
+-Elementals
+*new attack icon: beak-metal
+
+-Windsong
+*removed Farstrider and Herald as lvl3 leaders
+
 
 VERSION 5.19.0
 --general changes
