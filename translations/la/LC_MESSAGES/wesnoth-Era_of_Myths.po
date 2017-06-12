@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Era_of_Myths\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2017-06-12 03:36 UTC\n"
+"POT-Creation-Date: 2017-06-12 07:02 UTC\n"
 "PO-Revision-Date: 2017-03-04 21:59+0100\n"
 "Last-Translator: Torben Undiwill <>\n"
 "Language-Team: none\n"
@@ -1498,7 +1498,7 @@ msgstr "Aquaepotens"
 #. [unit_type]: id=EOM_Water_Shyde, race=EOM_dryad
 #. [unit_type]: id=EOM_Water_Dryad, race=EOM_dryad
 #. [unit_type]: id=EOM_Water_Nymph, race=EOM_dryad
-#: units/wargs/g3_Water_Shyde.cfg:29 units/wargs/g1_Water_Dryad.cfg:19
+#: units/wargs/g3_Water_Shyde.cfg:30 units/wargs/g1_Water_Dryad.cfg:19
 #: units/wargs/g2_Water_Nymph.cfg:19
 msgid ""
 "In any wetland area you may find a Dryad calling the place her home. Dryads "
@@ -1555,12 +1555,12 @@ msgid ""
 "at hunting any kind of quarry."
 msgstr ""
 
-#. [unit_type]: id=EOM_Wolf, race=EOM_warg
+#. [unit_type]: id=EOM_Wolf, race=wolf
 #: units/wargs/d1_Wolf.cfg:5
 msgid "Wolf"
 msgstr "Lupus"
 
-#. [unit_type]: id=EOM_Wolf, race=EOM_warg
+#. [unit_type]: id=EOM_Wolf, race=wolf
 #: units/wargs/d1_Wolf.cfg:19
 msgid "Full grown wolves are rather swift, and accurate with their jaws."
 msgstr ""
@@ -1613,12 +1613,12 @@ msgstr "pulsus spirituum"
 msgid "sapphire flame"
 msgstr "ignis spirituum"
 
-#. [unit_type]: id=EOM_Dire_Wolf, race=EOM_warg
+#. [unit_type]: id=EOM_Dire_Wolf, race=wolf
 #: units/wargs/d2_Dire_Wolf.cfg:5
 msgid "Dire Wolf"
 msgstr "Lupus Dirus"
 
-#. [unit_type]: id=EOM_Dire_Wolf, race=EOM_warg
+#. [unit_type]: id=EOM_Dire_Wolf, race=wolf
 #: units/wargs/d2_Dire_Wolf.cfg:20
 msgid ""
 "Something about the warg bleeds into the wolves they tame, causing them to "
@@ -1645,7 +1645,7 @@ msgid "Fenrir"
 msgstr "Lupus Teumesius"
 
 #. [unit_type]: id=EOM_Fenrir, race=EOM_warg
-#: units/wargs/c3_Fenrir.cfg:26
+#: units/wargs/c3_Fenrir.cfg:27
 msgid ""
 "Warg can fight quite well without weapons, as such many of their warriors "
 "never become skilled with them. However the ones who do, are given the title "
@@ -1765,12 +1765,12 @@ msgstr ""
 msgid "Water Nymph"
 msgstr "Naias"
 
-#. [unit_type]: id=EOM_Wolf_Cub, race=EOM_warg
+#. [unit_type]: id=EOM_Wolf_Cub, race=wolf
 #: units/wargs/d0_Wolf_Cub.cfg:5
 msgid "Wolf Cub"
 msgstr "Lupulus"
 
-#. [unit_type]: id=EOM_Wolf_Cub, race=EOM_warg
+#. [unit_type]: id=EOM_Wolf_Cub, race=wolf
 #: units/wargs/d0_Wolf_Cub.cfg:19
 msgid ""
 "The warg can catch and train real wolves to aid them in war. They do it by "
@@ -3428,50 +3428,51 @@ msgid ""
 "A selection of factions considered balanced. As there would be:\n"
 "\n"
 "Celestials\n"
+"Devlings\n"
 "Elementals\n"
 "Vampires\n"
 "Windsongs"
 msgstr ""
 
 #. [era]: id=EOM_power{VERSION_POSTFIX}
-#: EOM_eras.cfg:250
+#: EOM_eras.cfg:252
 msgid "Era of Myths Lvl. 2"
 msgstr "Mythi Maiores"
 
 #. [era]: id=EOM_power{VERSION_POSTFIX}
-#: EOM_eras.cfg:252
+#: EOM_eras.cfg:254
 msgid ""
 "Same factions like in the standard Era of Myths, but you can recruit level 2 "
 "units."
 msgstr ""
 
 #. [era]: id=EOM+default{VERSION_POSTFIX}
-#: EOM_eras.cfg:270
+#: EOM_eras.cfg:272
 msgid "Default + Myths"
 msgstr "Usitata et Mythica"
 
 #. [era]: id=EOM+default{VERSION_POSTFIX}
-#: EOM_eras.cfg:272
+#: EOM_eras.cfg:274
 msgid "The factions from the standard era and the Era of Myths are available."
 msgstr ""
 
 #. [era]: id=EOM+default_power{VERSION_POSTFIX}
-#: EOM_eras.cfg:297
+#: EOM_eras.cfg:299
 msgid "Default + Myths Lvl. 2"
 msgstr "Heroes Maiores"
 
 #. [era]: id=EOM+default_power{VERSION_POSTFIX}
-#: EOM_eras.cfg:299
+#: EOM_eras.cfg:301
 msgid "The standard era and the Era of Myths. You can recruit level 2 units."
 msgstr ""
 
 #. [era]: id=EOM_recruit{VERSION_POSTFIX}
-#: EOM_eras.cfg:324
+#: EOM_eras.cfg:326
 msgid "Myths RPG"
 msgstr "Mythi Histrionalis"
 
 #. [era]: id=EOM_recruit{VERSION_POSTFIX}
-#: EOM_eras.cfg:326
+#: EOM_eras.cfg:328
 msgid ""
 "An Era for RPG Playing. You cannot recruit units. This is only meant to be "
 "used for RPG-style scenarios, or other scenarios where you shouldn't be "
