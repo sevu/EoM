@@ -25,10 +25,8 @@ VERSION 5.20.0
 *Ninja cost 28 -> 26, HP 35 -> 40, XP 80 -> 70
 *Magican cost 40-> 42, HP 45 -> 51
 
-
-
 -Vampires
-*Vampires resistence weaknesses have been lowered, fire -20% -> -10%, arcane -20% -> -10%
+*Vampires resistance weaknesses have been lowered, fire -20% -> -10%, arcane -20% -> -10%
 *added a note about Blood Hulks stronger AMLA
 *trait obedient (like loyal) decreases damage by 1 at higher levels
 
@@ -39,6 +37,7 @@ VERSION 5.20.0
 
 -Elementals
 *new attack icon: beak-metal
+*slightly strengthened traits
 
 -Windsong
 *removed Farstrider and Herald as lvl3 leaders
