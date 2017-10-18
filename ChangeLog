@@ -7,7 +7,7 @@ VERSION 5.20.0
 *added Devlings to balanced factions
 
 -Devlings - empowered
-*all devlings can get the obedient trait
+*all devlings can get the obedient trait (besides the Nailer line)
 *Nailer line has -1 upkeep
 *Flappers melee 4-2 -> 5-2, ranged 3-3 -> 4-3
 *Flyers melee 6-3 -> 8-3, ranged 5-4 -> 6-4, HP 37 -> 39
@@ -38,6 +38,7 @@ VERSION 5.20.0
 -Elementals
 *new attack icon: beak-metal
 *slightly strengthened traits
+*Air Elemental has again 5-3 damage
 
 -Windsong
 *removed Farstrider and Herald as lvl3 leaders
