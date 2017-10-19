@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Era_of_Myths\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2017-07-04 11:45 UTC\n"
-"PO-Revision-Date: 2017-07-04 16:12+0200\n"
+"PO-Revision-Date: 2017-10-20 00:03+0200\n"
 "Last-Translator: Severin Glöckner <sgloeck@imn.htwk-leipzig.de>\n"
 "Language-Team: none\n"
 "Language: de\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.0.2\n"
+"X-Generator: Poedit 2.0.4\n"
 
 #. [multiplayer_side]: id=POWER_therians, type=random
 #. [multiplayer_side]: id=RECRUIT_therians, type=random
@@ -3908,7 +3908,7 @@ msgid ""
 msgstr ""
 "Unterwürfige Einheiten kosten keinen Unterhalt, haben dafür aber 5% weniger "
 "Leben und benötigen 5% mehr Erfahrung zum Stufenaufstieg. Auf höheren Stufen "
-"wird ihr Schaden um 1 gemindert, auf Stufe 2 gilt dies nur für den Nahkampf."
+"wird ihr Schaden um 1 gemindert; auf Stufe 2 gilt dies nur für den Nahkampf."
 
 #. [trait]: id=obedient
 #: macros/traits.cfg:190
@@ -3918,7 +3918,7 @@ msgid ""
 "to them. In their submission however, these units neglect their health and "
 "become weaker as well as losing some mental acuity."
 msgstr ""
-"Unterwürfige Einheiten sind zeigen den ihnen Überlegenen gegenüber absoluten "
+"Unterwürfige Einheiten zeigen den ihnen Überlegenen gegenüber absoluten "
 "Gehorsam. Sie folgen blind all ihren Befehlen und kosten deshalb keinen "
 "Unterhalt. Soetwas tut allerdings niemandem gut, deshalb geh dies mit "
 "Nachteilen einher. So nehmen sie beispielsweise weniger Rücksicht auf ihre "
@@ -3940,8 +3940,8 @@ msgid ""
 "Shifters who are attuned to their auras gain a +2 bonus to their aura "
 "attacks."
 msgstr ""
-"Therianer, die sich mit ihrer Aura in Harmonie befinden, fügen mit dieser 2 "
-"Punkte mehr Schaden zu."
+"Therianer, die sich mit ihrer Aura in Harmonie befinden, fügen mit ihrer "
+"Aura 2 Punkte mehr Schaden zu."
 
 #. [trait]: id=legend
 #: macros/traits.cfg:252
