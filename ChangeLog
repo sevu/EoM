@@ -5,8 +5,9 @@
 VERSION 5.20.0
 --general changes
 *added Devlings to balanced factions
+*added an old version of Devlings as comparison to the current ones
 
--Devlings - empowered
+-Devlings - now empowered
 *all devlings can get the obedient trait (besides the Nailer line)
 *Nailer line has -1 upkeep
 *Flappers melee 4-2 -> 5-2, ranged 3-3 -> 4-3
@@ -17,6 +18,7 @@ VERSION 5.20.0
 *Offenders melee 3-5 -> 5-3, HP 47 -> 49
 *Abusers melee 4-5 -> 7-3, HP 56 -> 63 , cost 62 -> 63
 *Overgrowns can't get the fearless trait twice anymore
+*Overgrowns cost 14 -> 16, melee 7-3 -> 6-3
 *Chief & Hero cost 38 -> 43
 *Chief ranged 7-2 -> 8-2
 *Grand Chief ranged 10-2 -> 11-2
@@ -27,6 +29,7 @@ VERSION 5.20.0
 
 -Vampires
 *Vampires resistance weaknesses have been lowered, fire -20% -> -10%, arcane -20% -> -10%
+*the true vampire lines got a 10% coldness resitance
 *added a note about Blood Hulks stronger AMLA
 *trait obedient (like loyal) decreases damage by 1 at higher levels
 
@@ -38,7 +41,13 @@ VERSION 5.20.0
 -Elementals
 *new attack icon: beak-metal
 *slightly strengthened traits
-*Air Elemental has again 5-3 damage
+*Air Elemental cost 12 -> 10, ranged 4-3 -> 5-3, added marksman special
+*Earth Elemental cost 17 -> 16, HP 36 -> 37, melee 6-3 -> 10-2
+*Fire Elemental cost 16 -> 15, HP 37 -> 36
+*Air Elemental HP 25 -> 28, melee 5-3 -> 6-3, ranged 4-3 -> 5-3
+*Vine Beast ranged 4-3 -> 5-3
+*Water (not Ice) Elemental line defense got increased by 10% for shallow and deep water (to 70% / 60%)
+*Earth Elemental lines village defense got increased from 40% to 50%
 
 -Windsong
 *removed Farstrider and Herald as lvl3 leaders
