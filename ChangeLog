@@ -39,15 +39,25 @@ VERSION 5.20.0
 *wolves use the new undead_variation in 1.13
 
 -Elementals
-*new attack icon: beak-metal
+*new attack icons: beak-metal and thorns-woody
 *slightly strengthened traits
 *Air Elemental cost 12 -> 10, ranged 4-3 -> 5-3, added marksman special
-*Earth Elemental cost 17 -> 16, HP 36 -> 37, melee 6-3 -> 10-2
+*Earth Elemental cost 17 -> 16, HP 36 -> 39, melee 6-3 -> 10-2
+*Rock Golem HP 46 -> 49, XP 100 -> 78
+*Stone Titan HP 60 -> 66
 *Fire Elemental cost 16 -> 15, HP 37 -> 36
+*Living Furnace cost 28 -> 26, XP 100 -> 78
+*Fire Wisp HP 52 -> 48
+*Fire Ghost HP cost 45 -> 46, HP 66 -> 63
 *Air Elemental HP 25 -> 28, melee 5-3 -> 6-3, ranged 4-3 -> 5-3
+*Razorbird cost 18 -> 17, HP 32 -> 31
+*Air cost 19 -> 18, HP 28 -> 36, MP 8 -> 6
+*Zephyr HP 40 -> 44
+*Djinn HP 52 -> 55
 *Vine Beast ranged 4-3 -> 5-3
-*Water (not Ice) Elemental line defense got increased by 10% for shallow and deep water (to 70% / 60%)
-*Earth Elemental lines village defense got increased from 40% to 50%
+*Vine Tiger cost 32 -> 30, ranged 5-3 -> 5-4
+*Water Elemental (not Ice) line defense got increased by 10% for shallow and deep water (to 70% / 60%)
+*Earth Elemental line village defense got increased from 40% to 50%
 
 -Windsong
 *removed Farstrider and Herald as lvl3 leaders
