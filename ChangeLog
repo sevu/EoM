@@ -8,7 +8,7 @@ VERSION 5.20.0
 *added an old version of Devlings, as comparison to the current ones
 
 -Devlings - now empowered
-*all devlings can get the obedient trait (besides the Nailer line)
+*only Overgrowns can get fearless trait
 *Nailer line has -1 upkeep
 *Flappers melee 4-2 -> 5-2, ranged 3-3 -> 4-3
 *Flyers melee 6-3 -> 8-3, ranged 5-4 -> 6-4, HP 37 -> 39
@@ -23,7 +23,8 @@ VERSION 5.20.0
 *Chief ranged 7-2 -> 8-2
 *Grand Chief ranged 10-2 -> 11-2
 *renamed lvl3 Ninja to Little Magican
-*Lurker cost 17 -> 14, XP 42 -> 35
+*Sneak XP 15 -> 13
+*Lurker cost 17 -> 14, XP 42 -> 34
 *Ninja cost 28 -> 26, HP 35 -> 40, XP 80 -> 70
 *Magican cost 40-> 42, HP 45 -> 51
 
@@ -60,9 +61,14 @@ VERSION 5.20.0
 *Water Elemental (not Ice) line defense got increased by 10% for shallow and deep water (to 70% / 60%)
 *Earth Elemental line village defense got increased from 40% to 50%
 
--Windsong
+-Windsong - lowered XP
 *removed Farstrider and Herald as lvl3 leaders
-*Weaver cost 18 -> 17
+*Sky Crystal melee 7-3 -> 6-3
+*Courir XP 44 -> 31
+*Seeker XP 45 -> 40
+*Gatekeeper XP 45 -> 40
+*Weaver cost 18 -> 17, XP 48 -> 34
+
 
 
 VERSION 5.19.0
