@@ -2,18 +2,16 @@
 		----- The Era of Myths -----
 		          changelog
 
-VERSION 5.20.0
+VERSION 6.0.0
 --general changes
 *added Devlings to balanced factions
 *added an old version of Devlings, as comparison to the current ones
 
 -Devlings - now empowered
 *only Overgrowns can get fearless trait
-*Nailer line has -1 upkeep
 *Flappers melee 4-2 -> 5-2, ranged 3-3 -> 4-3
 *Flyers melee 6-3 -> 8-3, ranged 5-4 -> 6-4, HP 37 -> 39
 *Attackers melee 8-3 -> 9-3, ranged 7-4 -> 8-4, cost 39 -> 42
-*Cursers cost 14 -> 13
 *Blasphemists melee 3-4 -> 4-3
 *Offenders melee 3-5 -> 5-3, HP 47 -> 49
 *Abusers melee 4-5 -> 7-3, HP 56 -> 63 , cost 62 -> 63
@@ -23,16 +21,21 @@ VERSION 5.20.0
 *Chief ranged 7-2 -> 8-2
 *Grand Chief ranged 10-2 -> 11-2
 *renamed lvl3 Ninja to Little Magican
-*Sneak XP 15 -> 13
+*Sneak HP 15 -> 13
 *Lurker cost 17 -> 14, XP 42 -> 34
 *Ninja cost 28 -> 26, HP 35 -> 40, XP 80 -> 70
+*new name for the level three version:
 *Magican cost 40-> 42, HP 45 -> 51
+*Nailer line pays upkeep as if it would be one level lower, but gives exp according to their level
+*Nailer line defenses: flat, sand 50% -> 40%, forest, village 60% -> 50%, cave 50% -> 60%
+*Nailer cost 10 -> 11, HP 28 -> 22, has no ZoC
 
 -Vampires
 *Vampires resistance weaknesses have been lowered, fire -20% -> -10%, arcane -20% -> -10%
-*the true vampire lines got a 10% coldness resitance
+*the true vampire lines got a 10% cold resitance
 *added a note about Blood Hulks stronger AMLA
 *trait obedient (like loyal) decreases damage by 1 at higher levels
+*new animation images for the higher level archers
 
 -Wargs
 *added a portrait for the water shyde (lvl3)
@@ -42,24 +45,26 @@ VERSION 5.20.0
 
 -Elementals
 *new attack icons: beak-metal and thorns-woody
+*new unit: level three version for the vine line
 *slightly strengthened traits
-*Air Elemental cost 12 -> 10, ranged 4-3 -> 5-3, added marksman special
-*Earth Elemental cost 17 -> 16, HP 36 -> 39, melee 6-3 -> 10-2
+*Earth Elemental line village defense 40% -> 50%
+*Earth Elemental cost 17 -> 16, HP 36 -> 39
 *Rock Golem HP 46 -> 49, XP 100 -> 78
 *Stone Titan HP 60 -> 66
-*Fire Elemental cost 16 -> 15, HP 37 -> 36
+*Fire Elemental cost 16 -> 15, HP 37 -> 36, melee 6-3 -> 10-2
 *Living Furnace cost 28 -> 26, XP 100 -> 78
-*Fire Wisp HP 52 -> 48
+*Fire Wisp HP 53 -> 48
 *Fire Ghost HP cost 45 -> 46, HP 66 -> 63
-*Air Elemental HP 25 -> 28, melee 5-3 -> 6-3, ranged 4-3 -> 5-3
+*Air Elemental cost 12 -> 10, ranged 4-3 -> 5-3, added marksman special
 *Razorbird cost 18 -> 17, HP 32 -> 31
-*Air cost 19 -> 18, HP 28 -> 36, MP 8 -> 6
-*Zephyr HP 40 -> 44
+*new secondary cold attack with marksman for Wind spirit line
+*Wind spirit cost 19 -> 18, HP 28 -> 36, MP 8 -> 6
+*Zephyr cost 36 -> 17, HP 40 -> 44, XP 100 -> 60
 *Djinn HP 52 -> 55
 *Vine Beast ranged 4-3 -> 5-3
 *Vine Tiger cost 32 -> 30, ranged 5-3 -> 5-4
-*Water Elemental (not Ice) line defense got increased by 10% for shallow and deep water (to 70% / 60%)
-*Earth Elemental line village defense got increased from 40% to 50%
+*Water Elemental (not Ice) line defense deep water 50% -> 60%, shallow water 60% -> 70%
+*Water Elemental HP 25 -> 28, melee 5-3 -> 6-3, ranged 4-3 -> 5-3
 
 -Windsong - lowered XP
 *removed Farstrider and Herald as lvl3 leaders
@@ -68,7 +73,6 @@ VERSION 5.20.0
 *Seeker XP 45 -> 40
 *Gatekeeper XP 45 -> 40
 *Weaver cost 18 -> 17, XP 48 -> 34
-
 
 
 VERSION 5.19.0
