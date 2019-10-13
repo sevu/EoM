@@ -2,6 +2,22 @@
 		----- The Era of Myths -----
 		          changelog
 
+VERSION 6.1.0
+--general changes
+*help_text for all traits
+
+-Devlings
+*new attack icons: curse-2 & curse-3
+*Flappers - more varied standing animation
+
+-Wargs
+*flying dryads become goblins in unlife
+*non-flying dryads got an attack animation
+
+-Elementals:
+*new attack icon: ensnare-3
+*Unicors got defense cap for forests
+
 VERSION 6.0.0
 --general changes
 *added Devlings to balanced factions
