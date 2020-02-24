@@ -2,21 +2,36 @@
 		----- The Era of Myths -----
 		          changelog
 
+
 VERSION 6.1.0
 --general changes
 *help_text for all traits
 
+-Celestials:
+*new lantern archon sprite by TychoX
+*Light spirits use modified elementals wisps' portrait
+
 -Devlings
 *new attack icons: curse-2 & curse-3
-*Flappers - more varied standing animation
+*Flappers - more variation in standing animation
 
 -Wargs
+*new portrait for L1 & L2 water nymphs, based on L3 one
+*water dryads got an attack animation
 *flying dryads become goblins in unlife
-*non-flying dryads got an attack animation
 
 -Elementals:
 *new attack icon: ensnare-3
-*Unicors got defense cap for forests
+*bury concept of double chance traits
+*random leader will chose a random mage
+ (who can not be chosen explicitely, only by randomness)
+*removed water units from leader list
+*Unicorns got defense cap for forests
+*Vine units are now female too
+
+-Therians:
+*activate shifting animation for L1 cat and L1 bird
+
 
 VERSION 6.0.0
 --general changes
