@@ -3,34 +3,118 @@
 		          changelog
 
 
-VERSION 6.1.0
+VERSION 6.1.0-dev FIXME NAILER
 --general changes
 *help_text for all traits
+*custom amla for all units with an aura wave
 
 -Celestials:
-*new lantern archon sprite by TychoX
-*Light spirits use modified elementals wisps' portrait
+*new Lantern Archon sprite by TychoX
+*Light spirits use modified elementals wisps portrait
+*Light spirits got imune to poison/plague/drain
+*Light spirits are neutral instead of lawful, not profiting from their own enlightment
+*Light spirits will never be quick
+*Light spirits cold resistance 0% -> -10%, because enlightment weakens most coldness damage dealers
+*Light Spirit (L1): ranged 4-4 -> 6-3
+*Latern Archon: HP 38 -> 42, ranged 8-5 -> 10-4
+*Crusader: blessed sword 5-4 -> 4-4
+*Acolyte: XP 58 -> 52
+*Great Wizard renamed to Battle Wizard
+*Great Wizard HP 41 -> 45, XP 115 -> 105, melee 5-2 -> 9-2, ranged 6-5 -> 11-2
+*Sage:  cost 53 -> 55, HP 48 -> 54, melee 6-2 -> 9-3, ranged 9-5 -> 12-3
+*Zealot line: blade resistance 0% -> 10%
+*Militant: HP 45 -> 48, XP 65 -> 60, ranged 8-3 -> 9-3
+*Sicarius: HP 58 -> 60, ranged 9-4 -> 10-4
 
 -Devlings
-*new attack icons: curse-2 & curse-3
+*new attack icons: curse-2 & curse-3 & bow-fire
 *Flappers - more variation in standing animation
+*Flappers: resistances: blade -10% -> 0%, cold & arcane -20% -> -10%
+*Flyers: cost 27 -> 30,  melee 8-3 -> 7-3, resistances: cold & arcane -20% -> -10%
+*Attackers: cost 42 -> 45, melee 10-3 -> 9-3, resistances: arcane -20% -> -10%
+*Nailer: 
+*Nailer: melee 15 -> 14-1
+*Overgrown can get Fearless instead of brawny (strong)
+*Overgrown: XP 36 -> 48, melee 6-3 -> 7-3
+*Soldier: HP 45 -> 47
+*Grand Chief: cost 56 -> 67
+*Grand Hero: cost 55 -> 65
+*Sneak: HP 13 -> 16
+*Curser: cost 14 -> 13, HP 26 -> 23
+
+-Vampires:
+*Blood Apprentice:  new secondary ranged attack: arcane & magical, 8-2
+*Blood Manipulator: new secondary ranged attack: arcane & magical, 11-2
+*Flesh Artisan: randged 8-3 -> 7-3
+*Malborn: melee 4-4 -> 4-3
+*Sire: cost 44 -> 52
+*Methusalem: cost 70 -> 77
 
 -Wargs
 *new portrait for L1 & L2 water nymphs, based on L3 one
+*new attack animation for Warg Warrior (L2)
 *water dryads got an attack animation
 *flying dryads become goblins in unlife
+*flying dryads: fire resistance 30% -> 40%
+*Fire Sprite: HP 24 -> 26
+*Flame Sprite: cost 34 -> 30, HP 32 -> 35
+*Flame Spirit: HP 44 -> 47
+*Water Dryad: cold resistance 0% -> 10%
+*Water Nymph: cost 23 -> 28, cold resistance 0% -> 20%
+*Water Shyde: cost 35 -> 44, cold resistance 0% -> 20%, arcane -10% -> 0%
+*Shapeshifter: ranged 3-2 -> 4-2
+*Changeling: cost 30 -> 28, HP 44 -> 47, XP 85 -> 75
+*Wolfling: cost 58 -> 51
+*Night Eye: HP 49 -> 52
+*Fenrir: cost 45 -> 54, melee 13-4 -> 12-4
+*Moon Blade: cost 48 -> 52
+*Pack Leader: cost 50 -> 54
+*Garu: cost 68 -> 72
+*Black Hunter: MP 5 -> 6
 
--Elementals:
+-Elementals: (slightly nerved, but not only)
 *new attack icon: ensnare-3
-*bury concept of double chance traits
 *random leader will chose a random mage
  (who can not be chosen explicitely, only by randomness)
 *removed water units from leader list
+*bury concept of double chance traits
 *Unicorns got defense cap for forests
+*Fire units: arcane resistance 0% -> -10%
+*Fire Elemental: cost 15 -> 16, XP 34 -> 42
+*Fire Wisp: cost 34 -> 32
+*Living Furnance: cost 26 -> 28, melee 9-3 -> 14-2
+*Lava Beast: cost 38 -> 45, melee 13-3 -> 19-2
+*Earth units: arcane resistance 0% -> -10%, mountain defense 60% -> 50%
+*Earth Elemental: cost 16 -> 17, XP 37 -> 45
+*Rock Golem: XP 78 -> 83
+*Stone Titan: melee 12-3 -> 13-3
+*Ice Crab: cost 24 -> 27, resistances: fire -50% -> -40%, cold 90% -> 80%, pierce 10% -> 20%, arcane -10% -> 10%
+*Ice Shell: cost 35 -> 45, resistances: fire -30% -> -40%, cold 90% -> 80%, pierce 10% -> 20%, arcane 0% -> 10%
+*Razorbird MP 9 -> 8, fire resistance 0% -> 10%
+*Thunderbird MP 9 -> 8, magical ranged 16-2 -> 12-2, fire resistance 0% -> 10%
 *Vine units are now female too
+*Vine units: arcane resistance 20% -> 10%, cold 0% -> 10%, pierce 20% -> 30%
+*Vine units: movetype: shallow water 20% -> 30%, swamp 30% -> 40%, forest 70% -> 60%
+*Vine Beast: cost 16 -> 15, XP 36 -> 42
+*Vine Tiger: HP 46 -> 51, XP 82 -> 88, melee 7-4 -> 6-5
+*Vine Monster: HP 55 -> 62, melee 10-4 -> 8-5, thorns 9-3 -> 7-4, ensnare 12-2 -> 9-2, fire resistance -20% -> -10%
 
--Therians:
-*activate shifting animation for L1 cat and L1 bird
+-Therians: (slightly buffed)
+*activated shifting animation for L1 cat and L1 bird
+*removed 4 snake advancements
+*Defender HP 48 -> 52, physical resistances 0% -> 10%
+*Prairie Falcon MP 9 -> 8
+*Gyrfalcon MP 9->8
+*Peregrine Falcon MP 11 -> 9, ranged 6-3 -> 7-3
+*Wildcat cost 36 -> 32
+*Panther chaotic -> neutral, ranged 6-3 -> 7-3
+*Serpent & Cobra: better movetype
+*Cobra: new ranged poison 10-1
+*Aura Monk: cost 35 -> 33
+*Apprentice: new ability heals +4, XP 46 -> 52
+*Shaman: new ability cures
+*Shaman: XP 90 -> 80, melee 7-2 -> 6-2, burn 12-2 -> 10-2, freeze 4-6 -> 7-3
+*Priest: melee 9-2 -> 7-2, burn 14-2 -> 15-2, freeze 4-7 -> 6-5
 
 
 VERSION 6.0.0
