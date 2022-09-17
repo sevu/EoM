@@ -3,7 +3,7 @@
 		          changelog
 
 
-VERSION 6.1.0-dev FIXME NAILER
+VERSION 6.1.0
 --general changes
 *help_text for all traits
 *custom amla for all units with an aura wave
@@ -32,9 +32,8 @@ VERSION 6.1.0-dev FIXME NAILER
 *Flappers: resistances: blade -10% -> 0%, cold & arcane -20% -> -10%
 *Flyers: cost 27 -> 30,  melee 8-3 -> 7-3, resistances: cold & arcane -20% -> -10%
 *Attackers: cost 42 -> 45, melee 10-3 -> 9-3, resistances: arcane -20% -> -10%
-*Nailer: 
 *Nailer: melee 15 -> 14-1
-*Overgrown can get Fearless instead of brawny (strong)
+*Overgrown can get fearless instead of brawny (strong)
 *Overgrown: XP 36 -> 48, melee 6-3 -> 7-3
 *Soldier: HP 45 -> 47
 *Grand Chief: cost 56 -> 67
@@ -71,6 +70,9 @@ VERSION 6.1.0-dev FIXME NAILER
 *Pack Leader: cost 50 -> 54
 *Garu: cost 68 -> 72
 *Black Hunter: MP 5 -> 6
+*Wolf Cup: movetype is now more like the wolf
+*Wolf: replaced by mainline unit
+*Dire Wolf: in wesnoth 1.14 removed, in 1.16 replaced by mainline unit
 
 -Elementals: (slightly nerved, but not only)
 *new attack icon: ensnare-3
@@ -100,8 +102,8 @@ VERSION 6.1.0-dev FIXME NAILER
 *Vine Monster: HP 55 -> 62, melee 10-4 -> 8-5, thorns 9-3 -> 7-4, ensnare 12-2 -> 9-2, fire resistance -20% -> -10%
 
 -Therians: (slightly buffed)
-*activated shifting animation for L1 cat and L1 bird
 *removed 4 snake advancements
+*activated shifting animation for L1 cat and L1 bird
 *Defender HP 48 -> 52, physical resistances 0% -> 10%
 *Prairie Falcon MP 9 -> 8
 *Gyrfalcon MP 9->8
