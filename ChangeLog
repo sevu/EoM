@@ -5,6 +5,7 @@
 
 VERSION 6.1.0
 --general changes
+*still compatible with Wesnoth 1.14
 *help_text for all traits
 *custom amla for all units with an aura wave
 
@@ -117,6 +118,21 @@ VERSION 6.1.0
 *Shaman: new ability cures
 *Shaman: XP 90 -> 80, melee 7-2 -> 6-2, burn 12-2 -> 10-2, freeze 4-6 -> 7-3
 *Priest: melee 9-2 -> 7-2, burn 14-2 -> 15-2, freeze 4-7 -> 6-5
+
+--translations:
+*german translation update
+
+
+VERSION 6.0.1
+--general changes
+*first version released for Wesnoth 1.16
+*spelling corrections
+
+-Vampires
+*hidden variations are in this version named differently
+
+-Elementals
+*Stone Titan animation fix
 
 
 VERSION 6.0.0

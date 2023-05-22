@@ -1,12 +1,17 @@
 		----- The Era of Myths -----
            Notes for Development
 
+PLANS for future version:
+* change staff sound for celestial mages
+* change nailer line
+* consider sprite for L4 warg
+* come up with stats for new fire elementals
+* Firewisp can have a defence animation for s
+
 
 *Animation Checklist:
 *How do the changes to the Therians look. Should the shifting be quicker?
-*Does the combination of moving and melee attacking look ok for the therian cat? (No, it doesn't ... disabled for lvl 1 )
 *Does it look better if we make the tornado missile frame (zephyr/djinn) longer? -> looks fine now
-*blood-manipulator: see below
 
 
 NOTES for later, about inconsitencies :
@@ -24,9 +29,8 @@ IDEAS about Graphics:
     -> moon blade animation is now included, but disabled
        the switch from moon-blade-attack-8.png to moon-blade.png is looking bad
     -> the warg warrior animation with two attacks, maybe we can split it in two animations
-*Make the flyers and attackers fly, too, by moving the picture a few pixels up and down
+*Make the flyers and attackers fly too, by moving the picture a few pixels up and down
 *how about using razorbird-attack image for a moving animation?
 
 Resurgence Ability:
 *fire resurgence: an completely different idea would be to give the regenartion when beeing adjacent (and on) Ql*^* tiles
-
