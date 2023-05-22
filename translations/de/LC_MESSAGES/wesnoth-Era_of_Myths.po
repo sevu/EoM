@@ -1,18 +1,18 @@
-# Severin Glöckner <severin.gloeckner@stud.htwk-leipzig.de>, 2022.
+# Severin Glöckner <severin.gloeckner@stud.htwk-leipzig.de>, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: Era_of_Myths\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2022-09-18 20:42 UTC\n"
-"PO-Revision-Date: 2022-09-18 22:39+0200\n"
+"PO-Revision-Date: 2023-05-22 22:16+0200\n"
 "Last-Translator: Severin Glöckner <severin.gloeckner@stud.htwk-leipzig.de>\n"
-"Language-Team: German <irc://irc.freenode.net/#wesnoth-de>\n"
+"Language-Team: German <irc://irc.libera.chat/#wesnoth-de>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 22.08.1\n"
+"X-Generator: Lokalize 23.04.1\n"
 
 #. [era]: id=EOM
 #: Era_of_Myths/EOM_eras.cfg:248
@@ -399,7 +399,7 @@ msgstr "Bessere Verteidigung in Gewässern"
 #. [advancement]: id=amla_desert_snake
 #: Era_of_Myths/macros/amla.cfg:198
 msgid "Gains ability to ambush in sandy area"
-msgstr "Neue Fertigkeit: Verstecken in sandigem Gebiet"
+msgstr "Neue Fertigkeit: Vergraben in sandigem Gebiet"
 
 #: Era_of_Myths/macros/names.cfg:4
 msgid ""
@@ -575,7 +575,7 @@ msgid ""
 " Foes who lose their life to the bite of this noble vampire will rise again "
 "as bloodborns, unless they are standing on a village."
 msgstr ""
-"Wer durch den Biss dieses adligen Vampirs niedergestreckt wird, erhebt sich "
+" Wer durch den Biss dieses adligen Vampirs niedergestreckt wird, erhebt sich "
 "sogleich wieder als Blutgeborener und kämpft ab sofort an seiner Seite. Nur "
 "Opfer, die sich gerade in einem Dorf aufhalten, entrinnen solchem Schicksal."
 
@@ -674,7 +674,7 @@ msgstr ""
 #: Era_of_Myths/macros/special-notes.cfg:74
 msgid " This unit will recover 5 HP per turn while on snowy or icy terrain."
 msgstr ""
-"Wenn sich diese Einheit auf schneebedecktem oder vereistem Terrain aufhält, "
+" Wenn sich diese Einheit auf schneebedecktem oder vereistem Terrain aufhält, "
 "erholt sie sich um 5 Lebenspunkte."
 
 #: Era_of_Myths/macros/special-notes.cfg:77
@@ -710,6 +710,11 @@ msgid ""
 "to poison. While this trait is usually seen among vampire units, other "
 "mythical beings have also been seen with it."
 msgstr ""
+"Vampire sind wie auch die Untoten immun gegenüber Lebensentzug und untoter"
+" Plage aber immer noch "
+"durch Gift verwundbar. Während diese Charakteristik überwiegend bei Vampiren"
+" vorkommt, so ist dies nicht ausschließlich der Fall, auch andere mythische"
+" Kreaturen wurden damit gesichtet."
 
 #. [trait]: id=ruby
 #: Era_of_Myths/macros/traits.cfg:25
@@ -738,7 +743,7 @@ msgid ""
 "This trait is similar to the trait <ref>dst='traits_strong' text='strong'</"
 "ref>, but it’s secondary bonus becomes stronger on higher levels."
 msgstr ""
-"Eine ähnliche Charakteristik wie <ref>dst='traits_strong' text='Stark'</"
+"Eine ähnliche Charakteristik wie <ref>dst='traits_strong' text='Kräftig'</"
 "ref>, aber auf höheren Stufen ist der sekundäre Bonus stärker."
 
 #. [trait]: id=emerald
@@ -892,7 +897,7 @@ msgid ""
 "but with a negative side-effect."
 msgstr ""
 "Dies ist eine Variante der Charakteristik <ref>dst='traits_strong' "
-"text='Stark'</ref>. aber mit einem negativen Nebeneffekt."
+"text='Kräftig'</ref>. aber mit einem negativen Nebeneffekt."
 
 #. [trait]: id=obedient, description={STR_ZERO_UPKEEP}
 #: Era_of_Myths/macros/traits.cfg:197
@@ -923,7 +928,7 @@ msgstr ""
 msgid ""
 "Obedient units require no upkeep costs, but have 5% less hp and take 5% more "
 "experience than usual to advance. On level 2 they get a -1 melee damage "
-"penality, on level 3 this applies for ranged as well."
+"penalty, on level 3 this applies for ranged as well."
 msgstr ""
 "Unterwürfige Einheiten kosten keinen Unterhalt, haben dafür aber 5% weniger "
 "Leben und benötigen 5% mehr Erfahrung zum Stufenaufstieg. Auf höheren Stufen "
@@ -1347,7 +1352,7 @@ msgstr ""
 "Betätigungsfeldern zuwenden. Eines dieser Betätigungsfelder ist die "
 "Zauberei. Ursprünglich wurde die Zauberei benutzt um das strahlende Licht in "
 "den Himmlischen Städten erscheinen zu lassen. Nun wenden einige Zauberer "
-"Magie auf kriegerischere Weise an, um ihre Kammeraden in der Schlacht zu "
+"Magie auf kriegerischere Weise an, um ihre Kameraden in der Schlacht zu "
 "unterstützen. Die Himmlischen Herolde erlauben ihnen diese Ehre."
 
 #. [attack]: type=fire
@@ -2298,7 +2303,7 @@ msgid ""
 msgstr ""
 "Felsgolems sind Erdgeister, die so mächtig wurden, dass sie ihre riesigen "
 "Körper zum Leben erweckten. Sie sind unglaublich robust, doch für ihre Größe "
-"relativ Schwach."
+"relativ schwach."
 
 #. [unit_type]: id=EOM_Stone_Titan, race=EOM_elemental
 #: Era_of_Myths/units/elementals/c3_Stone_Titan.cfg:5
@@ -2309,7 +2314,7 @@ msgstr "Bergriese"
 #: Era_of_Myths/units/elementals/c3_Stone_Titan.cfg:25
 msgid ""
 "Earth Spirits of immense power can animate immense bodies. Although not "
-"fast, the shear mass of the monster can cause quite a bit of damage."
+"fast, the sheer mass of the monster can cause quite a bit of damage."
 msgstr ""
 "Extrem mächtige Erdgeister können extrem mächtige Körper beleben. Sie sind "
 "zwar nicht schnell, doch kann die schiere Masse des Monsters ziemlich viel "
@@ -2501,13 +2506,13 @@ msgstr "Rankenmonster"
 #: Era_of_Myths/units/elementals/f3_Vine_Monster.cfg:23
 msgid "Vine Tigers of monsterous sizes are called, well, Vine Monsters."
 msgstr ""
-"Rankentieger wachsen stets weiter, ab einem gewissen Punkt nennt man sie "
+"Rankentiger wachsen stets weiter, ab einem gewissen Punkt nennt man sie "
 "Rankenmonster."
 
 #. [unit_type]: id={OLD_ID}
 #: Era_of_Myths/units/removed.cfg:14
 msgid "Dummy unit, replaced by: "
-msgstr "Ehemalig verwendeter Einheitentyp. Wird ersetzt durch "
+msgstr "Vormals verwendete Einheitenklasse. Wird ersetzt durch "
 
 #. [race]: id=EOM_therian
 #: Era_of_Myths/units/therians.cfg:7
@@ -3111,8 +3116,8 @@ msgid ""
 msgstr ""
 "Manche sind schlicht zu schwach, das Blut zu bewältigen, und nichts als ein "
 "seelenloses Durcheinander verbleibt. Der Vampirherr besitzt die volle "
-"Kontrolle über die willenloen Überreste, weshalb er sie gerne mit "
-"vergifteten Dolchen bewaffnet - denn nur sie können sich nicht auflehen,"
+"Kontrolle über die willenlosen Überreste, weshalb er sie gerne mit "
+"vergifteten Dolchen bewaffnet – denn nur sie können sich nicht auflehen,"
 
 #. [attack]: type=blade
 #: Era_of_Myths/units/vampires/b1_Malborn.cfg:27
@@ -3199,7 +3204,7 @@ msgstr ""
 "Ruchlosigkeit, um ihre Macht aufrecht zu erhalten. Sie umgeben sich mit "
 "getreuen Vampiren, die sie durch das Versprechen unbegrenzten Blutes bei "
 "Laune halten, und unterwerfen alle niederen Kreaturen und machen sie zu den "
-"Leibeigenen ihrer Gesellschaft, damitt sie im Notfall Blut oder "
+"Leibeigenen ihrer Gesellschaft, damit sie im Notfall Blut oder "
 "Kanonenfutter bereit stellen können. Die Adligen ernähren sich nicht direkt "
 "von den Leibeigenen, um Aufständen vorzubeugen, sondern zwingen sie, Vieh "
 "für das wöchentliche Blutmahl bereitzustellen."
@@ -3281,7 +3286,7 @@ msgid ""
 msgstr ""
 "Einige der schönen Vampirinnen welche ebenso mächtig wie die Gebieter sind "
 "und es schaffen die Liebe von einem zu gewinnen erhalten den Titel "
-"\"Regentin\". Diese Vampirinnen sind nicht zu unterschätzen. Ihre Untertanen "
+"»Regentin«. Diese Vampirinnen sind nicht zu unterschätzen. Ihre Untertanen "
 "kämpfen besser wenn sie bei ihr sind, wobei es nicht immer klar ist, ob sie "
 "von ihr angeführt werden oder ob sie sie beschützen um sich selbst vor dem "
 "Zorn des Mannes der Regentin zu schützen."
@@ -3444,7 +3449,7 @@ msgstr ""
 "Es kommt der Zeitpunkt, an dem Halbblüter sich entscheiden können wieder "
 "unter den Menschen zu leben. Jene, welche dies ablehnen, sind als Dhampire "
 "oder Dämmerer bekannt. Sie gehören zu den engsten Vertrauten eines "
-"Vampirherrens, denn siae hatten die Wahl zu gehen und wieder unter den "
+"Vampirherrens, denn sie hatten die Wahl zu gehen und wieder unter den "
 "Menschen zu leben. Als solche werden sie werden oft mit Gift und "
 "Mordaufträgen vertraut. Ein Vampirherr hat immer Feinde, welche besser in "
 "der Dämmerung mit Gift getötet werden, als mit einer Vampirarmee."
@@ -3508,7 +3513,7 @@ msgid ""
 msgstr ""
 "Diese monströsen Vampire baden sich im Blut ihrer Gegner, statt sie auf ihre "
 "Seite zu ziehen. Ihr Blutdurst ist unstillbar, und jedes Opfer macht sie "
-"größer und stärker. Nur talentierte Blutmagier können solche Monstositäten "
+"größer und stärker. Nur talentierte Blutmagier können solche Monstrositäten "
 "erschaffen."
 
 #. [race]: id=EOM_dryad, description=
@@ -3607,7 +3612,7 @@ msgid ""
 msgstr ""
 "Sobald ein Gestaltwandler ein vollwertiges Mitglied der Gesellschaft der "
 "Warg geworden ist, wird er als Wolfling bezeichnet. Sie werden nicht länger "
-"als ein Mensch unter ihnen angesehen, sondern als vollwertiger Kammerad."
+"als ein Mensch unter ihnen angesehen, sondern als vollwertiger Kamerad."
 
 #. [unit_type]: id=EOM_Stalker, race=EOM_warg
 #: Era_of_Myths/units/wargs/b1_Stalker.cfg:5
@@ -3624,7 +3629,7 @@ msgid ""
 msgstr ""
 "Die Spürwölfe sind kleinere Warg, bekannt wegen ihres dunkleren Fells. Wegen "
 "ihrer geringeren Größe benutzen sie Speere statt ihrer Krallen. Spürwölfe "
-"nutzen ihre größere Flinkhheit, um im Kampf ihre Gegner auszutricksen."
+"nutzen ihre größere Flinkheit, um im Kampf ihre Gegner auszutricksen."
 
 #. [attack]: type=impact
 #: Era_of_Myths/units/wargs/b1_Stalker.cfg:36
@@ -3771,7 +3776,7 @@ msgstr "Alphawolf"
 #: Era_of_Myths/units/wargs/c4_Garou.cfg:18
 msgid ""
 "Most warg don’t live to be very old. However the leaders that live to be "
-"very old are revered by freinds, and feared by foes."
+"very old are revered by friends, and feared by foes."
 msgstr ""
 "Die meisten Warg werden nicht sehr alt. Doch die Führer die sehr alt werden, "
 "werden von Freunden geehrt und von Feinden gefürchtet."
@@ -3779,7 +3784,7 @@ msgstr ""
 #. [unit_type]: id=EOM_Wolf_Cub, race=wolf
 #: Era_of_Myths/units/wargs/d0_Wolf_Cub.cfg:5
 msgid "Wolf Cub"
-msgstr "Wolfwelpe"
+msgstr "Wolfswelpe"
 
 #. [unit_type]: id=EOM_Wolf_Cub, race=wolf
 #: Era_of_Myths/units/wargs/d0_Wolf_Cub.cfg:21
@@ -3788,7 +3793,7 @@ msgid ""
 "capturing wolf cubs, and starting the training while they are very young. "
 "Wolves make good scouts as they can move even faster than the warg can."
 msgstr ""
-"Die Warg können echte Wölfe fangen und für den Krieg abrichten. Dazu fangen "
+"Die Warg können echte Wölfe fangen und für den Kampf abrichten. Dazu fangen "
 "sie Welpen und richten sie ab, während sie jung sind. Wölfe sind gute "
 "Späher, da sie schneller laufen können als die Warg."
 
@@ -4702,7 +4707,7 @@ msgid ""
 "who were foolish enough to cross paths with the Windsong."
 msgstr ""
 "Anstatt den Weg der Kritikerinnen zu gehen, lernen manche Gelehrtinnen die "
-"Benutzung aller Formen der Glyphe. Die Runenschmiedinen haben alle Formen "
+"Benutzung aller Formen der Glyphe. Die Runenschmiedinnen haben alle Formen "
 "der Glyphe gelernt und können mit diesem Wissen fatalen Schaden verursachen."
 
 #. [attack]: type=blade
