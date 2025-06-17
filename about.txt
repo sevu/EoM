@@ -17,6 +17,7 @@ CO-MAINTAINER:
 --bumbadadabum
 --rogo
 --Shiki
+--Holypaladin
 
 SPECIAL THANKS:
 --Jester
@@ -92,6 +93,7 @@ Art:
 --Neoriceisgood
 --JW
 --Neoskel
+--Holypaladin
 --others
 
 UNDEAD:
